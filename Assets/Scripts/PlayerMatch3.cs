@@ -20,6 +20,9 @@ public class PlayerMatch3 : MonoBehaviour
 
     private System.Random randomSeed;
 
+    public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
+    public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
+
     private void Start()
     {
         StartGame();
@@ -80,7 +83,7 @@ public class PlayerMatch3 : MonoBehaviour
 
                 GameObject matchPieceObject = Instantiate(_matchPieceObjectPrefab, _matchPieceHolder);
                 matchPieceObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(_holderStartOffset.x + (_pieceSize.x * x), _holderStartOffset.y - (_pieceSize.y * y));
-                matchPieceObject.GetComponent<ActivePieceController>().SetUp(gameBoard[x, y].MatchPiece, new GridPoint(x, y));
+                matchPieceObject.GetComponent<ActivePieceController>().SetUp(this, gameBoard[x, y].MatchPiece, new GridPoint(x, y));
             }
         }
     }

@@ -3,13 +3,15 @@ using UnityEngine.UI;
 
 public class ActivePieceController : MonoBehaviour
 {
+    [SerializeField] private PlayerMatch3 _owner;
     [SerializeField] private MatchPieceSO _matchPiece;
     [SerializeField] private GridPoint _gridPoint;
 
     private Vector2 positionOnBoard;
 
-    public void SetUp(MatchPieceSO matchPiece, GridPoint gridPoint)
+    public void SetUp(PlayerMatch3 owner, MatchPieceSO matchPiece, GridPoint gridPoint)
     {
+        _owner = owner;
         _matchPiece = matchPiece;
         SetPosition(gridPoint);
         ApplySprite();
@@ -26,6 +28,6 @@ public class ActivePieceController : MonoBehaviour
     }
     public void ResetPositionOnBoard()
     {
-        //positionOnBoard = new Vector2(GameController.Instance.TopLeftPiecePosition.x + (GameController.Instance.MatchPieceSize.x * _gridPoint.X), -GameController.Instance.TopLeftPiecePosition.y - (GameController.Instance.MatchPieceSize.y * _gridPoint.Y));
+        positionOnBoard = new Vector2(_owner.HolderStartOffset.x + (_owner.PieceSize.x * _gridPoint.X), _owner.HolderStartOffset.y - (_owner.PieceSize.y * _gridPoint.Y));
     }
 }
