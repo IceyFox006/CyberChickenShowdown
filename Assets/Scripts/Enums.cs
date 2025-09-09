@@ -27,14 +27,4 @@ public class Enums : MonoBehaviour
         Hack = 4,
         Metal = 5,
     }
-    public enum MatchPieceElement
-    {
-        nil     = -1,
-        Blank   = 0,
-        Fire    = 1,
-        Air     = 2,
-        Water   = 3,
-        Earth   = 4,
-        Aether  = 5,
-    }
 }

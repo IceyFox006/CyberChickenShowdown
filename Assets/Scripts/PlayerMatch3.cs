@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMatch3 : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class PlayerMatch3 : MonoBehaviour
 
     private System.Random randomSeed;
 
+    public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
+    public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
+
     private void Start()
     {
         StartGame();
@@ -31,6 +35,27 @@ public class PlayerMatch3 : MonoBehaviour
         GenerateGameBoard();
         ValidateGameBoard();
         InstantiateGameBoard();
+        SetSelectedPieceToStartPiece();
+    }
+
+    //Selects the first selectable piece in the board starting in the top left.
+    private void SetSelectedPieceToStartPiece()
+    {
+        bool hasSelectedButton = false;
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece.BoardFunction != Enums.MatchPieceFunction.Unmoveable)
+                {
+                    EventSystem.current.SetSelectedGameObject(gameBoard[x, y].ActivePieceController.gameObject);
+                    hasSelectedButton = true;
+                    break;
+                }
+            }
+            if (hasSelectedButton)
+                break;
+        }
     }
 
     //Creates a new board filled in with random pieces.
@@ -80,7 +105,9 @@ public class PlayerMatch3 : MonoBehaviour
 
                 GameObject matchPieceObject = Instantiate(_matchPieceObjectPrefab, _matchPieceHolder);
                 matchPieceObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(_holderStartOffset.x + (_pieceSize.x * x), _holderStartOffset.y - (_pieceSize.y * y));
-                matchPieceObject.GetComponent<ActivePieceController>().SetUp(gameBoard[x, y].MatchPiece, new GridPoint(x, y));
+                matchPieceObject.GetComponent<ActivePieceController>().SetUp(this, gameBoard[x, y].MatchPiece, new GridPoint(x, y));
+                
+                gameBoard[x,y].ActivePieceController = matchPieceObject.GetComponent<ActivePieceController>(); //!!!
             }
         }
     }
@@ -180,6 +207,7 @@ public class PlayerMatch3 : MonoBehaviour
                 gridPoints.Add(addedPoint);
         }
     }
+
     //Returns the element of the piece at gridPoint.
     private Enums.Element GetElementAtGridPoint(GridPoint gridPoint)
     {
@@ -188,8 +216,10 @@ public class PlayerMatch3 : MonoBehaviour
         return gameBoard[gridPoint.X, gridPoint.Y].MatchPiece.Element;
     }
 
+    //Sets the matchPiece at gridPoint to the matchPiece with the same element.
     private void SetElementAtGridPoint(GridPoint gridPoint, Enums.Element element)
     {
+        Debug.Log((int)_matchPieces[(int)element - 1].Element);
         gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
     }
 

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7309284697514834791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692473387499209990}
+  - component: {fileID: 2153859786123544072}
+  - component: {fileID: 4600285441455716533}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &692473387499209990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309284697514834791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2153859786123544072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309284697514834791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d0a4ed50df2c0448005714d5234a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBoardLayout:
+    grid: {fileID: 0}
+    columns:
+    - row: 0000000000000000
+    - row: 0000000000000000
+    - row: 0000000000000000
+    - row: 0000000101000000
+    - row: 0000000101000000
+    - row: 0000000000000000
+    - row: 0000000000000000
+    - row: 0000000000000000
+  _boardWidth: 8
+  _boardHeight: 8
+  _holePiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
+  _matchPieces:
+  - {fileID: 11400000, guid: 95c259d88c79a214592fc2b777b1b0c3, type: 2}
+  - {fileID: 11400000, guid: cf5d037cea8ebdd4d96d9a910c22f212, type: 2}
+  - {fileID: 11400000, guid: 82267b9f0b772f3458b4e0d19d19c147, type: 2}
+  - {fileID: 11400000, guid: 147fb6be6b262d24d911586b879ff801, type: 2}
+  - {fileID: 11400000, guid: 39036f0d84ff3e74da03c92a504ad64b, type: 2}
+  _matchPieceObjectPrefab: {fileID: 5649505679455109936, guid: 08a12b1bde2fa3c409935ed11dba761b, type: 3}
+  _matchPieceHolder: {fileID: 0}
+  _holderStartOffset: {x: 20, y: -20}
+  _pieceSize: {x: 40, y: 40}
+--- !u!114 &4600285441455716533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309284697514834791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: UI
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
