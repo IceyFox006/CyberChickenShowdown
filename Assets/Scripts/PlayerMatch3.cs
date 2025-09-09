@@ -2,9 +2,12 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
 
 public class PlayerMatch3 : MonoBehaviour
 {
+    [SerializeField] private MultiplayerEventSystem _eventSystem;
+
     [Header("Board")]
     [SerializeField] private Inspector2DArrayLayout gameBoardLayout;
     private BoardCell[,] gameBoard;
@@ -23,6 +26,7 @@ public class PlayerMatch3 : MonoBehaviour
 
     public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
     public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
+    public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
 
     private void Start()
     {
@@ -48,7 +52,7 @@ public class PlayerMatch3 : MonoBehaviour
             {
                 if (gameBoard[x, y].MatchPiece.BoardFunction != Enums.MatchPieceFunction.Unmoveable)
                 {
-                    EventSystem.current.SetSelectedGameObject(gameBoard[x, y].ActivePieceController.gameObject);
+                    EventSystem.SetSelectedGameObject(gameBoard[x, y].ActivePieceController.gameObject);
                     hasSelectedButton = true;
                     break;
                 }
