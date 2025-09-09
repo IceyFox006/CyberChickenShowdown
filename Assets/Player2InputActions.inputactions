@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "Player1InputActions",
+    "name": "Player2InputActions",
     "maps": [
         {
             "name": "UI",
@@ -89,7 +89,7 @@
                 {
                     "name": "up",
                     "id": "88ca1c8e-8bdd-440c-af66-a82335fe1a34",
-                    "path": "<Keyboard>/w",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -100,7 +100,7 @@
                 {
                     "name": "down",
                     "id": "8fc84252-38d7-4602-b2aa-9c22e12fa6bd",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -111,7 +111,7 @@
                 {
                     "name": "left",
                     "id": "2fb002b2-dfa1-4622-b62a-2ed25631b260",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -122,7 +122,7 @@
                 {
                     "name": "right",
                     "id": "713f21ec-208a-41fb-8d0a-f1f66ee93c5d",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -133,7 +133,7 @@
                 {
                     "name": "",
                     "id": "e70947be-097c-4b50-b450-dd6331705343",
-                    "path": "<Keyboard>/c",
+                    "path": "<Keyboard>/period",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -144,7 +144,7 @@
                 {
                     "name": "",
                     "id": "49989882-ff45-441f-a311-f5819e94dc12",
-                    "path": "<Keyboard>/x",
+                    "path": "<Keyboard>/slash",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

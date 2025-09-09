@@ -8,6 +8,7 @@ public class ActivePieceController : MonoBehaviour
     [SerializeField] private GridPoint _gridPoint;
 
     private Vector2 positionOnBoard;
+    private bool moving;
 
     public void SetUp(PlayerMatch3 owner, MatchPieceSO matchPiece, GridPoint gridPoint)
     {
@@ -18,10 +19,19 @@ public class ActivePieceController : MonoBehaviour
         SetUpInteractability();
     }
     
-    public void SelectPiece()
+    public void GrabPiece()
     {
-        Debug.Log("[" + _gridPoint.X + "," +  _gridPoint.Y + "]");
-        Debug.Log("CHANEG");
+        if (moving)
+            return;
+        Debug.Log("Grabs\t\t [" + _gridPoint.X + "," +  _gridPoint.Y + "]");
+    }
+    public void MovePiece()
+    {
+
+    }
+    public void ReleasePiece()
+    {
+        Debug.Log("Releases\t\t[" + _gridPoint.X + "," + _gridPoint.Y + "]");
     }
 
     private void SetPosition(GridPoint gridPoint)
