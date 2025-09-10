@@ -8,7 +8,9 @@ public class ActivePieceController : MonoBehaviour
     [SerializeField] private GridPoint _gridPoint;
 
     private Vector2 positionOnBoard;
-    private bool moving;
+
+    public GridPoint GridPoint { get => _gridPoint; set => _gridPoint = value; }
+    public Vector2 PositionOnBoard { get => positionOnBoard; set => positionOnBoard = value; }
 
     public void SetUp(PlayerMatch3 owner, MatchPieceSO matchPiece, GridPoint gridPoint)
     {
@@ -21,13 +23,10 @@ public class ActivePieceController : MonoBehaviour
     
     public void GrabPiece()
     {
-        if (moving)
-            return;
-        Debug.Log("Grabs\t\t [" + _gridPoint.X + "," +  _gridPoint.Y + "]");
-    }
-    public void MovePiece()
-    {
-
+        //_owner.SelectedPieces.Push(this);
+        //if (_owner.SelectedPieces.IsFull())
+        //    _owner.PieceMover.SwapPieces();
+        Debug.Log(_owner.PlayerName + "-\t grabs [" + _gridPoint.X + "," +  _gridPoint.Y + "]");
     }
     public void ReleasePiece()
     {

@@ -15,4 +15,4 @@ MonoBehaviour:
   _name: Fire
   _boardFunction: 1
   _element: 3
-  _sprite: {fileID: 54620541728290854, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _sprite: {fileID: -774171364642349061, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}

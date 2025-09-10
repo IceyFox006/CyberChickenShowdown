@@ -6,7 +6,9 @@ using UnityEngine.InputSystem.UI;
 
 public class PlayerMatch3 : MonoBehaviour
 {
+    [SerializeField] private string _playerName;
     [SerializeField] private MultiplayerEventSystem _eventSystem;
+    private MatchPieceMovement pieceMover;
 
     [Header("Board")]
     [SerializeField] private Inspector2DArrayLayout gameBoardLayout;
@@ -23,11 +25,19 @@ public class PlayerMatch3 : MonoBehaviour
     [SerializeField] private Vector2 _pieceSize;
 
     private System.Random randomSeed;
+    //private SelectStack<ActivePieceController> selectedPieces = new SelectStack<ActivePieceController>(2);
 
     public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
     public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
     public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
+    public string PlayerName { get => _playerName; set => _playerName = value; }
+    //public SelectStack<ActivePieceController> SelectedPieces { get => selectedPieces; set => selectedPieces = value; }
+    public MatchPieceMovement PieceMover { get => pieceMover; set => pieceMover = value; }
 
+    private void Awake()
+    {
+        pieceMover = GetComponent<MatchPieceMovement>();
+    }
     private void Start()
     {
         StartGame();
@@ -97,6 +107,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
     }
 
+    //Spawns all the piece game objects.
     private void InstantiateGameBoard()
     {
         for (int x = 0; x < _boardWidth; x++)
@@ -223,8 +234,14 @@ public class PlayerMatch3 : MonoBehaviour
     //Sets the matchPiece at gridPoint to the matchPiece with the same element.
     private void SetElementAtGridPoint(GridPoint gridPoint, Enums.Element element)
     {
-        Debug.Log((int)_matchPieces[(int)element - 1].Element);
+        if ((int)element <= 0)
+            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
         gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
+    }
+
+    public Vector2 GetPositionFromGridPoint(GridPoint gridPoint)
+    {
+        return new Vector2(_holderStartOffset.x + (_pieceSize.x * gridPoint.X), _holderStartOffset.y - (_pieceSize.y * gridPoint.Y));
     }
 
     //Returns an element not in elementsNotUsed.
