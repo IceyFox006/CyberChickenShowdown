@@ -26,7 +26,7 @@ public class GridPoint
     }
 
     //Returns a vector2 with the values of x and y.
-    public Vector2 TransformToVector2()
+    public Vector2 ToVector2()
     {
         return new Vector2(_x, _y);
     }

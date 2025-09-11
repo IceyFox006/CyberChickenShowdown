@@ -25,6 +25,6 @@ public class Enums : MonoBehaviour
         Gravity = 2,
         Fire = 3,
         Hack = 4,
-        Metal = 5,
+        Direct = 5,
     }
 }
