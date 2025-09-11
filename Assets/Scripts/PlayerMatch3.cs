@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
+using UnityEngine.UI;
 
 public class PlayerMatch3 : MonoBehaviour
 {
-    [SerializeField] private string _playerName;
+    private Player owner;
     [SerializeField] private MultiplayerEventSystem _eventSystem;
     private MatchPieceMovement pieceMover;
 
@@ -30,12 +31,12 @@ public class PlayerMatch3 : MonoBehaviour
     public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
     public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
     public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
-    public string PlayerName { get => _playerName; set => _playerName = value; }
     //public SelectStack<ActivePieceController> SelectedPieces { get => selectedPieces; set => selectedPieces = value; }
     public MatchPieceMovement PieceMover { get => pieceMover; set => pieceMover = value; }
     public BoardCell[,] GameBoard { get => gameBoard; set => gameBoard = value; }
     public int BoardWidth { get => _boardWidth; set => _boardWidth = value; }
     public int BoardHeight { get => _boardHeight; set => _boardHeight = value; }
+    public Player Owner { get => owner; set => owner = value; }
 
     private void Awake()
     {
@@ -123,7 +124,7 @@ public class PlayerMatch3 : MonoBehaviour
 
                 GameObject matchPieceObject = Instantiate(_matchPieceObjectPrefab, _matchPieceHolder);
                 matchPieceObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(_holderStartOffset.x + (_pieceSize.x * x), _holderStartOffset.y - (_pieceSize.y * y));
-                matchPieceObject.GetComponent<ActivePieceController>().SetUp(this, gameBoard[x, y].MatchPiece, new GridPoint(x, y));
+                matchPieceObject.GetComponent<ActivePieceController>().SetUp(owner, gameBoard[x, y].MatchPiece, new GridPoint(x, y));
                 
                 gameBoard[x,y].ActivePieceController = matchPieceObject.GetComponent<ActivePieceController>(); //!!!
             }
@@ -253,6 +254,23 @@ public class PlayerMatch3 : MonoBehaviour
     public Vector2 GetPositionFromGridPoint(GridPoint gridPoint)
     {
         return new Vector2(_holderStartOffset.x + (_pieceSize.x * gridPoint.X), _holderStartOffset.y - (_pieceSize.y * gridPoint.Y));
+    }
+
+    public void DeselectAllPieces()
+    {
+        for (int x = 0; x < owner.Game.BoardWidth; x++)
+        {
+            for (int y = 0; y < owner.Game.BoardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece.BoardFunction == Enums.MatchPieceFunction.Unmoveable)
+                    continue;
+                gameBoard[x, y].ActivePieceController.GetComponent<Button>().enabled = true;
+                gameBoard[x, y].ActivePieceController.SelectedBorder.enabled = false;
+            }
+        }
+        pieceMover.CurrentSelectedPiece = null;
+        pieceMover.PreviousSelectedPiece = null;
+        Debug.Log(owner.Name + "-\t deselects all pieces");
     }
 
     //Returns an element not in elementsNotUsed.
