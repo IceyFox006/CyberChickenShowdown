@@ -33,6 +33,9 @@ public class PlayerMatch3 : MonoBehaviour
     public string PlayerName { get => _playerName; set => _playerName = value; }
     //public SelectStack<ActivePieceController> SelectedPieces { get => selectedPieces; set => selectedPieces = value; }
     public MatchPieceMovement PieceMover { get => pieceMover; set => pieceMover = value; }
+    public BoardCell[,] GameBoard { get => gameBoard; set => gameBoard = value; }
+    public int BoardWidth { get => _boardWidth; set => _boardWidth = value; }
+    public int BoardHeight { get => _boardHeight; set => _boardHeight = value; }
 
     private void Awake()
     {
@@ -226,7 +229,7 @@ public class PlayerMatch3 : MonoBehaviour
     //Returns the element of the piece at gridPoint.
     private Enums.Element GetElementAtGridPoint(GridPoint gridPoint)
     {
-        if (gridPoint.X < 0 || gridPoint.X >= _boardWidth || gridPoint.Y < 0 || gridPoint.Y >= _boardHeight)
+        if (!IsGridPointInBounds(gridPoint))
             return Enums.Element.nil;
         return gameBoard[gridPoint.X, gridPoint.Y].MatchPiece.Element;
     }
@@ -237,6 +240,14 @@ public class PlayerMatch3 : MonoBehaviour
         if ((int)element <= 0)
             gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
         gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
+    }
+
+    //Returns true if the gridPoint is in bounds and false if it isn't.
+    public bool IsGridPointInBounds(GridPoint gridPoint)
+    {
+        if (gridPoint.X < 0 || gridPoint.X >= _boardWidth || gridPoint.Y < 0 || gridPoint.Y >= _boardHeight)
+            return false;
+        return true;
     }
 
     public Vector2 GetPositionFromGridPoint(GridPoint gridPoint)

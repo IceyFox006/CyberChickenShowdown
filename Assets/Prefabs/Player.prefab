@@ -413,7 +413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73a8a8f2f129b8448c828befaea003f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _game: {fileID: 0}
+  _currentlySelectedBorderSprite: {fileID: 8690150688175639939, guid: 7a4370a328c25614698ed5a3a10088d3, type: 3}
+  _previouslySelectedBorderSprite: {fileID: 4684451700371150067, guid: e43c284d90f9a554591315c56fcfd063, type: 3}
 --- !u!4 &6341552645276334731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 692473387499209990, guid: bd84d5f81fb3cc1408229c7992323a3e, type: 3}
