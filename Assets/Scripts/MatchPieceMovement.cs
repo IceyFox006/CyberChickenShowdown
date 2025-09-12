@@ -1,68 +1,73 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MatchPieceMovement : MonoBehaviour
 {
-    private PlayerMatch3 owner;
+    private PlayerMatch3 ownersGame;
     private ActivePieceController movingPiece;
-    private GridPoint destinationGridPoint;
-
-    private ActivePieceController currentSelectedPiece;
-    private ActivePieceController previousSelectedPiece;
+    private GridPoint newGridPoint;
+    private Vector2 moveToSpot;
+    private Vector2 moveFromSpot;
 
     [SerializeField] private Sprite _currentlySelectedBorderSprite;
     [SerializeField] private Sprite _previouslySelectedBorderSprite;
 
-    public ActivePieceController CurrentSelectedPiece { get => currentSelectedPiece; set => currentSelectedPiece = value; }
-    public ActivePieceController PreviousSelectedPiece { get => previousSelectedPiece; set => previousSelectedPiece = value; }
     public Sprite CurrentlySelectedBorderSprite { get => _currentlySelectedBorderSprite; set => _currentlySelectedBorderSprite = value; }
     public Sprite PreviouslySelectedBorderSprite { get => _previouslySelectedBorderSprite; set => _previouslySelectedBorderSprite = value; }
+    public Vector2 MoveToSpot { get => moveToSpot; set => moveToSpot = value; }
+    public Vector2 MoveFromSpot { get => moveFromSpot; set => moveFromSpot = value; }
+    public ActivePieceController MovingPiece { get => movingPiece; set => movingPiece = value; }
 
-    private void Awake()
+    private void Start()
     {
-        owner = GetComponent<PlayerMatch3>();
+        ownersGame = GetComponent<PlayerMatch3>();
     }
     private void Update()
     {
         if (movingPiece != null)
         {
-            Vector2 moveDirection = (currentSelectedPiece.transform.position - previousSelectedPiece.transform.position);
-            Vector2 normalizedDirection = moveDirection.normalized;
-            Vector2 absoluteDirection = new Vector2(Mathf.Abs(moveDirection.x), Mathf.Abs(moveDirection.y));
+            Vector2 direction = moveToSpot - moveFromSpot;
+            Vector2 normalizedDirection = direction.normalized;
+            Vector2 absoluteDirection = new Vector2(Mathf.Abs(direction.x), Mathf.Abs(direction.y));
 
-            destinationGridPoint = GridPoint.PositionClone(movingPiece.GridPoint);
-            GridPoint addedGridPoint = GridPoint.zero;
-
-            //If the current selected piece is 40 or more pixels away from the previous selected piece.
-            if (moveDirection.magnitude > owner.PieceSize.x)
+            newGridPoint = GridPoint.PositionClone(movingPiece.GridPoint);
+            GridPoint addedPoint = GridPoint.zero;
+            if (direction.magnitude > ownersGame.HolderStartOffset.x)
             {
                 if (absoluteDirection.x > absoluteDirection.y)
-                    addedGridPoint = new GridPoint((normalizedDirection.x > 0) ? 1 : -1, 0);
+                    addedPoint = new GridPoint((normalizedDirection.x > 0) ? 1 : -1, 0);
                 else if (absoluteDirection.y > absoluteDirection.x)
-                    addedGridPoint = new GridPoint(0, (normalizedDirection.y > 0) ? 1 : -1);
+                    addedPoint = new GridPoint(0, (normalizedDirection.y > 0) ? -1 : 1);
             }
-            destinationGridPoint.Add(addedGridPoint);
+            newGridPoint.Add(addedPoint);
 
-            Vector2 position = owner.GetPositionFromGridPoint(movingPiece.GridPoint);
-            if (!destinationGridPoint.Equals(movingPiece.GridPoint))
-                position += GridPoint.Multiply(new GridPoint(addedGridPoint.X, addedGridPoint.Y), (int)owner.HolderStartOffset.x).ToVector2();
-            movingPiece.MovePiecePositionTo(position);
-
+            Vector2 position = ownersGame.GetPositionFromGridPoint(movingPiece.GridPoint);
+            if (!newGridPoint.Equals(movingPiece.GridPoint))
+                position += GridPoint.Multiply(new GridPoint(addedPoint.X, -addedPoint.Y), (int)(ownersGame.PieceSize.x / 2)).ToVector2();
+            movingPiece.MovePositionTo(position);
         }
     }
-    private void MovePiece(ActivePieceController piece)
+    public void MovePiece(ActivePieceController piece)
     {
-        //Prevents moving if there is alread a piece moving.
         if (movingPiece != null)
             return;
-        //!!!!!
+        moveFromSpot = piece.transform.position;
+        movingPiece = piece;
 
     }
-    private void DropPiece()
+    public void DropPiece()
     {
         if (movingPiece == null)
             return;
-        Debug.Log("Dropped");
+        //movingPiece.transform.position = moveFromSpot; //!!!!
+        if (!newGridPoint.Equals(movingPiece.GridPoint))
+            ownersGame.SwapPieces(true);//(movingPiece.GridPoint, newGridPoint);
+        else
+        {
+            ownersGame.ResetPiece(movingPiece);
+            ownersGame.EventSystem.SetSelectedGameObject(movingPiece.gameObject);
+        }
         movingPiece = null;
     }
 }

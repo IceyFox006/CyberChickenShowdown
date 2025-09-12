@@ -3,7 +3,6 @@ using UnityEngine;
 [System.Serializable]
 public class BoardCell : MonoBehaviour
 {
-    //[SerializeField] private int _index; //0 = none, 1 = red, 2 = yellow, 3 = green, 4 = blue, 5 = purple
     [SerializeField] private MatchPieceSO _matchPiece;
     [SerializeField] private GridPoint _gridPoint;
     [SerializeField] private ActivePieceController _activePieceController;
@@ -17,4 +16,9 @@ public class BoardCell : MonoBehaviour
         this._matchPiece = matchPiece;
         this._gridPoint = gridPoint;
     }
+    //public void SetPiece(MatchPieceSO matchPiece)
+    //{
+    //    _matchPiece = matchPiece;
+    //    _activePieceController.SetUp(_matchPiece);
+    //}
 }

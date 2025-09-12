@@ -230,6 +230,38 @@ PrefabInstance:
       propertyPath: _playerName
       value: P2
       objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[0].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[1].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[2].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[3].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[4].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[5].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[6].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[7].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6859010358299179189, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_Name
       value: Player2
@@ -835,8 +867,64 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 629431117}
     - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _blankPiece
+      value: 
+      objectReference: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _playerName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[0].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[1].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[2].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[3].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[4].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[5].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[6].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: gameBoardLayout.rows.Array.data[7].row.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[0].row.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[0].row.Array.data[2]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[0].row.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414634824276290447, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414634824276290447, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: m_StartAxis
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6859010358299179189, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_Name
