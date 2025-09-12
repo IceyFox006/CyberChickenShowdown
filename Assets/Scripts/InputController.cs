@@ -27,6 +27,7 @@ public class InputController : MonoBehaviour
 
     private void Back_performed(InputAction.CallbackContext obj)
     {
+        owner.Game.PieceMover.DropPiece();
         owner.Game.DeselectAllPieces();
     }
 

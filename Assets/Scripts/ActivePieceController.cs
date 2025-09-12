@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,15 +11,23 @@ public class ActivePieceController : MonoBehaviour
     [SerializeField] private Image _selectedBorder;
 
     private Vector2 positionOnBoard;
+    private bool isUpdating = false;
 
     public GridPoint GridPoint { get => _gridPoint; set => _gridPoint = value; }
     public Vector2 PositionOnBoard { get => positionOnBoard; set => positionOnBoard = value; }
     public Image SelectedBorder { get => _selectedBorder; set => _selectedBorder = value; }
     public MatchPieceSO MatchPiece { get => _matchPiece; set => _matchPiece = value; }
+    public bool IsUpdating { get => isUpdating; set => isUpdating = value; }
 
     public void SetUp(MatchPieceSO matchPiece)
     {
         _matchPiece = matchPiece;
+        owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
+        ApplySprite();
+        SetUpInteractability();
+    }
+    public void SetUp()
+    {
         ApplySprite();
         SetUpInteractability();
     }
@@ -29,34 +39,67 @@ public class ActivePieceController : MonoBehaviour
         ApplySprite();
         SetUpInteractability();
     }
-
-    public void Select()
+    public bool UpdatePiece()
     {
-        if (owner.Game.PieceMover.CurrentSelectedPiece == null)
+        if (Vector3.Distance(GetComponent<RectTransform>().anchoredPosition, positionOnBoard) > 0.05f) //
         {
-            owner.Game.PieceMover.CurrentSelectedPiece = this;
-            DisableAllButtonsExceptSurrounding();
-            _selectedBorder.enabled = true;
-            _selectedBorder.sprite = owner.Game.PieceMover.CurrentlySelectedBorderSprite;
-            Debug.Log(owner.Name + "-\t selects [" + _gridPoint.X + "," + _gridPoint.Y + "]");
+            MovePositionTo(positionOnBoard);
+            isUpdating = true;
+            return true;
         }
         else
         {
-            owner.Game.PieceMover.PreviousSelectedPiece = owner.Game.PieceMover.CurrentSelectedPiece;
-            SwapPieces(owner.Game.PieceMover.PreviousSelectedPiece);
+            GetComponent<RectTransform>().anchoredPosition = positionOnBoard;
+            isUpdating = false;
+            return false;
+        }
+
+    }
+    public void Select()
+    {
+        if (isUpdating || ((int)_matchPiece.Element < 1))
+            return;
+        if (owner.Game.PieceMover.MovingPiece == null)
+        {
+            owner.Game.StartSwapPiece = this; //
+            owner.Game.PieceMover.MovePiece(this);
+            DisableAllButtonsExceptSurrounding();
+        }
+        else
+        {
+            owner.Game.EndSwapPiece = this;
+            owner.Game.PieceMover.DropPiece();
             owner.Game.DeselectAllPieces();
         }
+
+
+
+        //if (owner.Game.StartSwapPiece == null)
+        //{
+        //    owner.Game.StartSwapPiece = this;
+        //    DisableAllButtonsExceptSurrounding();
+        //    _selectedBorder.enabled = true;
+        //    _selectedBorder.sprite = owner.Game.PieceMover.CurrentlySelectedBorderSprite;
+        //    Debug.Log(owner.Name + "-\t selects [" + _gridPoint.X + "," + _gridPoint.Y + "]");
+        //}
+        //else
+        //{
+        //    owner.Game.EndSwapPiece = this;
+        //    owner.Game.SwapPieces(true);//(owner.Game.StartSwapPiece.GridPoint, owner.Game.EndSwapPiece.GridPoint);
+        //    owner.Game.DeselectAllPieces();
+        //}
     }
-    private void SwapPieces(ActivePieceController swapFromPiece)
+    public void OnHover()
     {
-        Debug.Log(owner.Name + "-\t swaps " + "[" + swapFromPiece.GridPoint.X + ", " + swapFromPiece.GridPoint.Y + "]" + "with [" + _gridPoint.X + "," + _gridPoint.Y + "]");
-        MatchPieceSO swapToPieceHolder = _matchPiece;
-        SetUp(swapFromPiece.MatchPiece);
-        swapFromPiece.SetUp(swapToPieceHolder);
-
-        //_matchPiece = swapFromPiece.MatchPiece;
-        //swapFromPiece.MatchPiece = swapToPieceHolder;
-
+        owner.Game.PieceMover.MoveToSpot = transform.position;
+    }
+    private void MovePosition(Vector2 position)
+    {
+        GetComponent<RectTransform>().anchoredPosition += position * Time.deltaTime * (owner.Game.PieceSize.x / 4f);
+    }
+    public void MovePositionTo(Vector2 position)
+    {
+        GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(GetComponent<RectTransform>().anchoredPosition, position, Time.deltaTime * (owner.Game.PieceSize.x / 2f));
     }
     private void DisableAllButtonsExceptSurrounding()
     {
@@ -80,18 +123,6 @@ public class ActivePieceController : MonoBehaviour
             owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SelectedBorder.sprite = owner.Game.PieceMover.PreviouslySelectedBorderSprite;
         }
     }
-    private void MovePiecePosition(Vector2 position)
-    {
-        GetComponent<RectTransform>().anchoredPosition += position * Time.deltaTime * (owner.Game.PieceSize.x / 4f);
-    }
-    public void MovePiecePositionTo(Vector2 position)
-    {
-        GetComponent<RectTransform>().anchoredPosition = Vector2.Lerp(GetComponent<RectTransform>().anchoredPosition, position, Time.deltaTime * (owner.Game.PieceSize.x / 4f));
-    }
-    public void ReleasePiece()
-    {
-        Debug.Log("Releases\t\t[" + _gridPoint.X + "," + _gridPoint.Y + "]");
-    }
 
     private void SetPosition(GridPoint gridPoint)
     {
@@ -108,9 +139,8 @@ public class ActivePieceController : MonoBehaviour
     {
         gameObject.GetComponent<Image>().sprite = _matchPiece.Sprite;
     }
-    private void ResetPositionOnBoard()
+    public void ResetPositionOnBoard()
     {
-        Debug.Log(owner.Name);
         positionOnBoard = new Vector2(owner.Game.HolderStartOffset.x + (owner.Game.PieceSize.x * _gridPoint.X), owner.Game.HolderStartOffset.y - (owner.Game.PieceSize.y * _gridPoint.Y));
     }
 }
