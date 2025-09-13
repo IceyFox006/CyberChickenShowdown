@@ -18,11 +18,14 @@ public class ActivePieceController : MonoBehaviour
     public Image SelectedBorder { get => _selectedBorder; set => _selectedBorder = value; }
     public MatchPieceSO MatchPiece { get => _matchPiece; set => _matchPiece = value; }
     public bool IsUpdating { get => isUpdating; set => isUpdating = value; }
+    public Player Owner { get => owner; set => owner = value; }
 
     public void SetUp(MatchPieceSO matchPiece)
     {
         _matchPiece = matchPiece;
         owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
+        if (matchPiece.Element != Enums.Element.Empty)
+            GetComponent<Image>().enabled = true;
         ApplySprite();
         SetUpInteractability();
     }
@@ -68,26 +71,9 @@ public class ActivePieceController : MonoBehaviour
         else
         {
             owner.Game.EndSwapPiece = this;
-            owner.Game.PieceMover.DropPiece();
+            owner.Game.PieceMover.DropPiece(true);
             owner.Game.DeselectAllPieces();
         }
-
-
-
-        //if (owner.Game.StartSwapPiece == null)
-        //{
-        //    owner.Game.StartSwapPiece = this;
-        //    DisableAllButtonsExceptSurrounding();
-        //    _selectedBorder.enabled = true;
-        //    _selectedBorder.sprite = owner.Game.PieceMover.CurrentlySelectedBorderSprite;
-        //    Debug.Log(owner.Name + "-\t selects [" + _gridPoint.X + "," + _gridPoint.Y + "]");
-        //}
-        //else
-        //{
-        //    owner.Game.EndSwapPiece = this;
-        //    owner.Game.SwapPieces(true);//(owner.Game.StartSwapPiece.GridPoint, owner.Game.EndSwapPiece.GridPoint);
-        //    owner.Game.DeselectAllPieces();
-        //}
     }
     public void OnHover()
     {

@@ -18,8 +18,8 @@ public class PlayerMatch3 : MonoBehaviour
     [SerializeField] private int _boardHeight = 8;
 
     [Header("Pieces")]
-    [SerializeField] private MatchPieceSO _holePiece;
-    [SerializeField] private MatchPieceSO _blankPiece;
+    [SerializeField] private MatchPieceSO _wallPiece;
+    [SerializeField] private MatchPieceSO _empty;
     [SerializeField] private MatchPieceSO[] _matchPieces = new MatchPieceSO[0];
     [SerializeField] private GameObject _matchPieceObjectPrefab;
     [SerializeField] private RectTransform _matchPieceHolder;
@@ -44,7 +44,7 @@ public class PlayerMatch3 : MonoBehaviour
     public int BoardWidth { get => _boardWidth; set => _boardWidth = value; }
     public int BoardHeight { get => _boardHeight; set => _boardHeight = value; }
     public Player Owner { get => owner; set => owner = value; }
-    public MatchPieceSO BlankPiece { get => _blankPiece; set => _blankPiece = value; }
+    public MatchPieceSO EmptyPiece { get => _empty; set => _empty = value; }
     public ActivePieceController StartSwapPiece { get => startSwapPiece; set => startSwapPiece = value; }
     public ActivePieceController EndSwapPiece { get => endSwapPiece; set => endSwapPiece = value; }
 
@@ -92,9 +92,9 @@ public class PlayerMatch3 : MonoBehaviour
                     //ActivePieceController cellPiece = cell.ActivePieceController;
                     if (cellPiece != null)
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                    cellPiece.SetUp(BlankPiece);
-
+                    cellPiece.SetUp(EmptyPiece); 
                 }
+                ApplyGravityToBoard();
             }
             swappedPieces.Remove(swapped);
             piecesUpdating.Remove(piece);
@@ -138,7 +138,7 @@ public class PlayerMatch3 : MonoBehaviour
         for (int y = 0; y < _boardHeight; y++)
         {
             for (int x = 0; x < _boardWidth; x++)
-                gameBoard[x, y] = new BoardCell((gameBoardLayout.Columns[y].Row[x]) ? _holePiece : GetRandomPiece(), new GridPoint(x, y));
+                gameBoard[x, y] = new BoardCell((gameBoardLayout.Columns[y].Row[x]) ? _wallPiece : GetRandomPiece(), new GridPoint(x, y));
         }
     }
 
@@ -348,17 +348,7 @@ public class PlayerMatch3 : MonoBehaviour
         else
             ResetPiece(startPiece);
     }
-    //private ActivePieceController GetPieceSwappedWith(ActivePieceController piece)
-    //{
-    //    ActivePieceController otherPiece = null;
-    //    for (int index = 0; index < swappedPieces.Count; index++)
-    //    {
-    //        otherPiece = swappedPieces[index].GetOtherPiece(piece);
-    //        if (piece != null)
-    //            break;
-    //    }
-    //    return otherPiece;
-    //}
+
     private SwappedPieces GetSwappedPieces(ActivePieceController piece)
     {
         SwappedPieces thisSwappedPieces = null;
@@ -372,22 +362,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
         return thisSwappedPieces;
     }
-    //public void SwapPieces(bool firstSwap)
-    //{
-    //    if (startSwapPiece == null || endSwapPiece == null)
-    //        return;
-    //    Debug.Log(owner.Name + " - swaps " + "[" + startSwapPiece.GridPoint.X + ", " + startSwapPiece.GridPoint.Y + "]" + "with [" + endSwapPiece.GridPoint.X + "," + endSwapPiece.GridPoint.Y + "]");
-    //    Debug.Log("Start Piece - " + startSwapPiece.MatchPiece.Element.ToString() + "\tEnd Piece - " + endSwapPiece.MatchPiece.Element.ToString());
-    //    MatchPieceSO endPieceHolder = endSwapPiece.MatchPiece;
-    //    endSwapPiece.MatchPiece = startSwapPiece.MatchPiece;
-    //    startSwapPiece.MatchPiece = endPieceHolder;
-    //    endSwapPiece.SetUp();
-    //    startSwapPiece.SetUp();
 
-    //    //_matchPiece = swapFromPiece.MatchPiece;
-    //    //swapFromPiece.MatchPiece = swapToPieceHolder;
-
-    //}
     public void ResetPiece(ActivePieceController piece)
     {
         piece.ResetPositionOnBoard();
@@ -410,6 +385,43 @@ public class PlayerMatch3 : MonoBehaviour
         //Debug.Log(owner.Name + " - deselects all pieces");
     }
 
+    private void ApplyGravityToBoard()
+    {
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = (_boardHeight - 1); y >= 0; y--)
+            {
+                GridPoint gridPoint = new GridPoint(x, y);
+                ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                Enums.Element element = GetElementAtGridPoint(gridPoint);
+
+                //If the cell isn't a hole.
+                if (element != Enums.Element.Empty) 
+                    continue;
+                for (int nextY = (y - 1); nextY >= -1; nextY--)
+                {
+                    GridPoint nextGridPoint = new GridPoint(x, nextY);
+                    Enums.Element nextElement = GetElementAtGridPoint(nextGridPoint);
+                    if (nextElement == Enums.Element.nil)
+                        continue;
+                    if (nextElement != Enums.Element.Empty)
+                    {
+                        ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
+                        cellPiece.SetUp(gotPiece.MatchPiece);
+                        piecesUpdating.Add(gotPiece);
+
+                        gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
+
+                    }
+                    else
+                    {
+                        Enums.Element newElement = GetRandomPiece().Element;
+                    }
+                    break;
+                }
+            }
+        }
+    }
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {

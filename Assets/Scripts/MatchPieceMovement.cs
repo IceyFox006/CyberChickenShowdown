@@ -56,12 +56,12 @@ public class MatchPieceMovement : MonoBehaviour
         movingPiece = piece;
 
     }
-    public void DropPiece()
+    public void DropPiece(bool swapping = false)
     {
         if (movingPiece == null)
             return;
         //movingPiece.transform.position = moveFromSpot; //!!!!
-        if (!newGridPoint.Equals(movingPiece.GridPoint))
+        if (!newGridPoint.Equals(movingPiece.GridPoint) && swapping)
             ownersGame.SwapPieces(true);//(movingPiece.GridPoint, newGridPoint);
         else
         {
@@ -69,5 +69,6 @@ public class MatchPieceMovement : MonoBehaviour
             ownersGame.EventSystem.SetSelectedGameObject(movingPiece.gameObject);
         }
         movingPiece = null;
+        ownersGame.StartSwapPiece = null;
     }
 }
