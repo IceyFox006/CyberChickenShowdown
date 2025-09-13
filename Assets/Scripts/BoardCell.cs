@@ -26,7 +26,7 @@ public class BoardCell : MonoBehaviour
     {
         owner = piece.Owner;
         _activePieceController = piece;
-        _matchPiece = (piece == null) ? owner.Game.BlankPiece : piece.MatchPiece;
+        _matchPiece = (piece == null) ? owner.Game.EmptyPiece : piece.MatchPiece;
         if (piece == null)
             return;
         piece.GridPoint = _gridPoint;

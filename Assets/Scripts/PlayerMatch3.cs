@@ -19,7 +19,7 @@ public class PlayerMatch3 : MonoBehaviour
 
     [Header("Pieces")]
     [SerializeField] private MatchPieceSO _wallPiece;
-    [SerializeField] private MatchPieceSO _blankPiece;
+    [SerializeField] private MatchPieceSO _empty;
     [SerializeField] private MatchPieceSO[] _matchPieces = new MatchPieceSO[0];
     [SerializeField] private GameObject _matchPieceObjectPrefab;
     [SerializeField] private RectTransform _matchPieceHolder;
@@ -44,7 +44,7 @@ public class PlayerMatch3 : MonoBehaviour
     public int BoardWidth { get => _boardWidth; set => _boardWidth = value; }
     public int BoardHeight { get => _boardHeight; set => _boardHeight = value; }
     public Player Owner { get => owner; set => owner = value; }
-    public MatchPieceSO BlankPiece { get => _blankPiece; set => _blankPiece = value; }
+    public MatchPieceSO EmptyPiece { get => _empty; set => _empty = value; }
     public ActivePieceController StartSwapPiece { get => startSwapPiece; set => startSwapPiece = value; }
     public ActivePieceController EndSwapPiece { get => endSwapPiece; set => endSwapPiece = value; }
 
@@ -92,7 +92,7 @@ public class PlayerMatch3 : MonoBehaviour
                     //ActivePieceController cellPiece = cell.ActivePieceController;
                     if (cellPiece != null)
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                    cellPiece.SetUp(BlankPiece); 
+                    cellPiece.SetUp(EmptyPiece); 
                 }
                 ApplyGravityToBoard();
             }
@@ -410,12 +410,12 @@ public class PlayerMatch3 : MonoBehaviour
                         cellPiece.SetUp(gotPiece.MatchPiece);
                         piecesUpdating.Add(gotPiece);
 
-                        gotPiece.SetUp(BlankPiece); //gotPiece.SetUp(null);
+                        gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
 
                     }
                     else
                     {
-
+                        Enums.Element newElement = GetRandomPiece().Element;
                     }
                     break;
                 }
