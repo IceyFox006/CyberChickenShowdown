@@ -20,7 +20,7 @@ public class Enums : MonoBehaviour
     public enum Element
     {
         nil = -1,
-        Blank = 0,
+        Empty = 0,
         Plasma = 1,
         Gravity = 2,
         Fire = 3,

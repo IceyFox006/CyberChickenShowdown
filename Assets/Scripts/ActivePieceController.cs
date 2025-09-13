@@ -24,7 +24,7 @@ public class ActivePieceController : MonoBehaviour
     {
         _matchPiece = matchPiece;
         owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
-        if (matchPiece.Element != Enums.Element.Blank)
+        if (matchPiece.Element != Enums.Element.Empty)
             GetComponent<Image>().enabled = true;
         ApplySprite();
         SetUpInteractability();

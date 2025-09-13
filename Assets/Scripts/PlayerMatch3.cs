@@ -396,15 +396,15 @@ public class PlayerMatch3 : MonoBehaviour
                 Enums.Element element = GetElementAtGridPoint(gridPoint);
 
                 //If the cell isn't a hole.
-                if (element != Enums.Element.Blank) 
+                if (element != Enums.Element.Empty) 
                     continue;
                 for (int nextY = (y - 1); nextY >= -1; nextY--)
                 {
                     GridPoint nextGridPoint = new GridPoint(x, nextY);
                     Enums.Element nextElement = GetElementAtGridPoint(nextGridPoint);
-                    if (nextElement == Enums.Element.Blank)
+                    if (nextElement == Enums.Element.nil)
                         continue;
-                    if (nextElement != Enums.Element.nil)
+                    if (nextElement != Enums.Element.Empty)
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
                         cellPiece.SetUp(gotPiece.MatchPiece);
