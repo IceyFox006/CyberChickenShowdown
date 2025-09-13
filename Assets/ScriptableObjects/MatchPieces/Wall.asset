@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91f3e9a1aa0391343a71c72e79fd1371, type: 3}
-  m_Name: Hole
+  m_Name: Wall
   m_EditorClassIdentifier: 
-  _name: Hole
+  _name: Wall
   _boardFunction: 0
   _element: -1
   _sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}

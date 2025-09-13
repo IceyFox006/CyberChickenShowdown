@@ -867,6 +867,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 629431117}
     - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _wallPiece
+      value: 
+      objectReference: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _blankPiece
       value: 
       objectReference: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}

@@ -3,6 +3,7 @@ using UnityEngine;
 [System.Serializable]
 public class BoardCell : MonoBehaviour
 {
+    private Player owner;
     [SerializeField] private MatchPieceSO _matchPiece;
     [SerializeField] private GridPoint _gridPoint;
     [SerializeField] private ActivePieceController _activePieceController;
@@ -21,4 +22,13 @@ public class BoardCell : MonoBehaviour
     //    _matchPiece = matchPiece;
     //    _activePieceController.SetUp(_matchPiece);
     //}
+    public void SetPiece(ActivePieceController piece)
+    {
+        owner = piece.Owner;
+        _activePieceController = piece;
+        _matchPiece = (piece == null) ? owner.Game.BlankPiece : piece.MatchPiece;
+        if (piece == null)
+            return;
+        piece.GridPoint = _gridPoint;
+    }
 }
