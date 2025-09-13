@@ -94,10 +94,11 @@ public class PlayerMatch3 : MonoBehaviour
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
                     cellPiece.SetUp(EmptyPiece); 
                 }
-                ApplyGravityToBoard();
+                //ApplyGravityToBoard();
             }
+            ApplyGravityToBoard();
             swappedPieces.Remove(swapped);
-            piecesUpdating.Remove(piece);
+            RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
         }
     }
     private void StartGame()
@@ -312,6 +313,16 @@ public class PlayerMatch3 : MonoBehaviour
         return new Vector2(_holderStartOffset.x + (_pieceSize.x * gridPoint.X), _holderStartOffset.y - (_pieceSize.y * gridPoint.Y));
     }
 
+    private void AddUpdatingPiece(ref List<ActivePieceController> updating, ActivePieceController piece)
+    {
+        updating.Add(piece);
+        piece.GetComponent<Button>().enabled = false;
+    }
+    private void RemoveUpdatingPiece(ref List<ActivePieceController> updating, ActivePieceController piece)
+    {
+        updating.Remove(piece);
+        piece.GetComponent<Button>().enabled = true;
+    }
     public void SwapPieces(bool firstSwap, ActivePieceController startPiece = null, ActivePieceController endPiece = null)
     {
         if (startPiece == null)
@@ -342,8 +353,8 @@ public class PlayerMatch3 : MonoBehaviour
             if (firstSwap)
                 swappedPieces.Add(new SwappedPieces(startPiece, endPiece));
 
-            piecesUpdating.Add(startPiece);
-            piecesUpdating.Add(endPiece);
+            AddUpdatingPiece(ref piecesUpdating, startPiece);//piecesUpdating.Add(startPiece);
+            AddUpdatingPiece(ref piecesUpdating, endPiece);//piecesUpdating.Add(endPiece);
         }
         else
             ResetPiece(startPiece);
@@ -366,7 +377,7 @@ public class PlayerMatch3 : MonoBehaviour
     public void ResetPiece(ActivePieceController piece)
     {
         piece.ResetPositionOnBoard();
-        piecesUpdating.Add(piece);
+        AddUpdatingPiece(ref piecesUpdating, piece); //piecesUpdating.Add(piece);
     }
     public void DeselectAllPieces()
     {
@@ -408,14 +419,14 @@ public class PlayerMatch3 : MonoBehaviour
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
                         cellPiece.SetUp(gotPiece.MatchPiece);
-                        piecesUpdating.Add(gotPiece);
+                        AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
 
                     }
                     else
                     {
-                        Enums.Element newElement = GetRandomPiece().Element;
+                        
                     }
                     break;
                 }
