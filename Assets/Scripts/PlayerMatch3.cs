@@ -96,6 +96,7 @@ public class PlayerMatch3 : MonoBehaviour
                 }
                 //ApplyGravityToBoard();
             }
+            ElimateConnectedPieces();
             ApplyGravityToBoard();
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
@@ -188,7 +189,30 @@ public class PlayerMatch3 : MonoBehaviour
     }
 
 
-
+    private void ElimateConnectedPieces()
+    {
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                GridPoint pointChecked = new GridPoint(x, y);
+                Enums.Element element = GetElementAtGridPoint(pointChecked);
+                if (element <= 0)
+                    continue;
+                List<GridPoint> connectedPieces = GetConnectedPieces(pointChecked, true);
+                if (connectedPieces.Count > 0)
+                {
+                    foreach (GridPoint gridPoint in connectedPieces)
+                    {
+                        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                        if (cellPiece != null)
+                            cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        cellPiece.SetUp(EmptyPiece);
+                    }
+                }
+            }
+        }
+    }
     //Returns a list of the grid points that are in a match with gridPoint.
     public List<GridPoint> GetConnectedPieces(GridPoint gridPoint, bool isFirstPieceChecked)
     {
@@ -297,6 +321,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         if ((int)element <= 0)
             gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
+        Debug.Log(_matchPieces[(int)element - 1]);
         gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
     }
 
