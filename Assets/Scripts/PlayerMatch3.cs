@@ -476,10 +476,22 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController piece = GetCellAtGridPoint(new GridPoint(x, 0)).ActivePieceController;
             if (piece.MatchPiece.Element == Enums.Element.Empty)
                 emptyPiecesTopRow.Add(piece);
+            if (piece.MatchPiece == _wallPiece)
+            {
+                for (int y = 1; y < _boardHeight; y++)
+                {
+                    ActivePieceController lowerPiece = GetCellAtGridPoint(new GridPoint(x, y)).ActivePieceController;
+                    if (lowerPiece.MatchPiece.Element == Enums.Element.Empty)
+                        emptyPiecesTopRow.Add(lowerPiece);
+                    Debug.Log(lowerPiece.GridPoint.ToVector2());
+                }
+            }
         }
         for (int index = 0; index < emptyPiecesTopRow.Count; index++)
         {
             ActivePieceController filledPiece = emptyPiecesTopRow[index];
+            if (filledPiece.MatchPiece == _wallPiece)
+                continue;
             filledPiece.SetUp(GetRandomPiece());
             filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(filledPiece.GridPoint.X, -1));
             ResetPiece(filledPiece);
