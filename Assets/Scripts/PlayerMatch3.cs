@@ -30,6 +30,7 @@ public class PlayerMatch3 : MonoBehaviour
     private List<SwappedPieces> swappedPieces = new List<SwappedPieces>();
     private ActivePieceController startSwapPiece = null;
     private ActivePieceController endSwapPiece = null;
+    private List<ActivePieceController> emptyPieces = new List<ActivePieceController>();
 
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
@@ -92,8 +93,12 @@ public class PlayerMatch3 : MonoBehaviour
                     //BoardCell cell = GetCellAtGridPoint(gridPoint);
                     //ActivePieceController cellPiece = cell.ActivePieceController;
                     if (cellPiece != null)
+                    {
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        //emptyPieces.Add(cellPiece);
+                    }
                     cellPiece.SetUp(EmptyPiece); 
+                    
                 }
                 //ApplyGravityToBoard();
             }
@@ -197,6 +202,8 @@ public class PlayerMatch3 : MonoBehaviour
             for (int y = 0; y < _boardHeight; y++)
             {
                 GridPoint pointChecked = new GridPoint(x, y);
+                if (GetCellAtGridPoint(pointChecked).ActivePieceController.IsUpdating)
+                    continue;
                 Enums.Element element = GetElementAtGridPoint(pointChecked);
                 if (element <= 0)
                     continue;
@@ -457,6 +464,17 @@ public class PlayerMatch3 : MonoBehaviour
                     }
                     else
                     {
+                        //MatchPieceSO newPiece = GetRandomPiece();
+                        //if (emptyPieces.Count > 0)
+                        //{
+                        //    ActivePieceController filledPiece = emptyPieces[0];
+                        //    filledPiece.gameObject.GetComponent<Image>().enabled = true;
+                        //    filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(x, -1));
+                        //    filledPiece.SetUp(newPiece);
+
+                        //    ResetPiece(filledPiece);
+                        //    emptyPieces.RemoveAt(0);
+                        //}
                         
                     }
                     break;
