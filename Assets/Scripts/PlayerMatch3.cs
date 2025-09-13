@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -319,10 +320,15 @@ public class PlayerMatch3 : MonoBehaviour
     //Sets the matchPiece at gridPoint to the matchPiece with the same element.
     private void SetElementAtGridPoint(GridPoint gridPoint, Enums.Element element)
     {
-        if ((int)element <= 0)
+        try
+        {
+            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1];
+        }
+        catch (IndexOutOfRangeException)
+        {
+            Debug.Log("CAUGHT: \"IndexOutOfRangeException\"");
             gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
-        Debug.Log(_matchPieces[(int)element - 1]);
-        gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
+        }
     }
 
     //Returns true if the gridPoint is in bounds and false if it isn't.
@@ -492,7 +498,7 @@ public class PlayerMatch3 : MonoBehaviour
         string seed = "";
         string acceptableChars = "ABCEDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
         for (int iteration = 0; iteration < 20; iteration++)
-            seed += acceptableChars[Random.Range(0, acceptableChars.Length)];
+            seed += acceptableChars[UnityEngine.Random.Range(0, acceptableChars.Length)];
         return seed;
     }
 }
