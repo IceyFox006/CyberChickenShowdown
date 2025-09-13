@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -88,16 +89,21 @@ public class PlayerMatch3 : MonoBehaviour
                 foreach(GridPoint gridPoint in connectedPieces)
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                    //BoardCell cell = GetCellAtGridPoint(gridPoint);
-                    //ActivePieceController cellPiece = cell.ActivePieceController;
                     if (cellPiece != null)
+                    {
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        //emptyPieces.Add(cellPiece);
+                    }
                     cellPiece.SetUp(EmptyPiece); 
+                    
                 }
-                ApplyGravityToBoard();
+                //ApplyGravityToBoard();
             }
+            ElimateConnectedPieces();
+            ApplyGravityToBoard();
+            FillEmptyPieces();
             swappedPieces.Remove(swapped);
-            piecesUpdating.Remove(piece);
+            RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
         }
     }
     private void StartGame()
@@ -187,7 +193,32 @@ public class PlayerMatch3 : MonoBehaviour
     }
 
 
-
+    private void ElimateConnectedPieces()
+    {
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                GridPoint pointChecked = new GridPoint(x, y);
+                if (GetCellAtGridPoint(pointChecked).ActivePieceController.IsUpdating)
+                    continue;
+                Enums.Element element = GetElementAtGridPoint(pointChecked);
+                if (element <= 0)
+                    continue;
+                List<GridPoint> connectedPieces = GetConnectedPieces(pointChecked, true);
+                if (connectedPieces.Count > 0)
+                {
+                    foreach (GridPoint gridPoint in connectedPieces)
+                    {
+                        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                        if (cellPiece != null)
+                            cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        cellPiece.SetUp(EmptyPiece);
+                    }
+                }
+            }
+        }
+    }
     //Returns a list of the grid points that are in a match with gridPoint.
     public List<GridPoint> GetConnectedPieces(GridPoint gridPoint, bool isFirstPieceChecked)
     {
@@ -294,9 +325,15 @@ public class PlayerMatch3 : MonoBehaviour
     //Sets the matchPiece at gridPoint to the matchPiece with the same element.
     private void SetElementAtGridPoint(GridPoint gridPoint, Enums.Element element)
     {
-        if ((int)element <= 0)
+        try
+        {
+            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1];
+        }
+        catch (IndexOutOfRangeException)
+        {
+            Debug.Log("CAUGHT: \"IndexOutOfRangeException\"");
             gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
-        gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1]; //!!!!!!!!!!!! - 1
+        }
     }
 
     //Returns true if the gridPoint is in bounds and false if it isn't.
@@ -312,6 +349,16 @@ public class PlayerMatch3 : MonoBehaviour
         return new Vector2(_holderStartOffset.x + (_pieceSize.x * gridPoint.X), _holderStartOffset.y - (_pieceSize.y * gridPoint.Y));
     }
 
+    private void AddUpdatingPiece(ref List<ActivePieceController> updating, ActivePieceController piece)
+    {
+        updating.Add(piece);
+        piece.GetComponent<Button>().enabled = false;
+    }
+    private void RemoveUpdatingPiece(ref List<ActivePieceController> updating, ActivePieceController piece)
+    {
+        updating.Remove(piece);
+        piece.GetComponent<Button>().enabled = true;
+    }
     public void SwapPieces(bool firstSwap, ActivePieceController startPiece = null, ActivePieceController endPiece = null)
     {
         if (startPiece == null)
@@ -321,20 +368,8 @@ public class PlayerMatch3 : MonoBehaviour
         if (GetCellAtGridPoint(startPiece.GridPoint).MatchPiece.BoardFunction == Enums.MatchPieceFunction.Unmoveable)
             return;
 
-        //BoardCell cellOne = GetCellAtGridPoint(gridPointOne);
-        //ActivePieceController pieceOne = cellOne.ActivePieceController;
         if ((int)GetElementAtGridPoint(endPiece.GridPoint) > 0) //((int)GetElementAtGridPoint(gridPointTwo) > 0)
         {
-            //BoardCell cellTwo = GetCellAtGridPoint(gridPointTwo);
-            //ActivePieceController pieceTwo = cellTwo.ActivePieceController;
-
-            //cellOne.SetPiece(pieceTwo);
-            //cellTwo.SetPiece(pieceOne);
-
-            //pieceOne.PieceSwappedWith = pieceTwo;
-            //pieceTwo.PieceSwappedWith = pieceOne;
-
-
             MatchPieceSO endPieceHolder = endPiece.MatchPiece;
             endPiece.SetUp(startPiece.MatchPiece);
             startPiece.SetUp(endPieceHolder);
@@ -342,8 +377,8 @@ public class PlayerMatch3 : MonoBehaviour
             if (firstSwap)
                 swappedPieces.Add(new SwappedPieces(startPiece, endPiece));
 
-            piecesUpdating.Add(startPiece);
-            piecesUpdating.Add(endPiece);
+            AddUpdatingPiece(ref piecesUpdating, startPiece);//piecesUpdating.Add(startPiece);
+            AddUpdatingPiece(ref piecesUpdating, endPiece);//piecesUpdating.Add(endPiece);
         }
         else
             ResetPiece(startPiece);
@@ -366,7 +401,7 @@ public class PlayerMatch3 : MonoBehaviour
     public void ResetPiece(ActivePieceController piece)
     {
         piece.ResetPositionOnBoard();
-        piecesUpdating.Add(piece);
+        AddUpdatingPiece(ref piecesUpdating, piece); //piecesUpdating.Add(piece);
     }
     public void DeselectAllPieces()
     {
@@ -408,19 +443,90 @@ public class PlayerMatch3 : MonoBehaviour
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
                         cellPiece.SetUp(gotPiece.MatchPiece);
-                        piecesUpdating.Add(gotPiece);
+                        AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
 
                     }
                     else
                     {
-                        Enums.Element newElement = GetRandomPiece().Element;
+                        //MatchPieceSO newPiece = GetRandomPiece();
+                        //if (emptyPieces.Count > 0)
+                        //{
+                        //    ActivePieceController filledPiece = emptyPieces[0];
+                        //    filledPiece.gameObject.GetComponent<Image>().enabled = true;
+                        //    filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(x, -1));
+                        //    filledPiece.SetUp(newPiece);
+
+                        //    ResetPiece(filledPiece);
+                        //    emptyPieces.RemoveAt(0);
+                        //}
+                        
                     }
                     break;
                 }
             }
         }
+    }
+    private void FillEmptyPieces(bool topIsFull = true)
+    {
+        List<ActivePieceController> emptyPiecesTopRow = new List<ActivePieceController>();
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            ActivePieceController piece = GetCellAtGridPoint(new GridPoint(x, 0)).ActivePieceController;
+            if (piece.MatchPiece.Element == Enums.Element.Empty)
+                emptyPiecesTopRow.Add(piece);
+            if (piece.MatchPiece == _wallPiece)
+            {
+                for (int y = 1; y < _boardHeight; y++)
+                {
+                    ActivePieceController lowerPiece = GetCellAtGridPoint(new GridPoint(x, y)).ActivePieceController;
+                    if (lowerPiece.MatchPiece.Element == Enums.Element.Empty)
+                        emptyPiecesTopRow.Add(lowerPiece);
+                    Debug.Log(lowerPiece.GridPoint.ToVector2());
+                }
+            }
+        }
+        for (int index = 0; index < emptyPiecesTopRow.Count; index++)
+        {
+            ActivePieceController filledPiece = emptyPiecesTopRow[index];
+            if (filledPiece.MatchPiece == _wallPiece)
+                continue;
+            filledPiece.SetUp(GetRandomPiece());
+            filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(filledPiece.GridPoint.X, -1));
+            ResetPiece(filledPiece);
+        }
+        //for (int x = 0; x < _boardWidth; x++)
+        //{
+        //    for (int y = (0); y < _boardHeight; y++)
+        //    {
+        //        GridPoint gridPoint = new GridPoint(x, y);
+        //        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+        //        Enums.Element element = GetElementAtGridPoint(gridPoint);
+
+        //        //If the cell isn't a hole.
+        //        if (element != Enums.Element.Empty)
+        //            continue;
+        //        for (int nextY = (y + 1); nextY < _boardHeight; nextY++)
+        //        {
+        //            GridPoint nextGridPoint = new GridPoint(x, nextY);
+        //            Enums.Element nextElement = GetElementAtGridPoint(nextGridPoint);
+        //            if (nextElement != Enums.Element.Empty)
+        //                continue;
+        //            if (!GetCellAtGridPoint(nextGridPoint).ActivePieceController.IsUpdating)
+        //            {
+        //                MatchPieceSO newPiece = GetRandomPiece();
+        //                ActivePieceController filledPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+        //                filledPiece.gameObject.GetComponent<Image>().enabled = true;
+        //                filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(x, -1));
+        //                filledPiece.SetUp(newPiece);
+
+        //                ResetPiece(filledPiece);
+        //            }
+        //            break;
+        //        }
+        //    }
+        //}
     }
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
@@ -456,7 +562,7 @@ public class PlayerMatch3 : MonoBehaviour
         string seed = "";
         string acceptableChars = "ABCEDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
         for (int iteration = 0; iteration < 20; iteration++)
-            seed += acceptableChars[Random.Range(0, acceptableChars.Length)];
+            seed += acceptableChars[UnityEngine.Random.Range(0, acceptableChars.Length)];
         return seed;
     }
 }

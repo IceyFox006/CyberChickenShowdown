@@ -40,7 +40,6 @@ public class InputController : MonoBehaviour
 
     private void Reset_performed(InputAction.CallbackContext obj)
     {
-        Debug.Log("Reset");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     private void Quit_performed(InputAction.CallbackContext obj)
