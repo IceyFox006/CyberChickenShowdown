@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HotWings
   m_EditorClassIdentifier: 
   _name: Hot Wings
-  _element: 1
+  _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
   _HP: 100
   _Attack: 10

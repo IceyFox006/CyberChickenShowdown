@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Jeff
   m_EditorClassIdentifier: 
   _name: Jeff
-  _element: 5
+  _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
   _HP: 100
   _Attack: 10
