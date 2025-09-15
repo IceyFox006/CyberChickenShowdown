@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Empty
   _boardFunction: 1
-  _element: 0
+  _element: {fileID: 11400000, guid: cbea122afed2ed043adaa3904cd5c55b, type: 2}
   _sprite: {fileID: -5961167572767304550, guid: 3a645cde85237a841a4f33687e8267b4, type: 3}
