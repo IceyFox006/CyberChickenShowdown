@@ -15,5 +15,4 @@ MonoBehaviour:
   _name: Gravity
   _boardFunction: 1
   _element: {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
-  _EnumsElement: 2
-  _sprite: {fileID: 7977414170037210279, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _sprite: {fileID: -8008318868508421301, guid: 6d2e0201411fe5944bdd642656674be8, type: 3}

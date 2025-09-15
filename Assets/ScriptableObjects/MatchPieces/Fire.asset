@@ -15,5 +15,4 @@ MonoBehaviour:
   _name: Fire
   _boardFunction: 1
   _element: {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
-  _EnumsElement: 3
-  _sprite: {fileID: -774171364642349061, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _sprite: {fileID: -6073374272139994016, guid: a1c89f7f2d95679488c264fe7fc43fc1, type: 3}
