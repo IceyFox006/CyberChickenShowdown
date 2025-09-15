@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Guy Fiery
   _element: 3
-  _HP: 50
-  _Attack: 5
+  _HP: 100
+  _Attack: 10

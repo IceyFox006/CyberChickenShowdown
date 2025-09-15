@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Mother Clucker
   _element: 2
-  _HP: 80
-  _Attack: 2
+  _HP: 100
+  _Attack: 10

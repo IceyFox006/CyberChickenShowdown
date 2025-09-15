@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Jeff
   _element: 5
-  _HP: 60
-  _Attack: 6
+  _HP: 100
+  _Attack: 10
