@@ -448,21 +448,6 @@ public class PlayerMatch3 : MonoBehaviour
                         gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
 
                     }
-                    else
-                    {
-                        //MatchPieceSO newPiece = GetRandomPiece();
-                        //if (emptyPieces.Count > 0)
-                        //{
-                        //    ActivePieceController filledPiece = emptyPieces[0];
-                        //    filledPiece.gameObject.GetComponent<Image>().enabled = true;
-                        //    filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(x, -1));
-                        //    filledPiece.SetUp(newPiece);
-
-                        //    ResetPiece(filledPiece);
-                        //    emptyPieces.RemoveAt(0);
-                        //}
-                        
-                    }
                     break;
                 }
             }
@@ -483,7 +468,6 @@ public class PlayerMatch3 : MonoBehaviour
                     ActivePieceController lowerPiece = GetCellAtGridPoint(new GridPoint(x, y)).ActivePieceController;
                     if (lowerPiece.MatchPiece.Element.Element == Enums.Element.Empty)
                         emptyPiecesTopRow.Add(lowerPiece);
-                    Debug.Log(lowerPiece.GridPoint.ToVector2());
                 }
             }
         }
