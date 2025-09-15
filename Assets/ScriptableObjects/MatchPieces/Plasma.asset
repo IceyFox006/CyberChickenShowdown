@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Plasma
   _boardFunction: 1
-  _element: 1
+  _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
+  _EnumsElement: 1
   _sprite: {fileID: 4439951221471878829, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}

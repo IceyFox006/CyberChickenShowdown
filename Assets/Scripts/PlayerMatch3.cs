@@ -179,7 +179,7 @@ public class PlayerMatch3 : MonoBehaviour
         {
             for (int y = 0; y < _boardHeight; y++)
             {
-                Enums.Element element = gameBoard[x, y].MatchPiece.Element;
+                Enums.Element element = gameBoard[x, y].MatchPiece.Element.Element;
                 //if ((int)element <= 0)
                 //    continue;
 
@@ -319,7 +319,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         if (!IsGridPointInBounds(gridPoint))
             return Enums.Element.nil;
-        return gameBoard[gridPoint.X, gridPoint.Y].MatchPiece.Element;
+        return gameBoard[gridPoint.X, gridPoint.Y].MatchPiece.Element.Element;
     }
 
     //Sets the matchPiece at gridPoint to the matchPiece with the same element.
@@ -474,14 +474,14 @@ public class PlayerMatch3 : MonoBehaviour
         for (int x = 0; x < _boardWidth; x++)
         {
             ActivePieceController piece = GetCellAtGridPoint(new GridPoint(x, 0)).ActivePieceController;
-            if (piece.MatchPiece.Element == Enums.Element.Empty)
+            if (piece.MatchPiece.Element.Element == Enums.Element.Empty)
                 emptyPiecesTopRow.Add(piece);
             if (piece.MatchPiece == _wallPiece)
             {
                 for (int y = 1; y < _boardHeight; y++)
                 {
                     ActivePieceController lowerPiece = GetCellAtGridPoint(new GridPoint(x, y)).ActivePieceController;
-                    if (lowerPiece.MatchPiece.Element == Enums.Element.Empty)
+                    if (lowerPiece.MatchPiece.Element.Element == Enums.Element.Empty)
                         emptyPiecesTopRow.Add(lowerPiece);
                     Debug.Log(lowerPiece.GridPoint.ToVector2());
                 }
@@ -496,44 +496,13 @@ public class PlayerMatch3 : MonoBehaviour
             filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(filledPiece.GridPoint.X, -1));
             ResetPiece(filledPiece);
         }
-        //for (int x = 0; x < _boardWidth; x++)
-        //{
-        //    for (int y = (0); y < _boardHeight; y++)
-        //    {
-        //        GridPoint gridPoint = new GridPoint(x, y);
-        //        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-        //        Enums.Element element = GetElementAtGridPoint(gridPoint);
-
-        //        //If the cell isn't a hole.
-        //        if (element != Enums.Element.Empty)
-        //            continue;
-        //        for (int nextY = (y + 1); nextY < _boardHeight; nextY++)
-        //        {
-        //            GridPoint nextGridPoint = new GridPoint(x, nextY);
-        //            Enums.Element nextElement = GetElementAtGridPoint(nextGridPoint);
-        //            if (nextElement != Enums.Element.Empty)
-        //                continue;
-        //            if (!GetCellAtGridPoint(nextGridPoint).ActivePieceController.IsUpdating)
-        //            {
-        //                MatchPieceSO newPiece = GetRandomPiece();
-        //                ActivePieceController filledPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-        //                filledPiece.gameObject.GetComponent<Image>().enabled = true;
-        //                filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(x, -1));
-        //                filledPiece.SetUp(newPiece);
-
-        //                ResetPiece(filledPiece);
-        //            }
-        //            break;
-        //        }
-        //    }
-        //}
     }
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {
         List<Enums.Element> avaliableElements = new List<Enums.Element>();
         for (int index = 0; index < _matchPieces.Length; index++)
-            avaliableElements.Add(_matchPieces[index].Element); //!!!!!!!!!!!!! index + 1
+            avaliableElements.Add(_matchPieces[index].Element.Element); //!!!!!!!!!!!!! index + 1
         foreach (Enums.Element element in elementsNotUsed)
             avaliableElements.Remove(element);
 

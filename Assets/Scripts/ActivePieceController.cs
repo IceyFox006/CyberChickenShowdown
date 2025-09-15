@@ -24,7 +24,7 @@ public class ActivePieceController : MonoBehaviour
     {
         _matchPiece = matchPiece;
         owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
-        if (matchPiece.Element != Enums.Element.Empty)
+        if (matchPiece.Element.Element != Enums.Element.Empty)
             GetComponent<Image>().enabled = true;
         ApplySprite();
         SetUpInteractability();
@@ -60,7 +60,7 @@ public class ActivePieceController : MonoBehaviour
     }
     public void Select()
     {
-        if (isUpdating || ((int)_matchPiece.Element < 1))
+        if (isUpdating || ((int)_matchPiece.Element.Element < 1))
             return;
         if (owner.Game.PieceMover.MovingPiece == null)
         {

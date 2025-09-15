@@ -11,11 +11,11 @@ public class MatchPieceSO : ScriptableObject
 {
     [SerializeField] private string _name;
     [SerializeField] private Enums.MatchPieceFunction _boardFunction;
-    [SerializeField] private Enums.Element _element;
+    [SerializeField] private ElementSO _element;
     [SerializeField] private Sprite _sprite;
 
     public string Name { get => _name; set => _name = value; }
     public Enums.MatchPieceFunction BoardFunction { get => _boardFunction; set => _boardFunction = value; }
     public Sprite Sprite { get => _sprite; set => _sprite = value; }
-    public Enums.Element Element { get => _element; set => _element = value; }
+    public ElementSO Element { get => _element; set => _element = value; }
 }
