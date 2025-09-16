@@ -6,8 +6,14 @@ public class PlayerUIHandler : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
+
+    [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
+    [SerializeField] private float _HPBarFillSpeed;
+    private float activeHPFillSpeed;
+
+    [Header("Super Bar")]
     [SerializeField] private Image _superBarFillImage;
     [SerializeField] private Gradient _superBarGradient;
 
@@ -19,14 +25,18 @@ public class PlayerUIHandler : MonoBehaviour
         LinkHPToHPBar();
         LinkSuperToBar();
     }
+    private void Update()
+    {
+        activeHPFillSpeed = _HPBarFillSpeed * Time.deltaTime;
+    }
     private void LinkFighterNameText()
     {
         _fighterNameText.text = owner.Fighter.Name;
     }
-    private void LinkHPToHPBar()
+    public void LinkHPToHPBar()
     {
         float HPPercented = owner.CurrentHP / owner.Fighter.HP;
-        _HPBarFillImage.fillAmount = HPPercented;
+        _HPBarFillImage.fillAmount = Mathf.Lerp(_HPBarFillImage.fillAmount, HPPercented, activeHPFillSpeed);
         _HPBarFillImage.color = _HPBarGradient.Evaluate(HPPercented);
     }
     private void LinkSuperToBar()

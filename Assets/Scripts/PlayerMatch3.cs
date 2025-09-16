@@ -19,9 +19,6 @@ public class PlayerMatch3 : MonoBehaviour
     [SerializeField] private int _boardHeight = 8;
 
     [Header("Pieces")]
-    [SerializeField] private MatchPieceSO _wallPiece;
-    [SerializeField] private MatchPieceSO _empty;
-    [SerializeField] private MatchPieceSO[] _matchPieces = new MatchPieceSO[0];
     [SerializeField] private GameObject _matchPieceObjectPrefab;
     [SerializeField] private RectTransform _matchPieceHolder;
     [SerializeField] private Vector2 _holderStartOffset;
@@ -33,19 +30,16 @@ public class PlayerMatch3 : MonoBehaviour
 
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
-    //private SelectStack<ActivePieceController> selectedPieces = new SelectStack<ActivePieceController>(2);
 
     #region Get/Setters
     public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
     public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
     public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
-    //public SelectStack<ActivePieceController> SelectedPieces { get => selectedPieces; set => selectedPieces = value; }
     public MatchPieceMovement PieceMover { get => pieceMover; set => pieceMover = value; }
     public BoardCell[,] GameBoard { get => gameBoard; set => gameBoard = value; }
     public int BoardWidth { get => _boardWidth; set => _boardWidth = value; }
     public int BoardHeight { get => _boardHeight; set => _boardHeight = value; }
     public Player Owner { get => owner; set => owner = value; }
-    public MatchPieceSO EmptyPiece { get => _empty; set => _empty = value; }
     public ActivePieceController StartSwapPiece { get => startSwapPiece; set => startSwapPiece = value; }
     public ActivePieceController EndSwapPiece { get => endSwapPiece; set => endSwapPiece = value; }
 
@@ -94,7 +88,7 @@ public class PlayerMatch3 : MonoBehaviour
                         cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
                         //emptyPieces.Add(cellPiece);
                     }
-                    cellPiece.SetUp(EmptyPiece); 
+                    cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
                     
                 }
                 //ApplyGravityToBoard();
@@ -144,7 +138,7 @@ public class PlayerMatch3 : MonoBehaviour
         for (int y = 0; y < _boardHeight; y++)
         {
             for (int x = 0; x < _boardWidth; x++)
-                gameBoard[x, y] = new BoardCell((gameBoardLayout.Columns[y].Row[x]) ? _wallPiece : GetRandomPiece(), new GridPoint(x, y));
+                gameBoard[x, y] = new BoardCell((gameBoardLayout.Columns[y].Row[x]) ? GameManager.Instance.WallPiece : GetRandomPiece(), new GridPoint(x, y));
         }
     }
 
@@ -213,7 +207,7 @@ public class PlayerMatch3 : MonoBehaviour
                         ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                         if (cellPiece != null)
                             cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                        cellPiece.SetUp(EmptyPiece);
+                        cellPiece.SetUp(GameManager.Instance.EmptyPiece);
                     }
                 }
             }
@@ -295,6 +289,11 @@ public class PlayerMatch3 : MonoBehaviour
         return connectedPieces;
     }
 
+    private void RegisterMatch(Match match)
+    {
+        //owner.CombatManager.DealDamage();
+    }
+
     //Adds the grid points from addedGridPoints to gridPoints if gridPoints does not already contain the grid point.
     private void CombineGridPoints(ref List<GridPoint> gridPoints, List<GridPoint> addedGridPoints)
     {
@@ -327,12 +326,12 @@ public class PlayerMatch3 : MonoBehaviour
     {
         try
         {
-            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element - 1];
+            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = GameManager.Instance.MatchPieces[(int)element - 1];
         }
         catch (IndexOutOfRangeException)
         {
             Debug.Log("CAUGHT: \"IndexOutOfRangeException\"");
-            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = _matchPieces[(int)element + 2];
+            gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = GameManager.Instance.MatchPieces[(int)element + 2];
         }
     }
 
@@ -445,7 +444,7 @@ public class PlayerMatch3 : MonoBehaviour
                         cellPiece.SetUp(gotPiece.MatchPiece);
                         AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
-                        gotPiece.SetUp(EmptyPiece); //gotPiece.SetUp(null);
+                        gotPiece.SetUp(GameManager.Instance.EmptyPiece); //gotPiece.SetUp(null);
 
                     }
                     break;
@@ -461,7 +460,7 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController piece = GetCellAtGridPoint(new GridPoint(x, 0)).ActivePieceController;
             if (piece.MatchPiece.Element.Element == Enums.Element.Empty)
                 emptyPiecesTopRow.Add(piece);
-            if (piece.MatchPiece == _wallPiece)
+            if (piece.MatchPiece == GameManager.Instance.WallPiece)
             {
                 for (int y = 1; y < _boardHeight; y++)
                 {
@@ -474,7 +473,7 @@ public class PlayerMatch3 : MonoBehaviour
         for (int index = 0; index < emptyPiecesTopRow.Count; index++)
         {
             ActivePieceController filledPiece = emptyPiecesTopRow[index];
-            if (filledPiece.MatchPiece == _wallPiece)
+            if (filledPiece.MatchPiece == GameManager.Instance.WallPiece)
                 continue;
             filledPiece.SetUp(GetRandomPiece());
             filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(filledPiece.GridPoint.X, -1));
@@ -485,8 +484,8 @@ public class PlayerMatch3 : MonoBehaviour
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {
         List<Enums.Element> avaliableElements = new List<Enums.Element>();
-        for (int index = 0; index < _matchPieces.Length; index++)
-            avaliableElements.Add(_matchPieces[index].Element.Element); //!!!!!!!!!!!!! index + 1
+        for (int index = 0; index < GameManager.Instance.MatchPieces.Length; index++)
+            avaliableElements.Add(GameManager.Instance.MatchPieces[index].Element.Element); //!!!!!!!!!!!!! index + 1
         foreach (Enums.Element element in elementsNotUsed)
             avaliableElements.Remove(element);
 
@@ -505,8 +504,8 @@ public class PlayerMatch3 : MonoBehaviour
     private MatchPieceSO GetRandomPiece()
     {
         int matchPieceIndex = 1;
-        matchPieceIndex = (randomSeed.Next(0, 100) / (100 / _matchPieces.Length)); // +1
-        return _matchPieces[matchPieceIndex];
+        matchPieceIndex = (randomSeed.Next(0, 100) / (100 / GameManager.Instance.MatchPieces.Length)); // +1
+        return GameManager.Instance.MatchPieces[matchPieceIndex];
     }
 
     //Generates a random seed that determines the board piece generation.
