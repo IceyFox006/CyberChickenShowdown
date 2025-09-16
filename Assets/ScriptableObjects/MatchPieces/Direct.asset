@@ -15,5 +15,4 @@ MonoBehaviour:
   _name: Direct
   _boardFunction: 1
   _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
-  _EnumsElement: 5
-  _sprite: {fileID: 54620541728290854, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _sprite: {fileID: 21300000, guid: 89be75f1cd4e6374ca08121fcfbee3e9, type: 3}

@@ -5,6 +5,8 @@ public class Player : MonoBehaviour
     [SerializeField] private string _name;
     [SerializeField] private InputController _inputController;
     [SerializeField] private PlayerMatch3 _game;
+    [SerializeField] private PlayerUIHandler _uiHandler;
+    [SerializeField] private CombatManager _combatManager;
 
     [Header("Combat")]
     [SerializeField] private FighterSO _fighter;
@@ -16,6 +18,8 @@ public class Player : MonoBehaviour
     public FighterSO Fighter { get => _fighter; set => _fighter = value; }
     public float CurrentHP { get => currentHP; set => currentHP = value; }
     public float CurrentSuper { get => currentSuper; set => currentSuper = value; }
+    public PlayerUIHandler UiHandler { get => _uiHandler; set => _uiHandler = value; }
+    public CombatManager CombatManager { get => _combatManager; set => _combatManager = value; }
 
     private void Awake()
     {

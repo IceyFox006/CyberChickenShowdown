@@ -15,5 +15,4 @@ MonoBehaviour:
   _name: Plasma
   _boardFunction: 1
   _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
-  _EnumsElement: 1
-  _sprite: {fileID: 4439951221471878829, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _sprite: {fileID: 21300000, guid: e5d9c752100d3c0459bda65f554a805f, type: 3}
