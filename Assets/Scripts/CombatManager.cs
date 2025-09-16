@@ -20,9 +20,22 @@ public class CombatManager : MonoBehaviour
         if (match.ConnectedPoints.Count > 3)
             damage *= (1 + ((match.ConnectedPoints.Count - 3) * GameManager.Instance.ComboAdditiveMultiplier));
 
+        //Weakness
+        for (int index = 0; index < target.Fighter.Element.Weaknesses.Length; index++)
+        {
+            if (target.Fighter.Element.Weaknesses[index] == match.Element)
+                damage *= GameManager.Instance.WeaknessMultiplier;
+        }
+
+        //Resistance
+        for (int index = 0; index < target.Fighter.Element.Resistances.Length; index++)
+        {
+            if (target.Fighter.Element.Resistances[index] == match.Element)
+                damage *= GameManager.Instance.ResistanceMultiplier;
+        }
 
         target.CurrentHP -= damage;
         target.UiHandler.LinkHPToHPBar();
-        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + "!");
+        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
     }
 }

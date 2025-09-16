@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Hack
   _element: 4
-  _weaknesses: 02000000
-  _resistances: 03000000
+  _weaknesses:
+  - {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
+  _resistances:
+  - {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}

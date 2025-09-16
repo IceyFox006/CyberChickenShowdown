@@ -15,8 +15,8 @@ public class GameManager : MonoBehaviour
     [Header("Combat")]
     [SerializeField] private float _STABMultiplier;
     [SerializeField] private float _comboAdditiveMultiplier;
-    [SerializeField] private float _weaknessMultiplier;
-    [SerializeField] private float _resistanceMultiplier;
+    [SerializeField] private float _weaknessMultiplier; //1.5
+    [SerializeField] private float _resistanceMultiplier; //0.5
 
     [SerializeField] private float _superMultiplier;
 
@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     public float STABMultiplier { get => _STABMultiplier; set => _STABMultiplier = value; }
     public float SuperMultiplier { get => _superMultiplier; set => _superMultiplier = value; }
     public float ComboAdditiveMultiplier { get => _comboAdditiveMultiplier; set => _comboAdditiveMultiplier = value; }
+    public float WeaknessMultiplier { get => _weaknessMultiplier; set => _weaknessMultiplier = value; }
+    public float ResistanceMultiplier { get => _resistanceMultiplier; set => _resistanceMultiplier = value; }
 
     private void Awake()
     {
