@@ -25,10 +25,6 @@ public class PlayerUIHandler : MonoBehaviour
         LinkHPToHPBar();
         LinkSuperToBar();
     }
-    private void Update()
-    {
-        activeHPFillSpeed = _HPBarFillSpeed * Time.deltaTime;
-    }
     private void LinkFighterNameText()
     {
         _fighterNameText.text = owner.Fighter.Name;
@@ -36,7 +32,7 @@ public class PlayerUIHandler : MonoBehaviour
     public void LinkHPToHPBar()
     {
         float HPPercented = owner.CurrentHP / owner.Fighter.HP;
-        _HPBarFillImage.fillAmount = Mathf.Lerp(_HPBarFillImage.fillAmount, HPPercented, activeHPFillSpeed);
+        _HPBarFillImage.fillAmount = HPPercented; //Mathf.Lerp(_HPBarFillImage.fillAmount, HPPercented, activeHPFillSpeed);
         _HPBarFillImage.color = _HPBarGradient.Evaluate(HPPercented);
     }
     private void LinkSuperToBar()

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Gravity
   _element: 2
-  _weaknesses: 
-  _resistances: 
+  _weaknesses: 01000000
+  _resistances: 04000000

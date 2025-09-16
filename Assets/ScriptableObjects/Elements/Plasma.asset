@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Plasma
   _element: 1
-  _weaknesses: 
-  _resistances: 
+  _weaknesses: 03000000
+  _resistances: 02000000

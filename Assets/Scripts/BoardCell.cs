@@ -17,11 +17,6 @@ public class BoardCell : MonoBehaviour
         this._matchPiece = matchPiece;
         this._gridPoint = gridPoint;
     }
-    //public void SetPiece(MatchPieceSO matchPiece)
-    //{
-    //    _matchPiece = matchPiece;
-    //    _activePieceController.SetUp(_matchPiece);
-    //}
     public void SetPiece(ActivePieceController piece)
     {
         owner = piece.Owner;

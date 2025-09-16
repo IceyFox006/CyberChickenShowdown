@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Z0rd
   _element: {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
-  _HP: 100
+  _HP: 1000
   _Attack: 10

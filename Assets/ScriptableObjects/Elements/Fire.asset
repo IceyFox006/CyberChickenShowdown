@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Fire
   _element: 3
-  _weaknesses: 
-  _resistances: 
+  _weaknesses: 04000000
+  _resistances: 01000000

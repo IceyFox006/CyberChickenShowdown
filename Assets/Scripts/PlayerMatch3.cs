@@ -80,18 +80,17 @@ public class PlayerMatch3 : MonoBehaviour
             }
             else
             {
-                foreach(GridPoint gridPoint in connectedPieces)
+                RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)GetElementAtGridPoint(connectedPieces[0]) - 1].Element, connectedPieces)); //!!!
+                foreach (GridPoint gridPoint in connectedPieces)
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                     if (cellPiece != null)
                     {
-                        cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                        //emptyPieces.Add(cellPiece);
+                        cellPiece.GetComponent<Image>().enabled = false;
                     }
                     cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
-                    
                 }
-                //ApplyGravityToBoard();
+               
             }
             ElimateConnectedPieces();
             ApplyGravityToBoard();
@@ -209,6 +208,7 @@ public class PlayerMatch3 : MonoBehaviour
                             cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
                         cellPiece.SetUp(GameManager.Instance.EmptyPiece);
                     }
+                    RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
                 }
             }
         }
@@ -291,7 +291,7 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void RegisterMatch(Match match)
     {
-        //owner.CombatManager.DealDamage();
+        owner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(owner), match);
     }
 
     //Adds the grid points from addedGridPoints to gridPoints if gridPoints does not already contain the grid point.
