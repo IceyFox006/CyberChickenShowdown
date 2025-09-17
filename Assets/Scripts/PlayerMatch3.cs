@@ -102,13 +102,13 @@ public class PlayerMatch3 : MonoBehaviour
             //
             ApplyGravityToBoard();
             FillEmptyPieces();
-            if (IsBoardFull())
-                ElimateConnectedPieces();
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
-
+            ElimateConnectedPieces();
         }
+        
     }
+    
     private void StartGame()
     {
         randomSeed = new System.Random(GenerateNewSeed().GetHashCode());
@@ -198,6 +198,8 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void ElimateConnectedPieces()
     {
+        if (!IsBoardFull())
+            return;
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
