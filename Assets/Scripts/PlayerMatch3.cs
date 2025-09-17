@@ -103,10 +103,9 @@ public class PlayerMatch3 : MonoBehaviour
             ApplyGravityToBoard();
             FillEmptyPieces();
             swappedPieces.Remove(swapped);
-            RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
+            RemoveUpdatingPiece(ref piecesUpdating, piece);
             ElimateConnectedPieces();
         }
-        
     }
     
     private void StartGame()

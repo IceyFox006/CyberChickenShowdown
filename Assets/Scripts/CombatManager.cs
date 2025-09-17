@@ -37,5 +37,11 @@ public class CombatManager : MonoBehaviour
 
         target.CurrentHP -= damage;
         //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+
+        ChargeSuper(damage);
+    }
+    private void ChargeSuper(float damage)
+    {
+        owner.CurrentSuper += (damage / 10);
     }
 }
