@@ -24,20 +24,17 @@ public class InputController : MonoBehaviour
         reset.performed += Reset_performed;
         quit.performed += Quit_performed;
     }
-
-    private void Back_performed(InputAction.CallbackContext obj)
-    {
-        owner.Game.PieceMover.DropPiece();
-        owner.Game.DeselectAllPieces();
-    }
-
     private void OnDestroy()
     {
         back.performed -= Back_performed;
         reset.performed -= Reset_performed;
         quit.performed -= Quit_performed;
     }
-
+    private void Back_performed(InputAction.CallbackContext obj)
+    {
+        owner.Game.PieceMover.DropPiece();
+        owner.Game.DeselectAllPieces();
+    }
     private void Reset_performed(InputAction.CallbackContext obj)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

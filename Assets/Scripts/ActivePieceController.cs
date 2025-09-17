@@ -11,7 +11,7 @@ public class ActivePieceController : MonoBehaviour
     [SerializeField] private Image _selectedBorder;
 
     private Vector2 positionOnBoard;
-    private bool isUpdating = false;
+    public bool isUpdating = false;
 
     public GridPoint GridPoint { get => _gridPoint; set => _gridPoint = value; }
     public Vector2 PositionOnBoard { get => positionOnBoard; set => positionOnBoard = value; }
