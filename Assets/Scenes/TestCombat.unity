@@ -1174,6 +1174,26 @@ PrefabInstance:
       propertyPath: gameBoardLayout.rows.Array.data[7].row.Array.size
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[0].row.Array.data[0]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[3].row.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[3].row.Array.data[4]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[4].row.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510607662494759301, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: 'gameBoardLayout.columns.Array.data[4].row.Array.data[4]'
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6859010358299179189, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_Name
       value: Player1

@@ -36,6 +36,6 @@ public class CombatManager : MonoBehaviour
         }
 
         target.CurrentHP -= damage;
-        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
     }
 }

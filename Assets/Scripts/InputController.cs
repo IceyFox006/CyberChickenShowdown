@@ -35,9 +35,6 @@ public class InputController : MonoBehaviour
         owner.Game.PieceMover.DropPiece();
         owner.Game.DeselectAllPieces();
     }
-
-
-
     private void Reset_performed(InputAction.CallbackContext obj)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

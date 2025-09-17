@@ -84,7 +84,6 @@ public class PlayerMatch3 : MonoBehaviour
             }
             else
             {
-                //RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)GetElementAtGridPoint(connectedPiecesToPiece[0]) - 1].Element, connectedPiecesToPiece)); //!!!
                 //If two matches are made with the same swap.
                 if (connectedPiecesToSwappedPiece.Count > 0)
                     RegisterMatch(new Match(owner, swappedPiece.MatchPiece.Element, connectedPiecesToPiece)); //!!!
@@ -100,11 +99,14 @@ public class PlayerMatch3 : MonoBehaviour
                 }
                
             }
-            ElimateConnectedPieces();
+            //
             ApplyGravityToBoard();
             FillEmptyPieces();
+            if (IsBoardFull())
+                ElimateConnectedPieces();
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);//piecesUpdating.Remove(piece);
+
         }
     }
     private void StartGame()
@@ -201,7 +203,7 @@ public class PlayerMatch3 : MonoBehaviour
             for (int y = 0; y < _boardHeight; y++)
             {
                 GridPoint pointChecked = new GridPoint(x, y);
-                if (GetCellAtGridPoint(pointChecked).ActivePieceController.IsUpdating)
+                if (!GetCellAtGridPoint(pointChecked).ActivePieceController.GetComponent<Button>().isActiveAndEnabled)//IsUpdating)
                     continue;
                 Enums.Element element = GetElementAtGridPoint(pointChecked);
                 if (element <= 0)
@@ -209,9 +211,8 @@ public class PlayerMatch3 : MonoBehaviour
                 List<GridPoint> connectedPieces = GetConnectedPieces(pointChecked, true);
                 if (connectedPieces.Count > 0)
                 {
-                    Debug.Log("*****");
                     RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
-                    Debug.Log("*****");
+                    Debug.Log(GameManager.Instance.MatchPieces[(int)element - 1].Element.name);
                     foreach (GridPoint gridPoint in connectedPieces)
                     {
                         ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
@@ -456,11 +457,11 @@ public class PlayerMatch3 : MonoBehaviour
                         AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(GameManager.Instance.EmptyPiece); //gotPiece.SetUp(null);
-
                     }
                     break;
                 }
             }
+
         }
     }
     private void FillEmptyPieces(bool topIsFull = true)
@@ -490,6 +491,18 @@ public class PlayerMatch3 : MonoBehaviour
             filledPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(new GridPoint(filledPiece.GridPoint.X, -1));
             ResetPiece(filledPiece);
         }
+    }
+    private bool IsBoardFull()
+    {
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; ++y)
+            {
+                if (!gameBoard[x, y].ActivePieceController.GetComponent<Image>().isActiveAndEnabled)
+                    return false;
+            }
+        }
+        return true;
     }
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
