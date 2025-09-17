@@ -8,6 +8,7 @@ public class CombatManager : MonoBehaviour
     {
         owner = GetComponent<Player>();
     }
+
     public void DealDamage(Player target, Match match)
     {
         float damage = owner.Fighter.Attack;
@@ -35,7 +36,6 @@ public class CombatManager : MonoBehaviour
         }
 
         target.CurrentHP -= damage;
-        target.UiHandler.LinkHPToHPBar();
         Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
     }
 }

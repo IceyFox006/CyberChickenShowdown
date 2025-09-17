@@ -50,7 +50,7 @@ public class PlayerMatch3 : MonoBehaviour
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
     }
-    private void Update()
+    private void FixedUpdate()
     {
         List<ActivePieceController> piecesFinishedUpdating = new List<ActivePieceController>();
         for (int index = 0; index < piecesUpdating.Count; index++)
@@ -66,13 +66,17 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController swappedPiece = null;
 
             List<GridPoint> connectedPieces = GetConnectedPieces(piece.GridPoint, true);
+            List<GridPoint> connectedPiecesToPiece = GetConnectedPieces(piece.GridPoint, true);
+            List<GridPoint> connectedPiecesToSwappedPiece = new List<GridPoint>();
             bool wasSwapped = (swapped != null);
             if (wasSwapped)
             {
                 swappedPiece = swapped.GetOtherPiece(piece);
+                connectedPiecesToSwappedPiece = GetConnectedPieces(swappedPiece.GridPoint, true);
                 CombineGridPoints(ref connectedPieces, GetConnectedPieces(swappedPiece.GridPoint, true));
             }
 
+            //Swap back if no match.
             if (connectedPieces.Count == 0)
             {
                 if (wasSwapped)
@@ -80,7 +84,11 @@ public class PlayerMatch3 : MonoBehaviour
             }
             else
             {
-                RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)GetElementAtGridPoint(connectedPieces[0]) - 1].Element, connectedPieces)); //!!!
+                //RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)GetElementAtGridPoint(connectedPiecesToPiece[0]) - 1].Element, connectedPiecesToPiece)); //!!!
+                //If two matches are made with the same swap.
+                if (connectedPiecesToSwappedPiece.Count > 0)
+                    RegisterMatch(new Match(owner, swappedPiece.MatchPiece.Element, connectedPiecesToPiece)); //!!!
+                RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
@@ -201,6 +209,9 @@ public class PlayerMatch3 : MonoBehaviour
                 List<GridPoint> connectedPieces = GetConnectedPieces(pointChecked, true);
                 if (connectedPieces.Count > 0)
                 {
+                    Debug.Log("*****");
+                    RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
+                    Debug.Log("*****");
                     foreach (GridPoint gridPoint in connectedPieces)
                     {
                         ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
@@ -208,7 +219,7 @@ public class PlayerMatch3 : MonoBehaviour
                             cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
                         cellPiece.SetUp(GameManager.Instance.EmptyPiece);
                     }
-                    RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
+
                 }
             }
         }

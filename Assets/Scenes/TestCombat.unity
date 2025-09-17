@@ -346,6 +346,10 @@ PrefabInstance:
       propertyPath: _combatManager
       value: 
       objectReference: {fileID: 1990371874}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _HPBarFillSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8436459975762350075, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -1186,70 +1190,6 @@ PrefabInstance:
       propertyPath: _combatManager
       value: 
       objectReference: {fileID: 1697769583}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _HPBarGradient.ctime0
-      value: 6554
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _HPBarGradient.m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.ctime0
-      value: 6554
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.ctime1
-      value: 32768
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.ctime2
-      value: 65535
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key0.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key0.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key0.r
-      value: 0.053459644
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key1.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key1.r
-      value: 0.67731285
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key2.b
-      value: 0.9009266
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key2.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.key2.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _superBarGradient.m_NumColorKeys
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8436459975762350075, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
