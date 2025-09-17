@@ -4,6 +4,10 @@ public class CombatManager : MonoBehaviour
 {
     private Player owner;
 
+    private bool isBlocking = false;
+
+    public bool IsBlocking { get => isBlocking; set => isBlocking = value; }
+
     private void Start()
     {
         owner = GetComponent<Player>();
@@ -42,6 +46,6 @@ public class CombatManager : MonoBehaviour
     }
     private void ChargeSuper(float damage)
     {
-        owner.CurrentSuper += (damage / 10);
+        owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
     }
 }
