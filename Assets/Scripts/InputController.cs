@@ -48,13 +48,11 @@ public class InputController : MonoBehaviour
     }
     private void Block_started(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.IsBlocking = true;
-        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
+        owner.CombatManager.StartBlocking();
     }
     private void Block_canceled(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.IsBlocking = false;
-        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
+        owner.CombatManager.StopBlocking();
     }
     private void Reset_performed(InputAction.CallbackContext obj)
     {

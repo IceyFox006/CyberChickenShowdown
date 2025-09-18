@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CombatManager : MonoBehaviour
@@ -54,4 +55,38 @@ public class CombatManager : MonoBehaviour
     {
         owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
     }
+    public void StartBlocking()
+    {
+        float blockThreshold = GameManager.Instance.BlockThreshold * owner.Fighter.SuperDrainRate;
+        if (owner.CurrentSuper < blockThreshold)
+            return;
+        owner.CurrentSuper -= blockThreshold;
+        owner.CombatManager.IsBlocking = true;
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
+        StartCoroutine(Blocking());
+    }
+    private void Blocking1()
+    {
+        if (isBlocking)
+            return;
+        if (owner.CurrentSuper <= 0)
+            StopBlocking();
+        owner.CurrentSuper -= owner.Fighter.SuperDrainRate;
+    }
+    private IEnumerator Blocking()
+    {
+        while (isBlocking)
+        {
+            owner.CurrentSuper -= owner.Fighter.SuperDrainRate;
+            if (owner.CurrentSuper <= 0)
+                StopBlocking();
+            yield return new WaitForSeconds(GameManager.Instance.Tick / GameManager.Instance.BlockDrainSpeed);
+        }
+    }
+    public void StopBlocking()
+    {
+        owner.CombatManager.IsBlocking = false;
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
+    }
+    
 }

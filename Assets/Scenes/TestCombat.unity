@@ -884,6 +884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867a9ed942bac01429d368ccaa1923f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tick: 1
   _player1: {fileID: 629431117}
   _player2: {fileID: 1990371872}
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
@@ -898,6 +899,8 @@ MonoBehaviour:
   _comboAdditiveMultiplier: 0.25
   _weaknessMultiplier: 1.5
   _resistanceMultiplier: 0.5
+  _blockThreshold: 1
+  _blockDrainSpeed: 8
   _superMultiplier: 0
 --- !u!1 &1281160856
 GameObject:
