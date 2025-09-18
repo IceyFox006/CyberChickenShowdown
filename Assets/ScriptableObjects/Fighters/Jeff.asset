@@ -16,3 +16,6 @@ MonoBehaviour:
   _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
   _HP: 1000
   _Attack: 10
+  _superCapacity: 100
+  _superFillSpeed: 0.1
+  _blockEffectiveness: 0.8

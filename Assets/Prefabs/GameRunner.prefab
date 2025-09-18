@@ -49,28 +49,19 @@ MonoBehaviour:
   gameBoardLayout:
     grid: {fileID: 0}
     columns:
-    - row: 0100000000000000
-    - row: 0000000000000000
-    - row: 0000000000000000
-    - row: 0000000101000000
-    - row: 0000000101000000
-    - row: 0000000000000000
-    - row: 0000000000000000
-    - row: 0000000000000000
-  _boardWidth: 8
-  _boardHeight: 8
-  _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
-  _empty: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
-  _matchPieces:
-  - {fileID: 11400000, guid: 95c259d88c79a214592fc2b777b1b0c3, type: 2}
-  - {fileID: 11400000, guid: cf5d037cea8ebdd4d96d9a910c22f212, type: 2}
-  - {fileID: 11400000, guid: 82267b9f0b772f3458b4e0d19d19c147, type: 2}
-  - {fileID: 11400000, guid: 147fb6be6b262d24d911586b879ff801, type: 2}
-  - {fileID: 11400000, guid: 39036f0d84ff3e74da03c92a504ad64b, type: 2}
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+    - row: 00000000000000
+  _boardWidth: 7
+  _boardHeight: 7
   _matchPieceObjectPrefab: {fileID: 5649505679455109936, guid: 08a12b1bde2fa3c409935ed11dba761b, type: 3}
   _matchPieceHolder: {fileID: 0}
   _holderStartOffset: {x: 20, y: -20}
-  _pieceSize: {x: 40, y: 40}
+  _pieceSize: {x: 46, y: 46}
 --- !u!114 &3008906255662448914
 MonoBehaviour:
   m_ObjectHideFlags: 0

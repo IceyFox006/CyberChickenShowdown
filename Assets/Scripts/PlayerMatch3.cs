@@ -213,7 +213,6 @@ public class PlayerMatch3 : MonoBehaviour
                 if (connectedPieces.Count > 0)
                 {
                     RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
-                    Debug.Log(GameManager.Instance.MatchPieces[(int)element - 1].Element.name);
                     foreach (GridPoint gridPoint in connectedPieces)
                     {
                         ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
@@ -304,6 +303,8 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void RegisterMatch(Match match)
     {
+        if (match.Element.Element <= 0)
+            return;
         owner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(owner), match);
     }
 

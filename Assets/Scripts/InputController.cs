@@ -1,13 +1,16 @@
+using System.Buffers;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
 {
-    [SerializeField] private PlayerInput _playerInput;
     private Player owner;
+    [SerializeField] private PlayerInput _playerInput;
+
 
     private InputAction back;
+    private InputAction block;
     private InputAction reset;
     private InputAction quit;
 
@@ -17,13 +20,21 @@ public class InputController : MonoBehaviour
     {
         _playerInput.currentActionMap.Enable();
         back = _playerInput.currentActionMap.FindAction("Back");
+        block = _playerInput.currentActionMap.FindAction("Block");
         reset = _playerInput.currentActionMap.FindAction("Reset");
         quit = _playerInput.currentActionMap.FindAction("Quit");
 
         back.performed += Back_performed;
+        block.started += Block_started;
+        block.canceled += Block_canceled;
         reset.performed += Reset_performed;
         quit.performed += Quit_performed;
     }
+
+
+
+
+
     private void OnDestroy()
     {
         back.performed -= Back_performed;
@@ -34,6 +45,16 @@ public class InputController : MonoBehaviour
     {
         owner.Game.PieceMover.DropPiece();
         owner.Game.DeselectAllPieces();
+    }
+    private void Block_started(InputAction.CallbackContext obj)
+    {
+        owner.CombatManager.IsBlocking = true;
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
+    }
+    private void Block_canceled(InputAction.CallbackContext obj)
+    {
+        owner.CombatManager.IsBlocking = false;
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
     }
     private void Reset_performed(InputAction.CallbackContext obj)
     {

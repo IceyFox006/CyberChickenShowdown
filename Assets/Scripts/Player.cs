@@ -3,6 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private string _name;
+    [SerializeField] private PlayerGOController _gameObjectController;
     [SerializeField] private InputController _inputController;
     [SerializeField] private PlayerMatch3 _game;
     [SerializeField] private PlayerUIHandler _uiHandler;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     public float CurrentSuper { get => currentSuper; set => currentSuper = value; }
     public PlayerUIHandler UiHandler { get => _uiHandler; set => _uiHandler = value; }
     public CombatManager CombatManager { get => _combatManager; set => _combatManager = value; }
+    public PlayerGOController GameObjectController { get => _gameObjectController; set => _gameObjectController = value; }
 
     private void Awake()
     {
