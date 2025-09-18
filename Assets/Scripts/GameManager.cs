@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+    [SerializeField] private float _tick;
 
     [SerializeField] private Player _player1;
     [SerializeField] private Player _player2;
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _comboAdditiveMultiplier;
     [SerializeField] private float _weaknessMultiplier; //1.5
     [SerializeField] private float _resistanceMultiplier; //0.5
+    [SerializeField] private float _blockThreshold;
+    [SerializeField] private float _blockDrainSpeed;
 
     [SerializeField] private float _superMultiplier;
 
@@ -29,6 +32,9 @@ public class GameManager : MonoBehaviour
     public float ComboAdditiveMultiplier { get => _comboAdditiveMultiplier; set => _comboAdditiveMultiplier = value; }
     public float WeaknessMultiplier { get => _weaknessMultiplier; set => _weaknessMultiplier = value; }
     public float ResistanceMultiplier { get => _resistanceMultiplier; set => _resistanceMultiplier = value; }
+    public float BlockThreshold { get => _blockThreshold; set => _blockThreshold = value; }
+    public float Tick { get => _tick; set => _tick = value; }
+    public float BlockDrainSpeed { get => _blockDrainSpeed; set => _blockDrainSpeed = value; }
 
     private void Awake()
     {
