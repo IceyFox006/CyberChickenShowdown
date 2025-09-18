@@ -12,7 +12,9 @@ public class CombatManager : MonoBehaviour
     {
         owner = GetComponent<Player>();
     }
-
+    private void Update()
+    {
+    }
     public void DealDamage(Player target, Match match)
     {
         float damage = owner.Fighter.Attack;
@@ -39,8 +41,12 @@ public class CombatManager : MonoBehaviour
                 damage *= GameManager.Instance.ResistanceMultiplier;
         }
 
+        //OpponentBlocking
+        if (target.CombatManager.IsBlocking)
+            damage *= (1 - target.Fighter.BlockEffectiveness);
+
         target.CurrentHP -= damage;
-        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }

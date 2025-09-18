@@ -1,3 +1,4 @@
+using System.Buffers;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -48,12 +49,12 @@ public class InputController : MonoBehaviour
     private void Block_started(InputAction.CallbackContext obj)
     {
         owner.CombatManager.IsBlocking = true;
-        Debug.Log(owner.name + "is blocking");
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
     }
     private void Block_canceled(InputAction.CallbackContext obj)
     {
         owner.CombatManager.IsBlocking = false;
-        Debug.Log(owner.name + "stopped blocking");
+        owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
     }
     private void Reset_performed(InputAction.CallbackContext obj)
     {
