@@ -321,7 +321,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         if (match.Element.Element <= 0)
             return;
-        owner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(owner), match);
+        owner.CombatManager.AttackOpponent(GameManager.Instance.GetOpponent(owner), match);
     }
 
     //Adds the grid points from addedGridPoints to gridPoints if gridPoints does not already contain the grid point.
