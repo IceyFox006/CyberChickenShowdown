@@ -54,6 +54,8 @@ public class CombatManager : MonoBehaviour
     private void ChargeSuper(float damage)
     {
         owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
+        if (owner.CurrentSuper > owner.Fighter.SuperCapacity)
+            owner.CurrentSuper = owner.Fighter.SuperCapacity;
     }
     public void StartBlocking()
     {
@@ -64,14 +66,6 @@ public class CombatManager : MonoBehaviour
         owner.CombatManager.IsBlocking = true;
         owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
         StartCoroutine(Blocking());
-    }
-    private void Blocking1()
-    {
-        if (isBlocking)
-            return;
-        if (owner.CurrentSuper <= 0)
-            StopBlocking();
-        owner.CurrentSuper -= owner.Fighter.SuperDrainRate;
     }
     private IEnumerator Blocking()
     {

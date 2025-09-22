@@ -158,21 +158,11 @@ public class PlayerMatch3 : MonoBehaviour
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
-            {
                 gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
-            }
         }
         ValidateGameBoard();
         InstantiateGameBoard();
-        //Debug.Log("Reshuffle");
-        //for (int x = 0; x < _boardWidth; x++)
-        //{
-        //    for (int y = 0; y < _boardHeight; y++)
-        //    {
-        //        gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
-        //        ValidateGameBoard();
-        //    }
-        //}
+        SetSelectedPieceToStartPiece();
 
     }
 
