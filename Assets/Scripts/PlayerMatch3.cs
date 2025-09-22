@@ -149,6 +149,32 @@ public class PlayerMatch3 : MonoBehaviour
                 gameBoard[x, y] = new BoardCell((gameBoardLayout.Columns[y].Row[x]) ? GameManager.Instance.WallPiece : GetRandomPiece(), new GridPoint(x, y));
         }
     }
+    
+    //Reshuffles board with new pieces.
+    public void ReshuffleBoard()
+    {
+        for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
+            Destroy(_matchPieceHolder.GetChild(index).gameObject);
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
+            }
+        }
+        ValidateGameBoard();
+        InstantiateGameBoard();
+        //Debug.Log("Reshuffle");
+        //for (int x = 0; x < _boardWidth; x++)
+        //{
+        //    for (int y = 0; y < _boardHeight; y++)
+        //    {
+        //        gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
+        //        ValidateGameBoard();
+        //    }
+        //}
+
+    }
 
     //Checks over all pieces on the board and removes matches.
     private void ValidateGameBoard()
