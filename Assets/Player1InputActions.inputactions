@@ -59,13 +59,22 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Reshuffle",
+                    "type": "Button",
+                    "id": "72bd8829-bdc1-4531-894b-c21dab681653",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "a56c53c2-ceca-4daa-bdad-af5e2a5eb279",
-                    "path": "<Keyboard>/r",
+                    "path": "<Keyboard>/backspace",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -169,6 +178,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84776222-3e03-466f-a713-5d3fbb155305",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reshuffle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
