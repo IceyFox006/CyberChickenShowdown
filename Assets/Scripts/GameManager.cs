@@ -5,8 +5,10 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     [SerializeField] private float _tick;
 
+    [Header("General")]
     [SerializeField] private Player _player1;
     [SerializeField] private Player _player2;
+    [SerializeField] private int _gameTime = 60; //By ticks
 
     [Header("Match Game")]
     [SerializeField] private MatchPieceSO _wallPiece;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
     public float BlockThreshold { get => _blockThreshold; set => _blockThreshold = value; }
     public float Tick { get => _tick; set => _tick = value; }
     public float BlockDrainSpeed { get => _blockDrainSpeed; set => _blockDrainSpeed = value; }
+    public int GameTime { get => _gameTime; set => _gameTime = value; }
 
     private void Awake()
     {
@@ -47,5 +50,10 @@ public class GameManager : MonoBehaviour
         else if (player == _player2)
             return _player1;
         return null;
+    }
+    public void EndGame()
+    {
+        //Set winner & loser
+        //Change screen
     }
 }
