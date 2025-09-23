@@ -1185,6 +1185,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2991136892196484912, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4b497936ed8733b43a7599aff774545f, type: 2}
+    - target: {fileID: 5598769211485186390, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: _owner
+      value: 
+      objectReference: {fileID: 1990371872}
+    - target: {fileID: 5793545535617232648, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: _owner
+      value: 
+      objectReference: {fileID: 1990371872}
     - target: {fileID: 7068231711759418534, guid: 7691f96424300c84abac8f33516569a1, type: 3}
       propertyPath: m_Name
       value: Player2GO
@@ -1675,6 +1687,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2991136892196484912, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
+    - target: {fileID: 5598769211485186390, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: _owner
+      value: 
+      objectReference: {fileID: 629431117}
+    - target: {fileID: 5793545535617232648, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: _owner
+      value: 
+      objectReference: {fileID: 629431117}
     - target: {fileID: 7068231711759418534, guid: 7691f96424300c84abac8f33516569a1, type: 3}
       propertyPath: m_Name
       value: Player1GO

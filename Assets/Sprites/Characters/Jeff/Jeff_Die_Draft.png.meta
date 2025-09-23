@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 583822111964b1845ae4f3da830c936d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6092757248469053374
+    second: Jeff_Die_Draft_0
+  - first:
+      213: 283826036962203609
+    second: Jeff_Die_Draft_1
+  - first:
+      213: 5028143536369538577
+    second: Jeff_Die_Draft_2
+  - first:
+      213: 1618294622508720907
+    second: Jeff_Die_Draft_3
+  - first:
+      213: 5610474775021779179
+    second: Jeff_Die_Draft_4
+  - first:
+      213: 316651216896016098
+    second: Jeff_Die_Draft_5
+  - first:
+      213: -7223889393065533482
+    second: Jeff_Die_Draft_6
+  - first:
+      213: -1408001867377957080
+    second: Jeff_Die_Draft_7
+  - first:
+      213: -3771081232815284876
+    second: Jeff_Die_Draft_8
+  - first:
+      213: 1180351366307064180
+    second: Jeff_Die_Draft_9
+  - first:
+      213: -4827288143178618635
+    second: Jeff_Die_Draft_10
+  - first:
+      213: 3320397519200208367
+    second: Jeff_Die_Draft_11
+  - first:
+      213: -1291852440224292653
+    second: Jeff_Die_Draft_12
+  - first:
+      213: -4569279784598874383
+    second: Jeff_Die_Draft_13
+  - first:
+      213: 3459551263389864974
+    second: Jeff_Die_Draft_14
+  - first:
+      213: -7651526635363609056
+    second: Jeff_Die_Draft_15
+  - first:
+      213: 7390375654931196809
+    second: Jeff_Die_Draft_16
+  - first:
+      213: 5102101264977390480
+    second: Jeff_Die_Draft_17
+  - first:
+      213: -3806361760731482492
+    second: Jeff_Die_Draft_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1667
+        width: 358
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf2fa9cf62dd8450800000000000000
+      internalID: 6092757248469053374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1999
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7932fd64a50f300800000000000000
+      internalID: 283826036962203609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1666
+        width: 261
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1169bf4f7ed87c540800000000000000
+      internalID: 5028143536369538577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1955
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03ae849266557610800000000000000
+      internalID: 1618294622508720907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 1688
+        width: 264
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8767215196cdd40800000000000000
+      internalID: 5610474775021779179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1955
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee38c4aa98f46400800000000000000
+      internalID: 316651216896016098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1288
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfdd9deed69fbb90800000000000000
+      internalID: -7223889393065533482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 903
+        width: 371
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827a9d3f2c5c57ce0800000000000000
+      internalID: -1408001867377957080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1155
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d17ea499d6aabc0800000000000000
+      internalID: -3771081232815284876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 954
+        width: 405
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47921ea5053716010800000000000000
+      internalID: 1180351366307064180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 868
+        width: 276
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f822658207020db0800000000000000
+      internalID: -4827288143178618635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 1176
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5440593fb641e20800000000000000
+      internalID: 3320397519200208367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 67
+        width: 344
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0a536dc0b621ee0800000000000000
+      internalID: -1291852440224292653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 320
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f65c97be38a690c0800000000000000
+      internalID: -4569279784598874383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_14
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 67
+        width: 373
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e045b986b8bc20030800000000000000
+      internalID: 3459551263389864974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_15
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 366
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02656bd801150d590800000000000000
+      internalID: -7651526635363609056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_16
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 362
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b6ed49083ef8660800000000000000
+      internalID: 7390375654931196809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_17
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 364
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b6c03811e4ec640800000000000000
+      internalID: 5102101264977390480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Die_Draft_18
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 344
+        width: 34
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48638f445261d2bc0800000000000000
+      internalID: -3806361760731482492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jeff_Die_Draft_0: 6092757248469053374
+      Jeff_Die_Draft_1: 283826036962203609
+      Jeff_Die_Draft_10: -4827288143178618635
+      Jeff_Die_Draft_11: 3320397519200208367
+      Jeff_Die_Draft_12: -1291852440224292653
+      Jeff_Die_Draft_13: -4569279784598874383
+      Jeff_Die_Draft_14: 3459551263389864974
+      Jeff_Die_Draft_15: -7651526635363609056
+      Jeff_Die_Draft_16: 7390375654931196809
+      Jeff_Die_Draft_17: 5102101264977390480
+      Jeff_Die_Draft_18: -3806361760731482492
+      Jeff_Die_Draft_2: 5028143536369538577
+      Jeff_Die_Draft_3: 1618294622508720907
+      Jeff_Die_Draft_4: 5610474775021779179
+      Jeff_Die_Draft_5: 316651216896016098
+      Jeff_Die_Draft_6: -7223889393065533482
+      Jeff_Die_Draft_7: -1408001867377957080
+      Jeff_Die_Draft_8: -3771081232815284876
+      Jeff_Die_Draft_9: 1180351366307064180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

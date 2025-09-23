@@ -18,6 +18,9 @@ public class FighterSO : ScriptableObject
     [SerializeField] private float _superDrainRate = 1f;
     [SerializeField] private float _superEffectiveness = 10f;
 
+    [Header("Visuals")]
+    [SerializeField] private RuntimeAnimatorController _animationController;
+
     public string Name { get => _name; set => _name = value; }
     public int HP { get => _HP; set => _HP = value; }
     public int Attack { get => _Attack; set => _Attack = value; }
@@ -28,4 +31,5 @@ public class FighterSO : ScriptableObject
     public float SuperDrainRate { get => _superDrainRate; set => _superDrainRate = value; }
     public Enums.SuperFunction SuperFunction { get => _superFunction; set => _superFunction = value; }
     public float SuperEffectiveness { get => _superEffectiveness; set => _superEffectiveness = value; }
+    public RuntimeAnimatorController AnimationController { get => _animationController; set => _animationController = value; }
 }
