@@ -1,8 +1,6 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
@@ -47,6 +45,7 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void Start()
     {
+        gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
     }
@@ -92,9 +91,7 @@ public class PlayerMatch3 : MonoBehaviour
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                     if (cellPiece != null)
-                    {
                         cellPiece.GetComponent<Image>().enabled = false;
-                    }
                     cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
                 }
                
@@ -158,7 +155,10 @@ public class PlayerMatch3 : MonoBehaviour
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
-                gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
+            {
+                if (gameBoard[x, y].MatchPiece != GameManager.Instance.WallPiece)
+                    gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
+            }
         }
         ValidateGameBoard();
         InstantiateGameBoard();

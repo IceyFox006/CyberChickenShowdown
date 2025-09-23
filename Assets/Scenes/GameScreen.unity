@@ -1001,6 +1001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1234573963}
   - component: {fileID: 1234573964}
+  - component: {fileID: 1234573965}
   m_Layer: 0
   m_Name: '!GAME_CONTROLLER'
   m_TagString: Untagged
@@ -1053,6 +1054,22 @@ MonoBehaviour:
   _resistanceMultiplier: 0.5
   _blockThreshold: 1
   _blockDrainSpeed: 8
+--- !u!114 &1234573965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234573961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f643c6117f16b34ba4e9840e46b9ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boards:
+  - {fileID: 11400000, guid: 33c248834a3484c4c985bc5b57c445b5, type: 2}
+  - {fileID: 11400000, guid: a736acb7729d8d44b9a28a41e52471e1, type: 2}
+  - {fileID: 11400000, guid: 52fffccd42a61174bbcc20a739f925bb, type: 2}
 --- !u!1 &1281160856
 GameObject:
   m_ObjectHideFlags: 0

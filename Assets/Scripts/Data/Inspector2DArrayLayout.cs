@@ -14,7 +14,7 @@ public class Inspector2DArrayLayout
 
         public bool[] Row { get => row; set => row = value; }
     }
-    public Grid grid;
+    //public Grid grid;
     [SerializeField] private rowData[] columns = new rowData[8];
 
     public rowData[] Columns { get => columns; set => columns = value; }
