@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Guy Fiery
   _element: {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
-  _HP: 250
+  _description: 
+  _superFunction: 0
+  _HP: 1000
   _Attack: 10
-  _superCapacity: 100
+  _superCapacity: 25
   _superFillSpeed: 0.1
   _blockEffectiveness: 0.8
   _superDrainRate: 1
+  _superEffectiveness: 50

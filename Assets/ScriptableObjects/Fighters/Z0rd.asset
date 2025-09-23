@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Z0rd
   _element: {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
-  _HP: 250
+  _description: 
+  _superFunction: 0
+  _HP: 1000
   _Attack: 10
-  _superCapacity: 100
+  _superCapacity: 25
   _superFillSpeed: 0.1
   _blockEffectiveness: 0.8
   _superDrainRate: 1
+  _superEffectiveness: 50
