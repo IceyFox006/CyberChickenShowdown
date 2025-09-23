@@ -7,8 +7,18 @@ public class CombatManager : MonoBehaviour
     private Player owner;
 
     private bool isBlocking = false;
+    private bool isAttacking = false;
+    private bool isSTAB = false;
+    private bool isSuper = false;
+    private bool isHurt = false;
+    private bool isDead = false;
 
     public bool IsBlocking { get => isBlocking; set => isBlocking = value; }
+    public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
+    public bool IsSTAB { get => isSTAB; set => isSTAB = value; }
+    public bool IsSuper { get => isSuper; set => isSuper = value; }
+    public bool IsHurt { get => isHurt; set => isHurt = value; }
+    public bool IsDead { get => isDead; set => isDead = value; }
 
     private void Start()
     {
@@ -17,10 +27,14 @@ public class CombatManager : MonoBehaviour
     public void AttackOpponent(Player target, Match match)
     {
         float damage = owner.Fighter.Attack;
+        isAttacking = true;
 
         //STAB (if the owner's element matches the match element)
         if (match.Element == owner.Fighter.Element)
+        {
             damage *= GameManager.Instance.STABMultiplier;
+            isSTAB = true;
+        }
 
         //Combo
         if (match.ConnectedPoints.Count > 3)
@@ -54,9 +68,10 @@ public class CombatManager : MonoBehaviour
     private void DealDamage(Player target, float damage)
     {
         target.CurrentHP -= damage;
+        target.CombatManager.IsHurt = true;
         Debug.Log(owner.Name + " dealt " + damage + " to " + target.Name);
         if (target.CurrentHP <= 0)
-            GameManager.Instance.EndGame();
+            target.CombatManager.IsDead = true;
     }
 
     private void ChargeSuper(float damage)
@@ -64,7 +79,7 @@ public class CombatManager : MonoBehaviour
         owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
         CorrectSuperAmount();
     }
-    private bool IsSuperFull()
+    public bool IsSuperFull()
     {
         if (owner.CurrentSuper >= owner.Fighter.SuperCapacity)
             return true;

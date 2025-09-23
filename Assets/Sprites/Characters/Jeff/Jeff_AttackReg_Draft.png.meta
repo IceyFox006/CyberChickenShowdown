@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 407a9692147fe85438ebc1da5b8f9c8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3741505129598290561
+    second: Jeff_AttackReg_Draft_0
+  - first:
+      213: 700973410719742676
+    second: Jeff_AttackReg_Draft_1
+  - first:
+      213: -7099770527166511919
+    second: Jeff_AttackReg_Draft_2
+  - first:
+      213: 1781083716464621821
+    second: Jeff_AttackReg_Draft_3
+  - first:
+      213: -1731145183152156015
+    second: Jeff_AttackReg_Draft_4
+  - first:
+      213: -3730282924023445416
+    second: Jeff_AttackReg_Draft_5
+  - first:
+      213: -8884415892578780870
+    second: Jeff_AttackReg_Draft_6
+  - first:
+      213: -3827486402853651395
+    second: Jeff_AttackReg_Draft_7
+  - first:
+      213: 3145030882032568603
+    second: Jeff_AttackReg_Draft_8
+  - first:
+      213: -412971053181594486
+    second: Jeff_AttackReg_Draft_9
+  - first:
+      213: -146943435761093843
+    second: Jeff_AttackReg_Draft_10
+  - first:
+      213: -2456127024116390255
+    second: Jeff_AttackReg_Draft_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1288
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a020f871f7ce330800000000000000
+      internalID: 3741505129598290561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 866
+        width: 362
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dab1f66a9b5ab900800000000000000
+      internalID: 700973410719742676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1262
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4c37d525c887d90800000000000000
+      internalID: -7099770527166511919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 866
+        width: 353
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df83b1b143ea7b810800000000000000
+      internalID: 1781083716464621821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 866
+        width: 691
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192569fb0acb9f7e0800000000000000
+      internalID: -1731145183152156015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1180
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85880e9c17f5b3cc0800000000000000
+      internalID: -3730282924023445416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 400
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b10e31d634b480800000000000000
+      internalID: -8884415892578780870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 488
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c354f356902eac0800000000000000
+      internalID: -3827486402853651395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 488
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b194f239ce465ab20800000000000000
+      internalID: 3145030882032568603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 63
+        width: 489
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a849790e305d44af0800000000000000
+      internalID: -412971053181594486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 59
+        width: 449
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23726549b3f5fdf0800000000000000
+      internalID: -146943435761093843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackReg_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 66
+        width: 495
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1962e441c751aedd0800000000000000
+      internalID: -2456127024116390255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jeff_AttackReg_Draft_0: 3741505129598290561
+      Jeff_AttackReg_Draft_1: 700973410719742676
+      Jeff_AttackReg_Draft_10: -146943435761093843
+      Jeff_AttackReg_Draft_11: -2456127024116390255
+      Jeff_AttackReg_Draft_2: -7099770527166511919
+      Jeff_AttackReg_Draft_3: 1781083716464621821
+      Jeff_AttackReg_Draft_4: -1731145183152156015
+      Jeff_AttackReg_Draft_5: -3730282924023445416
+      Jeff_AttackReg_Draft_6: -8884415892578780870
+      Jeff_AttackReg_Draft_7: -3827486402853651395
+      Jeff_AttackReg_Draft_8: 3145030882032568603
+      Jeff_AttackReg_Draft_9: -412971053181594486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

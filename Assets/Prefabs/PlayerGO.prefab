@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 223599187418044026}
   - component: {fileID: 7199667301925164267}
   - component: {fileID: 5793545535617232648}
+  - component: {fileID: 5598769211485186390}
   - component: {fileID: 2991136892196484912}
   m_Layer: 0
   m_Name: PlayerGO
@@ -189,7 +190,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bcbd7f53b380e849841cecabf1a2bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _owner: {fileID: 0}
   _blockVisualGO: {fileID: 4294449957465010351}
+--- !u!114 &5598769211485186390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7068231711759418534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a8e161561494b419c81a56d9c0a0d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _owner: {fileID: 0}
 --- !u!95 &2991136892196484912
 Animator:
   serializedVersion: 7

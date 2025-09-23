@@ -23,3 +23,4 @@ MonoBehaviour:
   _blockEffectiveness: 0.8
   _superDrainRate: 1
   _superEffectiveness: 50
+  _animationController: {fileID: 9100000, guid: 6e0933c65c64f5b408a680629054213b, type: 2}

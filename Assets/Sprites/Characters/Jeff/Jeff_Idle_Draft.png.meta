@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 51b93b81b0bcba2468cfa61702f8f51a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4117921358745606201
+    second: Jeff_Idle_Draft_0
+  - first:
+      213: 7245273487642976118
+    second: Jeff_Idle_Draft_1
+  - first:
+      213: 2851766145670942991
+    second: Jeff_Idle_Draft_2
+  - first:
+      213: 8270405720257680961
+    second: Jeff_Idle_Draft_3
+  - first:
+      213: -5399800071218760647
+    second: Jeff_Idle_Draft_4
+  - first:
+      213: 4874361201758874471
+    second: Jeff_Idle_Draft_5
+  - first:
+      213: -1799501352880352010
+    second: Jeff_Idle_Draft_6
+  - first:
+      213: 8766758232866714944
+    second: Jeff_Idle_Draft_7
+  - first:
+      213: 1187113296283038382
+    second: Jeff_Idle_Draft_8
+  - first:
+      213: -7506889597108114744
+    second: Jeff_Idle_Draft_9
+  - first:
+      213: -5314052859887887723
+    second: Jeff_Idle_Draft_10
+  - first:
+      213: -5607384725744111205
+    second: Jeff_Idle_Draft_11
+  - first:
+      213: 8510319412672501172
+    second: Jeff_Idle_Draft_12
+  - first:
+      213: -6183224044633710905
+    second: Jeff_Idle_Draft_13
+  - first:
+      213: 2193943180406867938
+    second: Jeff_Idle_Draft_14
+  - first:
+      213: 2843052156049328441
+    second: Jeff_Idle_Draft_15
+  - first:
+      213: -1428065794775697641
+    second: Jeff_Idle_Draft_16
+  - first:
+      213: 2420673896582699283
+    second: Jeff_Idle_Draft_17
+  - first:
+      213: 8024184510090373657
+    second: Jeff_Idle_Draft_18
+  - first:
+      213: -9221471982275621091
+    second: Jeff_Idle_Draft_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 865
+        width: 491
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c769f687543ad6c0800000000000000
+      internalID: -4117921358745606201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1127
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd38399d16c8460800000000000000
+      internalID: 7245273487642976118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 870
+        width: 501
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01933f3332839720800000000000000
+      internalID: 2851766145670942991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1127
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14651502f2266c270800000000000000
+      internalID: 8270405720257680961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1127
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93470e0d17e0015b0800000000000000
+      internalID: -5399800071218760647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 869
+        width: 465
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba8c100b535a340800000000000000
+      internalID: 4874361201758874471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 1127
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f45bb0cd03e607e0800000000000000
+      internalID: -1799501352880352010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 5187
+        y: 1127
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04570cd1a28c9a970800000000000000
+      internalID: 8766758232866714944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 870
+        width: 492
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2f71dd049797010800000000000000
+      internalID: 1187113296283038382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 869
+        width: 448
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caab444fab22d790800000000000000
+      internalID: -7506889597108114744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 67
+        width: 520
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59adbb83411b046b0800000000000000
+      internalID: -5314052859887887723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 327
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9132171d419e22b0800000000000000
+      internalID: -5607384725744111205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_12
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 327
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5947d8a6aba1670800000000000000
+      internalID: 8510319412672501172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_13
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 67
+        width: 481
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce14f4dd76c03aa0800000000000000
+      internalID: -6183224044633710905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_14
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 327
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7ca85d2b3727e10800000000000000
+      internalID: 2193943180406867938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_15
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 67
+        width: 436
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9398a3f6fdc847720800000000000000
+      internalID: 2843052156049328441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_16
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 327
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7173282d9bd7e2ce0800000000000000
+      internalID: -1428065794775697641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_17
+      rect:
+        serializedVersion: 2
+        x: 5187
+        y: 327
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195fda6516f79120800000000000000
+      internalID: 2420673896582699283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_18
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 71
+        width: 468
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae0284c41ab5f60800000000000000
+      internalID: 8024184510090373657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_Idle_Draft_19
+      rect:
+        serializedVersion: 2
+        x: 5067
+        y: 66
+        width: 468
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f8e3ee610c60080800000000000000
+      internalID: -9221471982275621091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jeff_Idle_Draft_0: -4117921358745606201
+      Jeff_Idle_Draft_1: 7245273487642976118
+      Jeff_Idle_Draft_10: -5314052859887887723
+      Jeff_Idle_Draft_11: -5607384725744111205
+      Jeff_Idle_Draft_12: 8510319412672501172
+      Jeff_Idle_Draft_13: -6183224044633710905
+      Jeff_Idle_Draft_14: 2193943180406867938
+      Jeff_Idle_Draft_15: 2843052156049328441
+      Jeff_Idle_Draft_16: -1428065794775697641
+      Jeff_Idle_Draft_17: 2420673896582699283
+      Jeff_Idle_Draft_18: 8024184510090373657
+      Jeff_Idle_Draft_19: -9221471982275621091
+      Jeff_Idle_Draft_2: 2851766145670942991
+      Jeff_Idle_Draft_3: 8270405720257680961
+      Jeff_Idle_Draft_4: -5399800071218760647
+      Jeff_Idle_Draft_5: 4874361201758874471
+      Jeff_Idle_Draft_6: -1799501352880352010
+      Jeff_Idle_Draft_7: 8766758232866714944
+      Jeff_Idle_Draft_8: 1187113296283038382
+      Jeff_Idle_Draft_9: -7506889597108114744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
