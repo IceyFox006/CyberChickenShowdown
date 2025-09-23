@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using static Enums;
 
 public class CombatManager : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class CombatManager : MonoBehaviour
 
 
         DealDamage(target, damage);
-        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
@@ -53,6 +54,7 @@ public class CombatManager : MonoBehaviour
     private void DealDamage(Player target, float damage)
     {
         target.CurrentHP -= damage;
+        Debug.Log(owner.Name + " dealt " + damage + " to " + target.Name);
         if (target.CurrentHP <= 0)
             GameManager.Instance.EndGame();
     }
@@ -60,8 +62,43 @@ public class CombatManager : MonoBehaviour
     private void ChargeSuper(float damage)
     {
         owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
-        if (owner.CurrentSuper > owner.Fighter.SuperCapacity)
+        CorrectSuperAmount();
+    }
+    private bool IsSuperFull()
+    {
+        if (owner.CurrentSuper >= owner.Fighter.SuperCapacity)
+            return true;
+        return false;
+    }
+    private void CorrectSuperAmount()
+    {
+        if (IsSuperFull())
+        {
             owner.CurrentSuper = owner.Fighter.SuperCapacity;
+            return;
+        }
+        if (owner.CurrentSuper < 0)
+            owner.CurrentSuper = 0;
+    }
+    public void UseSuper(Player target)
+    {
+        if (!IsSuperFull())
+            return;
+
+        float value = 0;
+        switch (owner.Fighter.SuperFunction)
+        {
+            case Enums.SuperFunction.ImmediateDamage:
+                value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
+                DealDamage(target, value);
+                break;
+            case Enums.SuperFunction.ImmediateSuperDrain:
+                value = owner.Fighter.SuperEffectiveness;
+                target.CurrentSuper -= value;
+                target.CombatManager.CorrectSuperAmount();
+                break;
+        }
+        owner.CurrentSuper = 0;
     }
     public void StartBlocking()
     {
@@ -88,5 +125,6 @@ public class CombatManager : MonoBehaviour
         owner.CombatManager.IsBlocking = false;
         owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
     }
-    
+
+
 }

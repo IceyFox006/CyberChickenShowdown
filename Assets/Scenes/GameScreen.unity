@@ -926,15 +926,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   _tick: 1
   _player1: {fileID: 629431117}
   _player2: {fileID: 1990371872}
-  _gameTime: 60
+  _gameTime: 999
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _matchPieces:
@@ -1053,7 +1053,6 @@ MonoBehaviour:
   _resistanceMultiplier: 0.5
   _blockThreshold: 1
   _blockDrainSpeed: 8
-  _superMultiplier: 0
 --- !u!1 &1281160856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1521,7 @@ PrefabInstance:
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _fighter
       value: 
-      objectReference: {fileID: 11400000, guid: b2b8a864496b1c744bfbcc4b6925385c, type: 2}
+      objectReference: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _uiHandler
       value: 

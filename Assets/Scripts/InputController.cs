@@ -12,6 +12,7 @@ public class InputController : MonoBehaviour
     private InputAction back;
     private InputAction block;
     private InputAction reshuffle;
+    private InputAction super;
     private InputAction reset;
     private InputAction quit;
 
@@ -23,6 +24,7 @@ public class InputController : MonoBehaviour
         back = _playerInput.currentActionMap.FindAction("Back");
         block = _playerInput.currentActionMap.FindAction("Block");
         reshuffle = _playerInput.currentActionMap.FindAction("Reshuffle");
+        super = _playerInput.currentActionMap.FindAction("Super");
         reset = _playerInput.currentActionMap.FindAction("Reset");
         quit = _playerInput.currentActionMap.FindAction("Quit");
 
@@ -30,15 +32,19 @@ public class InputController : MonoBehaviour
         block.started += Block_started;
         block.canceled += Block_canceled;
         reshuffle.performed += Reshuffle_performed;
+        super.performed += Super_performed;
         reset.performed += Reset_performed;
         quit.performed += Quit_performed;
     }
 
 
-
     private void OnDestroy()
     {
         back.performed -= Back_performed;
+        block.started -= Block_started;
+        block.canceled -= Block_canceled;
+        reshuffle.performed -= Reshuffle_performed;
+        super.performed -= Super_performed;
         reset.performed -= Reset_performed;
         quit.performed -= Quit_performed;
     }
@@ -59,6 +65,10 @@ public class InputController : MonoBehaviour
     {
         owner.Game.ReshuffleBoard();
     }
+    private void Super_performed(InputAction.CallbackContext obj)
+    {
+        owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(owner));
+    }
     private void Reset_performed(InputAction.CallbackContext obj)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -66,5 +76,8 @@ public class InputController : MonoBehaviour
     private void Quit_performed(InputAction.CallbackContext obj)
     {
         Application.Quit();
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
     }
 }
