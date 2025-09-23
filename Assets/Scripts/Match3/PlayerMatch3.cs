@@ -11,7 +11,7 @@ public class PlayerMatch3 : MonoBehaviour
     private MatchPieceMovement pieceMover;
 
     [Header("Board")]
-    [SerializeField] private Inspector2DArrayLayout gameBoardLayout;
+    private Inspector2DArrayLayout gameBoardLayout;
     private BoardCell[,] gameBoard;
     [SerializeField] private int _boardWidth = 8;
     [SerializeField] private int _boardHeight = 8;
