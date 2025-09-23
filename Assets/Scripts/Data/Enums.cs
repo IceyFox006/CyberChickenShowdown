@@ -29,8 +29,9 @@ public class Enums : MonoBehaviour
     }
     public enum SuperFunction
     {
+        nil,
         ImmediateDamage,
-        ImmediateSuperDrain,
+        LeechOpponentSuperToHP,
     }
 
 }

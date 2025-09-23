@@ -74,6 +74,12 @@ public class CombatManager : MonoBehaviour
             target.CombatManager.IsDead = true;
     }
 
+    public void CorrectHPAmount()
+    {
+        if (owner.CurrentHP > owner.Fighter.HP)
+            owner.CurrentHP = owner.Fighter.HP;
+    }
+
     private void ChargeSuper(float damage)
     {
         owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
@@ -107,10 +113,12 @@ public class CombatManager : MonoBehaviour
                 value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
                 DealDamage(target, value);
                 break;
-            case Enums.SuperFunction.ImmediateSuperDrain:
-                value = owner.Fighter.SuperEffectiveness;
+            case Enums.SuperFunction.LeechOpponentSuperToHP:
+                value = target.Fighter.SuperCapacity * 0.3f;
                 target.CurrentSuper -= value;
                 target.CombatManager.CorrectSuperAmount();
+                owner.CurrentHP += value * (owner.Fighter.SuperEffectiveness * 0.1f);
+                CorrectHPAmount();
                 break;
         }
         owner.CurrentSuper = 0;
