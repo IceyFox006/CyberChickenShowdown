@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,14 +24,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _blockThreshold;
     [SerializeField] private float _blockDrainSpeed;
 
-    [SerializeField] private float _superMultiplier;
-
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
     public MatchPieceSO EmptyPiece { get => _emptyPiece; set => _emptyPiece = value; }
     public MatchPieceSO[] MatchPieces { get => _matchPieces; set => _matchPieces = value; }
     public float STABMultiplier { get => _STABMultiplier; set => _STABMultiplier = value; }
-    public float SuperMultiplier { get => _superMultiplier; set => _superMultiplier = value; }
     public float ComboAdditiveMultiplier { get => _comboAdditiveMultiplier; set => _comboAdditiveMultiplier = value; }
     public float WeaknessMultiplier { get => _weaknessMultiplier; set => _weaknessMultiplier = value; }
     public float ResistanceMultiplier { get => _resistanceMultiplier; set => _resistanceMultiplier = value; }
@@ -54,6 +52,6 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         //Set winner & loser
-        //Change screen
+        SceneManager.LoadScene("WinLoseScene");
     }
 }

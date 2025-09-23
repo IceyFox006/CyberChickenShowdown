@@ -24,6 +24,7 @@ public class GameTimer : MonoBehaviour
             currentTime--;
             LinkTimeToTimer();
         }
+        GameManager.Instance.EndGame();
 
     }
     private void LinkTimeToTimer()
