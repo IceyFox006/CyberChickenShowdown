@@ -50,8 +50,9 @@ public class InputController : MonoBehaviour
     }
     private void Back_performed(InputAction.CallbackContext obj)
     {
+        if (owner.Game.IsSelecting)
+            owner.Game.DeselectAllPieces();
         owner.Game.PieceMover.DropPiece();
-        owner.Game.DeselectAllPieces();
     }
     private void Block_started(InputAction.CallbackContext obj)
     {

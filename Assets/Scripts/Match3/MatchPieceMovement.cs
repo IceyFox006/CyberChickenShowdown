@@ -68,6 +68,7 @@ public class MatchPieceMovement : MonoBehaviour
             ownersGame.ResetPiece(movingPiece);
             ownersGame.EventSystem.SetSelectedGameObject(movingPiece.gameObject);
         }
+        movingPiece.SelectedBorder.enabled = true;
         movingPiece = null;
         ownersGame.StartSwapPiece = null;
     }

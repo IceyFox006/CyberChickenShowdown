@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: Jeff
   _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
   _description: 
-  _superFunction: 0
+  _superFunction: 1
   _HP: 1000
   _Attack: 10
   _superCapacity: 25

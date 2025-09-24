@@ -62,6 +62,7 @@ public class ActivePieceController : MonoBehaviour
     {
         if (isUpdating || ((int)_matchPiece.Element.Element < 1))
             return;
+        owner.Game.IsSelecting = true;
         if (owner.Game.PieceMover.MovingPiece == null)
         {
             owner.Game.StartSwapPiece = this; //
@@ -75,9 +76,15 @@ public class ActivePieceController : MonoBehaviour
             owner.Game.DeselectAllPieces();
         }
     }
-    public void OnHover()
+    public void OnEnterHover()
     {
         owner.Game.PieceMover.MoveToSpot = transform.position;
+        _selectedBorder.enabled = true;
+    }
+    public void OnExitHover()
+    {
+        if (!owner.Game.IsSelecting)
+            _selectedBorder.enabled = false;
     }
     private void MovePosition(Vector2 position)
     {
