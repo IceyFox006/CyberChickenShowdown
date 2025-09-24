@@ -25,6 +25,7 @@ public class PlayerMatch3 : MonoBehaviour
     private List<SwappedPieces> swappedPieces = new List<SwappedPieces>();
     private ActivePieceController startSwapPiece = null;
     private ActivePieceController endSwapPiece = null;
+    private bool isSelecting = false;
 
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
@@ -40,6 +41,7 @@ public class PlayerMatch3 : MonoBehaviour
     public Player Owner { get => owner; set => owner = value; }
     public ActivePieceController StartSwapPiece { get => startSwapPiece; set => startSwapPiece = value; }
     public ActivePieceController EndSwapPiece { get => endSwapPiece; set => endSwapPiece = value; }
+    public bool IsSelecting { get => isSelecting; set => isSelecting = value; }
 
     #endregion
 
@@ -446,6 +448,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
         startSwapPiece = null;
         endSwapPiece = null;
+        isSelecting = false;
         //Debug.Log(owner.Name + " - deselects all pieces");
     }
 
