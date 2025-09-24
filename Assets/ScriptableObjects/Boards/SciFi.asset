@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1eb40383ce89e2418c0ddedd9537b01, type: 3}
-  m_Name: Corners
+  m_Name: SciFi
   m_EditorClassIdentifier: 
   _name: Empty
   _gameBoardLayout:
     columns:
-    - row: 01010000000101
-    - row: 01000000000001
-    - row: 00000000000000
-    - row: 00000000000000
-    - row: 00000000000000
-    - row: 01000000000001
-    - row: 01010000000101
+    - row: 01010100000000
+    - row: 01000000000000
+    - row: 01000000000000
+    - row: 00000001000000
+    - row: 00000000000001
+    - row: 00000000000001
+    - row: 00000000010101
