@@ -17,8 +17,8 @@ MonoBehaviour:
   _description: 
   _superFunction: 2
   _HP: 1000
-  _Attack: 10
-  _superCapacity: 25
+  _Attack: 20
+  _superCapacity: 50
   _superFillSpeed: 0.1
   _blockEffectiveness: 0.8
   _superDrainRate: 1
