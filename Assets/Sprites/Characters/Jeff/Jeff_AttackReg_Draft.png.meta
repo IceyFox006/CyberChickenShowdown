@@ -136,10 +136,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_0
       rect:
         serializedVersion: 2
-        x: 316
-        y: 1288
-        width: 45
-        height: 90
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_1
       rect:
         serializedVersion: 2
-        x: 1405
-        y: 866
-        width: 362
-        height: 424
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_2
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 1262
-        width: 55
-        height: 96
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 866
-        width: 353
-        height: 415
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_4
       rect:
         serializedVersion: 2
-        x: 2647
-        y: 866
-        width: 691
-        height: 351
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Jeff_AttackReg_Draft_5
       rect:
         serializedVersion: 2
-        x: 2788
-        y: 1180
-        width: 105
-        height: 95
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,143 +264,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_6
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 400
-        width: 110
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a39b10e31d634b480800000000000000
-      internalID: -8884415892578780870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_7
-      rect:
-        serializedVersion: 2
-        x: 1516
-        y: 488
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3c354f356902eac0800000000000000
-      internalID: -3827486402853651395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_8
-      rect:
-        serializedVersion: 2
-        x: 2716
-        y: 488
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b194f239ce465ab20800000000000000
-      internalID: 3145030882032568603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_9
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 63
-        width: 489
-        height: 338
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a849790e305d44af0800000000000000
-      internalID: -412971053181594486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_10
-      rect:
-        serializedVersion: 2
-        x: 1524
-        y: 59
-        width: 449
-        height: 381
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d23726549b3f5fdf0800000000000000
-      internalID: -146943435761093843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackReg_Draft_11
-      rect:
-        serializedVersion: 2
-        x: 2651
-        y: 66
-        width: 495
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1962e441c751aedd0800000000000000
-      internalID: -2456127024116390255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4b5b81467a80cd04fb11e5ce3a43e8ae
     internalID: 0
     vertices: []
     indices: 
@@ -412,16 +280,10 @@ TextureImporter:
     nameFileIdTable:
       Jeff_AttackReg_Draft_0: 3741505129598290561
       Jeff_AttackReg_Draft_1: 700973410719742676
-      Jeff_AttackReg_Draft_10: -146943435761093843
-      Jeff_AttackReg_Draft_11: -2456127024116390255
       Jeff_AttackReg_Draft_2: -7099770527166511919
       Jeff_AttackReg_Draft_3: 1781083716464621821
       Jeff_AttackReg_Draft_4: -1731145183152156015
       Jeff_AttackReg_Draft_5: -3730282924023445416
-      Jeff_AttackReg_Draft_6: -8884415892578780870
-      Jeff_AttackReg_Draft_7: -3827486402853651395
-      Jeff_AttackReg_Draft_8: 3145030882032568603
-      Jeff_AttackReg_Draft_9: -412971053181594486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

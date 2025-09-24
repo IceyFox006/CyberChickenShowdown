@@ -160,10 +160,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_0
       rect:
         serializedVersion: 2
-        x: 470
-        y: 1965
-        width: 58
-        height: 66
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_1
       rect:
         serializedVersion: 2
-        x: 1429
-        y: 1665
-        width: 394
-        height: 360
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_2
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 2006
-        width: 65
-        height: 79
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_3
       rect:
         serializedVersion: 2
-        x: 2637
-        y: 1664
-        width: 449
-        height: 389
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_4
       rect:
         serializedVersion: 2
-        x: 2834
-        y: 2006
-        width: 65
-        height: 79
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_5
       rect:
         serializedVersion: 2
-        x: 3834
-        y: 1664
-        width: 489
-        height: 426
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_6
       rect:
         serializedVersion: 2
-        x: 240
-        y: 1667
-        width: 478
-        height: 273
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_7
       rect:
         serializedVersion: 2
-        x: 241
-        y: 864
-        width: 510
-        height: 422
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_8
       rect:
         serializedVersion: 2
-        x: 1668
-        y: 1120
-        width: 84
-        height: 67
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_9
       rect:
         serializedVersion: 2
-        x: 2868
-        y: 1120
-        width: 84
-        height: 67
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Jeff_AttackSTAB_Draft_10
       rect:
         serializedVersion: 2
-        x: 3972
-        y: 1187
-        width: 45
-        height: 90
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,209 +398,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_11
-      rect:
-        serializedVersion: 2
-        x: 1486
-        y: 864
-        width: 707
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 275ae73b3e0ade970800000000000000
-      internalID: 8785855347899147634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_12
-      rect:
-        serializedVersion: 2
-        x: 2683
-        y: 865
-        width: 710
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c2b625f3b9df94f0800000000000000
-      internalID: -819697240222813498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_13
-      rect:
-        serializedVersion: 2
-        x: 3886
-        y: 864
-        width: 711
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64526a953a292c4f0800000000000000
-      internalID: -809923752691882682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_14
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 387
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9c99b96b5b9968e0800000000000000
-      internalID: -1699656567437550437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_15
-      rect:
-        serializedVersion: 2
-        x: 1572
-        y: 387
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 363f03c4cabf3fec0800000000000000
-      internalID: -3534204565124484253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_16
-      rect:
-        serializedVersion: 2
-        x: 2772
-        y: 387
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07c54aadc810ef9f0800000000000000
-      internalID: -432906809705735056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_17
-      rect:
-        serializedVersion: 2
-        x: 283
-        y: 65
-        width: 710
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58950d7811bf1bc50800000000000000
-      internalID: 6679395775078750597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_18
-      rect:
-        serializedVersion: 2
-        x: 1492
-        y: 63
-        width: 576
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 198e29d98ed1a06c0800000000000000
-      internalID: -4176492819519444847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_19
-      rect:
-        serializedVersion: 2
-        x: 2669
-        y: 66
-        width: 553
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 317e63cd462f2c840800000000000000
-      internalID: 5243019431217915667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 19ebb6a7cbbc9404c8d17fd2304f4ff6
     internalID: 0
     vertices: []
     indices: 
@@ -613,15 +415,6 @@ TextureImporter:
       Jeff_AttackSTAB_Draft_0: -8375628094053118958
       Jeff_AttackSTAB_Draft_1: -6317837418694442439
       Jeff_AttackSTAB_Draft_10: -3261058793616078754
-      Jeff_AttackSTAB_Draft_11: 8785855347899147634
-      Jeff_AttackSTAB_Draft_12: -819697240222813498
-      Jeff_AttackSTAB_Draft_13: -809923752691882682
-      Jeff_AttackSTAB_Draft_14: -1699656567437550437
-      Jeff_AttackSTAB_Draft_15: -3534204565124484253
-      Jeff_AttackSTAB_Draft_16: -432906809705735056
-      Jeff_AttackSTAB_Draft_17: 6679395775078750597
-      Jeff_AttackSTAB_Draft_18: -4176492819519444847
-      Jeff_AttackSTAB_Draft_19: 5243019431217915667
       Jeff_AttackSTAB_Draft_2: -314239266013816265
       Jeff_AttackSTAB_Draft_3: -7021721255967175162
       Jeff_AttackSTAB_Draft_4: 1216778899257674467

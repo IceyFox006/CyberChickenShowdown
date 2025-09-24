@@ -16,7 +16,7 @@ MonoBehaviour:
   _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
   _description: 
   _superFunction: 0
-  _HP: 1000
+  _HP: 500
   _Attack: 10
   _superCapacity: 25
   _superFillSpeed: 0.1
