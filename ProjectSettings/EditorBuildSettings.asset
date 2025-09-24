@@ -6,11 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/GameScreen.unity
     guid: eebdcbc67e24b7e458e96f8c4c63e607
   - enabled: 1
     path: Assets/Scenes/WinLoseScene.unity
     guid: 78b95d78ae8bd15439118bc1551d5207
+=======
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/Scenes/CharacterSelectScreen.unity
+    guid: e5c228a3887ec5844b83bbc28c0f99a3
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
   m_UseUCBPForAssetBundles: 0
