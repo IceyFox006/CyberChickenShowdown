@@ -59,17 +59,19 @@ public class CombatManager : MonoBehaviour
             damage *= (1 - target.Fighter.BlockEffectiveness);
 
 
-        DealDamage(target, damage);
+        DealDamage(target, damage, true);
         //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage)
+    private void DealDamage(Player target, float damage, bool spawnFloatingText = false)
     {
         target.CurrentHP -= damage;
         target.CombatManager.IsHurt = true;
         Debug.Log(owner.Name + " dealt " + damage + " to " + target.Name);
+        if (spawnFloatingText)
+            target.UiHandler.SpawnFloatingText(target.UiHandler.NeutralHitFT, damage.ToString());
         if (target.CurrentHP <= 0)
             target.CombatManager.IsDead = true;
     }
