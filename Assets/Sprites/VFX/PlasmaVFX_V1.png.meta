@@ -1,0 +1,926 @@
+fileFormatVersion: 2
+guid: bc876a5b9ebe3d643973e1f974556c10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4206118844740013266
+    second: PlasmaVFX_V1_0
+  - first:
+      213: -7555691179898943048
+    second: PlasmaVFX_V1_1
+  - first:
+      213: 2019740696220344062
+    second: PlasmaVFX_V1_2
+  - first:
+      213: 3538969538412498932
+    second: PlasmaVFX_V1_3
+  - first:
+      213: -6616890439849100718
+    second: PlasmaVFX_V1_4
+  - first:
+      213: 8004811180068514389
+    second: PlasmaVFX_V1_5
+  - first:
+      213: 2329276605549650059
+    second: PlasmaVFX_V1_6
+  - first:
+      213: 1296601497186803607
+    second: PlasmaVFX_V1_7
+  - first:
+      213: -6742138357165460706
+    second: PlasmaVFX_V1_8
+  - first:
+      213: -8150093717296791675
+    second: PlasmaVFX_V1_9
+  - first:
+      213: -1002699980633846303
+    second: PlasmaVFX_V1_10
+  - first:
+      213: -7082154174436507686
+    second: PlasmaVFX_V1_11
+  - first:
+      213: -2699066061707840342
+    second: PlasmaVFX_V1_12
+  - first:
+      213: -4721877468111961162
+    second: PlasmaVFX_V1_13
+  - first:
+      213: -7527093858625153375
+    second: PlasmaVFX_V1_14
+  - first:
+      213: -8176406817463101735
+    second: PlasmaVFX_V1_15
+  - first:
+      213: -3849568341305754567
+    second: PlasmaVFX_V1_16
+  - first:
+      213: 7673354085047681550
+    second: PlasmaVFX_V1_17
+  - first:
+      213: 2334919093307235818
+    second: PlasmaVFX_V1_18
+  - first:
+      213: -7502677313835236217
+    second: PlasmaVFX_V1_19
+  - first:
+      213: 3796634007995420712
+    second: PlasmaVFX_V1_20
+  - first:
+      213: -8101824836818988408
+    second: PlasmaVFX_V1_21
+  - first:
+      213: -9006445175913578733
+    second: PlasmaVFX_V1_22
+  - first:
+      213: -289593965716292816
+    second: PlasmaVFX_V1_23
+  - first:
+      213: 6025471658832587487
+    second: PlasmaVFX_V1_24
+  - first:
+      213: -4192311519721346641
+    second: PlasmaVFX_V1_25
+  - first:
+      213: -1305067931874782472
+    second: PlasmaVFX_V1_26
+  - first:
+      213: 315759254014497267
+    second: PlasmaVFX_V1_27
+  - first:
+      213: 7470578140157704511
+    second: PlasmaVFX_V1_28
+  - first:
+      213: -2648426068680374467
+    second: PlasmaVFX_V1_29
+  - first:
+      213: -4879752821335559957
+    second: PlasmaVFX_V1_30
+  - first:
+      213: 8904964362914595174
+    second: PlasmaVFX_V1_31
+  - first:
+      213: 7940630232801147732
+    second: PlasmaVFX_V1_32
+  - first:
+      213: -4376469913138062437
+    second: PlasmaVFX_V1_33
+  - first:
+      213: -8065538361756667609
+    second: PlasmaVFX_V1_34
+  - first:
+      213: -5996603689113673492
+    second: PlasmaVFX_V1_35
+  - first:
+      213: -5456906228916664877
+    second: PlasmaVFX_V1_36
+  - first:
+      213: -7685160885880960325
+    second: PlasmaVFX_V1_37
+  - first:
+      213: 4653425649582047660
+    second: PlasmaVFX_V1_38
+  - first:
+      213: -2095853530574953260
+    second: PlasmaVFX_V1_39
+  - first:
+      213: 4985362741092091938
+    second: PlasmaVFX_V1_40
+  - first:
+      213: 854225784755966349
+    second: PlasmaVFX_V1_41
+  - first:
+      213: -6670258233249725928
+    second: PlasmaVFX_V1_42
+  - first:
+      213: -3075769647654396644
+    second: PlasmaVFX_V1_43
+  - first:
+      213: 8948255491222961700
+    second: PlasmaVFX_V1_44
+  - first:
+      213: -1672555486267305922
+    second: PlasmaVFX_V1_45
+  - first:
+      213: -3311428039446513480
+    second: PlasmaVFX_V1_46
+  - first:
+      213: -7741335050636719544
+    second: PlasmaVFX_V1_47
+  - first:
+      213: 6313229224630430910
+    second: PlasmaVFX_V1_48
+  - first:
+      213: 7732292379701812815
+    second: PlasmaVFX_V1_49
+  - first:
+      213: 7766689042998963284
+    second: PlasmaVFX_V1_50
+  - first:
+      213: 7713775965377546538
+    second: PlasmaVFX_V1_51
+  - first:
+      213: -6936714881404353276
+    second: PlasmaVFX_V1_52
+  - first:
+      213: 7284783593874443302
+    second: PlasmaVFX_V1_53
+  - first:
+      213: -614596183085285182
+    second: PlasmaVFX_V1_54
+  - first:
+      213: 2374574279690187263
+    second: PlasmaVFX_V1_55
+  - first:
+      213: -5483381913312760389
+    second: PlasmaVFX_V1_56
+  - first:
+      213: 7894781606714384537
+    second: PlasmaVFX_V1_57
+  - first:
+      213: 4733613911404107907
+    second: PlasmaVFX_V1_58
+  - first:
+      213: 1779926504507396737
+    second: PlasmaVFX_V1_59
+  - first:
+      213: -6062170493580963650
+    second: PlasmaVFX_V1_60
+  - first:
+      213: -3501848001309759108
+    second: PlasmaVFX_V1_61
+  - first:
+      213: 6153531364553890008
+    second: PlasmaVFX_V1_62
+  - first:
+      213: 5955566610689318889
+    second: PlasmaVFX_V1_63
+  - first:
+      213: -4729560904075520763
+    second: PlasmaVFX_V1_64
+  - first:
+      213: 7710803770498845071
+    second: PlasmaVFX_V1_65
+  - first:
+      213: -7633148023626106849
+    second: PlasmaVFX_V1_66
+  - first:
+      213: -2362273556536736940
+    second: PlasmaVFX_V1_67
+  - first:
+      213: -4438710814730594862
+    second: PlasmaVFX_V1_68
+  - first:
+      213: -1305201015678800179
+    second: PlasmaVFX_V1_69
+  - first:
+      213: 547073796353184722
+    second: PlasmaVFX_V1_70
+  - first:
+      213: -5106557179954865517
+    second: PlasmaVFX_V1_71
+  - first:
+      213: 8056504352245507308
+    second: PlasmaVFX_V1_72
+  - first:
+      213: -6106483942909172493
+    second: PlasmaVFX_V1_73
+  - first:
+      213: 8261715199071668567
+    second: PlasmaVFX_V1_74
+  - first:
+      213: 2294774307572964948
+    second: PlasmaVFX_V1_75
+  - first:
+      213: -7109543229681119837
+    second: PlasmaVFX_V1_76
+  - first:
+      213: -3238875996452774072
+    second: PlasmaVFX_V1_77
+  - first:
+      213: -4324534449357519173
+    second: PlasmaVFX_V1_78
+  - first:
+      213: 5896106551176954796
+    second: PlasmaVFX_V1_79
+  - first:
+      213: 7060545688325994769
+    second: PlasmaVFX_V1_80
+  - first:
+      213: 510175459756587043
+    second: PlasmaVFX_V1_81
+  - first:
+      213: -5761722118733393232
+    second: PlasmaVFX_V1_82
+  - first:
+      213: -4253717941268421884
+    second: PlasmaVFX_V1_83
+  - first:
+      213: -3970898830399297615
+    second: PlasmaVFX_V1_84
+  - first:
+      213: -1609002877877312543
+    second: PlasmaVFX_V1_85
+  - first:
+      213: -6568818693237874810
+    second: PlasmaVFX_V1_86
+  - first:
+      213: -8142329597959645007
+    second: PlasmaVFX_V1_87
+  - first:
+      213: 7975373394975556739
+    second: PlasmaVFX_V1_88
+  - first:
+      213: 1053077982320426208
+    second: PlasmaVFX_V1_89
+  - first:
+      213: 8510404188389230684
+    second: PlasmaVFX_V1_90
+  - first:
+      213: -7481500685011859670
+    second: PlasmaVFX_V1_91
+  - first:
+      213: -920721851660938545
+    second: PlasmaVFX_V1_92
+  - first:
+      213: 3485603767379444035
+    second: PlasmaVFX_V1_93
+  - first:
+      213: 9108281148729564421
+    second: PlasmaVFX_V1_94
+  - first:
+      213: 4176225166737090711
+    second: PlasmaVFX_V1_95
+  - first:
+      213: -6299149556397566287
+    second: PlasmaVFX_V1_96
+  - first:
+      213: 5858847308783894260
+    second: PlasmaVFX_V1_97
+  - first:
+      213: 3770441108275765259
+    second: PlasmaVFX_V1_98
+  - first:
+      213: 4178356514430022048
+    second: PlasmaVFX_V1_99
+  - first:
+      213: -6353479513015253259
+    second: PlasmaVFX_V1_100
+  - first:
+      213: 5361929611825653280
+    second: PlasmaVFX_V1_101
+  - first:
+      213: -1141064535514343334
+    second: PlasmaVFX_V1_102
+  - first:
+      213: 595453589647038838
+    second: PlasmaVFX_V1_103
+  - first:
+      213: -522563885141832840
+    second: PlasmaVFX_V1_104
+  - first:
+      213: 4423997581586057401
+    second: PlasmaVFX_V1_105
+  - first:
+      213: -1067709260614810230
+    second: PlasmaVFX_V1_106
+  - first:
+      213: -4317753951541340312
+    second: PlasmaVFX_V1_107
+  - first:
+      213: 7207735693401029614
+    second: PlasmaVFX_V1_108
+  - first:
+      213: 3860264372520698971
+    second: PlasmaVFX_V1_109
+  - first:
+      213: 2833866594550248928
+    second: PlasmaVFX_V1_110
+  - first:
+      213: -2511162653410054117
+    second: PlasmaVFX_V1_111
+  - first:
+      213: 7868690593574463308
+    second: PlasmaVFX_V1_112
+  - first:
+      213: 8356365205067783922
+    second: PlasmaVFX_V1_113
+  - first:
+      213: 116487601062665583
+    second: PlasmaVFX_V1_114
+  - first:
+      213: -3454918629301187762
+    second: PlasmaVFX_V1_115
+  - first:
+      213: -4887437074106726513
+    second: PlasmaVFX_V1_116
+  - first:
+      213: 7653758935976242647
+    second: PlasmaVFX_V1_117
+  - first:
+      213: -1344514664799666114
+    second: PlasmaVFX_V1_118
+  - first:
+      213: 5316236702450018364
+    second: PlasmaVFX_V1_119
+  - first:
+      213: -6045376155495410335
+    second: PlasmaVFX_V1_120
+  - first:
+      213: -1343609685626372260
+    second: PlasmaVFX_V1_121
+  - first:
+      213: 7416561695066312263
+    second: PlasmaVFX_V1_122
+  - first:
+      213: 898256006265824170
+    second: PlasmaVFX_V1_123
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23f138123dd0a5c0800000000000000
+      internalID: -4206118844740013266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9429557eac42790800000000000000
+      internalID: -7555691179898943048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe1d90567f870c10800000000000000
+      internalID: 2019740696220344062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff41008b02fc1130800000000000000
+      internalID: 3538969538412498932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25abd17e3351c24a0800000000000000
+      internalID: -6616890439849100718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a2f026b5dc61f60800000000000000
+      internalID: 8004811180068514389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b802a615bb0435020800000000000000
+      internalID: 2329276605549650059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f1f0721347ef110800000000000000
+      internalID: 1296601497186803607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13fd92b2ec1f62a0800000000000000
+      internalID: -6742138357165460706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fb166f1fc05ee80800000000000000
+      internalID: -8150093717296791675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed470e1ea1b512f0800000000000000
+      internalID: -1002699980633846303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf792c1d4227bd90800000000000000
+      internalID: -7082154174436507686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4779697bdfa8ad0800000000000000
+      internalID: -2699066061707840342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b30448d575887eb0800000000000000
+      internalID: -4721877468111961162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a69f9d04046a8790800000000000000
+      internalID: -7527093858625153375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_15
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6970ae151978e80800000000000000
+      internalID: -8176406817463101735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c71ed4df5939ac0800000000000000
+      internalID: -3849568341305754567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e024f0b92ea3d7a60800000000000000
+      internalID: 7673354085047681550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlasmaVFX_V1_18
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeddadf5b8c476020800000000000000
+      internalID: 2334919093307235818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 91bbe8aaf12d54545a40bfd815785a2a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlasmaVFX_V1_0: -4206118844740013266
+      PlasmaVFX_V1_1: -7555691179898943048
+      PlasmaVFX_V1_10: -1002699980633846303
+      PlasmaVFX_V1_11: -7082154174436507686
+      PlasmaVFX_V1_12: -2699066061707840342
+      PlasmaVFX_V1_13: -4721877468111961162
+      PlasmaVFX_V1_14: -7527093858625153375
+      PlasmaVFX_V1_15: -8176406817463101735
+      PlasmaVFX_V1_16: -3849568341305754567
+      PlasmaVFX_V1_17: 7673354085047681550
+      PlasmaVFX_V1_18: 2334919093307235818
+      PlasmaVFX_V1_2: 2019740696220344062
+      PlasmaVFX_V1_3: 3538969538412498932
+      PlasmaVFX_V1_4: -6616890439849100718
+      PlasmaVFX_V1_5: 8004811180068514389
+      PlasmaVFX_V1_6: 2329276605549650059
+      PlasmaVFX_V1_7: 1296601497186803607
+      PlasmaVFX_V1_8: -6742138357165460706
+      PlasmaVFX_V1_9: -8150093717296791675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

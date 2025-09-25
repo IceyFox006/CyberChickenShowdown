@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: b0996d3d483e4f147bcabbb5a6a8717a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7925745788951210449
+    second: FireVFX_V1_0
+  - first:
+      213: -3723813652993041448
+    second: FireVFX_V1_1
+  - first:
+      213: -4509895172932539015
+    second: FireVFX_V1_2
+  - first:
+      213: 1666288222900460532
+    second: FireVFX_V1_3
+  - first:
+      213: 1022218916301600032
+    second: FireVFX_V1_4
+  - first:
+      213: 3663556002929865831
+    second: FireVFX_V1_5
+  - first:
+      213: -4960178698568641306
+    second: FireVFX_V1_6
+  - first:
+      213: -2090696018236575933
+    second: FireVFX_V1_7
+  - first:
+      213: -7610788696263419258
+    second: FireVFX_V1_8
+  - first:
+      213: 7895559743764025495
+    second: FireVFX_V1_9
+  - first:
+      213: -6562264401179329899
+    second: FireVFX_V1_10
+  - first:
+      213: 4636988661388848688
+    second: FireVFX_V1_11
+  - first:
+      213: -8768580067377156527
+    second: FireVFX_V1_12
+  - first:
+      213: -9100111237093434670
+    second: FireVFX_V1_13
+  - first:
+      213: 493746385240071225
+    second: FireVFX_V1_14
+  - first:
+      213: 1294759003906354979
+    second: FireVFX_V1_15
+  - first:
+      213: 5540986813712226439
+    second: FireVFX_V1_16
+  - first:
+      213: 1958658468116901808
+    second: FireVFX_V1_17
+  - first:
+      213: 959308311662288169
+    second: FireVFX_V1_18
+  - first:
+      213: 8724056634885347010
+    second: FireVFX_V1_19
+  - first:
+      213: -3095928445629059132
+    second: FireVFX_V1_20
+  - first:
+      213: 4813594018620940481
+    second: FireVFX_V1_21
+  - first:
+      213: -5435599902946800116
+    second: FireVFX_V1_22
+  - first:
+      213: -6648320288132835870
+    second: FireVFX_V1_23
+  - first:
+      213: 4876329732870178439
+    second: FireVFX_V1_24
+  - first:
+      213: -4806270280233482927
+    second: FireVFX_V1_25
+  - first:
+      213: 6654282041042159106
+    second: FireVFX_V1_26
+  - first:
+      213: 6855708797684681762
+    second: FireVFX_V1_27
+  - first:
+      213: -2341719038455579875
+    second: FireVFX_V1_28
+  - first:
+      213: -8751840488132526593
+    second: FireVFX_V1_29
+  - first:
+      213: 5026776115553015086
+    second: FireVFX_V1_30
+  - first:
+      213: 8986994342950398947
+    second: FireVFX_V1_31
+  - first:
+      213: -3229791836850290402
+    second: FireVFX_V1_32
+  - first:
+      213: 952760266163631193
+    second: FireVFX_V1_33
+  - first:
+      213: 7995005386282390259
+    second: FireVFX_V1_34
+  - first:
+      213: -2880565868733926079
+    second: FireVFX_V1_35
+  - first:
+      213: -836033352990758341
+    second: FireVFX_V1_36
+  - first:
+      213: 4888990978198450432
+    second: FireVFX_V1_37
+  - first:
+      213: -4187563613858074527
+    second: FireVFX_V1_38
+  - first:
+      213: 2637139313586835625
+    second: FireVFX_V1_39
+  - first:
+      213: -8993322731555873964
+    second: FireVFX_V1_40
+  - first:
+      213: 2855675172879783201
+    second: FireVFX_V1_41
+  - first:
+      213: -9216093693657079896
+    second: FireVFX_V1_42
+  - first:
+      213: -8848770797251941206
+    second: FireVFX_V1_43
+  - first:
+      213: -6395465393849717093
+    second: FireVFX_V1_44
+  - first:
+      213: -6272556389920507511
+    second: FireVFX_V1_45
+  - first:
+      213: -2457711627420984320
+    second: FireVFX_V1_46
+  - first:
+      213: 944118349192591802
+    second: FireVFX_V1_47
+  - first:
+      213: -1027093849101343929
+    second: FireVFX_V1_48
+  - first:
+      213: -3260155051244118170
+    second: FireVFX_V1_49
+  - first:
+      213: 3929923355681033996
+    second: FireVFX_V1_50
+  - first:
+      213: -5421875051663127823
+    second: FireVFX_V1_51
+  - first:
+      213: -707273416547051642
+    second: FireVFX_V1_52
+  - first:
+      213: -324779083121485448
+    second: FireVFX_V1_53
+  - first:
+      213: -4720389691696978321
+    second: FireVFX_V1_54
+  - first:
+      213: 8391072441076369116
+    second: FireVFX_V1_55
+  - first:
+      213: 3441424744833057156
+    second: FireVFX_V1_56
+  - first:
+      213: 1991220917829439117
+    second: FireVFX_V1_57
+  - first:
+      213: 328596068493651868
+    second: FireVFX_V1_58
+  - first:
+      213: -2340490137729386089
+    second: FireVFX_V1_59
+  - first:
+      213: 2511149809406986366
+    second: FireVFX_V1_60
+  - first:
+      213: 120289802130763312
+    second: FireVFX_V1_61
+  - first:
+      213: 7023188128268312332
+    second: FireVFX_V1_62
+  - first:
+      213: -7847888570398330183
+    second: FireVFX_V1_63
+  - first:
+      213: 2564352581835080674
+    second: FireVFX_V1_64
+  - first:
+      213: -2897046702980401475
+    second: FireVFX_V1_65
+  - first:
+      213: -3367014076519165396
+    second: FireVFX_V1_66
+  - first:
+      213: 3971014097166154474
+    second: FireVFX_V1_67
+  - first:
+      213: -7812619310655319738
+    second: FireVFX_V1_68
+  - first:
+      213: 1457846055319816371
+    second: FireVFX_V1_69
+  - first:
+      213: -6640060654640838130
+    second: FireVFX_V1_70
+  - first:
+      213: 5338357115820473731
+    second: FireVFX_V1_71
+  - first:
+      213: -4558827144098959491
+    second: FireVFX_V1_72
+  - first:
+      213: 4147083618641184124
+    second: FireVFX_V1_73
+  - first:
+      213: 3309415294829656216
+    second: FireVFX_V1_74
+  - first:
+      213: 4945857588106398855
+    second: FireVFX_V1_75
+  - first:
+      213: -6873964224812278843
+    second: FireVFX_V1_76
+  - first:
+      213: 7059684594942464655
+    second: FireVFX_V1_77
+  - first:
+      213: -7819435591199738399
+    second: FireVFX_V1_78
+  - first:
+      213: -1912233528493120720
+    second: FireVFX_V1_79
+  - first:
+      213: -4715099943880888364
+    second: FireVFX_V1_80
+  - first:
+      213: -1436840036970545285
+    second: FireVFX_V1_81
+  - first:
+      213: -7257564468008210749
+    second: FireVFX_V1_82
+  - first:
+      213: 8428091730736688911
+    second: FireVFX_V1_83
+  - first:
+      213: -2406740818182748655
+    second: FireVFX_V1_84
+  - first:
+      213: 2149873760967715102
+    second: FireVFX_V1_85
+  - first:
+      213: -8042823633194220450
+    second: FireVFX_V1_86
+  - first:
+      213: -5129632480709244157
+    second: FireVFX_V1_87
+  - first:
+      213: 5573403325460042633
+    second: FireVFX_V1_88
+  - first:
+      213: 8564646011223047336
+    second: FireVFX_V1_89
+  - first:
+      213: 2138790950049575264
+    second: FireVFX_V1_90
+  - first:
+      213: 1013468402477404439
+    second: FireVFX_V1_91
+  - first:
+      213: 8835882265250093988
+    second: FireVFX_V1_92
+  - first:
+      213: 82562626140929002
+    second: FireVFX_V1_93
+  - first:
+      213: -4596161577003879975
+    second: FireVFX_V1_94
+  - first:
+      213: 3071385314932733088
+    second: FireVFX_V1_95
+  - first:
+      213: 4580118045499508018
+    second: FireVFX_V1_96
+  - first:
+      213: -7220476612250149660
+    second: FireVFX_V1_97
+  - first:
+      213: -5745123034252632649
+    second: FireVFX_V1_98
+  - first:
+      213: 3487645848243889101
+    second: FireVFX_V1_99
+  - first:
+      213: -1602522389032519973
+    second: FireVFX_V1_100
+  - first:
+      213: -3935868979423220459
+    second: FireVFX_V1_101
+  - first:
+      213: -2989113381712325927
+    second: FireVFX_V1_102
+  - first:
+      213: -7431127268571000811
+    second: FireVFX_V1_103
+  - first:
+      213: 7241399166320927468
+    second: FireVFX_V1_104
+  - first:
+      213: -2466683177161332285
+    second: FireVFX_V1_105
+  - first:
+      213: 449691316095952155
+    second: FireVFX_V1_106
+  - first:
+      213: 571649995204244886
+    second: FireVFX_V1_107
+  - first:
+      213: -5567826252085415787
+    second: FireVFX_V1_108
+  - first:
+      213: -5582684922344341396
+    second: FireVFX_V1_109
+  - first:
+      213: -8533359198864867399
+    second: FireVFX_V1_110
+  - first:
+      213: -9078692118046092090
+    second: FireVFX_V1_111
+  - first:
+      213: 5614473644367763348
+    second: FireVFX_V1_112
+  - first:
+      213: -4400614982425815814
+    second: FireVFX_V1_113
+  - first:
+      213: -311541188084947494
+    second: FireVFX_V1_114
+  - first:
+      213: 6755178317746676338
+    second: FireVFX_V1_115
+  - first:
+      213: 2123818327770425166
+    second: FireVFX_V1_116
+  - first:
+      213: -4897452840027118431
+    second: FireVFX_V1_117
+  - first:
+      213: -2911608348749475747
+    second: FireVFX_V1_118
+  - first:
+      213: 6595862790677779330
+    second: FireVFX_V1_119
+  - first:
+      213: 4275820758632933464
+    second: FireVFX_V1_120
+  - first:
+      213: -8043749189593656104
+    second: FireVFX_V1_121
+  - first:
+      213: 5203620338870864892
+    second: FireVFX_V1_122
+  - first:
+      213: -1726330885812368649
+    second: FireVFX_V1_123
+  - first:
+      213: 6039513154160783885
+    second: FireVFX_V1_124
+  - first:
+      213: 5522216907934436257
+    second: FireVFX_V1_125
+  - first:
+      213: 5931597781854795186
+    second: FireVFX_V1_126
+  - first:
+      213: -5963088840801251599
+    second: FireVFX_V1_127
+  - first:
+      213: -5088683008699404699
+    second: FireVFX_V1_128
+  - first:
+      213: -4132680035297597769
+    second: FireVFX_V1_129
+  - first:
+      213: 7146700320199266941
+    second: FireVFX_V1_130
+  - first:
+      213: -2328014860457122528
+    second: FireVFX_V1_131
+  - first:
+      213: -4577023470321713343
+    second: FireVFX_V1_132
+  - first:
+      213: 4529780129599841002
+    second: FireVFX_V1_133
+  - first:
+      213: 4841001447088926266
+    second: FireVFX_V1_134
+  - first:
+      213: -5252045088674949183
+    second: FireVFX_V1_135
+  - first:
+      213: 2942572386692351772
+    second: FireVFX_V1_136
+  - first:
+      213: 1394984615110774600
+    second: FireVFX_V1_137
+  - first:
+      213: 6415982866413639148
+    second: FireVFX_V1_138
+  - first:
+      213: 5531954789163501283
+    second: FireVFX_V1_139
+  - first:
+      213: -3198181148394723093
+    second: FireVFX_V1_140
+  - first:
+      213: 2798573940464845048
+    second: FireVFX_V1_141
+  - first:
+      213: 8383059177963813250
+    second: FireVFX_V1_142
+  - first:
+      213: -8246469564845542241
+    second: FireVFX_V1_143
+  - first:
+      213: -1692492262313732693
+    second: FireVFX_V1_144
+  - first:
+      213: 1264847865729319390
+    second: FireVFX_V1_145
+  - first:
+      213: -8013453584783313087
+    second: FireVFX_V1_146
+  - first:
+      213: 4427978717898219673
+    second: FireVFX_V1_147
+  - first:
+      213: 439995662927227180
+    second: FireVFX_V1_148
+  - first:
+      213: 5548969588638691035
+    second: FireVFX_V1_149
+  - first:
+      213: 2733067044789794298
+    second: FireVFX_V1_150
+  - first:
+      213: 5135705592688340738
+    second: FireVFX_V1_151
+  - first:
+      213: 6933549486087266042
+    second: FireVFX_V1_152
+  - first:
+      213: 304160927332995571
+    second: FireVFX_V1_153
+  - first:
+      213: -6313763177657060376
+    second: FireVFX_V1_154
+  - first:
+      213: 2369390918392800467
+    second: FireVFX_V1_155
+  - first:
+      213: -6908114070584781699
+    second: FireVFX_V1_156
+  - first:
+      213: -7993580008941049624
+    second: FireVFX_V1_157
+  - first:
+      213: 7522743520890685657
+    second: FireVFX_V1_158
+  - first:
+      213: 2734494230131702634
+    second: FireVFX_V1_159
+  - first:
+      213: -574023034768168535
+    second: FireVFX_V1_160
+  - first:
+      213: -83848251217518168
+    second: FireVFX_V1_161
+  - first:
+      213: -1993851453434578761
+    second: FireVFX_V1_162
+  - first:
+      213: 4344216468223121083
+    second: FireVFX_V1_163
+  - first:
+      213: 6530190246463199517
+    second: FireVFX_V1_164
+  - first:
+      213: -1856279836743497665
+    second: FireVFX_V1_165
+  - first:
+      213: -4915053078809701989
+    second: FireVFX_V1_166
+  - first:
+      213: 158859037120390142
+    second: FireVFX_V1_167
+  - first:
+      213: -4526978617001570080
+    second: FireVFX_V1_168
+  - first:
+      213: -258839954960124126
+    second: FireVFX_V1_169
+  - first:
+      213: 7108900960152759048
+    second: FireVFX_V1_170
+  - first:
+      213: -8617032313742351755
+    second: FireVFX_V1_171
+  - first:
+      213: -2872613596181649240
+    second: FireVFX_V1_172
+  - first:
+      213: 7556713596428807562
+    second: FireVFX_V1_173
+  - first:
+      213: 1277649952697510874
+    second: FireVFX_V1_174
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12960
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26d3858238120290800000000000000
+      internalID: -7925745788951210449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11880
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db9993563b525cc0800000000000000
+      internalID: -3723813652993041448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10800
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d6b131c32a961c0800000000000000
+      internalID: -4509895172932539015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb16637f48df1710800000000000000
+      internalID: 1666288222900460532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02577dc30b6af2e00800000000000000
+      internalID: 1022218916301600032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764726936c097d230800000000000000
+      internalID: 3663556002929865831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e45b59f0c7e92bb0800000000000000
+      internalID: -4960178698568641306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f6fa36c0b5cf2e0800000000000000
+      internalID: -2090696018236575933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a19a2210c016690800000000000000
+      internalID: -7610788696263419258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790dde521c9a29d60800000000000000
+      internalID: 7895559743764025495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ab385ab472ee4a0800000000000000
+      internalID: -6562264401179329899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea895ae94e95040800000000000000
+      internalID: 4636988661388848688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee96bf2eebf4680800000000000000
+      internalID: -8768580067377156527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8190a2705af5b2b42a69670a13a4b0c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FireVFX_V1_0: -7925745788951210449
+      FireVFX_V1_1: -3723813652993041448
+      FireVFX_V1_10: -6562264401179329899
+      FireVFX_V1_11: 4636988661388848688
+      FireVFX_V1_12: -8768580067377156527
+      FireVFX_V1_2: -4509895172932539015
+      FireVFX_V1_3: 1666288222900460532
+      FireVFX_V1_4: 1022218916301600032
+      FireVFX_V1_5: 3663556002929865831
+      FireVFX_V1_6: -4960178698568641306
+      FireVFX_V1_7: -2090696018236575933
+      FireVFX_V1_8: -7610788696263419258
+      FireVFX_V1_9: 7895559743764025495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

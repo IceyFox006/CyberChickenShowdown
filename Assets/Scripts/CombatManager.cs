@@ -13,12 +13,15 @@ public class CombatManager : MonoBehaviour
     private bool isHurt = false;
     private bool isDead = false;
 
+    private int attackElementID = 0;
+
     public bool IsBlocking { get => isBlocking; set => isBlocking = value; }
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
     public bool IsSTAB { get => isSTAB; set => isSTAB = value; }
     public bool IsSuper { get => isSuper; set => isSuper = value; }
     public bool IsHurt { get => isHurt; set => isHurt = value; }
     public bool IsDead { get => isDead; set => isDead = value; }
+    public int AttackElementID { get => attackElementID; set => attackElementID = value; }
 
     private void Start()
     {
@@ -28,6 +31,7 @@ public class CombatManager : MonoBehaviour
     {
         float damage = owner.Fighter.Attack;
         isAttacking = true;
+        UpdateMatchElement(match);
 
         //STAB (if the owner's element matches the match element)
         if (match.Element == owner.Fighter.Element)
@@ -59,21 +63,26 @@ public class CombatManager : MonoBehaviour
             damage *= (1 - target.Fighter.BlockEffectiveness);
 
 
-        DealDamage(target, damage);
+        DealDamage(target, damage, true);
         //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage)
+    private void DealDamage(Player target, float damage, bool spawnFloatingText = false)
     {
         target.CurrentHP -= damage;
         target.CombatManager.IsHurt = true;
-        Debug.Log(owner.Name + " dealt " + damage + " to " + target.Name);
+        //Debug.Log(owner.Name + " dealt " + damage + " to " + target.Name);
+        if (spawnFloatingText)
+            target.UiHandler.SpawnFloatingText(target.UiHandler.NeutralHitFT, damage.ToString());
         if (target.CurrentHP <= 0)
             target.CombatManager.IsDead = true;
     }
-
+    public void UpdateMatchElement(Match match)
+    {
+        attackElementID = (int)match.Element.Element;
+    }
     public void CorrectHPAmount()
     {
         if (owner.CurrentHP > owner.Fighter.HP)
@@ -148,6 +157,4 @@ public class CombatManager : MonoBehaviour
         owner.CombatManager.IsBlocking = false;
         owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = false;
     }
-
-
 }

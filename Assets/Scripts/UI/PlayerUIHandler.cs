@@ -7,6 +7,14 @@ public class PlayerUIHandler : MonoBehaviour
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
 
+    [Header("Floating Text")]
+    [SerializeField] private Transform _overlayCanvas;
+    [SerializeField] private GameObject _floatingTextPrefab;
+    [SerializeField] private Transform _floatingTextSpawnLocation;
+    [SerializeField] private FloatingText _weaknessHitFT;
+    [SerializeField] private FloatingText _neutralHitFT;
+    [SerializeField] private FloatingText _resistanceHitFT;
+
     [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
@@ -18,6 +26,10 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private Gradient _superBarGradient;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
+
+    public FloatingText WeaknessHitFT { get => _weaknessHitFT; set => _weaknessHitFT = value; }
+    public FloatingText NeutralHitFT { get => _neutralHitFT; set => _neutralHitFT = value; }
+    public FloatingText ResistanceHitFT { get => _resistanceHitFT; set => _resistanceHitFT = value; }
 
     private void Start()
     {
@@ -33,6 +45,16 @@ public class PlayerUIHandler : MonoBehaviour
     private void LinkFighterNameText()
     {
         _fighterNameText.text = owner.Fighter.Name;
+    }
+    public void SpawnFloatingText(FloatingText floatingText, string externalText = "")
+    {
+        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
+        TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
+        if (floatingText.IsInternal)
+            text.text = floatingText.Text;
+        else
+            text.text = externalText;
+        text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
     }
     public void LinkHPToHPBar()
     {

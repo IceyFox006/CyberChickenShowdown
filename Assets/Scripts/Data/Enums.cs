@@ -33,5 +33,4 @@ public class Enums : MonoBehaviour
         ImmediateDamage,
         LeechOpponentSuperToHP,
     }
-
 }

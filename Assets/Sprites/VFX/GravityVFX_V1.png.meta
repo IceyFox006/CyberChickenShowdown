@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: de62bbbc5a38bb54aa9c0e1e6ff616e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -546365461033628715
+    second: GravityVFX_V1_0
+  - first:
+      213: -2537639672949513793
+    second: GravityVFX_V1_1
+  - first:
+      213: -1042790227484210323
+    second: GravityVFX_V1_2
+  - first:
+      213: -4917834926476220202
+    second: GravityVFX_V1_3
+  - first:
+      213: -3993044547983556919
+    second: GravityVFX_V1_4
+  - first:
+      213: 8238511731676392264
+    second: GravityVFX_V1_5
+  - first:
+      213: 504208789570716108
+    second: GravityVFX_V1_6
+  - first:
+      213: -951041460553860862
+    second: GravityVFX_V1_7
+  - first:
+      213: -1332634778845559661
+    second: GravityVFX_V1_8
+  - first:
+      213: 8005941457305465355
+    second: GravityVFX_V1_9
+  - first:
+      213: 3292808279622965774
+    second: GravityVFX_V1_10
+  - first:
+      213: -3970131736429735129
+    second: GravityVFX_V1_11
+  - first:
+      213: -5221546159698928381
+    second: GravityVFX_V1_12
+  - first:
+      213: -4602299090250299642
+    second: GravityVFX_V1_13
+  - first:
+      213: -8387165155783104436
+    second: GravityVFX_V1_14
+  - first:
+      213: 7516013661671014617
+    second: GravityVFX_V1_15
+  - first:
+      213: 8748215345740777383
+    second: GravityVFX_V1_16
+  - first:
+      213: -1725711616828207066
+    second: GravityVFX_V1_17
+  - first:
+      213: 8069366779840372190
+    second: GravityVFX_V1_18
+  - first:
+      213: -3067391895181376159
+    second: GravityVFX_V1_19
+  - first:
+      213: -8825534341870345567
+    second: GravityVFX_V1_20
+  - first:
+      213: 1549178075160769141
+    second: GravityVFX_V1_21
+  - first:
+      213: -6539282358155095185
+    second: GravityVFX_V1_22
+  - first:
+      213: -7459272634640663556
+    second: GravityVFX_V1_23
+  - first:
+      213: -6239267974296499017
+    second: GravityVFX_V1_24
+  - first:
+      213: 4033929736776801667
+    second: GravityVFX_V1_25
+  - first:
+      213: 4047991799469681415
+    second: GravityVFX_V1_26
+  - first:
+      213: 219099473716379681
+    second: GravityVFX_V1_27
+  - first:
+      213: 2671323709081219986
+    second: GravityVFX_V1_28
+  - first:
+      213: 2168147150101925115
+    second: GravityVFX_V1_29
+  - first:
+      213: -6586505140430581285
+    second: GravityVFX_V1_30
+  - first:
+      213: 3827797093516400558
+    second: GravityVFX_V1_31
+  - first:
+      213: 3534226076992174099
+    second: GravityVFX_V1_32
+  - first:
+      213: 4410333376045662731
+    second: GravityVFX_V1_33
+  - first:
+      213: 1112885778673300970
+    second: GravityVFX_V1_34
+  - first:
+      213: -7971857022774297076
+    second: GravityVFX_V1_35
+  - first:
+      213: -514998278071458352
+    second: GravityVFX_V1_36
+  - first:
+      213: 6810854755729619486
+    second: GravityVFX_V1_37
+  - first:
+      213: 1376253651531747246
+    second: GravityVFX_V1_38
+  - first:
+      213: 3307935145919267807
+    second: GravityVFX_V1_39
+  - first:
+      213: -461852958319173108
+    second: GravityVFX_V1_40
+  - first:
+      213: -7225340900234172993
+    second: GravityVFX_V1_41
+  - first:
+      213: -9016005354463623587
+    second: GravityVFX_V1_42
+  - first:
+      213: -8665649046968357813
+    second: GravityVFX_V1_43
+  - first:
+      213: -3183335479907831865
+    second: GravityVFX_V1_44
+  - first:
+      213: 883284313313976912
+    second: GravityVFX_V1_45
+  - first:
+      213: 3418431472641776163
+    second: GravityVFX_V1_46
+  - first:
+      213: 6808833126790641358
+    second: GravityVFX_V1_47
+  - first:
+      213: -8899515125670855750
+    second: GravityVFX_V1_48
+  - first:
+      213: 8579579498107826464
+    second: GravityVFX_V1_49
+  - first:
+      213: -2365462831015205769
+    second: GravityVFX_V1_50
+  - first:
+      213: -2561784468562368785
+    second: GravityVFX_V1_51
+  - first:
+      213: -4503019611269853343
+    second: GravityVFX_V1_52
+  - first:
+      213: -1278488939021181593
+    second: GravityVFX_V1_53
+  - first:
+      213: -1219917858505130390
+    second: GravityVFX_V1_54
+  - first:
+      213: 2051345604733716093
+    second: GravityVFX_V1_55
+  - first:
+      213: 8550477777827807129
+    second: GravityVFX_V1_56
+  - first:
+      213: 4047021938241871806
+    second: GravityVFX_V1_57
+  - first:
+      213: 1329101897948081342
+    second: GravityVFX_V1_58
+  - first:
+      213: 3694674768675953923
+    second: GravityVFX_V1_59
+  - first:
+      213: -6000333968989407214
+    second: GravityVFX_V1_60
+  - first:
+      213: 2510295816683873079
+    second: GravityVFX_V1_61
+  - first:
+      213: -1838773201117584838
+    second: GravityVFX_V1_62
+  - first:
+      213: -5189964041691358411
+    second: GravityVFX_V1_63
+  - first:
+      213: -6382403269602804172
+    second: GravityVFX_V1_64
+  - first:
+      213: 593454517416665180
+    second: GravityVFX_V1_65
+  - first:
+      213: -2564737071457356352
+    second: GravityVFX_V1_66
+  - first:
+      213: -630254846474192079
+    second: GravityVFX_V1_67
+  - first:
+      213: 6359774082789044671
+    second: GravityVFX_V1_68
+  - first:
+      213: -2773997161393662724
+    second: GravityVFX_V1_69
+  - first:
+      213: 2581584297596994315
+    second: GravityVFX_V1_70
+  - first:
+      213: -5414806521006304531
+    second: GravityVFX_V1_71
+  - first:
+      213: -3330829930261438952
+    second: GravityVFX_V1_72
+  - first:
+      213: -873688433322504397
+    second: GravityVFX_V1_73
+  - first:
+      213: -607047176170718585
+    second: GravityVFX_V1_74
+  - first:
+      213: -2928883718845369407
+    second: GravityVFX_V1_75
+  - first:
+      213: 2671839282669686264
+    second: GravityVFX_V1_76
+  - first:
+      213: 2037297251328583140
+    second: GravityVFX_V1_77
+  - first:
+      213: 3982789105143433717
+    second: GravityVFX_V1_78
+  - first:
+      213: 791117943895661894
+    second: GravityVFX_V1_79
+  - first:
+      213: -7103693283412960957
+    second: GravityVFX_V1_80
+  - first:
+      213: 4634433367218797678
+    second: GravityVFX_V1_81
+  - first:
+      213: 8716891644948529259
+    second: GravityVFX_V1_82
+  - first:
+      213: -2230623870652658999
+    second: GravityVFX_V1_83
+  - first:
+      213: -8581061383648011245
+    second: GravityVFX_V1_84
+  - first:
+      213: -1849509113970634959
+    second: GravityVFX_V1_85
+  - first:
+      213: 3093171856941609879
+    second: GravityVFX_V1_86
+  - first:
+      213: 5316398124992645485
+    second: GravityVFX_V1_87
+  - first:
+      213: 4700291446030453435
+    second: GravityVFX_V1_88
+  - first:
+      213: -1373134396614089187
+    second: GravityVFX_V1_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GravityVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14040
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db4c89028bea68f0800000000000000
+      internalID: -546365461033628715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12960
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1e7e5992e78ccd0800000000000000
+      internalID: -2537639672949513793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11880
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b0e8320d34781f0800000000000000
+      internalID: -1042790227484210323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10800
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8206fa03750cbb0800000000000000
+      internalID: -4917834926476220202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce3121c32bd598c0800000000000000
+      internalID: -3993044547983556919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ba57c35c2155270800000000000000
+      internalID: 8238511731676392264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc10ef2093f4ff600800000000000000
+      internalID: 504208789570716108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209b40994d83dc2f0800000000000000
+      internalID: -951041460553860862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394449faab7818de0800000000000000
+      internalID: -1332634778845559661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02f34f8651da1f60800000000000000
+      internalID: 8005941457305465355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a546c2fa762bd20800000000000000
+      internalID: 3292808279622965774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723d99a683247e8c0800000000000000
+      internalID: -3970131736429735129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d17d4ce675987b0800000000000000
+      internalID: -5221546159698928381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GravityVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60707878c595120c0800000000000000
+      internalID: -4602299090250299642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a3e08e61ce4b614b84d2bcc76abe939
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GravityVFX_V1_0: -546365461033628715
+      GravityVFX_V1_1: -2537639672949513793
+      GravityVFX_V1_10: 3292808279622965774
+      GravityVFX_V1_11: -3970131736429735129
+      GravityVFX_V1_12: -5221546159698928381
+      GravityVFX_V1_13: -4602299090250299642
+      GravityVFX_V1_2: -1042790227484210323
+      GravityVFX_V1_3: -4917834926476220202
+      GravityVFX_V1_4: -3993044547983556919
+      GravityVFX_V1_5: 8238511731676392264
+      GravityVFX_V1_6: 504208789570716108
+      GravityVFX_V1_7: -951041460553860862
+      GravityVFX_V1_8: -1332634778845559661
+      GravityVFX_V1_9: 8005941457305465355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
