@@ -1,0 +1,4537 @@
+fileFormatVersion: 2
+guid: f9be18ba3cc7351409e1b1eb5dc994a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1942315656808829775
+    second: HackVFX_V1_0
+  - first:
+      213: 4470981782903296597
+    second: HackVFX_V1_1
+  - first:
+      213: -3591514033416985268
+    second: HackVFX_V1_2
+  - first:
+      213: -9188074934219755285
+    second: HackVFX_V1_3
+  - first:
+      213: 9073767566812171664
+    second: HackVFX_V1_4
+  - first:
+      213: 6933618254588091745
+    second: HackVFX_V1_5
+  - first:
+      213: -8868052038052658117
+    second: HackVFX_V1_6
+  - first:
+      213: 4194634786680581934
+    second: HackVFX_V1_7
+  - first:
+      213: -7458206579817110854
+    second: HackVFX_V1_8
+  - first:
+      213: 6105985892652921755
+    second: HackVFX_V1_9
+  - first:
+      213: 550071556343106193
+    second: HackVFX_V1_10
+  - first:
+      213: -2789339674084065187
+    second: HackVFX_V1_11
+  - first:
+      213: -4639877180199237455
+    second: HackVFX_V1_12
+  - first:
+      213: -4100002890706115361
+    second: HackVFX_V1_13
+  - first:
+      213: 4019885786693709489
+    second: HackVFX_V1_14
+  - first:
+      213: -3448703751787635389
+    second: HackVFX_V1_15
+  - first:
+      213: 7606915248854223034
+    second: HackVFX_V1_16
+  - first:
+      213: 8388346677700903345
+    second: HackVFX_V1_17
+  - first:
+      213: -8882860777163406875
+    second: HackVFX_V1_18
+  - first:
+      213: 1582316231489623855
+    second: HackVFX_V1_19
+  - first:
+      213: -3622578050362121666
+    second: HackVFX_V1_20
+  - first:
+      213: -1215913319296929259
+    second: HackVFX_V1_21
+  - first:
+      213: 771678758058991528
+    second: HackVFX_V1_22
+  - first:
+      213: -5911461843393899079
+    second: HackVFX_V1_23
+  - first:
+      213: -8576287709123269418
+    second: HackVFX_V1_24
+  - first:
+      213: -5192073146943588336
+    second: HackVFX_V1_25
+  - first:
+      213: -659971700818766994
+    second: HackVFX_V1_26
+  - first:
+      213: -3687212225895060639
+    second: HackVFX_V1_27
+  - first:
+      213: 931924590358542923
+    second: HackVFX_V1_28
+  - first:
+      213: -8370527998506604750
+    second: HackVFX_V1_29
+  - first:
+      213: 6514729037662830035
+    second: HackVFX_V1_30
+  - first:
+      213: -8734435026028912833
+    second: HackVFX_V1_31
+  - first:
+      213: 5575990846357929779
+    second: HackVFX_V1_32
+  - first:
+      213: 5114180841705274374
+    second: HackVFX_V1_33
+  - first:
+      213: -8921782285513782067
+    second: HackVFX_V1_34
+  - first:
+      213: -1964798820023711647
+    second: HackVFX_V1_35
+  - first:
+      213: -3372147592484141188
+    second: HackVFX_V1_36
+  - first:
+      213: 3656340013552152485
+    second: HackVFX_V1_37
+  - first:
+      213: -5198828443886230063
+    second: HackVFX_V1_38
+  - first:
+      213: -520847972043254969
+    second: HackVFX_V1_39
+  - first:
+      213: 2508362903755282378
+    second: HackVFX_V1_40
+  - first:
+      213: -9109528673500892536
+    second: HackVFX_V1_41
+  - first:
+      213: -9140054279531707797
+    second: HackVFX_V1_42
+  - first:
+      213: 3875316884255478341
+    second: HackVFX_V1_43
+  - first:
+      213: 6034255293038852977
+    second: HackVFX_V1_44
+  - first:
+      213: -8108301212374130505
+    second: HackVFX_V1_45
+  - first:
+      213: 4339109348458673017
+    second: HackVFX_V1_46
+  - first:
+      213: -2800987386335317160
+    second: HackVFX_V1_47
+  - first:
+      213: -4068997000154655961
+    second: HackVFX_V1_48
+  - first:
+      213: 6348062577756000501
+    second: HackVFX_V1_49
+  - first:
+      213: 8067631054817659356
+    second: HackVFX_V1_50
+  - first:
+      213: -6542239620681233519
+    second: HackVFX_V1_51
+  - first:
+      213: -1406656521249195213
+    second: HackVFX_V1_52
+  - first:
+      213: 7113633596484028615
+    second: HackVFX_V1_53
+  - first:
+      213: 4443891480597627714
+    second: HackVFX_V1_54
+  - first:
+      213: 8766409199391748492
+    second: HackVFX_V1_55
+  - first:
+      213: -5760677369757491342
+    second: HackVFX_V1_56
+  - first:
+      213: 1124931936767103360
+    second: HackVFX_V1_57
+  - first:
+      213: -1930059875326826205
+    second: HackVFX_V1_58
+  - first:
+      213: -15593628706837727
+    second: HackVFX_V1_59
+  - first:
+      213: 55335592030898418
+    second: HackVFX_V1_60
+  - first:
+      213: -5446587737103636673
+    second: HackVFX_V1_61
+  - first:
+      213: 6974182462502587165
+    second: HackVFX_V1_62
+  - first:
+      213: -2946603311659856535
+    second: HackVFX_V1_63
+  - first:
+      213: 8129692778968742231
+    second: HackVFX_V1_64
+  - first:
+      213: 1942072066946635015
+    second: HackVFX_V1_65
+  - first:
+      213: 6090377771023221740
+    second: HackVFX_V1_66
+  - first:
+      213: -7814155313475741006
+    second: HackVFX_V1_67
+  - first:
+      213: -4238512342513971857
+    second: HackVFX_V1_68
+  - first:
+      213: -1430158497567471896
+    second: HackVFX_V1_69
+  - first:
+      213: 3819929482713965735
+    second: HackVFX_V1_70
+  - first:
+      213: 3053901782921522071
+    second: HackVFX_V1_71
+  - first:
+      213: 860034403394516277
+    second: HackVFX_V1_72
+  - first:
+      213: -5477754551702083316
+    second: HackVFX_V1_73
+  - first:
+      213: -932461984789506203
+    second: HackVFX_V1_74
+  - first:
+      213: 3352107725023021910
+    second: HackVFX_V1_75
+  - first:
+      213: -770719188164813519
+    second: HackVFX_V1_76
+  - first:
+      213: -7337874846517641911
+    second: HackVFX_V1_77
+  - first:
+      213: 5670262546345603250
+    second: HackVFX_V1_78
+  - first:
+      213: 7027961431154687667
+    second: HackVFX_V1_79
+  - first:
+      213: 1442475046351794310
+    second: HackVFX_V1_80
+  - first:
+      213: -2274716932598778711
+    second: HackVFX_V1_81
+  - first:
+      213: -2726047875455207273
+    second: HackVFX_V1_82
+  - first:
+      213: -6790813423517950611
+    second: HackVFX_V1_83
+  - first:
+      213: 1909998814281491482
+    second: HackVFX_V1_84
+  - first:
+      213: 7089978271129412317
+    second: HackVFX_V1_85
+  - first:
+      213: -5455270113305082166
+    second: HackVFX_V1_86
+  - first:
+      213: -7597757634910495412
+    second: HackVFX_V1_87
+  - first:
+      213: -1829138377512043063
+    second: HackVFX_V1_88
+  - first:
+      213: 5140780042453446676
+    second: HackVFX_V1_89
+  - first:
+      213: 3115015536335482669
+    second: HackVFX_V1_90
+  - first:
+      213: -3158291769321391493
+    second: HackVFX_V1_91
+  - first:
+      213: -7045265482409004956
+    second: HackVFX_V1_92
+  - first:
+      213: 319423683189918029
+    second: HackVFX_V1_93
+  - first:
+      213: -8842977677661330990
+    second: HackVFX_V1_94
+  - first:
+      213: -8089179076091042220
+    second: HackVFX_V1_95
+  - first:
+      213: 2506969570027765051
+    second: HackVFX_V1_96
+  - first:
+      213: 929013659936606535
+    second: HackVFX_V1_97
+  - first:
+      213: -3377270370825737883
+    second: HackVFX_V1_98
+  - first:
+      213: 5584376949951803474
+    second: HackVFX_V1_99
+  - first:
+      213: 886862443075298821
+    second: HackVFX_V1_100
+  - first:
+      213: -1083577114265133802
+    second: HackVFX_V1_101
+  - first:
+      213: 6701253027875070015
+    second: HackVFX_V1_102
+  - first:
+      213: 1763829879156886259
+    second: HackVFX_V1_103
+  - first:
+      213: 8478365372755144175
+    second: HackVFX_V1_104
+  - first:
+      213: -4347118688551285914
+    second: HackVFX_V1_105
+  - first:
+      213: 3882814144507195063
+    second: HackVFX_V1_106
+  - first:
+      213: -3367094488409144546
+    second: HackVFX_V1_107
+  - first:
+      213: -5291111060389294192
+    second: HackVFX_V1_108
+  - first:
+      213: 4688812188460502520
+    second: HackVFX_V1_109
+  - first:
+      213: 1814410859275531810
+    second: HackVFX_V1_110
+  - first:
+      213: -3340486423170253162
+    second: HackVFX_V1_111
+  - first:
+      213: -7035150473300786177
+    second: HackVFX_V1_112
+  - first:
+      213: 1999201676104344334
+    second: HackVFX_V1_113
+  - first:
+      213: -4171751912921314548
+    second: HackVFX_V1_114
+  - first:
+      213: -5150334480007932716
+    second: HackVFX_V1_115
+  - first:
+      213: 6605399838476569076
+    second: HackVFX_V1_116
+  - first:
+      213: 2706455399218560985
+    second: HackVFX_V1_117
+  - first:
+      213: 8711522580936576321
+    second: HackVFX_V1_118
+  - first:
+      213: -2215858430607638711
+    second: HackVFX_V1_119
+  - first:
+      213: -4886352782601455220
+    second: HackVFX_V1_120
+  - first:
+      213: 7754743191135368988
+    second: HackVFX_V1_121
+  - first:
+      213: -6758475359566283800
+    second: HackVFX_V1_122
+  - first:
+      213: -4009028303431558934
+    second: HackVFX_V1_123
+  - first:
+      213: -8073228772208299776
+    second: HackVFX_V1_124
+  - first:
+      213: 7709271575358076257
+    second: HackVFX_V1_125
+  - first:
+      213: 8634914165019565044
+    second: HackVFX_V1_126
+  - first:
+      213: -8564784110991257732
+    second: HackVFX_V1_127
+  - first:
+      213: -2359299167523187245
+    second: HackVFX_V1_128
+  - first:
+      213: 3063297674350505854
+    second: HackVFX_V1_129
+  - first:
+      213: -5019600216663300220
+    second: HackVFX_V1_130
+  - first:
+      213: 5779555385157877950
+    second: HackVFX_V1_131
+  - first:
+      213: -1078920692007537335
+    second: HackVFX_V1_132
+  - first:
+      213: -4505923167224468266
+    second: HackVFX_V1_133
+  - first:
+      213: 8718448208728519740
+    second: HackVFX_V1_134
+  - first:
+      213: -346120273462058134
+    second: HackVFX_V1_135
+  - first:
+      213: 3352775258211168409
+    second: HackVFX_V1_136
+  - first:
+      213: -7401358757054421733
+    second: HackVFX_V1_137
+  - first:
+      213: 1254198559354573095
+    second: HackVFX_V1_138
+  - first:
+      213: 6559945331900472635
+    second: HackVFX_V1_139
+  - first:
+      213: 8959358102718999669
+    second: HackVFX_V1_140
+  - first:
+      213: 1379448371631652886
+    second: HackVFX_V1_141
+  - first:
+      213: 3268136955195635283
+    second: HackVFX_V1_142
+  - first:
+      213: -9055227236659887017
+    second: HackVFX_V1_143
+  - first:
+      213: -6751406788711809242
+    second: HackVFX_V1_144
+  - first:
+      213: 4663153172845423706
+    second: HackVFX_V1_145
+  - first:
+      213: 6068022375866256374
+    second: HackVFX_V1_146
+  - first:
+      213: -1201744109736545678
+    second: HackVFX_V1_147
+  - first:
+      213: -2945749377289212415
+    second: HackVFX_V1_148
+  - first:
+      213: 7662241037170860538
+    second: HackVFX_V1_149
+  - first:
+      213: 4244934877068187420
+    second: HackVFX_V1_150
+  - first:
+      213: -734396097121539333
+    second: HackVFX_V1_151
+  - first:
+      213: -4879757586811760364
+    second: HackVFX_V1_152
+  - first:
+      213: 6769725369762755252
+    second: HackVFX_V1_153
+  - first:
+      213: 4025175198158760552
+    second: HackVFX_V1_154
+  - first:
+      213: -1164147171063245451
+    second: HackVFX_V1_155
+  - first:
+      213: -7145217863094262937
+    second: HackVFX_V1_156
+  - first:
+      213: -2628123067707782982
+    second: HackVFX_V1_157
+  - first:
+      213: -9016232308156390979
+    second: HackVFX_V1_158
+  - first:
+      213: 1255299415831846317
+    second: HackVFX_V1_159
+  - first:
+      213: 7783881617782925885
+    second: HackVFX_V1_160
+  - first:
+      213: 6441015210551850061
+    second: HackVFX_V1_161
+  - first:
+      213: -3506846510951697930
+    second: HackVFX_V1_162
+  - first:
+      213: -3238226471803943155
+    second: HackVFX_V1_163
+  - first:
+      213: -3013589662353999625
+    second: HackVFX_V1_164
+  - first:
+      213: 5396425548697726882
+    second: HackVFX_V1_165
+  - first:
+      213: -4751940709450982079
+    second: HackVFX_V1_166
+  - first:
+      213: 5835222986915827694
+    second: HackVFX_V1_167
+  - first:
+      213: 4098740597787775400
+    second: HackVFX_V1_168
+  - first:
+      213: -4792795395572148281
+    second: HackVFX_V1_169
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HackVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 3901
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4315cd8ccd74fa10800000000000000
+      internalID: 1942315656808829775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 3996
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55291374e3e1c0e30800000000000000
+      internalID: 4470981782903296597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 6029
+        y: 3901
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45a958e301682ec0800000000000000
+      internalID: -3591514033416985268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 6215
+        y: 3996
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0392027866d7080800000000000000
+      internalID: -9188074934219755285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 3966
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dcc42f68f7ced70800000000000000
+      internalID: 9073767566812171664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 9869
+        y: 3901
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d13e01119293060800000000000000
+      internalID: 6933618254588091745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 10055
+        y: 3996
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34413608a95ee480800000000000000
+      internalID: -8868052038052658117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 10072
+        y: 3966
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fa7964d16563a30800000000000000
+      internalID: 4194634786680581934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 13709
+        y: 3901
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2258481a02f7890800000000000000
+      internalID: -7458206579817110854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 13895
+        y: 3996
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93bf1781d1dcb450800000000000000
+      internalID: 6105985892652921755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 13912
+        y: 3966
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a80e48a2f32a700800000000000000
+      internalID: 550071556343106193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 6267
+        y: 3931
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c05058564a49d0800000000000000
+      internalID: -2789339674084065187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 3931
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b888c8a948db9fb0800000000000000
+      internalID: -4639877180199237455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 10121
+        y: 3900
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd42369f71dd917c0800000000000000
+      internalID: -4100002890706115361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 13947
+        y: 3931
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be258123d089c730800000000000000
+      internalID: 4019885786693709489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_15
+      rect:
+        serializedVersion: 2
+        x: 13961
+        y: 3900
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d1423b53eb320d0800000000000000
+      internalID: -3448703751787635389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_16
+      rect:
+        serializedVersion: 2
+        x: 10161
+        y: 3866
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8457c9d11319960800000000000000
+      internalID: 7606915248854223034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_17
+      rect:
+        serializedVersion: 2
+        x: 14001
+        y: 3866
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c0392cd4696470800000000000000
+      internalID: 8388346677700903345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_18
+      rect:
+        serializedVersion: 2
+        x: 10021
+        y: 3543
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1cce3cf2db9b480800000000000000
+      internalID: -8882860777163406875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_19
+      rect:
+        serializedVersion: 2
+        x: 13861
+        y: 3543
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f271644aa3485f510800000000000000
+      internalID: 1582316231489623855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_20
+      rect:
+        serializedVersion: 2
+        x: 13905
+        y: 3581
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32e909d4740abdc0800000000000000
+      internalID: -3622578050362121666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_21
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 2821
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f3ad3745302fe0800000000000000
+      internalID: -1215913319296929259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_22
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 2916
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af12deedbd85ba00800000000000000
+      internalID: 771678758058991528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_23
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 2886
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b51b3116c446fda0800000000000000
+      internalID: -5911461843393899079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_24
+      rect:
+        serializedVersion: 2
+        x: 6029
+        y: 2821
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dca82684c7eaf880800000000000000
+      internalID: -8576287709123269418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_25
+      rect:
+        serializedVersion: 2
+        x: 6215
+        y: 2916
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018359c4bfc02f7b0800000000000000
+      internalID: -5192073146943588336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_26
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 2886
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6313ea1c3f47d6f0800000000000000
+      internalID: -659971700818766994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_27
+      rect:
+        serializedVersion: 2
+        x: 9869
+        y: 2821
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b2c08240464dcc0800000000000000
+      internalID: -3687212225895060639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_28
+      rect:
+        serializedVersion: 2
+        x: 10055
+        y: 2916
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab5c53a7cdeec00800000000000000
+      internalID: 931924590358542923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_29
+      rect:
+        serializedVersion: 2
+        x: 10072
+        y: 2886
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2376d826229e5db80800000000000000
+      internalID: -8370527998506604750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_30
+      rect:
+        serializedVersion: 2
+        x: 13709
+        y: 2821
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb0d11b87f86a50800000000000000
+      internalID: 6514729037662830035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_31
+      rect:
+        serializedVersion: 2
+        x: 13895
+        y: 2916
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f11dfee9d09c680800000000000000
+      internalID: -8734435026028912833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_32
+      rect:
+        serializedVersion: 2
+        x: 13912
+        y: 2886
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7ef3c126e16d40800000000000000
+      internalID: 5575990846357929779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_33
+      rect:
+        serializedVersion: 2
+        x: 14247
+        y: 2894
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c73f2216839f640800000000000000
+      internalID: 5114180841705274374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_34
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 2851
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc049ce7467f2480800000000000000
+      internalID: -8921782285513782067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_35
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 2820
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168416512e1abb4e0800000000000000
+      internalID: -1964798820023711647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_36
+      rect:
+        serializedVersion: 2
+        x: 6267
+        y: 2851
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c774bcb81a9b331d0800000000000000
+      internalID: -3372147592484141188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_37
+      rect:
+        serializedVersion: 2
+        x: 6281
+        y: 2820
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afa2d5ceddedb230800000000000000
+      internalID: 3656340013552152485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_38
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 2851
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5e6f9231d0ad7b0800000000000000
+      internalID: -5198828443886230063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_39
+      rect:
+        serializedVersion: 2
+        x: 10121
+        y: 2820
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743116c678395c8f0800000000000000
+      internalID: -520847972043254969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_40
+      rect:
+        serializedVersion: 2
+        x: 10334
+        y: 2817
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7d91665ce7fc220800000000000000
+      internalID: 2508362903755282378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_41
+      rect:
+        serializedVersion: 2
+        x: 10385
+        y: 2858
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8827eb09fe3749180800000000000000
+      internalID: -9109528673500892536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_42
+      rect:
+        serializedVersion: 2
+        x: 13947
+        y: 2851
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6249b01f01082180800000000000000
+      internalID: -9140054279531707797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_43
+      rect:
+        serializedVersion: 2
+        x: 13961
+        y: 2820
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5421f168c24e7c530800000000000000
+      internalID: 3875316884255478341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_44
+      rect:
+        serializedVersion: 2
+        x: 14174
+        y: 2817
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bf999d73bfdb350800000000000000
+      internalID: 6034255293038852977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_45
+      rect:
+        serializedVersion: 2
+        x: 14189
+        y: 2841
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b02298c107897f80800000000000000
+      internalID: -8108301212374130505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_46
+      rect:
+        serializedVersion: 2
+        x: 14225
+        y: 2858
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973b47c76fc973c30800000000000000
+      internalID: 4339109348458673017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_47
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 2786
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8533229ffc4e029d0800000000000000
+      internalID: -2800987386335317160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_48
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2743
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723d6ad69c40887c0800000000000000
+      internalID: -4068997000154655961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_49
+      rect:
+        serializedVersion: 2
+        x: 6321
+        y: 2786
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0d81fe749d81850800000000000000
+      internalID: 6348062577756000501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_50
+      rect:
+        serializedVersion: 2
+        x: 6340
+        y: 2743
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9015143bbf5ff60800000000000000
+      internalID: 8067631054817659356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_51
+      rect:
+        serializedVersion: 2
+        x: 6424
+        y: 2747
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b0fcd2abb4535a0800000000000000
+      internalID: -6542239620681233519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_52
+      rect:
+        serializedVersion: 2
+        x: 6450
+        y: 2776
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b74f1c85d8a7ce0800000000000000
+      internalID: -1406656521249195213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_53
+      rect:
+        serializedVersion: 2
+        x: 10161
+        y: 2786
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c807bcf014b8b260800000000000000
+      internalID: 7113633596484028615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_54
+      rect:
+        serializedVersion: 2
+        x: 10180
+        y: 2743
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2430861c1cfdbad30800000000000000
+      internalID: 4443891480597627714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_55
+      rect:
+        serializedVersion: 2
+        x: 10264
+        y: 2747
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81367d68ba88a970800000000000000
+      internalID: 8766409199391748492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_56
+      rect:
+        serializedVersion: 2
+        x: 10290
+        y: 2776
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f19fd1476fd00b0800000000000000
+      internalID: -5760677369757491342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_57
+      rect:
+        serializedVersion: 2
+        x: 14001
+        y: 2786
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081de77e2af8c9f00800000000000000
+      internalID: 1124931936767103360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_58
+      rect:
+        serializedVersion: 2
+        x: 14020
+        y: 2743
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e8efe4cc0735e0800000000000000
+      internalID: -1930059875326826205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_59
+      rect:
+        serializedVersion: 2
+        x: 14104
+        y: 2747
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b6b246da998cff0800000000000000
+      internalID: -15593628706837727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_60
+      rect:
+        serializedVersion: 2
+        x: 14130
+        y: 2776
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f800728d6794c000800000000000000
+      internalID: 55335592030898418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_61
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 2612
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3760f37f45d964b0800000000000000
+      internalID: -5446587737103636673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_62
+      rect:
+        serializedVersion: 2
+        x: 6343
+        y: 2612
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc934bff549c060800000000000000
+      internalID: 6974182462502587165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_63
+      rect:
+        serializedVersion: 2
+        x: 6371
+        y: 2664
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d468a56ef8b17d0800000000000000
+      internalID: -2946603311659856535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_64
+      rect:
+        serializedVersion: 2
+        x: 10183
+        y: 2612
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7597d7f628872d070800000000000000
+      internalID: 8129692778968742231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_65
+      rect:
+        serializedVersion: 2
+        x: 10211
+        y: 2664
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705109e5140a3fa10800000000000000
+      internalID: 1942072066946635015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_66
+      rect:
+        serializedVersion: 2
+        x: 10254
+        y: 2611
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce346c5805e558450800000000000000
+      internalID: 6090377771023221740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_67
+      rect:
+        serializedVersion: 2
+        x: 14023
+        y: 2612
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba1c80c42b8e8390800000000000000
+      internalID: -7814155313475741006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_68
+      rect:
+        serializedVersion: 2
+        x: 14051
+        y: 2664
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d88582b77cd25c0800000000000000
+      internalID: -4238512342513971857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_69
+      rect:
+        serializedVersion: 2
+        x: 14094
+        y: 2611
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e60cfb7c6e072ce0800000000000000
+      internalID: -1430158497567471896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_70
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 2551
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4253c20ad130530800000000000000
+      internalID: 3819929482713965735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_71
+      rect:
+        serializedVersion: 2
+        x: 6285
+        y: 2551
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b28f5cd73a16a20800000000000000
+      internalID: 3053901782921522071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_72
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 2581
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535f1f4bbb47feb00800000000000000
+      internalID: 860034403394516277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_73
+      rect:
+        serializedVersion: 2
+        x: 10125
+        y: 2551
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a403f14b1bf3b0800000000000000
+      internalID: -5477754551702083316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_74
+      rect:
+        serializedVersion: 2
+        x: 10145
+        y: 2581
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567d016e3ca3f03f0800000000000000
+      internalID: -932461984789506203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_75
+      rect:
+        serializedVersion: 2
+        x: 10297
+        y: 2571
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b07d63734158e20800000000000000
+      internalID: 3352107725023021910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_76
+      rect:
+        serializedVersion: 2
+        x: 10314
+        y: 2534
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ddbd75bfadd45f0800000000000000
+      internalID: -770719188164813519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_77
+      rect:
+        serializedVersion: 2
+        x: 13965
+        y: 2551
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dba0f64b1aa2a90800000000000000
+      internalID: -7337874846517641911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_78
+      rect:
+        serializedVersion: 2
+        x: 13985
+        y: 2581
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0b12a5eb1d0be40800000000000000
+      internalID: 5670262546345603250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_79
+      rect:
+        serializedVersion: 2
+        x: 14137
+        y: 2571
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3befe179fa5588160800000000000000
+      internalID: 7027961431154687667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_80
+      rect:
+        serializedVersion: 2
+        x: 14154
+        y: 2534
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680f92f7963b40410800000000000000
+      internalID: 1442475046351794310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_81
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2501
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a432e370059e60e0800000000000000
+      internalID: -2274716932598778711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_82
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2525
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798b8c686e12b2ad0800000000000000
+      internalID: -2726047875455207273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_83
+      rect:
+        serializedVersion: 2
+        x: 6225
+        y: 2501
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d124bab2f22c1a0800000000000000
+      internalID: -6790813423517950611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_84
+      rect:
+        serializedVersion: 2
+        x: 6243
+        y: 2525
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a146aae4dcda18a10800000000000000
+      internalID: 1909998814281491482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_85
+      rect:
+        serializedVersion: 2
+        x: 10065
+        y: 2501
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd228eb5ca9a46260800000000000000
+      internalID: 7089978271129412317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_86
+      rect:
+        serializedVersion: 2
+        x: 10083
+        y: 2525
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac645a63cbcfa44b0800000000000000
+      internalID: -5455270113305082166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_87
+      rect:
+        serializedVersion: 2
+        x: 13905
+        y: 2501
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dd5a98fa75f8690800000000000000
+      internalID: -7597757634910495412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_88
+      rect:
+        serializedVersion: 2
+        x: 13923
+        y: 2525
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd3c5b36589d96e0800000000000000
+      internalID: -1829138377512043063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_89
+      rect:
+        serializedVersion: 2
+        x: 14201
+        y: 2495
+        width: 17
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410fada2638b75740800000000000000
+      internalID: 5140780042453446676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_90
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 2463
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f69115022ca3b20800000000000000
+      internalID: 3115015536335482669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_91
+      rect:
+        serializedVersion: 2
+        x: 6181
+        y: 2463
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7afe808e5e7b24d0800000000000000
+      internalID: -3158291769321391493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_92
+      rect:
+        serializedVersion: 2
+        x: 10021
+        y: 2463
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460b0b40f503a3e90800000000000000
+      internalID: -7045265482409004956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_93
+      rect:
+        serializedVersion: 2
+        x: 13861
+        y: 2463
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49c161c522de6400800000000000000
+      internalID: 319423683189918029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_94
+      rect:
+        serializedVersion: 2
+        x: 14219
+        y: 2470
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1a94e77ae674580800000000000000
+      internalID: -8842977677661330990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_95
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1836
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45622151d767dbf80800000000000000
+      internalID: -8089179076091042220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_96
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1806
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3df73c9a8b8ac220800000000000000
+      internalID: 2506969570027765051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_97
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1815
+        width: 14
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749c108600584ec00800000000000000
+      internalID: 929013659936606535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_98
+      rect:
+        serializedVersion: 2
+        x: 10055
+        y: 1836
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569ea74cd768121d0800000000000000
+      internalID: -3377270370825737883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_99
+      rect:
+        serializedVersion: 2
+        x: 10072
+        y: 1806
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250b1c9af31bf7d40800000000000000
+      internalID: 5584376949951803474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_100
+      rect:
+        serializedVersion: 2
+        x: 10409
+        y: 1815
+        width: 14
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506632471b4ce4c00800000000000000
+      internalID: 886862443075298821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_101
+      rect:
+        serializedVersion: 2
+        x: 13895
+        y: 1848
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ddb790b5c56f0f0800000000000000
+      internalID: -1083577114265133802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_102
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1771
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f302184cf12affc50800000000000000
+      internalID: 6701253027875070015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_103
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1740
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3facd5f0ee16a7810800000000000000
+      internalID: 1763829879156886259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_104
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 1737
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedea0fd26439a570800000000000000
+      internalID: 8478365372755144175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_105
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 1761
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b4074b59eeba3c0800000000000000
+      internalID: -4347118688551285914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_106
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 1778
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bea63474e682e530800000000000000
+      internalID: 3882814144507195063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_107
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 1771
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e138235076da541d0800000000000000
+      internalID: -3367094488409144546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_108
+      rect:
+        serializedVersion: 2
+        x: 10121
+        y: 1740
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f0b5a26823296b0800000000000000
+      internalID: -5291111060389294192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_109
+      rect:
+        serializedVersion: 2
+        x: 10334
+        y: 1737
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdc5bfc7d1021140800000000000000
+      internalID: 4688812188460502520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_110
+      rect:
+        serializedVersion: 2
+        x: 10349
+        y: 1761
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226bab730151e2910800000000000000
+      internalID: 1814410859275531810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_111
+      rect:
+        serializedVersion: 2
+        x: 10385
+        y: 1778
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69efbe9fb4534a1d0800000000000000
+      internalID: -3340486423170253162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_112
+      rect:
+        serializedVersion: 2
+        x: 13599
+        y: 1699
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff34c791bef1e5e90800000000000000
+      internalID: -7035150473300786177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_113
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1647
+        width: 59
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03a09a05579ebb10800000000000000
+      internalID: 1999201676104344334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_114
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1706
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bc443fcb5fa16c0800000000000000
+      internalID: -4171751912921314548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_115
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1663
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d45eacf3165688b0800000000000000
+      internalID: -5150334480007932716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_116
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 1667
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f981dbf7281bab50800000000000000
+      internalID: 6605399838476569076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_117
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1696
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df3cde98d24f8520800000000000000
+      internalID: 2706455399218560985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_118
+      rect:
+        serializedVersion: 2
+        x: 5971
+        y: 1636
+        width: 100
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dc489b1ab85e870800000000000000
+      internalID: 8711522580936576321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_119
+      rect:
+        serializedVersion: 2
+        x: 9811
+        y: 1636
+        width: 100
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fb31b5f70bf31e0800000000000000
+      internalID: -2215858430607638711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_120
+      rect:
+        serializedVersion: 2
+        x: 10161
+        y: 1706
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c897cc18800303cb0800000000000000
+      internalID: -4886352782601455220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_121
+      rect:
+        serializedVersion: 2
+        x: 10180
+        y: 1663
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17b00098d16e9b60800000000000000
+      internalID: 7754743191135368988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_122
+      rect:
+        serializedVersion: 2
+        x: 10264
+        y: 1667
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb32d9e7721532a0800000000000000
+      internalID: -6758475359566283800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_123
+      rect:
+        serializedVersion: 2
+        x: 10290
+        y: 1696
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8997faff11d58c0800000000000000
+      internalID: -4009028303431558934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_124
+      rect:
+        serializedVersion: 2
+        x: 14017
+        y: 1534
+        width: 130
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001bf0a943126ff80800000000000000
+      internalID: -8073228772208299776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_125
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1532
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165fb3ef6a5dcfa60800000000000000
+      internalID: 7709271575358076257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_126
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 1584
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbdaffeea065d770800000000000000
+      internalID: 8634914165019565044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_127
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 1531
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fc47eaa36c32980800000000000000
+      internalID: -8564784110991257732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_128
+      rect:
+        serializedVersion: 2
+        x: 10183
+        y: 1532
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5d7e048e5124fd0800000000000000
+      internalID: -2359299167523187245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_129
+      rect:
+        serializedVersion: 2
+        x: 10211
+        y: 1584
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f21f83105038a20800000000000000
+      internalID: 3063297674350505854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_130
+      rect:
+        serializedVersion: 2
+        x: 10254
+        y: 1531
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876f4ba23cc65ab0800000000000000
+      internalID: -5019600216663300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_131
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1471
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0080c500b153050800000000000000
+      internalID: 5779555385157877950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_132
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1501
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9457214d857e601f0800000000000000
+      internalID: -1078920692007537335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_133
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1491
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce168b0ceb771c0800000000000000
+      internalID: -4505923167224468266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_134
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1454
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3477e914762ef870800000000000000
+      internalID: 8718448208728519740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_135
+      rect:
+        serializedVersion: 2
+        x: 10125
+        y: 1471
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63abb2f175523bf0800000000000000
+      internalID: -346120273462058134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_136
+      rect:
+        serializedVersion: 2
+        x: 10145
+        y: 1501
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99035656553778e20800000000000000
+      internalID: 3352775258211168409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_137
+      rect:
+        serializedVersion: 2
+        x: 10297
+        y: 1491
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b156b8eac67194990800000000000000
+      internalID: -7401358757054421733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_138
+      rect:
+        serializedVersion: 2
+        x: 10314
+        y: 1454
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d228d1fec76110800000000000000
+      internalID: 1254198559354573095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_139
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1421
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dd8e5f58b990b50800000000000000
+      internalID: 6559945331900472635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_140
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 1445
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c6518c9b8065c70800000000000000
+      internalID: 8959358102718999669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_141
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1415
+        width: 17
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61088114cf8c42310800000000000000
+      internalID: 1379448371631652886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_142
+      rect:
+        serializedVersion: 2
+        x: 10065
+        y: 1421
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35633c3de31ca5d20800000000000000
+      internalID: 3268136955195635283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_143
+      rect:
+        serializedVersion: 2
+        x: 10083
+        y: 1445
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754027e0ece555280800000000000000
+      internalID: -9055227236659887017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_144
+      rect:
+        serializedVersion: 2
+        x: 10361
+        y: 1415
+        width: 17
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ffba0db4f2e42a0800000000000000
+      internalID: -6751406788711809242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_145
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1383
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cefa0ba19d6b040800000000000000
+      internalID: 4663153172845423706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_146
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1390
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb41aa7332f53450800000000000000
+      internalID: 6068022375866256374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_147
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 1363
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2723c3c691c825fe0800000000000000
+      internalID: -1201744109736545678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_148
+      rect:
+        serializedVersion: 2
+        x: 10021
+        y: 1383
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e29517c889e17d0800000000000000
+      internalID: -2945749377289212415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_149
+      rect:
+        serializedVersion: 2
+        x: 10379
+        y: 1390
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af16df380afb55a60800000000000000
+      internalID: 7662241037170860538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_150
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 1363
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17d052b7c909ea30800000000000000
+      internalID: 4244934877068187420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_151
+      rect:
+        serializedVersion: 2
+        x: 10043
+        y: 757
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa23a204a6eec5f0800000000000000
+      internalID: -734396097121539333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_152
+      rect:
+        serializedVersion: 2
+        x: 10116
+        y: 807
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4115110345e974cb0800000000000000
+      internalID: -4879757586811760364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_153
+      rect:
+        serializedVersion: 2
+        x: 10303
+        y: 778
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2b8a33b55e2fd50800000000000000
+      internalID: 6769725369762755252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_154
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 768
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a27f4348b4cd730800000000000000
+      internalID: 4025175198158760552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_155
+      rect:
+        serializedVersion: 2
+        x: 6214
+        y: 547
+        width: 182
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575df7ad05e18dfe0800000000000000
+      internalID: -1164147171063245451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_156
+      rect:
+        serializedVersion: 2
+        x: 6429
+        y: 573
+        width: 164
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763ad73e53617dc90800000000000000
+      internalID: -7145217863094262937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_157
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 619
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8844b8ef7078bd0800000000000000
+      internalID: -2628123067707782982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_158
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 355
+        width: 252
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db120fb5c78efd280800000000000000
+      internalID: -9016232308156390979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_159
+      rect:
+        serializedVersion: 2
+        x: 5919
+        y: 619
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad9967fa28bb6110800000000000000
+      internalID: 1255299415831846317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_160
+      rect:
+        serializedVersion: 2
+        x: 9757
+        y: 606
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae4a13717e50c60800000000000000
+      internalID: 7783881617782925885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_161
+      rect:
+        serializedVersion: 2
+        x: 9994
+        y: 631
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44b4d14535136950800000000000000
+      internalID: 6441015210551850061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_162
+      rect:
+        serializedVersion: 2
+        x: 10422
+        y: 669
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1f7e8adad255fc0800000000000000
+      internalID: -3506846510951697930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_163
+      rect:
+        serializedVersion: 2
+        x: 10451
+        y: 549
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d070cd54e228f03d0800000000000000
+      internalID: -3238226471803943155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_164
+      rect:
+        serializedVersion: 2
+        x: 6213
+        y: 263
+        width: 173
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b9943b249d26d0800000000000000
+      internalID: -3013589662353999625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_165
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 256
+        width: 182
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af68fee174f3ea40800000000000000
+      internalID: 5396425548697726882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_166
+      rect:
+        serializedVersion: 2
+        x: 9981
+        y: 462
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dd4730a17bd0eb0800000000000000
+      internalID: -4751940709450982079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_167
+      rect:
+        serializedVersion: 2
+        x: 10444
+        y: 418
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefcf48e360eaf050800000000000000
+      internalID: 5835222986915827694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_168
+      rect:
+        serializedVersion: 2
+        x: 10011
+        y: 271
+        width: 137
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1dc9d8bd6a1e830800000000000000
+      internalID: 4098740597787775400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_169
+      rect:
+        serializedVersion: 2
+        x: 10324
+        y: 257
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c75bc52bf19c7db0800000000000000
+      internalID: -4792795395572148281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HackVFX_V1_0: 1942315656808829775
+      HackVFX_V1_1: 4470981782903296597
+      HackVFX_V1_10: 550071556343106193
+      HackVFX_V1_100: 886862443075298821
+      HackVFX_V1_101: -1083577114265133802
+      HackVFX_V1_102: 6701253027875070015
+      HackVFX_V1_103: 1763829879156886259
+      HackVFX_V1_104: 8478365372755144175
+      HackVFX_V1_105: -4347118688551285914
+      HackVFX_V1_106: 3882814144507195063
+      HackVFX_V1_107: -3367094488409144546
+      HackVFX_V1_108: -5291111060389294192
+      HackVFX_V1_109: 4688812188460502520
+      HackVFX_V1_11: -2789339674084065187
+      HackVFX_V1_110: 1814410859275531810
+      HackVFX_V1_111: -3340486423170253162
+      HackVFX_V1_112: -7035150473300786177
+      HackVFX_V1_113: 1999201676104344334
+      HackVFX_V1_114: -4171751912921314548
+      HackVFX_V1_115: -5150334480007932716
+      HackVFX_V1_116: 6605399838476569076
+      HackVFX_V1_117: 2706455399218560985
+      HackVFX_V1_118: 8711522580936576321
+      HackVFX_V1_119: -2215858430607638711
+      HackVFX_V1_12: -4639877180199237455
+      HackVFX_V1_120: -4886352782601455220
+      HackVFX_V1_121: 7754743191135368988
+      HackVFX_V1_122: -6758475359566283800
+      HackVFX_V1_123: -4009028303431558934
+      HackVFX_V1_124: -8073228772208299776
+      HackVFX_V1_125: 7709271575358076257
+      HackVFX_V1_126: 8634914165019565044
+      HackVFX_V1_127: -8564784110991257732
+      HackVFX_V1_128: -2359299167523187245
+      HackVFX_V1_129: 3063297674350505854
+      HackVFX_V1_13: -4100002890706115361
+      HackVFX_V1_130: -5019600216663300220
+      HackVFX_V1_131: 5779555385157877950
+      HackVFX_V1_132: -1078920692007537335
+      HackVFX_V1_133: -4505923167224468266
+      HackVFX_V1_134: 8718448208728519740
+      HackVFX_V1_135: -346120273462058134
+      HackVFX_V1_136: 3352775258211168409
+      HackVFX_V1_137: -7401358757054421733
+      HackVFX_V1_138: 1254198559354573095
+      HackVFX_V1_139: 6559945331900472635
+      HackVFX_V1_14: 4019885786693709489
+      HackVFX_V1_140: 8959358102718999669
+      HackVFX_V1_141: 1379448371631652886
+      HackVFX_V1_142: 3268136955195635283
+      HackVFX_V1_143: -9055227236659887017
+      HackVFX_V1_144: -6751406788711809242
+      HackVFX_V1_145: 4663153172845423706
+      HackVFX_V1_146: 6068022375866256374
+      HackVFX_V1_147: -1201744109736545678
+      HackVFX_V1_148: -2945749377289212415
+      HackVFX_V1_149: 7662241037170860538
+      HackVFX_V1_15: -3448703751787635389
+      HackVFX_V1_150: 4244934877068187420
+      HackVFX_V1_151: -734396097121539333
+      HackVFX_V1_152: -4879757586811760364
+      HackVFX_V1_153: 6769725369762755252
+      HackVFX_V1_154: 4025175198158760552
+      HackVFX_V1_155: -1164147171063245451
+      HackVFX_V1_156: -7145217863094262937
+      HackVFX_V1_157: -2628123067707782982
+      HackVFX_V1_158: -9016232308156390979
+      HackVFX_V1_159: 1255299415831846317
+      HackVFX_V1_16: 7606915248854223034
+      HackVFX_V1_160: 7783881617782925885
+      HackVFX_V1_161: 6441015210551850061
+      HackVFX_V1_162: -3506846510951697930
+      HackVFX_V1_163: -3238226471803943155
+      HackVFX_V1_164: -3013589662353999625
+      HackVFX_V1_165: 5396425548697726882
+      HackVFX_V1_166: -4751940709450982079
+      HackVFX_V1_167: 5835222986915827694
+      HackVFX_V1_168: 4098740597787775400
+      HackVFX_V1_169: -4792795395572148281
+      HackVFX_V1_17: 8388346677700903345
+      HackVFX_V1_18: -8882860777163406875
+      HackVFX_V1_19: 1582316231489623855
+      HackVFX_V1_2: -3591514033416985268
+      HackVFX_V1_20: -3622578050362121666
+      HackVFX_V1_21: -1215913319296929259
+      HackVFX_V1_22: 771678758058991528
+      HackVFX_V1_23: -5911461843393899079
+      HackVFX_V1_24: -8576287709123269418
+      HackVFX_V1_25: -5192073146943588336
+      HackVFX_V1_26: -659971700818766994
+      HackVFX_V1_27: -3687212225895060639
+      HackVFX_V1_28: 931924590358542923
+      HackVFX_V1_29: -8370527998506604750
+      HackVFX_V1_3: -9188074934219755285
+      HackVFX_V1_30: 6514729037662830035
+      HackVFX_V1_31: -8734435026028912833
+      HackVFX_V1_32: 5575990846357929779
+      HackVFX_V1_33: 5114180841705274374
+      HackVFX_V1_34: -8921782285513782067
+      HackVFX_V1_35: -1964798820023711647
+      HackVFX_V1_36: -3372147592484141188
+      HackVFX_V1_37: 3656340013552152485
+      HackVFX_V1_38: -5198828443886230063
+      HackVFX_V1_39: -520847972043254969
+      HackVFX_V1_4: 9073767566812171664
+      HackVFX_V1_40: 2508362903755282378
+      HackVFX_V1_41: -9109528673500892536
+      HackVFX_V1_42: -9140054279531707797
+      HackVFX_V1_43: 3875316884255478341
+      HackVFX_V1_44: 6034255293038852977
+      HackVFX_V1_45: -8108301212374130505
+      HackVFX_V1_46: 4339109348458673017
+      HackVFX_V1_47: -2800987386335317160
+      HackVFX_V1_48: -4068997000154655961
+      HackVFX_V1_49: 6348062577756000501
+      HackVFX_V1_5: 6933618254588091745
+      HackVFX_V1_50: 8067631054817659356
+      HackVFX_V1_51: -6542239620681233519
+      HackVFX_V1_52: -1406656521249195213
+      HackVFX_V1_53: 7113633596484028615
+      HackVFX_V1_54: 4443891480597627714
+      HackVFX_V1_55: 8766409199391748492
+      HackVFX_V1_56: -5760677369757491342
+      HackVFX_V1_57: 1124931936767103360
+      HackVFX_V1_58: -1930059875326826205
+      HackVFX_V1_59: -15593628706837727
+      HackVFX_V1_6: -8868052038052658117
+      HackVFX_V1_60: 55335592030898418
+      HackVFX_V1_61: -5446587737103636673
+      HackVFX_V1_62: 6974182462502587165
+      HackVFX_V1_63: -2946603311659856535
+      HackVFX_V1_64: 8129692778968742231
+      HackVFX_V1_65: 1942072066946635015
+      HackVFX_V1_66: 6090377771023221740
+      HackVFX_V1_67: -7814155313475741006
+      HackVFX_V1_68: -4238512342513971857
+      HackVFX_V1_69: -1430158497567471896
+      HackVFX_V1_7: 4194634786680581934
+      HackVFX_V1_70: 3819929482713965735
+      HackVFX_V1_71: 3053901782921522071
+      HackVFX_V1_72: 860034403394516277
+      HackVFX_V1_73: -5477754551702083316
+      HackVFX_V1_74: -932461984789506203
+      HackVFX_V1_75: 3352107725023021910
+      HackVFX_V1_76: -770719188164813519
+      HackVFX_V1_77: -7337874846517641911
+      HackVFX_V1_78: 5670262546345603250
+      HackVFX_V1_79: 7027961431154687667
+      HackVFX_V1_8: -7458206579817110854
+      HackVFX_V1_80: 1442475046351794310
+      HackVFX_V1_81: -2274716932598778711
+      HackVFX_V1_82: -2726047875455207273
+      HackVFX_V1_83: -6790813423517950611
+      HackVFX_V1_84: 1909998814281491482
+      HackVFX_V1_85: 7089978271129412317
+      HackVFX_V1_86: -5455270113305082166
+      HackVFX_V1_87: -7597757634910495412
+      HackVFX_V1_88: -1829138377512043063
+      HackVFX_V1_89: 5140780042453446676
+      HackVFX_V1_9: 6105985892652921755
+      HackVFX_V1_90: 3115015536335482669
+      HackVFX_V1_91: -3158291769321391493
+      HackVFX_V1_92: -7045265482409004956
+      HackVFX_V1_93: 319423683189918029
+      HackVFX_V1_94: -8842977677661330990
+      HackVFX_V1_95: -8089179076091042220
+      HackVFX_V1_96: 2506969570027765051
+      HackVFX_V1_97: 929013659936606535
+      HackVFX_V1_98: -3377270370825737883
+      HackVFX_V1_99: 5584376949951803474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

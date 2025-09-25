@@ -3,12 +3,13 @@ using UnityEngine;
 public class FighterAnimator : MonoBehaviour
 {
     [SerializeField] private Player _owner;
-    private Animator animator;
+    [SerializeField] private Animator _fighterAnimator;
+    [SerializeField] private Animator _VFXAnimator;
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        //_fighterAnimator = GetComponent<Animator>();
 
-        animator.runtimeAnimatorController = _owner.Fighter.AnimationController;
+        _fighterAnimator.runtimeAnimatorController = _owner.Fighter.AnimationController;
     }
     private void FixedUpdate()
     {
@@ -16,11 +17,11 @@ public class FighterAnimator : MonoBehaviour
     }
     private void UpdateAnimation()
     {
-        animator.SetBool("isAttacking", _owner.CombatManager.IsAttacking);
-        animator.SetBool("isSTAB", _owner.CombatManager.IsSTAB);
-        animator.SetBool("isSuper", _owner.CombatManager.IsSuper);
-        animator.SetBool("isHurt", _owner.CombatManager.IsHurt);
-        animator.SetBool("isDead", _owner.CombatManager.IsDead);
+        _fighterAnimator.SetBool("isAttacking", _owner.CombatManager.IsAttacking);
+        _fighterAnimator.SetBool("isSTAB", _owner.CombatManager.IsSTAB);
+        _fighterAnimator.SetBool("isSuper", _owner.CombatManager.IsSuper);
+        _fighterAnimator.SetBool("isHurt", _owner.CombatManager.IsHurt);
+        _fighterAnimator.SetBool("isDead", _owner.CombatManager.IsDead);
     }
     public void EnactSuper()
     {

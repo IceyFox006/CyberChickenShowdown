@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: ac005ff2a3237734bbf943e39eda9b32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5648547443848900467
+    second: MeleeVFX_V1_0
+  - first:
+      213: -3277069845662363714
+    second: MeleeVFX_V1_1
+  - first:
+      213: -3449534301618717555
+    second: MeleeVFX_V1_2
+  - first:
+      213: 7454966239698780752
+    second: MeleeVFX_V1_3
+  - first:
+      213: -2741431428295110929
+    second: MeleeVFX_V1_4
+  - first:
+      213: 3804776832265267881
+    second: MeleeVFX_V1_5
+  - first:
+      213: 1712065474687646306
+    second: MeleeVFX_V1_6
+  - first:
+      213: 4021135176383513269
+    second: MeleeVFX_V1_7
+  - first:
+      213: 2794097563718877231
+    second: MeleeVFX_V1_8
+  - first:
+      213: 8007043331525430408
+    second: MeleeVFX_V1_9
+  - first:
+      213: 2398596827678413357
+    second: MeleeVFX_V1_10
+  - first:
+      213: -7561338287549531046
+    second: MeleeVFX_V1_11
+  - first:
+      213: 1011600694532184620
+    second: MeleeVFX_V1_12
+  - first:
+      213: 882972997685434377
+    second: MeleeVFX_V1_13
+  - first:
+      213: -2820159326896670817
+    second: MeleeVFX_V1_14
+  - first:
+      213: 2660108878185471321
+    second: MeleeVFX_V1_15
+  - first:
+      213: -4720639374694855986
+    second: MeleeVFX_V1_16
+  - first:
+      213: -9174230012384744064
+    second: MeleeVFX_V1_17
+  - first:
+      213: -5873509007125516979
+    second: MeleeVFX_V1_18
+  - first:
+      213: 6271106039653723623
+    second: MeleeVFX_V1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d801270f6045c91b0800000000000000
+      internalID: -5648547443848900467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf862986528582d0800000000000000
+      internalID: -3277069845662363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cbd7f34dac020d0800000000000000
+      internalID: -3449534301618717555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05286c10c4c557760800000000000000
+      internalID: 7454966239698780752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feec06404aa74f9d0800000000000000
+      internalID: -2741431428295110929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaaec0de584dc430800000000000000
+      internalID: 3804776832265267881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ab7f27a7a72c710800000000000000
+      internalID: 1712065474687646306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3160
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2ca265321fdc730800000000000000
+      internalID: 4021135176383513269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 439db4815a31b5e46a89fa83dcc1b036
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MeleeVFX_V1_0: -5648547443848900467
+      MeleeVFX_V1_1: -3277069845662363714
+      MeleeVFX_V1_2: -3449534301618717555
+      MeleeVFX_V1_3: 7454966239698780752
+      MeleeVFX_V1_4: -2741431428295110929
+      MeleeVFX_V1_5: 3804776832265267881
+      MeleeVFX_V1_6: 1712065474687646306
+      MeleeVFX_V1_7: 4021135176383513269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
