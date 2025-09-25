@@ -48,13 +48,13 @@ public class PlayerUIHandler : MonoBehaviour
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "")
     {
-        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity);
+        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
         TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
         if (floatingText.IsInternal)
             text.text = floatingText.Text;
         else
             text.text = externalText;
-        //text.color = floatingText.Color;
+        text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
     }
     public void LinkHPToHPBar()
     {
