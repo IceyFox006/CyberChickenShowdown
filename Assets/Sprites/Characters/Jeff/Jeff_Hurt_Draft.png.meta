@@ -127,10 +127,10 @@ TextureImporter:
       name: Jeff_Hurt_Draft_0
       rect:
         serializedVersion: 2
-        x: 567
-        y: 387
-        width: 73
-        height: 63
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: Jeff_Hurt_Draft_1
       rect:
         serializedVersion: 2
-        x: 1429
-        y: 65
-        width: 347
-        height: 359
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Jeff_Hurt_Draft_2
       rect:
         serializedVersion: 2
-        x: 1767
-        y: 387
-        width: 73
-        height: 63
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: Jeff_Hurt_Draft_3
       rect:
         serializedVersion: 2
-        x: 2633
-        y: 63
-        width: 405
-        height: 437
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Jeff_Hurt_Draft_4
       rect:
         serializedVersion: 2
-        x: 3847
-        y: 63
-        width: 387
-        height: 356
+        x: 4800
+        y: 0
+        width: 1200
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,99 +233,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Jeff_Hurt_Draft_5
-      rect:
-        serializedVersion: 2
-        x: 4078
-        y: 407
-        width: 66
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e701506b19c83faa0800000000000000
-      internalID: -6128400110469181314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_Hurt_Draft_6
-      rect:
-        serializedVersion: 2
-        x: 5278
-        y: 407
-        width: 66
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d25241f7ac9973940800000000000000
-      internalID: 5275854583482295597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_Hurt_Draft_7
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 64
-        width: 494
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1477e2de6a6065ca0800000000000000
-      internalID: -6028623737175247039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jeff_Hurt_Draft_8
-      rect:
-        serializedVersion: 2
-        x: 5067
-        y: 60
-        width: 376
-        height: 325
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83d378c352dbdb3a0800000000000000
-      internalID: -6647949507302048456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b381f234d7ff9b74899e7c7c3b270775
     internalID: 0
     vertices: []
     indices: 
@@ -340,10 +252,6 @@ TextureImporter:
       Jeff_Hurt_Draft_2: 3557542036156807001
       Jeff_Hurt_Draft_3: -6458824434847016594
       Jeff_Hurt_Draft_4: -8550201262138131246
-      Jeff_Hurt_Draft_5: -6128400110469181314
-      Jeff_Hurt_Draft_6: 5275854583482295597
-      Jeff_Hurt_Draft_7: -6028623737175247039
-      Jeff_Hurt_Draft_8: -6647949507302048456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

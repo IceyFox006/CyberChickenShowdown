@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: b0447cc358b54ad40a6a47dbfe7ac40c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1994832237682865272
+    second: BIG_AttackSuper_Draft_0
+  - first:
+      213: -180126468634681380
+    second: BIG_AttackSuper_Draft_1
+  - first:
+      213: 112883777069691370
+    second: BIG_AttackSuper_Draft_2
+  - first:
+      213: 619258134982652231
+    second: BIG_AttackSuper_Draft_3
+  - first:
+      213: -1007612698641268990
+    second: BIG_AttackSuper_Draft_4
+  - first:
+      213: -3288312827031563527
+    second: BIG_AttackSuper_Draft_5
+  - first:
+      213: 527726622425550187
+    second: BIG_AttackSuper_Draft_6
+  - first:
+      213: -8982201713107073034
+    second: BIG_AttackSuper_Draft_7
+  - first:
+      213: -1370724191670800636
+    second: BIG_AttackSuper_Draft_8
+  - first:
+      213: 192119441515603152
+    second: BIG_AttackSuper_Draft_9
+  - first:
+      213: 1315083097914001268
+    second: BIG_AttackSuper_Draft_10
+  - first:
+      213: 7600902083073823976
+    second: BIG_AttackSuper_Draft_11
+  - first:
+      213: -1933171376896490784
+    second: BIG_AttackSuper_Draft_12
+  - first:
+      213: 5108734874512851339
+    second: BIG_AttackSuper_Draft_13
+  - first:
+      213: -2430280796720834478
+    second: BIG_AttackSuper_Draft_14
+  - first:
+      213: -3230355975414853038
+    second: BIG_AttackSuper_Draft_15
+  - first:
+      213: -1078221719861476193
+    second: BIG_AttackSuper_Draft_16
+  - first:
+      213: 3231938527844142281
+    second: BIG_AttackSuper_Draft_17
+  - first:
+      213: 8443142500826840159
+    second: BIG_AttackSuper_Draft_18
+  - first:
+      213: -3584387646786379314
+    second: BIG_AttackSuper_Draft_19
+  - first:
+      213: 7581145786434401874
+    second: BIG_AttackSuper_Draft_20
+  - first:
+      213: -5933719315249355351
+    second: BIG_AttackSuper_Draft_21
+  - first:
+      213: -3229577081073171161
+    second: BIG_AttackSuper_Draft_22
+  - first:
+      213: -4856854172236923106
+    second: BIG_AttackSuper_Draft_23
+  - first:
+      213: 324514654247219684
+    second: BIG_AttackSuper_Draft_24
+  - first:
+      213: -6773237617836974905
+    second: BIG_AttackSuper_Draft_25
+  - first:
+      213: -2139134529048365932
+    second: BIG_AttackSuper_Draft_26
+  - first:
+      213: -2566413228548702503
+    second: BIG_AttackSuper_Draft_27
+  - first:
+      213: 3427088991342569898
+    second: BIG_AttackSuper_Draft_28
+  - first:
+      213: 8031201466604251872
+    second: BIG_AttackSuper_Draft_29
+  - first:
+      213: -8865587983723580684
+    second: BIG_AttackSuper_Draft_30
+  - first:
+      213: 6589084953100784483
+    second: BIG_AttackSuper_Draft_31
+  - first:
+      213: 5972836365103559654
+    second: BIG_AttackSuper_Draft_32
+  - first:
+      213: -8650431209199870992
+    second: BIG_AttackSuper_Draft_33
+  - first:
+      213: 986919370444867268
+    second: BIG_AttackSuper_Draft_34
+  - first:
+      213: -5344111989279601928
+    second: BIG_AttackSuper_Draft_35
+  - first:
+      213: -8073115496186306002
+    second: BIG_AttackSuper_Draft_36
+  - first:
+      213: 7926646533925286211
+    second: BIG_AttackSuper_Draft_37
+  - first:
+      213: -4741235502328860957
+    second: BIG_AttackSuper_Draft_38
+  - first:
+      213: 791752042155653799
+    second: BIG_AttackSuper_Draft_39
+  - first:
+      213: -3700698827403127390
+    second: BIG_AttackSuper_Draft_40
+  - first:
+      213: 644019204183529783
+    second: BIG_AttackSuper_Draft_41
+  - first:
+      213: 1058637493352331054
+    second: BIG_AttackSuper_Draft_42
+  - first:
+      213: -8623404308536817053
+    second: BIG_AttackSuper_Draft_43
+  - first:
+      213: -7861605596949446353
+    second: BIG_AttackSuper_Draft_44
+  - first:
+      213: 5467762326885329993
+    second: BIG_AttackSuper_Draft_45
+  - first:
+      213: -1816597588178585476
+    second: BIG_AttackSuper_Draft_46
+  - first:
+      213: -4269975116803907915
+    second: BIG_AttackSuper_Draft_47
+  - first:
+      213: 1096575002256349848
+    second: BIG_AttackSuper_Draft_48
+  - first:
+      213: -1463160330213623244
+    second: BIG_AttackSuper_Draft_49
+  - first:
+      213: 2860061247560343810
+    second: BIG_AttackSuper_Draft_50
+  - first:
+      213: -4150714082975871633
+    second: BIG_AttackSuper_Draft_51
+  - first:
+      213: -6455663506732812092
+    second: BIG_AttackSuper_Draft_52
+  - first:
+      213: 8394825623757310187
+    second: BIG_AttackSuper_Draft_53
+  - first:
+      213: -3165099647653578341
+    second: BIG_AttackSuper_Draft_54
+  - first:
+      213: 2476123489186723043
+    second: BIG_AttackSuper_Draft_55
+  - first:
+      213: -413018984036541990
+    second: BIG_AttackSuper_Draft_56
+  - first:
+      213: -4199926317537640731
+    second: BIG_AttackSuper_Draft_57
+  - first:
+      213: 804129098629186005
+    second: BIG_AttackSuper_Draft_58
+  - first:
+      213: -3708423494400575509
+    second: BIG_AttackSuper_Draft_59
+  - first:
+      213: 8927992751462577508
+    second: BIG_AttackSuper_Draft_60
+  - first:
+      213: -6320805942886400601
+    second: BIG_AttackSuper_Draft_61
+  - first:
+      213: -7368459110096554059
+    second: BIG_AttackSuper_Draft_62
+  - first:
+      213: 1521309613958112700
+    second: BIG_AttackSuper_Draft_63
+  - first:
+      213: 6719392226826689607
+    second: BIG_AttackSuper_Draft_64
+  - first:
+      213: 3228311952207321022
+    second: BIG_AttackSuper_Draft_65
+  - first:
+      213: 8824632553957995731
+    second: BIG_AttackSuper_Draft_66
+  - first:
+      213: -6570582650129970648
+    second: BIG_AttackSuper_Draft_67
+  - first:
+      213: -7789014326079160902
+    second: BIG_AttackSuper_Draft_68
+  - first:
+      213: -6022225108424747212
+    second: BIG_AttackSuper_Draft_69
+  - first:
+      213: 6007208269342846364
+    second: BIG_AttackSuper_Draft_70
+  - first:
+      213: 7804837352972632936
+    second: BIG_AttackSuper_Draft_71
+  - first:
+      213: -1450419366816248685
+    second: BIG_AttackSuper_Draft_72
+  - first:
+      213: -585735237508092636
+    second: BIG_AttackSuper_Draft_73
+  - first:
+      213: -774406851047155776
+    second: BIG_AttackSuper_Draft_74
+  - first:
+      213: -3364763491949545896
+    second: BIG_AttackSuper_Draft_75
+  - first:
+      213: 678171099455199988
+    second: BIG_AttackSuper_Draft_76
+  - first:
+      213: 5200563660523601873
+    second: BIG_AttackSuper_Draft_77
+  - first:
+      213: 3289449753244872500
+    second: BIG_AttackSuper_Draft_78
+  - first:
+      213: -3635180797028078728
+    second: BIG_AttackSuper_Draft_79
+  - first:
+      213: -4342005005470979604
+    second: BIG_AttackSuper_Draft_80
+  - first:
+      213: -5093247784007192077
+    second: BIG_AttackSuper_Draft_81
+  - first:
+      213: 2570852243989670643
+    second: BIG_AttackSuper_Draft_82
+  - first:
+      213: -1959275002463143311
+    second: BIG_AttackSuper_Draft_83
+  - first:
+      213: -1947895806313272424
+    second: BIG_AttackSuper_Draft_84
+  - first:
+      213: 816697744183128951
+    second: BIG_AttackSuper_Draft_85
+  - first:
+      213: 988229025057266519
+    second: BIG_AttackSuper_Draft_86
+  - first:
+      213: 2525024370651373927
+    second: BIG_AttackSuper_Draft_87
+  - first:
+      213: 4255247517165647163
+    second: BIG_AttackSuper_Draft_88
+  - first:
+      213: -5313728109858406798
+    second: BIG_AttackSuper_Draft_89
+  - first:
+      213: -3526550444523942433
+    second: BIG_AttackSuper_Draft_90
+  - first:
+      213: 1753841063771437080
+    second: BIG_AttackSuper_Draft_91
+  - first:
+      213: 8636561241601658644
+    second: BIG_AttackSuper_Draft_92
+  - first:
+      213: 782095843076238333
+    second: BIG_AttackSuper_Draft_93
+  - first:
+      213: 2964192400614465721
+    second: BIG_AttackSuper_Draft_94
+  - first:
+      213: 950664622994071840
+    second: BIG_AttackSuper_Draft_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874b591e9511fab10800000000000000
+      internalID: 1994832237682865272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf526e5eef008df0800000000000000
+      internalID: -180126468634681380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1b429723b019100800000000000000
+      internalID: 112883777069691370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74179e72efb089800800000000000000
+      internalID: 619258134982652231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f7052d69d3402f0800000000000000
+      internalID: -1007612698641268990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f25c62f7e09d52d0800000000000000
+      internalID: -3288312827031563527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d013c219cd25700800000000000000
+      internalID: 527726622425550187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f70955b12fc85380800000000000000
+      internalID: -8982201713107073034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f6d6e2c953afce0800000000000000
+      internalID: -1370724191670800636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4ebf93d9b8aa200800000000000000
+      internalID: 192119441515603152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477c8452c1d104210800000000000000
+      internalID: 1315083097914001268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4542a5c24db7960800000000000000
+      internalID: 7600902083073823976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2c12600eefb25e0800000000000000
+      internalID: -1933171376896490784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b810df61d4fd5e640800000000000000
+      internalID: 5108734874512851339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2585007dd78e54ed0800000000000000
+      internalID: -2430280796720834478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25256530b587b23d0800000000000000
+      internalID: -3230355975414853038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_16
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94cb86fe036901f0800000000000000
+      internalID: -1078221719861476193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_17
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc8c00b7f62adc20800000000000000
+      internalID: 3231938527844142281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c79cdee511c2570800000000000000
+      internalID: 8443142500826840159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1eff71d62b14ec0800000000000000
+      internalID: -3584387646786379314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2563fd61de3a53960800000000000000
+      internalID: 7581145786434401874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_21
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a520b198b137ada0800000000000000
+      internalID: -5933719315249355351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_22
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72504eb71cc3e23d0800000000000000
+      internalID: -3229577081073171161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_23
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb1f1fcdcf89cb0800000000000000
+      internalID: -4856854172236923106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e170d2db58e08400800000000000000
+      internalID: 324514654247219684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc9381d540a002a0800000000000000
+      internalID: -6773237617836974905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494bc4dba744052e0800000000000000
+      internalID: -2139134529048365932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9debd7d14c4426cd0800000000000000
+      internalID: -2566413228548702503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSuper_Draft_28
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa920a6b7477f8f20800000000000000
+      internalID: 3427088991342569898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24d5b7620899e2a47ad15eb6ee7c1705
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BIG_AttackSuper_Draft_0: 1994832237682865272
+      BIG_AttackSuper_Draft_1: -180126468634681380
+      BIG_AttackSuper_Draft_10: 1315083097914001268
+      BIG_AttackSuper_Draft_11: 7600902083073823976
+      BIG_AttackSuper_Draft_12: -1933171376896490784
+      BIG_AttackSuper_Draft_13: 5108734874512851339
+      BIG_AttackSuper_Draft_14: -2430280796720834478
+      BIG_AttackSuper_Draft_15: -3230355975414853038
+      BIG_AttackSuper_Draft_16: -1078221719861476193
+      BIG_AttackSuper_Draft_17: 3231938527844142281
+      BIG_AttackSuper_Draft_18: 8443142500826840159
+      BIG_AttackSuper_Draft_19: -3584387646786379314
+      BIG_AttackSuper_Draft_2: 112883777069691370
+      BIG_AttackSuper_Draft_20: 7581145786434401874
+      BIG_AttackSuper_Draft_21: -5933719315249355351
+      BIG_AttackSuper_Draft_22: -3229577081073171161
+      BIG_AttackSuper_Draft_23: -4856854172236923106
+      BIG_AttackSuper_Draft_24: 324514654247219684
+      BIG_AttackSuper_Draft_25: -6773237617836974905
+      BIG_AttackSuper_Draft_26: -2139134529048365932
+      BIG_AttackSuper_Draft_27: -2566413228548702503
+      BIG_AttackSuper_Draft_28: 3427088991342569898
+      BIG_AttackSuper_Draft_3: 619258134982652231
+      BIG_AttackSuper_Draft_4: -1007612698641268990
+      BIG_AttackSuper_Draft_5: -3288312827031563527
+      BIG_AttackSuper_Draft_6: 527726622425550187
+      BIG_AttackSuper_Draft_7: -8982201713107073034
+      BIG_AttackSuper_Draft_8: -1370724191670800636
+      BIG_AttackSuper_Draft_9: 192119441515603152
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

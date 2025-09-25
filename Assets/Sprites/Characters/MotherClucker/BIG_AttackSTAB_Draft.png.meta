@@ -1,67 +1,85 @@
 fileFormatVersion: 2
-guid: 73060b2204ef8eb45950c7a4c1a9aeb5
+guid: 1ba764c94ebfba347900f4ee3cd5fbfa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8375628094053118958
-    second: Jeff_AttackSTAB_Draft_0
+      213: 2430794822801510204
+    second: BIG_AttackSTAB_Draft_0
   - first:
-      213: -6317837418694442439
-    second: Jeff_AttackSTAB_Draft_1
+      213: 4562248620855338026
+    second: BIG_AttackSTAB_Draft_1
   - first:
-      213: -314239266013816265
-    second: Jeff_AttackSTAB_Draft_2
+      213: -248527932144948469
+    second: BIG_AttackSTAB_Draft_2
   - first:
-      213: -7021721255967175162
-    second: Jeff_AttackSTAB_Draft_3
+      213: -1802301640810992467
+    second: BIG_AttackSTAB_Draft_3
   - first:
-      213: 1216778899257674467
-    second: Jeff_AttackSTAB_Draft_4
+      213: 7170813595469864648
+    second: BIG_AttackSTAB_Draft_4
   - first:
-      213: -6297130790891202437
-    second: Jeff_AttackSTAB_Draft_5
+      213: 2246799866056907478
+    second: BIG_AttackSTAB_Draft_5
   - first:
-      213: -2319486202558412195
-    second: Jeff_AttackSTAB_Draft_6
+      213: -8277244928388941905
+    second: BIG_AttackSTAB_Draft_6
   - first:
-      213: -7903967924261954530
-    second: Jeff_AttackSTAB_Draft_7
+      213: -6674626395134045580
+    second: BIG_AttackSTAB_Draft_7
   - first:
-      213: 7823331214097408939
-    second: Jeff_AttackSTAB_Draft_8
+      213: -146195098366768122
+    second: BIG_AttackSTAB_Draft_8
   - first:
-      213: -8712846605867010216
-    second: Jeff_AttackSTAB_Draft_9
+      213: 4582178857941629501
+    second: BIG_AttackSTAB_Draft_9
   - first:
-      213: -3261058793616078754
-    second: Jeff_AttackSTAB_Draft_10
+      213: -3796912599456490860
+    second: BIG_AttackSTAB_Draft_10
   - first:
-      213: 8785855347899147634
-    second: Jeff_AttackSTAB_Draft_11
+      213: 5398149011755402953
+    second: BIG_AttackSTAB_Draft_11
   - first:
-      213: -819697240222813498
-    second: Jeff_AttackSTAB_Draft_12
+      213: 987581121598898611
+    second: BIG_AttackSTAB_Draft_12
   - first:
-      213: -809923752691882682
-    second: Jeff_AttackSTAB_Draft_13
+      213: -3117632661265573335
+    second: BIG_AttackSTAB_Draft_13
   - first:
-      213: -1699656567437550437
-    second: Jeff_AttackSTAB_Draft_14
+      213: -1893426696341067849
+    second: BIG_AttackSTAB_Draft_14
   - first:
-      213: -3534204565124484253
-    second: Jeff_AttackSTAB_Draft_15
+      213: -5091705608513563870
+    second: BIG_AttackSTAB_Draft_15
   - first:
-      213: -432906809705735056
-    second: Jeff_AttackSTAB_Draft_16
+      213: 1934174122573904053
+    second: BIG_AttackSTAB_Draft_16
   - first:
-      213: 6679395775078750597
-    second: Jeff_AttackSTAB_Draft_17
+      213: 6609880366674991601
+    second: BIG_AttackSTAB_Draft_17
   - first:
-      213: -4176492819519444847
-    second: Jeff_AttackSTAB_Draft_18
+      213: -2453763706628919791
+    second: BIG_AttackSTAB_Draft_18
   - first:
-      213: 5243019431217915667
-    second: Jeff_AttackSTAB_Draft_19
+      213: 7867908367453979118
+    second: BIG_AttackSTAB_Draft_19
+  - first:
+      213: -6251719939962934498
+    second: BIG_AttackSTAB_Draft_20
+  - first:
+      213: 4352214257707936667
+    second: BIG_AttackSTAB_Draft_21
+  - first:
+      213: 6040654554543168227
+    second: BIG_AttackSTAB_Draft_22
+  - first:
+      213: -7720135303428661960
+    second: BIG_AttackSTAB_Draft_23
+  - first:
+      213: -1356705505434492331
+    second: BIG_AttackSTAB_Draft_24
+  - first:
+      213: -1127329056916328475
+    second: BIG_AttackSTAB_Draft_25
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,7 +175,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_0
+      name: BIG_AttackSTAB_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f41fe230bebb120800000000000000
+      internalID: 2430794822801510204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSTAB_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a242917e2fc505f30800000000000000
+      internalID: 4562248620855338026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSTAB_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0becb7992d0d8cf0800000000000000
+      internalID: -248527932144948469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSTAB_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac6b59e430fcf6e0800000000000000
+      internalID: -1802301640810992467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_AttackSTAB_Draft_4
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21c8e2bdf9ac3cb80800000000000000
-      internalID: -8375628094053118958
+      spriteID: 8ced584f8f8d38360800000000000000
+      internalID: 7170813595469864648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_1
+      name: BIG_AttackSTAB_Draft_5
       rect:
         serializedVersion: 2
         x: 1200
@@ -194,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9320c0e47588258a0800000000000000
-      internalID: -6317837418694442439
+      spriteID: 6da97b9f29c3e2f10800000000000000
+      internalID: 2246799866056907478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_2
+      name: BIG_AttackSTAB_Draft_6
       rect:
         serializedVersion: 2
         x: 2400
@@ -216,14 +322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73a54ce6d0993abf0800000000000000
-      internalID: -314239266013816265
+      spriteID: fa73974a791512d80800000000000000
+      internalID: -8277244928388941905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_3
+      name: BIG_AttackSTAB_Draft_7
       rect:
         serializedVersion: 2
         x: 3600
@@ -238,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60e444a68b5dd8e90800000000000000
-      internalID: -7021721255967175162
+      spriteID: 472d69548a6fe53a0800000000000000
+      internalID: -6674626395134045580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_4
+      name: BIG_AttackSTAB_Draft_8
       rect:
         serializedVersion: 2
         x: 0
@@ -260,14 +366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eac17c46fdd2e010800000000000000
-      internalID: 1216778899257674467
+      spriteID: 60c02f5255c98fdf0800000000000000
+      internalID: -146195098366768122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_5
+      name: BIG_AttackSTAB_Draft_9
       rect:
         serializedVersion: 2
         x: 1200
@@ -282,14 +388,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7851c8c8e81c98a0800000000000000
-      internalID: -6297130790891202437
+      spriteID: d3a7ae4d46b279f30800000000000000
+      internalID: 4582178857941629501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_6
+      name: BIG_AttackSTAB_Draft_10
       rect:
         serializedVersion: 2
         x: 2400
@@ -304,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5a061386978fcfd0800000000000000
-      internalID: -2319486202558412195
+      spriteID: 49ad0329b18ae4bc0800000000000000
+      internalID: -3796912599456490860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_7
+      name: BIG_AttackSTAB_Draft_11
       rect:
         serializedVersion: 2
         x: 3600
@@ -326,14 +432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1cd846cc077f4290800000000000000
-      internalID: -7903967924261954530
+      spriteID: 9c68e42fce31aea40800000000000000
+      internalID: 5398149011755402953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_8
+      name: BIG_AttackSTAB_Draft_12
       rect:
         serializedVersion: 2
         x: 0
@@ -348,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba360881a4e029c60800000000000000
-      internalID: 7823331214097408939
+      spriteID: 3b1c8c33cc794bd00800000000000000
+      internalID: 987581121598898611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_9
+      name: BIG_AttackSTAB_Draft_13
       rect:
         serializedVersion: 2
         x: 1200
@@ -370,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85734d2bc20c51780800000000000000
-      internalID: -8712846605867010216
+      spriteID: 92a1c1dcc91fbb4d0800000000000000
+      internalID: -3117632661265573335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jeff_AttackSTAB_Draft_10
+      name: BIG_AttackSTAB_Draft_14
       rect:
         serializedVersion: 2
         x: 2400
@@ -392,8 +498,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5889d61e446eb2d0800000000000000
-      internalID: -3261058793616078754
+      spriteID: 7b76954937239b5e0800000000000000
+      internalID: -1893426696341067849
       vertices: []
       indices: 
       edges: []
@@ -402,7 +508,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 19ebb6a7cbbc9404c8d17fd2304f4ff6
+    spriteID: a61edb54a22e8364eb15120d80fd1189
     internalID: 0
     vertices: []
     indices: 
@@ -412,17 +518,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jeff_AttackSTAB_Draft_0: -8375628094053118958
-      Jeff_AttackSTAB_Draft_1: -6317837418694442439
-      Jeff_AttackSTAB_Draft_10: -3261058793616078754
-      Jeff_AttackSTAB_Draft_2: -314239266013816265
-      Jeff_AttackSTAB_Draft_3: -7021721255967175162
-      Jeff_AttackSTAB_Draft_4: 1216778899257674467
-      Jeff_AttackSTAB_Draft_5: -6297130790891202437
-      Jeff_AttackSTAB_Draft_6: -2319486202558412195
-      Jeff_AttackSTAB_Draft_7: -7903967924261954530
-      Jeff_AttackSTAB_Draft_8: 7823331214097408939
-      Jeff_AttackSTAB_Draft_9: -8712846605867010216
+      BIG_AttackSTAB_Draft_0: 2430794822801510204
+      BIG_AttackSTAB_Draft_1: 4562248620855338026
+      BIG_AttackSTAB_Draft_10: -3796912599456490860
+      BIG_AttackSTAB_Draft_11: 5398149011755402953
+      BIG_AttackSTAB_Draft_12: 987581121598898611
+      BIG_AttackSTAB_Draft_13: -3117632661265573335
+      BIG_AttackSTAB_Draft_14: -1893426696341067849
+      BIG_AttackSTAB_Draft_2: -248527932144948469
+      BIG_AttackSTAB_Draft_3: -1802301640810992467
+      BIG_AttackSTAB_Draft_4: 7170813595469864648
+      BIG_AttackSTAB_Draft_5: 2246799866056907478
+      BIG_AttackSTAB_Draft_6: -8277244928388941905
+      BIG_AttackSTAB_Draft_7: -6674626395134045580
+      BIG_AttackSTAB_Draft_8: -146195098366768122
+      BIG_AttackSTAB_Draft_9: 4582178857941629501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
