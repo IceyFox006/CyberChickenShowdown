@@ -4,18 +4,15 @@ public class FighterAnimator : MonoBehaviour
 {
     [SerializeField] private Player _owner;
     [SerializeField] private Animator _fighterAnimator;
-    [SerializeField] private Animator _VFXAnimator;
     private void Start()
     {
-        //_fighterAnimator = GetComponent<Animator>();
-
         _fighterAnimator.runtimeAnimatorController = _owner.Fighter.AnimationController;
     }
     private void FixedUpdate()
     {
-        UpdateAnimation();
+        UpdateFighterAnimation();
     }
-    private void UpdateAnimation()
+    private void UpdateFighterAnimation()
     {
         _fighterAnimator.SetBool("isAttacking", _owner.CombatManager.IsAttacking);
         _fighterAnimator.SetBool("isSTAB", _owner.CombatManager.IsSTAB);
