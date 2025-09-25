@@ -1050,7 +1050,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 39036f0d84ff3e74da03c92a504ad64b, type: 2}
   _STABMultiplier: 1.25
   _comboAdditiveMultiplier: 0.25
-  _weaknessMultiplier: 1.5
+  _weaknessMultiplier: 1
   _resistanceMultiplier: 0.5
   _blockThreshold: 1
   _blockDrainSpeed: 8
