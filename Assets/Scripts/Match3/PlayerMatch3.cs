@@ -88,7 +88,8 @@ public class PlayerMatch3 : MonoBehaviour
                 //If two matches are made with the same swap.
                 if (connectedPiecesToSwappedPiece.Count > 0)
                     RegisterMatch(new Match(owner, swappedPiece.MatchPiece.Element, connectedPiecesToPiece)); //!!!
-                RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
+                if (connectedPiecesToPiece.Count > 0)
+                    RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
