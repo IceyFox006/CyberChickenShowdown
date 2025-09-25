@@ -98,7 +98,6 @@ public class PlayerMatch3 : MonoBehaviour
                 }
                
             }
-            //
             ApplyGravityToBoard();
             FillEmptyPieces();
             swappedPieces.Remove(swapped);
