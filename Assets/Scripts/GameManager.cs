@@ -49,9 +49,18 @@ public class GameManager : MonoBehaviour
             return _player1;
         return null;
     }
-    public void EndGame()
+    public Player GetPlayerWithHighestHP()
     {
-        //Set winner & loser
+        if (_player1.CurrentHP > _player2.CurrentHP)
+            return _player1;
+        else
+            return _player2;
+    }
+    public void EndGame(Player winner)
+    {
+        StaticData.WinnerID = winner.ID;
+        StaticData.WinningFighter = winner.Fighter;
+        StaticData.LosingFigher = GetOpponent(winner).Fighter;
         SceneManager.LoadScene("WinLoseScene");
     }
 }

@@ -24,7 +24,7 @@ public class GameTimer : MonoBehaviour
             currentTime--;
             LinkTimeToTimer();
         }
-        GameManager.Instance.EndGame();
+        GameManager.Instance.EndGame(GameManager.Instance.GetPlayerWithHighestHP());
 
     }
     private void LinkTimeToTimer()

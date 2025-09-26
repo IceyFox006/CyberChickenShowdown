@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 375141308}
   - component: {fileID: 375141307}
   m_Layer: 0
-  m_Name: Rematch
+  m_Name: ChangeCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,7 +492,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1407533429}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
-        m_MethodName: Rematch
+        m_MethodName: ChangeCharacter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 585161851}
   - component: {fileID: 585161850}
   m_Layer: 0
-  m_Name: ChangeCharacters
+  m_Name: Rematch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,7 +622,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 585161851}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407533429}
+        m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
+        m_MethodName: Rematch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &585161851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,6 +755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407533428}
   - component: {fileID: 1407533429}
+  - component: {fileID: 1407533430}
   m_Layer: 0
   m_Name: ===UI===
   m_TagString: Untagged
@@ -778,6 +791,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc7b0b8e624d4741994be3489809961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1407533430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407533427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301d0c6b1243ad14d9b306f660aabe7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _winnerText: {fileID: 1575724882}
+  _winnerQuoteText: {fileID: 2043658102}
 --- !u!1 &1443997792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1651748816}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407533429}
+        m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1651748816
 MonoBehaviour:
   m_ObjectHideFlags: 0
