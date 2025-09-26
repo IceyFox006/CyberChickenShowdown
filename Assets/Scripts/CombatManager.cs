@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using static Enums;
+using static UnityEngine.GraphicsBuffer;
 
 public class CombatManager : MonoBehaviour
 {
@@ -74,9 +75,14 @@ public class CombatManager : MonoBehaviour
         target.CurrentHP -= damage;
         target.CombatManager.IsHurt = true;
         if (spawnFloatingText)
-            target.UiHandler.SpawnFloatingText(target.UiHandler.NeutralHitFT, damage.ToString());
+            target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
         if (target.CurrentHP <= 0)
             target.CombatManager.IsDead = true;
+    }
+    public void RegenHealth(Player target, float regenValue)
+    {
+        target.CurrentHP += regenValue;
+        target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, regenValue.ToString());
     }
     public void UpdateMatchElement(Match match)
     {
@@ -119,13 +125,13 @@ public class CombatManager : MonoBehaviour
         {
             case Enums.SuperFunction.ImmediateDamage:
                 value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
-                DealDamage(target, value);
+                DealDamage(target, value, true);
                 break;
             case Enums.SuperFunction.LeechOpponentSuperToHP:
                 value = target.Fighter.SuperCapacity * 0.3f;
                 target.CurrentSuper -= value;
                 target.CombatManager.CorrectSuperAmount();
-                owner.CurrentHP += value * (owner.Fighter.SuperEffectiveness * 0.1f);
+                owner.CombatManager.RegenHealth(owner, value * (owner.Fighter.SuperEffectiveness * 0.1f));
                 CorrectHPAmount();
                 break;
         }

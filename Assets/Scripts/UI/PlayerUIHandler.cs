@@ -11,9 +11,8 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private Transform _overlayCanvas;
     [SerializeField] private GameObject _floatingTextPrefab;
     [SerializeField] private Transform _floatingTextSpawnLocation;
-    [SerializeField] private FloatingText _weaknessHitFT;
-    [SerializeField] private FloatingText _neutralHitFT;
-    [SerializeField] private FloatingText _resistanceHitFT;
+    [SerializeField] private FloatingText _reduceDamageFT;
+    [SerializeField] private FloatingText _regenHealthFT;
 
     [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
@@ -27,9 +26,8 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
 
-    public FloatingText WeaknessHitFT { get => _weaknessHitFT; set => _weaknessHitFT = value; }
-    public FloatingText NeutralHitFT { get => _neutralHitFT; set => _neutralHitFT = value; }
-    public FloatingText ResistanceHitFT { get => _resistanceHitFT; set => _resistanceHitFT = value; }
+    public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
+    public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
 
     private void Start()
     {
