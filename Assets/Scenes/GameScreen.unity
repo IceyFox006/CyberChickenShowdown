@@ -207,6 +207,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 954378002}
     m_Modifications:
     - target: {fileID: 123261728978662959, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 123261728978662959, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 4
       objectReference: {fileID: 0}
@@ -367,6 +371,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 726124167574297067, guid: 2c2b2c88e45b1d3449f85fa4b33c8b80, type: 3}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.r
+      value: 0.016957283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _neutralHitFT._isInternal
       value: 0
       objectReference: {fileID: 0}
@@ -375,7 +403,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 211796903}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._isInternal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _weaknessHitFT._isInternal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._isInternal
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
@@ -1103,7 +1139,7 @@ MonoBehaviour:
   _tick: 1
   _player1: {fileID: 629431117}
   _player2: {fileID: 1990371872}
-  _gameTime: 999
+  _gameTime: 90
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _matchPieces:
@@ -1517,7 +1553,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790911744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1800,6 +1836,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 726124167574297067, guid: 2c2b2c88e45b1d3449f85fa4b33c8b80, type: 3}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._color.r
+      value: 0.016957283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _neutralHitFT._isInternal
       value: 0
       objectReference: {fileID: 0}
@@ -1808,7 +1868,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1575087748}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _regenHealthFT._isInternal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _weaknessHitFT._isInternal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _reduceDamageFT._isInternal
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
