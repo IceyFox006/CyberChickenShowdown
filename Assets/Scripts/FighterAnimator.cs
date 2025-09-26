@@ -36,7 +36,6 @@ public class FighterAnimator : MonoBehaviour
     }
     public void EnactDie()
     {
-        //_owner.CombatManager.IsDead = false;
-        GameManager.Instance.EndGame();
+        GameManager.Instance.EndGame(GameManager.Instance.GetOpponent(_owner));
     }
 }

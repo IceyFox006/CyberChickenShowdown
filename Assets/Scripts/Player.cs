@@ -3,6 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private string _name;
+    [SerializeField] private int _ID;
     [SerializeField] private PlayerGOController _gameObjectController;
     [SerializeField] private InputController _inputController;
     [SerializeField] private PlayerMatch3 _game;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
     public PlayerUIHandler UiHandler { get => _uiHandler; set => _uiHandler = value; }
     public CombatManager CombatManager { get => _combatManager; set => _combatManager = value; }
     public PlayerGOController GameObjectController { get => _gameObjectController; set => _gameObjectController = value; }
+    public int ID { get => _ID; set => _ID = value; }
 
     private void Awake()
     {
