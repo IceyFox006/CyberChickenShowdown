@@ -217,30 +217,36 @@ public class PlayerMatch3 : MonoBehaviour
     public void ChangePercentOfBoardToElement(ElementSO element, float percentage)
     {
         int numberOfPiecesToChange = (int)(GetNumberOfPossiblePiecesOnBoard() * percentage);
-        List<GridPoint> piecesChanged = new List<GridPoint>();
+        List<HolderPiece> piecesChanged = new List<HolderPiece>();
+        List<HolderPiece> piecesReverted = new List<HolderPiece>();
         while (piecesChanged.Count < numberOfPiecesToChange)
         {
             for (int x = 0; x < _boardWidth; x++)
             {
                 for (int y = 0; y < _boardHeight; y++)
                 {
-                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)
+                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
                         continue;
                     if (UnityEngine.Random.Range(0, 100) < (int)(percentage * 100))
                     {
+                        piecesChanged.Add(new HolderPiece(new GridPoint(x, y), gameBoard[x, y].MatchPiece.Element));
                         gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)element.Element - 1]);
-                        piecesChanged.Add(new GridPoint(x, y));
                     }
                 }
             }
             ValidateGameBoard(true);
             for (int index = piecesChanged.Count - 1; index >= 0; index--)
             {
-                if (GetElementAtGridPoint(piecesChanged[index]) != element.Element)
+                if (GetElementAtGridPoint(piecesChanged[index].GridPoint) != element.Element)
+                {
+                    piecesReverted.Add(piecesChanged[index]);
                     piecesChanged.RemoveAt(index);
+                }
             }
         }
-
+        foreach (HolderPiece piece in piecesReverted)
+            gameBoard[piece.GridPoint.X, piece.GridPoint.Y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)piece.Element.Element - 1]);
+        ValidateGameBoard(true);
     }
 
 
