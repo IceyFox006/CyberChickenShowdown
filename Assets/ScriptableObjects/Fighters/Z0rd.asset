@@ -21,7 +21,7 @@ MonoBehaviour:
   _Attack: 20
   _blockEffectiveness: 0.8
   _superFunction: 4
-  _superCapacity: 50
+  _superCapacity: 1
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 50

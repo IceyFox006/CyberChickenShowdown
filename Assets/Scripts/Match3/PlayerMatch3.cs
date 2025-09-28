@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.UI;
@@ -214,7 +215,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
     }
 
-    public void ChangePercentOfBoardToElement(ElementSO element, float percentage)
+    public void ChangePercentOfPiecesToElement(ElementSO element, float percentage)
     {
         int numberOfPiecesToChange = (int)(GetNumberOfPossiblePiecesOnBoard() * percentage);
         List<HolderPiece> piecesChanged = new List<HolderPiece>();
@@ -247,6 +248,40 @@ public class PlayerMatch3 : MonoBehaviour
         foreach (HolderPiece piece in piecesReverted)
             gameBoard[piece.GridPoint.X, piece.GridPoint.Y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)piece.Element.Element - 1]);
         ValidateGameBoard(true);
+    }
+
+    public void ChangeNumberOfPiecesToPiece(MatchPieceSO piece, int numberOfPieces)
+    {
+        List<GridPoint> changedPieces = new List<GridPoint>();
+        while (changedPieces.Count < numberOfPieces)
+        {
+            int randomX = UnityEngine.Random.Range(0, _boardWidth);
+            int randomY = UnityEngine.Random.Range(0, _boardHeight);
+            if (gameBoard[randomX, randomY].MatchPiece == GameManager.Instance.WallPiece)
+                continue;
+            changedPieces.Add(new GridPoint(randomX, randomY));
+        }
+        foreach (GridPoint gridPoint in changedPieces)
+        {
+            gameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SetUp(piece);
+        }
+    }
+    public IEnumerator HackOpponentBoardSuperDuration(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece == GameManager.Instance.VirusPiece)
+                {
+                    gameBoard[x,y].ActivePieceController.GetComponent<Image>().enabled = false;
+                    gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.EmptyPiece);
+                    AddUpdatingPiece(ref piecesUpdating, gameBoard[x, y].ActivePieceController);
+                }
+            }
+        }
+        Debug.Log("Virus expelled");
     }
 
 

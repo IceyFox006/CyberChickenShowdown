@@ -16,6 +16,7 @@ public class Enums : MonoBehaviour
         ColumnKO,
         CrossKOsmall,
         CrossKOlarge,
+        InfectNeighbors,
     }
     public enum Element
     {

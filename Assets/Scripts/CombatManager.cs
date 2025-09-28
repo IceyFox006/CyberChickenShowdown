@@ -135,9 +135,11 @@ public class CombatManager : MonoBehaviour
                 CorrectHPAmount();
                 break;
             case Enums.SuperFunction.Turn30PercentOfThisBoardToFighterElement:
-                owner.Game.ChangePercentOfBoardToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
+                owner.Game.ChangePercentOfPiecesToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
                 break;
             case Enums.SuperFunction.HackOpponentBoard:
+                target.Game.ChangeNumberOfPiecesToPiece(GameManager.Instance.VirusPiece, 2);
+                StartCoroutine(target.Game.HackOpponentBoardSuperDuration(5));
                 break;
             case Enums.SuperFunction.FighterElementAttackBoost:
                 break;
