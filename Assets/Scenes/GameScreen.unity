@@ -1337,6 +1337,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7199667301925164267, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2903332549074342692, guid: cc2dd52cd7fcf3848b199be6153e8b87, type: 3}
+    - target: {fileID: 7199667301925164267, guid: 7691f96424300c84abac8f33516569a1, type: 3}
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
@@ -2056,6 +2060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1GO
       objectReference: {fileID: 0}
+    - target: {fileID: 7199667301925164267, guid: 7691f96424300c84abac8f33516569a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4117921358745606201, guid: 51b93b81b0bcba2468cfa61702f8f51a, type: 3}
     - target: {fileID: 8061441467579304084, guid: 7691f96424300c84abac8f33516569a1, type: 3}
       propertyPath: _owner
       value: 
