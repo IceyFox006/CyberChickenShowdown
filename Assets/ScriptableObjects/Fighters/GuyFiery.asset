@@ -20,9 +20,9 @@ MonoBehaviour:
   _HP: 1000
   _Attack: 20
   _blockEffectiveness: 0.8
-  _superFunction: 0
+  _superFunction: 3
   _superCapacity: 50
   _superFillSpeed: 0.1
   _superDrainRate: 1
-  _superEffectiveness: 50
-  _animationController: {fileID: 9100000, guid: f689ee9792c4eae4aa4571b63b4fc363, type: 2}
+  _superEffectiveness: 30
+  _animationController: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}

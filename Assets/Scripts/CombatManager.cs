@@ -65,7 +65,7 @@ public class CombatManager : MonoBehaviour
 
 
         DealDamage(target, damage, true);
-        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
@@ -133,6 +133,13 @@ public class CombatManager : MonoBehaviour
                 target.CombatManager.CorrectSuperAmount();
                 owner.CombatManager.RegenHealth(owner, value * (owner.Fighter.SuperEffectiveness * 0.1f));
                 CorrectHPAmount();
+                break;
+            case Enums.SuperFunction.Turn30PercentOfThisBoardToFighterElement:
+                owner.Game.ChangePercentOfBoardToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
+                break;
+            case Enums.SuperFunction.HackOpponentBoard:
+                break;
+            case Enums.SuperFunction.FighterElementAttackBoost:
                 break;
         }
         owner.CurrentSuper = 0;

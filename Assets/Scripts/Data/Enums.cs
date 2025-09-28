@@ -32,5 +32,8 @@ public class Enums : MonoBehaviour
         nil,
         ImmediateDamage,
         LeechOpponentSuperToHP,
+        Turn30PercentOfThisBoardToFighterElement,
+        HackOpponentBoard,
+        FighterElementAttackBoost,
     }
 }

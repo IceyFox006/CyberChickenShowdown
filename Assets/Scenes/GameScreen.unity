@@ -1818,7 +1818,7 @@ PrefabInstance:
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _fighter
       value: 
-      objectReference: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
+      objectReference: {fileID: 11400000, guid: 585397a360d55a64cb55eea963e8bae7, type: 2}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _uiHandler
       value: 
