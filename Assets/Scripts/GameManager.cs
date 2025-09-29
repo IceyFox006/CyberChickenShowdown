@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("Match Game")]
     [SerializeField] private MatchPieceSO _wallPiece;
     [SerializeField] private MatchPieceSO _emptyPiece;
+    [SerializeField] private MatchPieceSO _virusPiece;
     [SerializeField] private MatchPieceSO[] _matchPieces = new MatchPieceSO[0];
 
     [Header("Combat")]
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     public float Tick { get => _tick; set => _tick = value; }
     public float BlockDrainSpeed { get => _blockDrainSpeed; set => _blockDrainSpeed = value; }
     public int GameTime { get => _gameTime; set => _gameTime = value; }
+    public MatchPieceSO VirusPiece { get => _virusPiece; set => _virusPiece = value; }
 
     private void Awake()
     {

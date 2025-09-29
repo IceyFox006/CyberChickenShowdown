@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.UI;
@@ -165,11 +166,10 @@ public class PlayerMatch3 : MonoBehaviour
         ValidateGameBoard();
         InstantiateGameBoard();
         SetSelectedPieceToStartPiece();
-
     }
 
     //Checks over all pieces on the board and removes matches.
-    private void ValidateGameBoard()
+    private void ValidateGameBoard(bool pieceObjectsSpawned = false)
     {
         List<Enums.Element> elementsToRemove = new List<Enums.Element>();
         for (int x = 0; x < _boardWidth; x++)
@@ -186,7 +186,10 @@ public class PlayerMatch3 : MonoBehaviour
                     element = GetElementAtGridPoint(pointChecked);
                     if (!elementsToRemove.Contains(element))
                         elementsToRemove.Add(element);
-                    SetElementAtGridPoint(pointChecked, NewElement(ref elementsToRemove));
+                    if (pieceObjectsSpawned)
+                        gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)NewElement(ref elementsToRemove) - 1]);
+                    else
+                        SetElementAtGridPoint(pointChecked, NewElement(ref elementsToRemove));
                 }
             }
         }
@@ -212,7 +215,91 @@ public class PlayerMatch3 : MonoBehaviour
         }
     }
 
+    public void ChangePercentOfPiecesToElement(ElementSO element, float percentage)
+    {
+        int numberOfPiecesToChange = (int)(GetNumberOfPossiblePiecesOnBoard() * percentage);
+        List<HolderPiece> piecesChanged = new List<HolderPiece>();
+        List<HolderPiece> piecesReverted = new List<HolderPiece>();
+        while (piecesChanged.Count < numberOfPiecesToChange)
+        {
+            for (int x = 0; x < _boardWidth; x++)
+            {
+                for (int y = 0; y < _boardHeight; y++)
+                {
+                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
+                        continue;
+                    if (UnityEngine.Random.Range(0, 100) < (int)(percentage * 100))
+                    {
+                        piecesChanged.Add(new HolderPiece(new GridPoint(x, y), gameBoard[x, y].MatchPiece.Element));
+                        gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)element.Element - 1]);
+                    }
+                }
+            }
+            ValidateGameBoard(true);
+            for (int index = piecesChanged.Count - 1; index >= 0; index--)
+            {
+                if (GetElementAtGridPoint(piecesChanged[index].GridPoint) != element.Element)
+                {
+                    piecesReverted.Add(piecesChanged[index]);
+                    piecesChanged.RemoveAt(index);
+                }
+            }
+        }
+        foreach (HolderPiece piece in piecesReverted)
+            gameBoard[piece.GridPoint.X, piece.GridPoint.Y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)piece.Element.Element - 1]);
+        ValidateGameBoard(true);
+    }
 
+    public void ChangeNumberOfPiecesToPiece(MatchPieceSO piece, int numberOfPieces)
+    {
+        List<GridPoint> changedPieces = new List<GridPoint>();
+        while (changedPieces.Count < numberOfPieces)
+        {
+            int randomX = UnityEngine.Random.Range(0, _boardWidth);
+            int randomY = UnityEngine.Random.Range(0, _boardHeight);
+            if (gameBoard[randomX, randomY].MatchPiece == GameManager.Instance.WallPiece)
+                continue;
+            changedPieces.Add(new GridPoint(randomX, randomY));
+        }
+        foreach (GridPoint gridPoint in changedPieces)
+        {
+            gameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SetUp(piece);
+        }
+    }
+    public IEnumerator HackOpponentBoardSuperDuration(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece == GameManager.Instance.VirusPiece)
+                {
+                    gameBoard[x,y].ActivePieceController.GetComponent<Image>().enabled = false;
+                    gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.EmptyPiece);
+                    AddUpdatingPiece(ref piecesUpdating, gameBoard[x, y].ActivePieceController);
+                }
+            }
+        }
+        Debug.Log("Virus expelled.");
+    }
+
+
+    private int GetNumberOfPossiblePiecesOnBoard()
+    {
+        int pieceCount = 0;
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece != GameManager.Instance.WallPiece)
+                    pieceCount++;
+            }
+        }
+        return pieceCount;
+    }
+
+    //Gets rid of all matches once all the pieces have landed.
     private void ElimateConnectedPieces()
     {
         if (!IsBoardFull())

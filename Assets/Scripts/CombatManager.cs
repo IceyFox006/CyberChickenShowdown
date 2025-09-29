@@ -16,6 +16,8 @@ public class CombatManager : MonoBehaviour
 
     private int attackElementID = 0;
 
+    private bool superIsActive = false;
+
     public bool IsBlocking { get => isBlocking; set => isBlocking = value; }
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
     public bool IsSTAB { get => isSTAB; set => isSTAB = value; }
@@ -39,6 +41,10 @@ public class CombatManager : MonoBehaviour
         {
             damage *= GameManager.Instance.STABMultiplier;
             isSTAB = true;
+
+            //FighterElementAttackBoost
+            if (superIsActive && owner.Fighter.SuperFunction == Enums.SuperFunction.FighterElementAttackBoost)
+                damage *= 1 + (owner.Fighter.SuperEffectiveness * 0.1f);
         }
 
         //Combo
@@ -63,9 +69,8 @@ public class CombatManager : MonoBehaviour
         if (target.CombatManager.IsBlocking)
             damage *= (1 - target.Fighter.BlockEffectiveness);
 
-
         DealDamage(target, damage, true);
-        Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
+        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
@@ -134,8 +139,25 @@ public class CombatManager : MonoBehaviour
                 owner.CombatManager.RegenHealth(owner, value * (owner.Fighter.SuperEffectiveness * 0.1f));
                 CorrectHPAmount();
                 break;
+            case Enums.SuperFunction.Turn30PercentOfThisBoardToFighterElement:
+                owner.Game.ChangePercentOfPiecesToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
+                break;
+            case Enums.SuperFunction.HackOpponentBoard:
+                target.Game.ChangeNumberOfPiecesToPiece(GameManager.Instance.VirusPiece, (int)(owner.Fighter.SuperEffectiveness * 0.1f));
+                StartCoroutine(target.Game.HackOpponentBoardSuperDuration((int)owner.Fighter.SuperEffectiveness * 0.1f));
+                break;
+            case Enums.SuperFunction.FighterElementAttackBoost:
+                superIsActive = true;
+                StartCoroutine(SuperCountDown((int)(owner.Fighter.SuperEffectiveness * 0.5f)));
+                break;
         }
         owner.CurrentSuper = 0;
+    }
+    private IEnumerator SuperCountDown(int duration)
+    {
+        yield return new WaitForSeconds(duration);
+        superIsActive = false;
+        Debug.Log("Song ended.");
     }
     public void StartBlocking()
     {
