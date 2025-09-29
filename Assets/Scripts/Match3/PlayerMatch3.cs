@@ -281,7 +281,7 @@ public class PlayerMatch3 : MonoBehaviour
                 }
             }
         }
-        Debug.Log("Virus expelled");
+        Debug.Log("Virus expelled.");
     }
 
 
