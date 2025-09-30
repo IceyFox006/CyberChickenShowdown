@@ -21,6 +21,7 @@ public class FighterSO : ScriptableObject
 
     [Header("Visuals")]
     [SerializeField] private RuntimeAnimatorController _animationController;
+    [SerializeField] private Sprite _superVisual;
 
     public string Name { get => _name; set => _name = value; }
     public int HP { get => _HP; set => _HP = value; }
@@ -34,4 +35,5 @@ public class FighterSO : ScriptableObject
     public float SuperEffectiveness { get => _superEffectiveness; set => _superEffectiveness = value; }
     public RuntimeAnimatorController AnimationController { get => _animationController; set => _animationController = value; }
     public string[] WinQuotes { get => _winQuotes; set => _winQuotes = value; }
+    public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
 }

@@ -6,6 +6,7 @@ public class PlayerUIHandler : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
+    [SerializeField] private Image _superVisualImage;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -67,5 +68,16 @@ public class PlayerUIHandler : MonoBehaviour
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
         _superBarFillImage.color = _superBarGradient.Evaluate(superPercented);
+    }
+    public void ActivateSuperVisual()
+    {
+        if (owner.Fighter.SuperVisual == null)
+            return;
+        _superVisualImage.enabled = true;
+        _superVisualImage.sprite = owner.Fighter.SuperVisual;
+    }
+    public void DeactivateSuperVisual()
+    {
+        _superVisualImage.enabled = false;
     }
 }
