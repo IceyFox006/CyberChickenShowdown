@@ -143,10 +143,12 @@ public class CombatManager : MonoBehaviour
                 owner.Game.ChangePercentOfPiecesToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
                 break;
             case Enums.SuperFunction.HackOpponentBoard:
+                owner.UiHandler.ActivateSuperVisual();
                 target.Game.ChangeNumberOfPiecesToPiece(GameManager.Instance.VirusPiece, (int)(owner.Fighter.SuperEffectiveness * 0.1f));
                 StartCoroutine(target.Game.HackOpponentBoardSuperDuration((int)owner.Fighter.SuperEffectiveness * 0.1f));
                 break;
             case Enums.SuperFunction.FighterElementAttackBoost:
+                owner.UiHandler.ActivateSuperVisual();
                 superIsActive = true;
                 StartCoroutine(SuperCountDown((int)(owner.Fighter.SuperEffectiveness * 0.5f)));
                 break;
@@ -157,6 +159,7 @@ public class CombatManager : MonoBehaviour
     {
         yield return new WaitForSeconds(duration);
         superIsActive = false;
+        owner.UiHandler.DeactivateSuperVisual();
         Debug.Log("Song ended.");
     }
     public void StartBlocking()

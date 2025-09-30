@@ -560,6 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: P1
+  _ID: 0
   _gameObjectController: {fileID: 0}
   _inputController: {fileID: 4679349340667082980}
   _game: {fileID: 5510607662494759301}
@@ -592,21 +593,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fighterNameText: {fileID: 123261728978662959}
+  _superVisualImage: {fileID: 0}
   _overlayCanvas: {fileID: 0}
   _floatingTextPrefab: {fileID: 6326663757289048118, guid: bd648b421dbc30444b9308dbd0c15cf1, type: 3}
   _floatingTextSpawnLocation: {fileID: 0}
-  _weaknessHitFT:
-    _isInternal: 1
-    _text: SUPER EFFECTIVE!
-    _color: {r: 0.12795234, g: 1, b: 0, a: 0}
-  _neutralHitFT:
+  _reduceDamageFT:
     _isInternal: 0
-    _text: Neutral
-    _color: {r: 0.9, g: 0.7633508, b: 0, a: 0}
-  _resistanceHitFT:
-    _isInternal: 1
-    _text: weak...
-    _color: {r: 0.5, g: 0, b: 0, a: 0}
+    _text: 
+    _color: {r: 0, g: 0, b: 0, a: 0}
+  _regenHealthFT:
+    _isInternal: 0
+    _text: 
+    _color: {r: 0, g: 0, b: 0, a: 0}
   _HPBarFillImage: {fileID: 3611275066898590044}
   _HPBarGradient:
     serializedVersion: 2

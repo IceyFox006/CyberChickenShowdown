@@ -281,6 +281,7 @@ public class PlayerMatch3 : MonoBehaviour
                 }
             }
         }
+        GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
         Debug.Log("Virus expelled.");
     }
 
