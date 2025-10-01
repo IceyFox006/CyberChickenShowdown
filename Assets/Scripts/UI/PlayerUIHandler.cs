@@ -14,6 +14,7 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private Transform _floatingTextSpawnLocation;
     [SerializeField] private FloatingText _reduceDamageFT;
     [SerializeField] private FloatingText _regenHealthFT;
+    [SerializeField] private FloatingText _superFT;
 
     [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
@@ -29,6 +30,7 @@ public class PlayerUIHandler : MonoBehaviour
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
+    public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
 
     private void Start()
     {

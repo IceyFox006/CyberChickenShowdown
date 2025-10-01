@@ -130,7 +130,8 @@ public class CombatManager : MonoBehaviour
         {
             case Enums.SuperFunction.ImmediateDamage:
                 value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
-                DealDamage(target, value, true);
+                DealDamage(target, value);
+                target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
                 break;
             case Enums.SuperFunction.LeechOpponentSuperToHP:
                 value = target.Fighter.SuperCapacity * 0.3f;
