@@ -24,14 +24,15 @@ public class GameTimer : MonoBehaviour
             currentTime--;
             LinkTimeToTimer();
         }
+
         GameManager.Instance.EndGame(GameManager.Instance.GetPlayerWithHighestHP());
 
     }
     private void LinkTimeToTimer()
     {
-        //_timerText.text = currentTime.ToString();
         int minutes = currentTime / 60;
         int seconds = currentTime % 60;
+
         _timerText.text = minutes + " : " + seconds;
     }
 }

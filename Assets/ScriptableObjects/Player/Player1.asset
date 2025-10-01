@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Player 1
   _ID: 1
-  _fighter: {fileID: 0}
+  _fighter: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
