@@ -17,14 +17,12 @@ public class Player : MonoBehaviour
     private float currentSuper = 0;
 
     public PlayerMatch3 Game { get => _game; set => _game = value; }
-    //public string Name { get => _name; set => _name = value; }
     public FighterSO Fighter { get => _fighter; set => _fighter = value; }
     public float CurrentHP { get => currentHP; set => currentHP = value; }
     public float CurrentSuper { get => currentSuper; set => currentSuper = value; }
     public PlayerUIHandler UiHandler { get => _uiHandler; set => _uiHandler = value; }
     public CombatManager CombatManager { get => _combatManager; set => _combatManager = value; }
     public PlayerGOController GameObjectController { get => _gameObjectController; set => _gameObjectController = value; }
-    //public int ID { get => _ID; set => _ID = value; }
     public PlayerSO PlayerData { get => _playerData; set => _playerData = value; }
 
     private void Awake()

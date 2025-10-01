@@ -61,10 +61,6 @@ public class GameManager : MonoBehaviour
     public void EndGame(Player winner)
     {
         winner.PlayerData.IsWinner = true;
-
-        //StaticData.WinnerID = winner.ID;
-        //StaticData.WinningFighter = winner.Fighter;
-        //StaticData.LosingFigher = GetOpponent(winner).Fighter;
         SceneManager.LoadScene("WinLoseScene");
     }
 }

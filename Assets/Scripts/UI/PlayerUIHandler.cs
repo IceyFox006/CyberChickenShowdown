@@ -1,34 +1,40 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerUIHandler : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
-    [SerializeField] private Image _superVisualImage;
+    [SerializeField] private UnityEngine.UI.Image _superVisualImage;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
     [SerializeField] private GameObject _floatingTextPrefab;
     [SerializeField] private Transform _floatingTextSpawnLocation;
+
     [SerializeField] private FloatingText _reduceDamageFT;
     [SerializeField] private FloatingText _regenHealthFT;
+    [SerializeField] private FloatingText _superFT;
+
+    
 
     [Header("HP Bar")]
-    [SerializeField] private Image _HPBarFillImage;
+    [SerializeField] private UnityEngine.UI.Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
     [SerializeField] private float _HPBarFillSpeed = 3;
     private float activeHPFillSpeed;
 
     [Header("Super Bar")]
-    [SerializeField] private Image _superBarFillImage;
+    [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
     [SerializeField] private Gradient _superBarGradient;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
+    public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
 
     private void Start()
     {
@@ -48,12 +54,16 @@ public class PlayerUIHandler : MonoBehaviour
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "")
     {
         GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
-        TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
-        if (floatingText.IsInternal)
-            text.text = floatingText.Text;
-        else
-            text.text = externalText;
-        text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
+        //TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
+        foreach (TMP_Text t in floatingTextGO.GetComponentsInChildren<TMP_Text>())
+        {
+            if (floatingText.IsInternal)
+                t.text = floatingText.Text;
+            else
+                t.text = externalText;
+            t.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
+        }
+
     }
     public void LinkHPToHPBar()
     {

@@ -349,7 +349,7 @@ PrefabInstance:
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _fighter
       value: 
-      objectReference: {fileID: 11400000, guid: b2b8a864496b1c744bfbcc4b6925385c, type: 2}
+      objectReference: {fileID: 11400000, guid: f7a668d29befb0a43a1e5e377ceca2b1, type: 2}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _uiHandler
       value: 
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   _tick: 1
   _player1: {fileID: 629431117}
   _player2: {fileID: 1990371872}
-  _gameTime: 90
+  _gameTime: 60
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _virusPiece: {fileID: 11400000, guid: 77539dfa6231c9b479311944075cf906, type: 2}
@@ -1500,7 +1500,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabAsset: {fileID: 0
   m_GameObject: {fileID: 1477474441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2127,7 +2127,7 @@ PrefabInstance:
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _fighter
       value: 
-      objectReference: {fileID: 11400000, guid: 9c37b6a4d87b2ea41970aaf2e70b1604, type: 2}
+      objectReference: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _uiHandler
       value: 
@@ -2153,34 +2153,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 832509894}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _floatingTextPrefab
-      value: 
-      objectReference: {fileID: 726124167574297067, guid: 2c2b2c88e45b1d3449f85fa4b33c8b80, type: 3}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _regenHealthFT._color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _regenHealthFT._color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _regenHealthFT._color.r
-      value: 0.016957283
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _reduceDamageFT._color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _reduceDamageFT._color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _reduceDamageFT._color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _neutralHitFT._isInternal
       value: 0
       objectReference: {fileID: 0}
@@ -2189,15 +2161,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1575087748}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _regenHealthFT._isInternal
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _weaknessHitFT._isInternal
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
-      propertyPath: _reduceDamageFT._isInternal
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7773055432936158227, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
