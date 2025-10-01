@@ -7,7 +7,9 @@ public class EndScreenBehavior : MonoBehaviour
     [SerializeField] private TMP_Text _winnerQuoteText;
     private void Start()
     {
-        _winnerText.text = "Player " + StaticData.WinnerID + "'s " + StaticData.WinningFighter.Name + "\n WON!";
-        _winnerQuoteText.text = StaticData.WinningFighter.WinQuotes[Random.Range(0, StaticData.WinningFighter.WinQuotes.Length)];
+        _winnerText.text = StaticData.GetWinner().Name + "'s " + StaticData.GetWinner().Fighter.Name + "\n WON!";
+        _winnerQuoteText.text = StaticData.GetWinner().Fighter.WinQuotes[Random.Range(0, StaticData.GetWinner().Fighter.WinQuotes.Length)];
+
+        StaticData.ResetWinner();
     }
 }

@@ -5,8 +5,7 @@ public class MenuButtons : MonoBehaviour
 {
     public void ChangeCharacter()
     {
-        Debug.Log("Not implemented yet.");
-        //Go to choose fighter scene
+        SceneManager.LoadScene("CharacterSelectScreen");
     }
     public void Rematch()
     {
