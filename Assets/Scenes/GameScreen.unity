@@ -351,6 +351,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1990371873}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _playerData
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
+    - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _combatManager
       value: 
       objectReference: {fileID: 1990371874}
@@ -1904,6 +1908,10 @@ PrefabInstance:
       propertyPath: _uiHandler
       value: 
       objectReference: {fileID: 1697769582}
+    - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
+      propertyPath: _playerData
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b70ab1fb48a0d54292e6b5202d1f715, type: 2}
     - target: {fileID: 7606387145619341961, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: _combatManager
       value: 

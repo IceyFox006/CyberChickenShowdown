@@ -15,4 +15,4 @@ MonoBehaviour:
   _name: Hack
   _boardFunction: 1
   _element: {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
-  _sprite: {fileID: 21300000, guid: e6d58e2c1e789af4baa934eb19f93a06, type: 3}
+  _sprite: {fileID: 21300000, guid: 5584ae0ff65475b42902167cfcd121b3, type: 3}

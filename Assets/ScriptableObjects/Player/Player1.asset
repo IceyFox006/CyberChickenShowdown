@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91f3e9a1aa0391343a71c72e79fd1371, type: 3}
-  m_Name: Fire
+  m_Script: {fileID: 11500000, guid: 5dd1f2bc100bdee469a99662695f9965, type: 3}
+  m_Name: Player1
   m_EditorClassIdentifier: 
-  _name: Fire
-  _boardFunction: 1
-  _element: {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
-  _sprite: {fileID: 21300000, guid: 00d41d29da7199c42936f14922e7e1f2, type: 3}
+  _name: Player 1
+  _ID: 1
+  _fighter: {fileID: 0}

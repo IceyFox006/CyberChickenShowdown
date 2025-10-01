@@ -18,3 +18,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
   _resistances:
   - {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
+  _icon: {fileID: 21300000, guid: 5584ae0ff65475b42902167cfcd121b3, type: 3}

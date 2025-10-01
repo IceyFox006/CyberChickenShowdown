@@ -23,6 +23,10 @@ public class FighterSO : ScriptableObject
     [SerializeField] private RuntimeAnimatorController _animationController;
     [SerializeField] private Sprite _superVisual;
 
+    [Header("Select Screen")]
+    [SerializeField] private Sprite _portrait;
+
+
     public string Name { get => _name; set => _name = value; }
     public int HP { get => _HP; set => _HP = value; }
     public int Attack { get => _Attack; set => _Attack = value; }
@@ -36,4 +40,5 @@ public class FighterSO : ScriptableObject
     public RuntimeAnimatorController AnimationController { get => _animationController; set => _animationController = value; }
     public string[] WinQuotes { get => _winQuotes; set => _winQuotes = value; }
     public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
+    public Sprite Portrait { get => _portrait; set => _portrait = value; }
 }
