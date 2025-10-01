@@ -69,18 +69,24 @@ public class CombatManager : MonoBehaviour
         if (target.CombatManager.IsBlocking)
             damage *= (1 - target.Fighter.BlockEffectiveness);
 
-        DealDamage(target, damage, true);
+        DealDamage(target, damage, true, match.Element);
         //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage, bool spawnFloatingText = false)
+    private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
         target.CurrentHP -= damage;
         target.CombatManager.IsHurt = true;
         if (spawnFloatingText)
-            target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
+        {
+            if (damageElement == null)
+                target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
+            else
+                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, damage.ToString());
+        }
+
         if (target.CurrentHP <= 0)
             target.CombatManager.IsDead = true;
     }
@@ -126,12 +132,12 @@ public class CombatManager : MonoBehaviour
             return;
 
         float value = 0;
+        target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
         switch (owner.Fighter.SuperFunction)
         {
             case Enums.SuperFunction.ImmediateDamage:
                 value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
                 DealDamage(target, value);
-                target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
                 break;
             case Enums.SuperFunction.LeechOpponentSuperToHP:
                 value = target.Fighter.SuperCapacity * 0.3f;
