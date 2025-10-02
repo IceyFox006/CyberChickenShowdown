@@ -1160,8 +1160,8 @@ RectTransform:
   - {fileID: 5586910421273017295}
   - {fileID: 4338038846669881452}
   - {fileID: 4282090909713668339}
-  - {fileID: 4173096873323304103}
   - {fileID: 8332659536422301829}
+  - {fileID: 4173096873323304103}
   m_Father: {fileID: 2531418399500736803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
@@ -1268,6 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
+  _lockedInVisual: {fileID: 0}
   _nameText: {fileID: 937236663066809323}
   _elementText: {fileID: 1704822811072856918}
   _elementImage: {fileID: 3473929403123455343}
