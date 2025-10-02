@@ -163,6 +163,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
             Destroy(_matchPieceHolder.GetChild(index).gameObject);
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = true;
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
@@ -221,6 +222,7 @@ public class PlayerMatch3 : MonoBehaviour
                 gameBoard[x, y].ActivePieceController = matchPieceObject.GetComponent<ActivePieceController>(); //!!!
             }
         }
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
 
     public void ChangePercentOfPiecesToElement(ElementSO element, float percentage)
