@@ -26,3 +26,5 @@ MonoBehaviour:
   _superDrainRate: 1
   _superEffectiveness: 50
   _animationController: {fileID: 9100000, guid: 35fbf3b2f1c4f7147a712b863b89f96d, type: 2}
+  _superVisual: {fileID: 0}
+  _portrait: {fileID: -5101227768197015883, guid: acd17aea1d0e4ed4e9af8a738183b715, type: 3}
