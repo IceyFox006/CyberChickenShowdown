@@ -104,7 +104,9 @@ public class PlayerMatch3 : MonoBehaviour
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                     if (cellPiece != null)
                         cellPiece.GetComponent<Image>().enabled = false;
+                    cellPiece.PlayBreakParticles();
                     cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
+                    
                 }
                
             }
@@ -292,7 +294,6 @@ public class PlayerMatch3 : MonoBehaviour
             }
         }
         GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
-        Debug.Log("Virus expelled.");
     }
 
 
