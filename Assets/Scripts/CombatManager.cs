@@ -70,7 +70,6 @@ public class CombatManager : MonoBehaviour
             damage *= (1 - target.Fighter.BlockEffectiveness);
 
         DealDamage(target, damage, true, match.Element);
-        //Debug.Log(owner.Name + " dealt " + match.Element.Name + " " + damage + " to " + target.Name + ".");
 
         ChargeSuper(damage);
     }

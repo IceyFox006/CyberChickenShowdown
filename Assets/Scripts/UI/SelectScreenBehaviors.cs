@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using TMPro;
 using UnityEngine;
@@ -11,6 +13,7 @@ public class SelectScreenBehaviors : MonoBehaviour
     private bool hasSelected = false;
 
     [SerializeField] private GameObject _lockedInVisual;
+    [SerializeField] private GameObject _countdownVisual;
 
     [Header("Fighter Info")]
     [SerializeField] private TMP_Text _nameText;
@@ -50,9 +53,7 @@ public class SelectScreenBehaviors : MonoBehaviour
             return;
         _player.Fighter = fighter;
         _lockedInVisual.SetActive(true);
-        hasSelected = true;
-        if (HaveBothPlayersSelected())
-            SceneManager.LoadScene("GameScreen");
+        //hasSelected = true;
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {

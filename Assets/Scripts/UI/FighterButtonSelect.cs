@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FighterButtonSelect : MonoBehaviour
@@ -12,17 +13,20 @@ public class FighterButtonSelect : MonoBehaviour
 
     public void Hover()
     {
-        if (selected)
+        if (selected || _ssb.HasSelected)
             return;
         Exit();
         _hoverImage.enabled = true;
     }
     public void Select()
     {
-        if (selected)
+        if (selected || _ssb.HasSelected)
             return;
         Exit();
         _selectionImage.enabled = true;
+        _ssb.HasSelected = true;
+        if (_ssb.HaveBothPlayersSelected())
+            SceneManager.LoadScene("GameScreen");
         selected = true;
     }
     public void Exit()
