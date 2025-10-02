@@ -28,6 +28,8 @@ public class PlayerMatch3 : MonoBehaviour
     private ActivePieceController endSwapPiece = null;
     private bool isSelecting = false;
 
+    private int[] pieceFills;
+
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
 
@@ -48,9 +50,12 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void Start()
     {
+        pieceFills = new int[_boardWidth];
         gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
+        //if (_matchPieceHolder.GetComponent<GridLayoutGroup>() != null)
+        //    _matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
     private void FixedUpdate()
     {
@@ -66,6 +71,9 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController piece = piecesFinishedUpdating[index];
             SwappedPieces swapped = GetSwappedPieces(piece);
             ActivePieceController swappedPiece = null;
+
+            int x = (int)piece.GridPoint.X;
+            pieceFills[x] = Mathf.Clamp(pieceFills[x] - 1, 0, _boardWidth);
 
             List<GridPoint> connectedPieces = GetConnectedPieces(piece.GridPoint, true);
             List<GridPoint> connectedPiecesToPiece = GetConnectedPieces(piece.GridPoint, true);
@@ -562,10 +570,15 @@ public class PlayerMatch3 : MonoBehaviour
                     if (nextElement != Enums.Element.Empty)
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
+
+                        GridPoint fallPoint = new GridPoint(x, (-1 - pieceFills[x]));
+                        gotPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(fallPoint);
+                        
                         cellPiece.SetUp(gotPiece.MatchPiece);
                         AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(GameManager.Instance.EmptyPiece); //gotPiece.SetUp(null);
+                        pieceFills[x]++;
                     }
                     break;
                 }
