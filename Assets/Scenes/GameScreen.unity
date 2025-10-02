@@ -1300,7 +1300,7 @@ MonoBehaviour:
   _tick: 1
   _player1: {fileID: 629431117}
   _player2: {fileID: 1990371872}
-  _gameTime: 60
+  _gameTime: 1000
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _virusPiece: {fileID: 11400000, guid: 77539dfa6231c9b479311944075cf906, type: 2}
@@ -2122,7 +2122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6414634824276290447, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6859010358299179189, guid: 0355a024ec4712e48a962c11e601464b, type: 3}
       propertyPath: m_Name
