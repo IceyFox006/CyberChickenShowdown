@@ -1021,6 +1021,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -170
       objectReference: {fileID: 0}
+    - target: {fileID: 165519103636783448, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
@@ -1037,6 +1041,14 @@ PrefabInstance:
       propertyPath: m_Actions
       value: 
       objectReference: {fileID: -944628639613478452, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
+    - target: {fileID: 2207685035829642730, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772978725126035643, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
     - target: {fileID: 2773690391004473855, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1077,6 +1089,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3662361400700715840, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 3662361400700715840, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1441544909
+      objectReference: {fileID: 0}
     - target: {fileID: 3779211912619823734, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -1100,6 +1120,18 @@ PrefabInstance:
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
       value: PlayerRevamped2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936145874937373733, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936145874937373733, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936145874937373733, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7093382423501947598, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1245,6 +1277,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 165519103636783448, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
@@ -1257,6 +1293,10 @@ PrefabInstance:
       propertyPath: _floatingTextSpawnLocation
       value: 
       objectReference: {fileID: 1575087748}
+    - target: {fileID: 2772978725126035643, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
     - target: {fileID: 2773690391004473855, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1296,6 +1336,14 @@ PrefabInstance:
     - target: {fileID: 2773690391004473855, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3662361400700715840, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 3662361400700715840, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1441544909
       objectReference: {fileID: 0}
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
@@ -1675,7 +1723,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: cd3aec55
@@ -1940,7 +1988,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000dfdfb0dc
