@@ -51,9 +51,23 @@ public class GameManager : MonoBehaviour
             return _player1;
         return null;
     }
-    public Player GetPlayerWithHighestHP()
+    public Player DetermineWinner()
     {
+        //Player with the most HP
         if (_player1.CurrentHP > _player2.CurrentHP)
+            return _player1;
+        else if (_player1.CurrentHP < _player2.CurrentHP)
+            return _player2;
+
+        //Player with the most super
+        if (_player1.CurrentSuper > _player2.CurrentSuper)
+            return _player1;
+        else if (_player1.CurrentSuper < _player2.CurrentSuper)
+            return _player2;
+
+        Debug.Log("Random winner.");
+        //Random winner
+        if (Random.Range(0, 2) == 0)
             return _player1;
         else
             return _player2;
