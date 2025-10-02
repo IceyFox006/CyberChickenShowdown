@@ -573,7 +573,7 @@ public class PlayerMatch3 : MonoBehaviour
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
 
-                        GridPoint fallPoint = new GridPoint(x, (-1 - pieceFills[x]));
+                        GridPoint fallPoint = new GridPoint(x, (1 - pieceFills[x]));//(-1 - pieceFills[x]));
                         gotPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(fallPoint);
                         
                         cellPiece.SetUp(gotPiece.MatchPiece);

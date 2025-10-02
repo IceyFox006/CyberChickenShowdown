@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private string _name;
-    [SerializeField] private int _ID;
     [SerializeField] private PlayerSO _playerData;
     [SerializeField] private PlayerGOController _gameObjectController;
     [SerializeField] private InputController _inputController;
