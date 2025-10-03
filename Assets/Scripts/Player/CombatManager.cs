@@ -1,11 +1,10 @@
 using System.Collections;
 using UnityEngine;
-using static Enums;
-using static UnityEngine.GraphicsBuffer;
 
 public class CombatManager : MonoBehaviour
 {
     private Player owner;
+    private float legUp;
 
     private bool isBlocking = false;
     private bool isAttacking = false;
@@ -106,7 +105,9 @@ public class CombatManager : MonoBehaviour
 
     private void ChargeSuper(float damage)
     {
-        owner.CurrentSuper += (damage * owner.Data.Fighter.SuperFillSpeed);
+        UpdateLegUp();
+
+        owner.CurrentSuper += (damage * legUp * owner.Data.Fighter.SuperFillSpeed);
         CorrectSuperAmount();
     }
     public bool IsSuperFull()
@@ -124,6 +125,14 @@ public class CombatManager : MonoBehaviour
         }
         if (owner.CurrentSuper < 0)
             owner.CurrentSuper = 0;
+    }
+    private void UpdateLegUp()
+    {
+        if (owner.GetHPPercentage() > GameManager.Instance.GetOpponent(owner).GetHPPercentage())
+            legUp = 1f;
+        else
+            legUp = (1 + (owner.GetHPPercentage() / GameManager.Instance.GetOpponent(owner).GetHPPercentage()) * 0.5f) * GameManager.Instance.LegUpMultiplier;
+        Debug.Log(owner.Data.Name + " LU = " + legUp);
     }
     public void UseSuper(Player target)
     {

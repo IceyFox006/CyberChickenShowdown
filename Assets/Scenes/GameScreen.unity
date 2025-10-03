@@ -1121,6 +1121,7 @@ MonoBehaviour:
   _resistanceMultiplier: 0.5
   _blockThreshold: 1
   _blockDrainSpeed: 8
+  _legUpMultiplier: 1.5
 --- !u!114 &1234573965
 MonoBehaviour:
   m_ObjectHideFlags: 0

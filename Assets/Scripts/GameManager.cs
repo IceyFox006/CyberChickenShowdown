@@ -20,10 +20,11 @@ public class GameManager : MonoBehaviour
     [Header("Combat")]
     [SerializeField] private float _STABMultiplier;
     [SerializeField] private float _comboAdditiveMultiplier;
-    [SerializeField] private float _weaknessMultiplier; //1.5
-    [SerializeField] private float _resistanceMultiplier; //0.5
+    [SerializeField] private float _weaknessMultiplier; //1.15
+    [SerializeField] private float _resistanceMultiplier; //0.85
     [SerializeField] private float _blockThreshold;
     [SerializeField] private float _blockDrainSpeed;
+    [SerializeField] private float _legUpMultiplier;
 
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
     public float BlockDrainSpeed { get => _blockDrainSpeed; set => _blockDrainSpeed = value; }
     public int GameTime { get => _gameTime; set => _gameTime = value; }
     public MatchPieceSO VirusPiece { get => _virusPiece; set => _virusPiece = value; }
+    public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
 
     private void Awake()
     {

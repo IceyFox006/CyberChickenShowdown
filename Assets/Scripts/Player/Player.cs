@@ -29,4 +29,8 @@ public class Player : MonoBehaviour
         currentHP = _data.Fighter.HP;
         currentSuper = _data.SavedSuper;
     }
+    public float GetHPPercentage()
+    {
+        return currentHP / (float)_data.Fighter.HP;
+    }
 }
