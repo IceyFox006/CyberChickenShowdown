@@ -1,11 +1,10 @@
 using System.Collections;
 using UnityEngine;
-using static Enums;
-using static UnityEngine.GraphicsBuffer;
 
 public class CombatManager : MonoBehaviour
 {
     private Player owner;
+    private float legUp;
 
     private bool isBlocking = false;
     private bool isAttacking = false;
@@ -32,19 +31,19 @@ public class CombatManager : MonoBehaviour
     }
     public void AttackOpponent(Player target, Match match)
     {
-        float damage = owner.Fighter.Attack;
+        float damage = owner.Data.Fighter.Attack;
         isAttacking = true;
         UpdateMatchElement(match);
 
         //STAB (if the owner's element matches the match element)
-        if (match.Element == owner.Fighter.Element)
+        if (match.Element == owner.Data.Fighter.Element)
         {
             damage *= GameManager.Instance.STABMultiplier;
             isSTAB = true;
 
             //FighterElementAttackBoost
-            if (superIsActive && owner.Fighter.SuperFunction == Enums.SuperFunction.FighterElementAttackBoost)
-                damage *= 1 + (owner.Fighter.SuperEffectiveness * 0.1f);
+            if (superIsActive && owner.Data.Fighter.SuperFunction == Enums.SuperFunction.FighterElementAttackBoost)
+                damage *= 1 + (owner.Data.Fighter.SuperEffectiveness * 0.1f);
         }
 
         //Combo
@@ -52,22 +51,22 @@ public class CombatManager : MonoBehaviour
             damage *= (1 + ((match.ConnectedPoints.Count - 3) * GameManager.Instance.ComboAdditiveMultiplier));
 
         //Weakness
-        for (int index = 0; index < target.Fighter.Element.Weaknesses.Length; index++)
+        for (int index = 0; index < target.Data.Fighter.Element.Weaknesses.Length; index++)
         {
-            if (target.Fighter.Element.Weaknesses[index] == match.Element)
+            if (target.Data.Fighter.Element.Weaknesses[index] == match.Element)
                 damage *= GameManager.Instance.WeaknessMultiplier;
         }
 
         //Resistance
-        for (int index = 0; index < target.Fighter.Element.Resistances.Length; index++)
+        for (int index = 0; index < target.Data.Fighter.Element.Resistances.Length; index++)
         {
-            if (target.Fighter.Element.Resistances[index] == match.Element)
+            if (target.Data.Fighter.Element.Resistances[index] == match.Element)
                 damage *= GameManager.Instance.ResistanceMultiplier;
         }
 
         //OpponentBlocking
         if (target.CombatManager.IsBlocking)
-            damage *= (1 - target.Fighter.BlockEffectiveness);
+            damage *= (1 - target.Data.Fighter.BlockEffectiveness);
 
         DealDamage(target, damage, true, match.Element);
 
@@ -100,18 +99,20 @@ public class CombatManager : MonoBehaviour
     }
     public void CorrectHPAmount()
     {
-        if (owner.CurrentHP > owner.Fighter.HP)
-            owner.CurrentHP = owner.Fighter.HP;
+        if (owner.CurrentHP > owner.Data.Fighter.HP)
+            owner.CurrentHP = owner.Data.Fighter.HP;
     }
 
     private void ChargeSuper(float damage)
     {
-        owner.CurrentSuper += (damage * owner.Fighter.SuperFillSpeed);
+        UpdateLegUp();
+
+        owner.CurrentSuper += (damage * legUp * owner.Data.Fighter.SuperFillSpeed);
         CorrectSuperAmount();
     }
     public bool IsSuperFull()
     {
-        if (owner.CurrentSuper >= owner.Fighter.SuperCapacity)
+        if (owner.CurrentSuper >= owner.Data.Fighter.SuperCapacity)
             return true;
         return false;
     }
@@ -119,11 +120,19 @@ public class CombatManager : MonoBehaviour
     {
         if (IsSuperFull())
         {
-            owner.CurrentSuper = owner.Fighter.SuperCapacity;
+            owner.CurrentSuper = owner.Data.Fighter.SuperCapacity;
             return;
         }
         if (owner.CurrentSuper < 0)
             owner.CurrentSuper = 0;
+    }
+    private void UpdateLegUp()
+    {
+        if (owner.GetHPPercentage() > GameManager.Instance.GetOpponent(owner).GetHPPercentage())
+            legUp = 1f;
+        else
+            legUp = (1 + (owner.GetHPPercentage() / GameManager.Instance.GetOpponent(owner).GetHPPercentage()) * 0.5f) * GameManager.Instance.LegUpMultiplier;
+        Debug.Log(owner.Data.Name + " LU = " + legUp);
     }
     public void UseSuper(Player target)
     {
@@ -132,31 +141,31 @@ public class CombatManager : MonoBehaviour
 
         float value = 0;
         target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
-        switch (owner.Fighter.SuperFunction)
+        switch (owner.Data.Fighter.SuperFunction)
         {
             case Enums.SuperFunction.ImmediateDamage:
-                value = owner.Fighter.Attack * owner.Fighter.SuperEffectiveness;
+                value = owner.Data.Fighter.Attack * owner.Data.Fighter.SuperEffectiveness;
                 DealDamage(target, value);
                 break;
             case Enums.SuperFunction.LeechOpponentSuperToHP:
-                value = target.Fighter.SuperCapacity * 0.3f;
+                value = target.Data.Fighter.SuperCapacity * 0.3f;
                 target.CurrentSuper -= value;
                 target.CombatManager.CorrectSuperAmount();
-                owner.CombatManager.RegenHealth(owner, value * (owner.Fighter.SuperEffectiveness * 0.1f));
+                owner.CombatManager.RegenHealth(owner, value * (owner.Data.Fighter.SuperEffectiveness * 0.1f));
                 CorrectHPAmount();
                 break;
             case Enums.SuperFunction.Turn30PercentOfThisBoardToFighterElement:
-                owner.Game.ChangePercentOfPiecesToElement(owner.Fighter.Element, owner.Fighter.SuperEffectiveness / 100f);
+                owner.Game.ChangePercentOfPiecesToElement(owner.Data.Fighter.Element, owner.Data.Fighter.SuperEffectiveness / 100f);
                 break;
             case Enums.SuperFunction.HackOpponentBoard:
                 owner.UiHandler.ActivateSuperVisual();
-                target.Game.ChangeNumberOfPiecesToPiece(GameManager.Instance.VirusPiece, (int)(owner.Fighter.SuperEffectiveness * 0.1f));
-                StartCoroutine(target.Game.HackOpponentBoardSuperDuration((int)owner.Fighter.SuperEffectiveness * 0.1f));
+                target.Game.ChangeNumberOfPiecesToPiece(GameManager.Instance.VirusPiece, (int)(owner.Data.Fighter.SuperEffectiveness * 0.1f));
+                StartCoroutine(target.Game.HackOpponentBoardSuperDuration((int)owner.Data.Fighter.SuperEffectiveness * 0.1f));
                 break;
             case Enums.SuperFunction.FighterElementAttackBoost:
                 owner.UiHandler.ActivateSuperVisual();
                 superIsActive = true;
-                StartCoroutine(SuperCountDown((int)(owner.Fighter.SuperEffectiveness * 0.5f)));
+                StartCoroutine(SuperCountDown((int)(owner.Data.Fighter.SuperEffectiveness * 0.5f)));
                 break;
         }
         owner.CurrentSuper = 0;
@@ -170,7 +179,7 @@ public class CombatManager : MonoBehaviour
     }
     public void StartBlocking()
     {
-        float blockThreshold = GameManager.Instance.BlockThreshold * owner.Fighter.SuperDrainRate;
+        float blockThreshold = GameManager.Instance.BlockThreshold * owner.Data.Fighter.SuperDrainRate;
         if (owner.CurrentSuper < blockThreshold)
             return;
         owner.CurrentSuper -= blockThreshold;
@@ -182,7 +191,7 @@ public class CombatManager : MonoBehaviour
     {
         while (isBlocking)
         {
-            owner.CurrentSuper -= owner.Fighter.SuperDrainRate;
+            owner.CurrentSuper -= owner.Data.Fighter.SuperDrainRate;
             if (owner.CurrentSuper <= 0)
                 StopBlocking();
             yield return new WaitForSeconds(GameManager.Instance.Tick / GameManager.Instance.BlockDrainSpeed);

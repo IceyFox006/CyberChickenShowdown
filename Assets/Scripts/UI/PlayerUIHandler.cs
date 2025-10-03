@@ -50,7 +50,7 @@ public class PlayerUIHandler : MonoBehaviour
     }
     private void LinkFighterNameText()
     {
-        _fighterNameText.text = owner.Fighter.Name;
+        _fighterNameText.text = owner.Data.Fighter.Name;
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "")
     {
@@ -65,24 +65,24 @@ public class PlayerUIHandler : MonoBehaviour
     }
     public void LinkHPToHPBar()
     {
-        float HPPercented = owner.CurrentHP / owner.Fighter.HP;
+        float HPPercented = owner.CurrentHP / owner.Data.Fighter.HP;
         activeHPFillSpeed = _HPBarFillSpeed * Time.deltaTime;
         _HPBarFillImage.fillAmount = Mathf.Lerp(_HPBarFillImage.fillAmount, HPPercented, activeHPFillSpeed);
         _HPBarFillImage.color = _HPBarGradient.Evaluate(HPPercented);
     }
     private void LinkSuperToBar()
     {
-        float superPercented = owner.CurrentSuper / owner.Fighter.SuperCapacity;
+        float superPercented = owner.CurrentSuper / owner.Data.Fighter.SuperCapacity;
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
         _superBarFillImage.color = _superBarGradient.Evaluate(superPercented);
     }
     public void ActivateSuperVisual()
     {
-        if (owner.Fighter.SuperVisual == null)
+        if (owner.Data.Fighter.SuperVisual == null)
             return;
         _superVisualImage.enabled = true;
-        _superVisualImage.sprite = owner.Fighter.SuperVisual;
+        _superVisualImage.sprite = owner.Data.Fighter.SuperVisual;
     }
     public void DeactivateSuperVisual()
     {
