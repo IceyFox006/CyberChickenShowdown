@@ -1,12 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SelectScreenBehaviors : MonoBehaviour
+public class PlayerSelectScreen : MonoBehaviour
 {
 
     [SerializeField] private PlayerSO _player;
@@ -31,29 +27,28 @@ public class SelectScreenBehaviors : MonoBehaviour
         else
             StaticData.Player2 = _player;
     }
-    public SelectScreenBehaviors GetOtherPlayer()
-    {
-        SelectScreenBehaviors[] players = FindObjectsOfType<SelectScreenBehaviors>();
-        if (players.Length > 2)
-            throw new System.Exception("Too many players.");
-        if (players[0].Player == _player)
-            return players[1];
-        else
-            return players[0];
-    }
-    public bool HaveBothPlayersSelected()
-    {
-        if (HasSelected && GetOtherPlayer().HasSelected)
-            return true;
-        return false;
-    }
+    //public PlayerSelectScreen GetOtherPlayer()
+    //{
+    //    PlayerSelectScreen[] players = FindObjectsOfType<PlayerSelectScreen>();
+    //    if (players.Length > 2)
+    //        throw new System.Exception("Too many players.");
+    //    if (players[0].Player == _player)
+    //        return players[1];
+    //    else
+    //        return players[0];
+    //}
+    //public bool HaveBothPlayersSelected()
+    //{
+    //    if (HasSelected && GetOtherPlayer().HasSelected)
+    //        return true;
+    //    return false;
+    //}
     public void Button_SelectFighter(FighterSO fighter)
     {
         if (hasSelected)
             return;
         _player.Fighter = fighter;
         _lockedInVisual.SetActive(true);
-        //hasSelected = true;
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {

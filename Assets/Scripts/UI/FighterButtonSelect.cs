@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class FighterButtonSelect : MonoBehaviour
 {
-    [SerializeField] private SelectScreenBehaviors _ssb;
+    [SerializeField] private PlayerSelectScreen _owner;
     [SerializeField] private Button _button;
     [SerializeField] private Image _selectionImage;
     [SerializeField] private Image _hoverImage;
@@ -13,21 +13,21 @@ public class FighterButtonSelect : MonoBehaviour
 
     public void Hover()
     {
-        if (selected || _ssb.HasSelected)
+        if (selected || _owner.HasSelected)
             return;
         Exit();
         _hoverImage.enabled = true;
     }
     public void Select()
     {
-        if (selected || _ssb.HasSelected)
+        if (selected || _owner.HasSelected)
             return;
         Exit();
         _selectionImage.enabled = true;
-        _ssb.HasSelected = true;
-        if (_ssb.HaveBothPlayersSelected())
-            SceneManager.LoadScene("GameScreen");
+        _owner.HasSelected = true;
         selected = true;
+        if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
+            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);//SceneManager.LoadScene("GameScreen");
     }
     public void Exit()
     {
