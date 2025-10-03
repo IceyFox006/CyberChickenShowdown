@@ -27,7 +27,7 @@ public class FighterButtonSelect : MonoBehaviour
         _owner.HasSelected = true;
         selected = true;
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
-            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);//SceneManager.LoadScene("GameScreen");
+            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);
     }
     public void Exit()
     {

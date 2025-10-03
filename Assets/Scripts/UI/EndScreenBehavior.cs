@@ -10,6 +10,6 @@ public class EndScreenBehavior : MonoBehaviour
         _winnerText.text = StaticData.GetWinner().Name + "'s " + StaticData.GetWinner().Fighter.Name + "\n WON!";
         _winnerQuoteText.text = StaticData.GetWinner().Fighter.WinQuotes[Random.Range(0, StaticData.GetWinner().Fighter.WinQuotes.Length)];
 
-        StaticData.ResetGame();//StaticData.ResetWinner();
+        StaticData.ResetGame();
     }
 }

@@ -27,22 +27,6 @@ public class PlayerSelectScreen : MonoBehaviour
         else
             StaticData.Player2 = _player;
     }
-    //public PlayerSelectScreen GetOtherPlayer()
-    //{
-    //    PlayerSelectScreen[] players = FindObjectsOfType<PlayerSelectScreen>();
-    //    if (players.Length > 2)
-    //        throw new System.Exception("Too many players.");
-    //    if (players[0].Player == _player)
-    //        return players[1];
-    //    else
-    //        return players[0];
-    //}
-    //public bool HaveBothPlayersSelected()
-    //{
-    //    if (HasSelected && GetOtherPlayer().HasSelected)
-    //        return true;
-    //    return false;
-    //}
     public void Button_SelectFighter(FighterSO fighter)
     {
         if (hasSelected)
