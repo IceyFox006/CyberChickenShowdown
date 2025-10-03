@@ -90,7 +90,7 @@ public class ActivePieceController : MonoBehaviour
     {
         if (_matchPiece.BreakParticlePrefab == null)
             return;
-        GameObject particlesGO = Instantiate(_matchPiece.BreakParticlePrefab, this.transform);
+        GameObject particlesGO = Instantiate(_matchPiece.BreakParticlePrefab, transform.position, Quaternion.identity, owner.UiHandler.OverlayCanvas.transform);
     }
     private void MovePosition(Vector2 position)
     {
