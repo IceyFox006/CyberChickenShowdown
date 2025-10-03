@@ -10,12 +10,10 @@ public class Player : MonoBehaviour
     [SerializeField] private CombatManager _combatManager;
 
     [Header("Combat")]
-    [SerializeField] private FighterSO _fighter;
     private float currentHP;
     private float currentSuper = 0;
 
     public PlayerMatch3 Game { get => _game; set => _game = value; }
-    public FighterSO Fighter { get => _fighter; set => _fighter = value; }
     public float CurrentHP { get => currentHP; set => currentHP = value; }
     public float CurrentSuper { get => currentSuper; set => currentSuper = value; }
     public PlayerUIHandler UiHandler { get => _uiHandler; set => _uiHandler = value; }
@@ -28,9 +26,7 @@ public class Player : MonoBehaviour
         _game.Owner = this;
         _inputController.Owner = this;
         
-        if (_data.Fighter != null)
-            _fighter = _data.Fighter;
-        currentHP = _fighter.HP;
+        currentHP = _data.Fighter.HP;
         currentSuper = _data.SavedSuper;
     }
 }

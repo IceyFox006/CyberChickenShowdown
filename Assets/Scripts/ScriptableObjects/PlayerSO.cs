@@ -20,7 +20,7 @@ public class PlayerSO : ScriptableObject
     public void Reset()
     {
         _name = "Player " + _ID;
-        _fighter = null;
+        //_fighter = null;
         savedSuper = 0;
         isWinner = false;
         wins = 0;

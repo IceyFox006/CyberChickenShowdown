@@ -6,7 +6,7 @@ public class FighterAnimator : MonoBehaviour
     [SerializeField] private Animator _fighterAnimator;
     private void Start()
     {
-        _fighterAnimator.runtimeAnimatorController = _owner.Fighter.AnimationController;
+        _fighterAnimator.runtimeAnimatorController = _owner.Data.Fighter.AnimationController;
     }
     private void FixedUpdate()
     {
