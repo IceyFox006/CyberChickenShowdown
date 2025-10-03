@@ -1,0 +1,40 @@
+Normal Attacks
+Damage = FighterAttack * STABMultiplier * HWSB * Combo * WeaknessMultiplier * ResistanceMultiplier * Block
+
+Combo
+Combo = (1 + (PiecesInMatch - 3)) * ComboAdditiveMultiplier
+
+Blocking
+Block = 1 - TargetFighterBlockEffectiveness
+
+Super Charge
+Super += damage * legUp * FighterSuperFillSpeed
+
+Leg Up
+LegUp = ((1 + (LowerPlayerHP / HigherPlayerHP)) / 2) * LegUpMultiplier
+
+Jeff Super Attack
+Damage = FighterAttack * FighterSuperEffectiveness
+
+Big Mother Clucker Super Drain
+OpponentSuper -= OpponentFighterSuperCapacity / 3
+
+Big Mother Clucker HP Regen
+HP += (OpponentFighterSuperCapacity / 3) * (FighterSuperEffectiveness / 10)
+
+Guy Fiery Super Piece Replace
+PercentageOfBoardPiecesReplaced = FighterSuperEffectiveness / 100
+
+Z0rd Super Piece Replace
+NumberOfPiecesReplaced = FighterSuperEffectiveness / 10
+
+Z0rd Super Duration
+Duration = FighterSuperEffectiveness / 10
+
+Hot Wings Super Boost
+HWSB = 1 + (FighterSuperEffectiveness / 10)
+
+Hot Wings Super Duration
+Duration = FighterSuperEffectiveness / 2
+
+
