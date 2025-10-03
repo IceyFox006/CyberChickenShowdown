@@ -91,7 +91,7 @@ public class ActivePieceController : MonoBehaviour
         if (_matchPiece.BreakParticlePrefab == null)
             return;
         Debug.Log("Spawned particles");
-        GameObject particlesGO = Instantiate(_matchPiece.BreakParticlePrefab);
+        GameObject particlesGO = Instantiate(_matchPiece.BreakParticlePrefab, this.transform);
     }
     private void MovePosition(Vector2 position)
     {
