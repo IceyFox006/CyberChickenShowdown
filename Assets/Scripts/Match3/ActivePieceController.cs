@@ -86,6 +86,13 @@ public class ActivePieceController : MonoBehaviour
         if (!owner.Game.IsSelecting)
             _selectedBorder.enabled = false;
     }
+    public void PlayBreakParticles()
+    {
+        if (_matchPiece.BreakParticlePrefab == null)
+            return;
+        Debug.Log("Spawned particles");
+        GameObject particlesGO = Instantiate(_matchPiece.BreakParticlePrefab, this.transform);
+    }
     private void MovePosition(Vector2 position)
     {
         GetComponent<RectTransform>().anchoredPosition += position * Time.deltaTime * (owner.Game.PieceSize.x / 4f);
