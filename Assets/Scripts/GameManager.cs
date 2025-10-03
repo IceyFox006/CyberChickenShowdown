@@ -74,7 +74,18 @@ public class GameManager : MonoBehaviour
     }
     public void EndGame(Player winner)
     {
-        winner.PlayerData.IsWinner = true;
-        SceneManager.LoadScene("WinLoseScene");
+        winner.PlayerData.Wins++;
+        StaticData.CurrentMatchCount++;
+        Debug.Log(StaticData.CurrentMatchCount + "/" + StaticData.InitialMatchCount);
+        if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
+        {
+            winner.PlayerData.IsWinner = true;
+            SceneManager.LoadScene("WinLoseScene");
+        }
+        else
+        {
+            Debug.Log("NEW MATCH!");
+            SceneManager.LoadScene("GameScreen");
+        }
     }
 }

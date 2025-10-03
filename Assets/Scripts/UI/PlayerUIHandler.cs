@@ -35,6 +35,7 @@ public class PlayerUIHandler : MonoBehaviour
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
     public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
+    public Transform OverlayCanvas { get => _overlayCanvas; set => _overlayCanvas = value; }
 
     private void Start()
     {
