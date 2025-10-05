@@ -1123,13 +1123,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c31fce98f0b5b4ab476878a2df6617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerData: {fileID: 11400000, guid: 0b70ab1fb48a0d54292e6b5202d1f715, type: 2}
+  _data: {fileID: 0}
   _gameObjectController: {fileID: 7010432289164686928}
   _inputController: {fileID: 320834215646836708}
   _game: {fileID: 1028497814951436760}
   _uiHandler: {fileID: 981021673802893507}
   _combatManager: {fileID: 4452917418097669641}
-  _fighter: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
 --- !u!114 &320834215646836708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,6 +1367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _owner: {fileID: 8679915244876676160}
   _fighterAnimator: {fileID: 2497234062899000148}
+  _VFXAnimator: {fileID: 2004199891263444532}
 --- !u!95 &2497234062899000148
 Animator:
   serializedVersion: 7

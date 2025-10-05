@@ -4,6 +4,7 @@ public class FighterAnimator : MonoBehaviour
 {
     [SerializeField] private Player _owner;
     [SerializeField] private Animator _fighterAnimator;
+    [SerializeField] private Animator _VFXAnimator;
     private void Start()
     {
         _fighterAnimator.runtimeAnimatorController = _owner.Data.Fighter.AnimationController;
@@ -37,5 +38,9 @@ public class FighterAnimator : MonoBehaviour
     public void EnactDie()
     {
         GameManager.Instance.EndGame(GameManager.Instance.GetOpponent(_owner));
+    }
+    public void TriggerVFXAnimation()
+    {
+        _VFXAnimator.SetTrigger("triggerAnimation");
     }
 }

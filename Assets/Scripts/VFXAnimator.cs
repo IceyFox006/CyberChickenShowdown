@@ -15,6 +15,7 @@ public class VFXAnimator : MonoBehaviour
     }
     public void ResetElement()
     {
+        _VFXAnimator.ResetTrigger("triggerAnimation");
         _owner.CombatManager.AttackElementID = 0;
     }
 }
