@@ -76,6 +76,8 @@ public class CombatManager : MonoBehaviour
     private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
         target.CurrentHP -= damage;
+        CorrectHPAmount();
+
         target.CombatManager.IsHurt = true;
         if (spawnFloatingText)
         {
@@ -91,10 +93,14 @@ public class CombatManager : MonoBehaviour
     public void RegenHealth(Player target, float regenValue)
     {
         target.CurrentHP += regenValue;
+        CorrectHPAmount();
+
         target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, regenValue.ToString());
     }
     public void UpdateMatchElement(Match match)
     {
+        if (IsSTAB)
+            return;
         attackElementID = (int)match.Element.Element;
     }
     public void CorrectHPAmount()
@@ -132,7 +138,6 @@ public class CombatManager : MonoBehaviour
             legUp = 1f;
         else
             legUp = (1 + (owner.GetHPPercentage() / GameManager.Instance.GetOpponent(owner).GetHPPercentage()) * 0.5f) * GameManager.Instance.LegUpMultiplier;
-        Debug.Log(owner.Data.Name + " LU = " + legUp);
     }
     public void UseSuper(Player target)
     {
@@ -152,7 +157,6 @@ public class CombatManager : MonoBehaviour
                 target.CurrentSuper -= value;
                 target.CombatManager.CorrectSuperAmount();
                 owner.CombatManager.RegenHealth(owner, value * (owner.Data.Fighter.SuperEffectiveness * 0.1f));
-                CorrectHPAmount();
                 break;
             case Enums.SuperFunction.Turn30PercentOfThisBoardToFighterElement:
                 owner.Game.ChangePercentOfPiecesToElement(owner.Data.Fighter.Element, owner.Data.Fighter.SuperEffectiveness / 100f);
