@@ -14,15 +14,17 @@ public class GameManager : MonoBehaviour
     [Header("Match Game")]
     [SerializeField] private MatchPieceSO _wallPiece;
     [SerializeField] private MatchPieceSO _emptyPiece;
+    [SerializeField] private MatchPieceSO _virusPiece;
     [SerializeField] private MatchPieceSO[] _matchPieces = new MatchPieceSO[0];
 
     [Header("Combat")]
     [SerializeField] private float _STABMultiplier;
     [SerializeField] private float _comboAdditiveMultiplier;
-    [SerializeField] private float _weaknessMultiplier; //1.5
-    [SerializeField] private float _resistanceMultiplier; //0.5
+    [SerializeField] private float _weaknessMultiplier; //1.15
+    [SerializeField] private float _resistanceMultiplier; //0.85
     [SerializeField] private float _blockThreshold;
     [SerializeField] private float _blockDrainSpeed;
+    [SerializeField] private float _legUpMultiplier;
 
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
@@ -36,6 +38,8 @@ public class GameManager : MonoBehaviour
     public float Tick { get => _tick; set => _tick = value; }
     public float BlockDrainSpeed { get => _blockDrainSpeed; set => _blockDrainSpeed = value; }
     public int GameTime { get => _gameTime; set => _gameTime = value; }
+    public MatchPieceSO VirusPiece { get => _virusPiece; set => _virusPiece = value; }
+    public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
 
     private void Awake()
     {
@@ -49,9 +53,43 @@ public class GameManager : MonoBehaviour
             return _player1;
         return null;
     }
-    public void EndGame()
+    public Player DetermineWinner()
     {
-        //Set winner & loser
-        SceneManager.LoadScene("WinLoseScene");
+        //Player with the most HP
+        if (_player1.CurrentHP > _player2.CurrentHP)
+            return _player1;
+        else if (_player1.CurrentHP < _player2.CurrentHP)
+            return _player2;
+
+        //Player with the most super
+        if (_player1.CurrentSuper > _player2.CurrentSuper)
+            return _player1;
+        else if (_player1.CurrentSuper < _player2.CurrentSuper)
+            return _player2;
+
+        Debug.Log("Random winner.");
+        //Random winner
+        if (Random.Range(0, 2) == 0)
+            return _player1;
+        else
+            return _player2;
+    }
+    public void EndGame(Player winner)
+    {
+        winner.Data.Wins++;
+        StaticData.CurrentMatchCount++;
+        Debug.Log(StaticData.CurrentMatchCount + "/" + StaticData.InitialMatchCount);
+        if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
+        {
+            winner.Data.IsWinner = true;
+            SceneManager.LoadScene("WinLoseScene");
+        }
+        else
+        {
+            Debug.Log("NEW MATCH!");
+            _player1.Data.SavedSuper = _player1.CurrentSuper;
+            _player2.Data.SavedSuper = _player2.CurrentSuper;
+            SceneManager.LoadScene("GameScreen");
+        }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem.UI;
@@ -27,6 +28,8 @@ public class PlayerMatch3 : MonoBehaviour
     private ActivePieceController endSwapPiece = null;
     private bool isSelecting = false;
 
+    private int[] pieceFills;
+
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
 
@@ -47,9 +50,12 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void Start()
     {
+        pieceFills = new int[_boardWidth];
         gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
+        //if (_matchPieceHolder.GetComponent<GridLayoutGroup>() != null)
+        //    _matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
     private void FixedUpdate()
     {
@@ -65,6 +71,9 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController piece = piecesFinishedUpdating[index];
             SwappedPieces swapped = GetSwappedPieces(piece);
             ActivePieceController swappedPiece = null;
+
+            int x = (int)piece.GridPoint.X;
+            pieceFills[x] = Mathf.Clamp(pieceFills[x] - 1, 0, _boardWidth);
 
             List<GridPoint> connectedPieces = GetConnectedPieces(piece.GridPoint, true);
             List<GridPoint> connectedPiecesToPiece = GetConnectedPieces(piece.GridPoint, true);
@@ -88,17 +97,19 @@ public class PlayerMatch3 : MonoBehaviour
                 //If two matches are made with the same swap.
                 if (connectedPiecesToSwappedPiece.Count > 0)
                     RegisterMatch(new Match(owner, swappedPiece.MatchPiece.Element, connectedPiecesToPiece)); //!!!
-                RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
+                if (connectedPiecesToPiece.Count > 0)
+                    RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
                 {
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                     if (cellPiece != null)
                         cellPiece.GetComponent<Image>().enabled = false;
+                    cellPiece.PlayBreakParticles();
                     cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
+                    
                 }
                
             }
-            //
             ApplyGravityToBoard();
             FillEmptyPieces();
             swappedPieces.Remove(swapped);
@@ -154,6 +165,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
             Destroy(_matchPieceHolder.GetChild(index).gameObject);
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = true;
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
@@ -165,11 +177,10 @@ public class PlayerMatch3 : MonoBehaviour
         ValidateGameBoard();
         InstantiateGameBoard();
         SetSelectedPieceToStartPiece();
-
     }
 
     //Checks over all pieces on the board and removes matches.
-    private void ValidateGameBoard()
+    private void ValidateGameBoard(bool pieceObjectsSpawned = false)
     {
         List<Enums.Element> elementsToRemove = new List<Enums.Element>();
         for (int x = 0; x < _boardWidth; x++)
@@ -186,7 +197,10 @@ public class PlayerMatch3 : MonoBehaviour
                     element = GetElementAtGridPoint(pointChecked);
                     if (!elementsToRemove.Contains(element))
                         elementsToRemove.Add(element);
-                    SetElementAtGridPoint(pointChecked, NewElement(ref elementsToRemove));
+                    if (pieceObjectsSpawned)
+                        gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)NewElement(ref elementsToRemove) - 1]);
+                    else
+                        SetElementAtGridPoint(pointChecked, NewElement(ref elementsToRemove));
                 }
             }
         }
@@ -210,9 +224,94 @@ public class PlayerMatch3 : MonoBehaviour
                 gameBoard[x, y].ActivePieceController = matchPieceObject.GetComponent<ActivePieceController>(); //!!!
             }
         }
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
+    }
+
+    public void ChangePercentOfPiecesToElement(ElementSO element, float percentage)
+    {
+        int numberOfPiecesToChange = (int)(GetNumberOfPossiblePiecesOnBoard() * percentage);
+        List<HolderPiece> piecesChanged = new List<HolderPiece>();
+        List<HolderPiece> piecesReverted = new List<HolderPiece>();
+        while (piecesChanged.Count < numberOfPiecesToChange)
+        {
+            for (int x = 0; x < _boardWidth; x++)
+            {
+                for (int y = 0; y < _boardHeight; y++)
+                {
+                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
+                        continue;
+                    if (UnityEngine.Random.Range(0, 100) < (int)(percentage * 100))
+                    {
+                        piecesChanged.Add(new HolderPiece(new GridPoint(x, y), gameBoard[x, y].MatchPiece.Element));
+                        gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)element.Element - 1]);
+                    }
+                }
+            }
+            ValidateGameBoard(true);
+            for (int index = piecesChanged.Count - 1; index >= 0; index--)
+            {
+                if (GetElementAtGridPoint(piecesChanged[index].GridPoint) != element.Element)
+                {
+                    piecesReverted.Add(piecesChanged[index]);
+                    piecesChanged.RemoveAt(index);
+                }
+            }
+        }
+        foreach (HolderPiece piece in piecesReverted)
+            gameBoard[piece.GridPoint.X, piece.GridPoint.Y].ActivePieceController.SetUp(GameManager.Instance.MatchPieces[(int)piece.Element.Element - 1]);
+        ValidateGameBoard(true);
+    }
+
+    public void ChangeNumberOfPiecesToPiece(MatchPieceSO piece, int numberOfPieces)
+    {
+        List<GridPoint> changedPieces = new List<GridPoint>();
+        while (changedPieces.Count < numberOfPieces)
+        {
+            int randomX = UnityEngine.Random.Range(0, _boardWidth);
+            int randomY = UnityEngine.Random.Range(0, _boardHeight);
+            if (gameBoard[randomX, randomY].MatchPiece == GameManager.Instance.WallPiece)
+                continue;
+            changedPieces.Add(new GridPoint(randomX, randomY));
+        }
+        foreach (GridPoint gridPoint in changedPieces)
+        {
+            gameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SetUp(piece);
+        }
+    }
+    public IEnumerator HackOpponentBoardSuperDuration(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece == GameManager.Instance.VirusPiece)
+                {
+                    gameBoard[x,y].ActivePieceController.GetComponent<Image>().enabled = false;
+                    gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.EmptyPiece);
+                    AddUpdatingPiece(ref piecesUpdating, gameBoard[x, y].ActivePieceController);
+                }
+            }
+        }
+        GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
     }
 
 
+    private int GetNumberOfPossiblePiecesOnBoard()
+    {
+        int pieceCount = 0;
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                if (gameBoard[x, y].MatchPiece != GameManager.Instance.WallPiece)
+                    pieceCount++;
+            }
+        }
+        return pieceCount;
+    }
+
+    //Gets rid of all matches once all the pieces have landed.
     private void ElimateConnectedPieces()
     {
         if (!IsBoardFull())
@@ -474,10 +573,15 @@ public class PlayerMatch3 : MonoBehaviour
                     if (nextElement != Enums.Element.Empty)
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
+
+                        GridPoint fallPoint = new GridPoint(x, (1 - pieceFills[x]));//(-1 - pieceFills[x]));
+                        gotPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(fallPoint);
+                        
                         cellPiece.SetUp(gotPiece.MatchPiece);
                         AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(GameManager.Instance.EmptyPiece); //gotPiece.SetUp(null);
+                        pieceFills[x]++;
                     }
                     break;
                 }

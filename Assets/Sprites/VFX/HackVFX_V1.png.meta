@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: f9be18ba3cc7351409e1b1eb5dc994a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1942315656808829775
+    second: HackVFX_V1_0
+  - first:
+      213: 4470981782903296597
+    second: HackVFX_V1_1
+  - first:
+      213: -3591514033416985268
+    second: HackVFX_V1_2
+  - first:
+      213: -9188074934219755285
+    second: HackVFX_V1_3
+  - first:
+      213: 9073767566812171664
+    second: HackVFX_V1_4
+  - first:
+      213: 6933618254588091745
+    second: HackVFX_V1_5
+  - first:
+      213: -8868052038052658117
+    second: HackVFX_V1_6
+  - first:
+      213: 4194634786680581934
+    second: HackVFX_V1_7
+  - first:
+      213: -7458206579817110854
+    second: HackVFX_V1_8
+  - first:
+      213: 6105985892652921755
+    second: HackVFX_V1_9
+  - first:
+      213: 550071556343106193
+    second: HackVFX_V1_10
+  - first:
+      213: -2789339674084065187
+    second: HackVFX_V1_11
+  - first:
+      213: -4639877180199237455
+    second: HackVFX_V1_12
+  - first:
+      213: -4100002890706115361
+    second: HackVFX_V1_13
+  - first:
+      213: 4019885786693709489
+    second: HackVFX_V1_14
+  - first:
+      213: -3448703751787635389
+    second: HackVFX_V1_15
+  - first:
+      213: 7606915248854223034
+    second: HackVFX_V1_16
+  - first:
+      213: 8388346677700903345
+    second: HackVFX_V1_17
+  - first:
+      213: -8882860777163406875
+    second: HackVFX_V1_18
+  - first:
+      213: 1582316231489623855
+    second: HackVFX_V1_19
+  - first:
+      213: -3622578050362121666
+    second: HackVFX_V1_20
+  - first:
+      213: -1215913319296929259
+    second: HackVFX_V1_21
+  - first:
+      213: 771678758058991528
+    second: HackVFX_V1_22
+  - first:
+      213: -5911461843393899079
+    second: HackVFX_V1_23
+  - first:
+      213: -8576287709123269418
+    second: HackVFX_V1_24
+  - first:
+      213: -5192073146943588336
+    second: HackVFX_V1_25
+  - first:
+      213: -659971700818766994
+    second: HackVFX_V1_26
+  - first:
+      213: -3687212225895060639
+    second: HackVFX_V1_27
+  - first:
+      213: 931924590358542923
+    second: HackVFX_V1_28
+  - first:
+      213: -8370527998506604750
+    second: HackVFX_V1_29
+  - first:
+      213: 6514729037662830035
+    second: HackVFX_V1_30
+  - first:
+      213: -8734435026028912833
+    second: HackVFX_V1_31
+  - first:
+      213: 5575990846357929779
+    second: HackVFX_V1_32
+  - first:
+      213: 5114180841705274374
+    second: HackVFX_V1_33
+  - first:
+      213: -8921782285513782067
+    second: HackVFX_V1_34
+  - first:
+      213: -1964798820023711647
+    second: HackVFX_V1_35
+  - first:
+      213: -3372147592484141188
+    second: HackVFX_V1_36
+  - first:
+      213: 3656340013552152485
+    second: HackVFX_V1_37
+  - first:
+      213: -5198828443886230063
+    second: HackVFX_V1_38
+  - first:
+      213: -520847972043254969
+    second: HackVFX_V1_39
+  - first:
+      213: 2508362903755282378
+    second: HackVFX_V1_40
+  - first:
+      213: -9109528673500892536
+    second: HackVFX_V1_41
+  - first:
+      213: -9140054279531707797
+    second: HackVFX_V1_42
+  - first:
+      213: 3875316884255478341
+    second: HackVFX_V1_43
+  - first:
+      213: 6034255293038852977
+    second: HackVFX_V1_44
+  - first:
+      213: -8108301212374130505
+    second: HackVFX_V1_45
+  - first:
+      213: 4339109348458673017
+    second: HackVFX_V1_46
+  - first:
+      213: -2800987386335317160
+    second: HackVFX_V1_47
+  - first:
+      213: -4068997000154655961
+    second: HackVFX_V1_48
+  - first:
+      213: 6348062577756000501
+    second: HackVFX_V1_49
+  - first:
+      213: 8067631054817659356
+    second: HackVFX_V1_50
+  - first:
+      213: -6542239620681233519
+    second: HackVFX_V1_51
+  - first:
+      213: -1406656521249195213
+    second: HackVFX_V1_52
+  - first:
+      213: 7113633596484028615
+    second: HackVFX_V1_53
+  - first:
+      213: 4443891480597627714
+    second: HackVFX_V1_54
+  - first:
+      213: 8766409199391748492
+    second: HackVFX_V1_55
+  - first:
+      213: -5760677369757491342
+    second: HackVFX_V1_56
+  - first:
+      213: 1124931936767103360
+    second: HackVFX_V1_57
+  - first:
+      213: -1930059875326826205
+    second: HackVFX_V1_58
+  - first:
+      213: -15593628706837727
+    second: HackVFX_V1_59
+  - first:
+      213: 55335592030898418
+    second: HackVFX_V1_60
+  - first:
+      213: -5446587737103636673
+    second: HackVFX_V1_61
+  - first:
+      213: 6974182462502587165
+    second: HackVFX_V1_62
+  - first:
+      213: -2946603311659856535
+    second: HackVFX_V1_63
+  - first:
+      213: 8129692778968742231
+    second: HackVFX_V1_64
+  - first:
+      213: 1942072066946635015
+    second: HackVFX_V1_65
+  - first:
+      213: 6090377771023221740
+    second: HackVFX_V1_66
+  - first:
+      213: -7814155313475741006
+    second: HackVFX_V1_67
+  - first:
+      213: -4238512342513971857
+    second: HackVFX_V1_68
+  - first:
+      213: -1430158497567471896
+    second: HackVFX_V1_69
+  - first:
+      213: 3819929482713965735
+    second: HackVFX_V1_70
+  - first:
+      213: 3053901782921522071
+    second: HackVFX_V1_71
+  - first:
+      213: 860034403394516277
+    second: HackVFX_V1_72
+  - first:
+      213: -5477754551702083316
+    second: HackVFX_V1_73
+  - first:
+      213: -932461984789506203
+    second: HackVFX_V1_74
+  - first:
+      213: 3352107725023021910
+    second: HackVFX_V1_75
+  - first:
+      213: -770719188164813519
+    second: HackVFX_V1_76
+  - first:
+      213: -7337874846517641911
+    second: HackVFX_V1_77
+  - first:
+      213: 5670262546345603250
+    second: HackVFX_V1_78
+  - first:
+      213: 7027961431154687667
+    second: HackVFX_V1_79
+  - first:
+      213: 1442475046351794310
+    second: HackVFX_V1_80
+  - first:
+      213: -2274716932598778711
+    second: HackVFX_V1_81
+  - first:
+      213: -2726047875455207273
+    second: HackVFX_V1_82
+  - first:
+      213: -6790813423517950611
+    second: HackVFX_V1_83
+  - first:
+      213: 1909998814281491482
+    second: HackVFX_V1_84
+  - first:
+      213: 7089978271129412317
+    second: HackVFX_V1_85
+  - first:
+      213: -5455270113305082166
+    second: HackVFX_V1_86
+  - first:
+      213: -7597757634910495412
+    second: HackVFX_V1_87
+  - first:
+      213: -1829138377512043063
+    second: HackVFX_V1_88
+  - first:
+      213: 5140780042453446676
+    second: HackVFX_V1_89
+  - first:
+      213: 3115015536335482669
+    second: HackVFX_V1_90
+  - first:
+      213: -3158291769321391493
+    second: HackVFX_V1_91
+  - first:
+      213: -7045265482409004956
+    second: HackVFX_V1_92
+  - first:
+      213: 319423683189918029
+    second: HackVFX_V1_93
+  - first:
+      213: -8842977677661330990
+    second: HackVFX_V1_94
+  - first:
+      213: -8089179076091042220
+    second: HackVFX_V1_95
+  - first:
+      213: 2506969570027765051
+    second: HackVFX_V1_96
+  - first:
+      213: 929013659936606535
+    second: HackVFX_V1_97
+  - first:
+      213: -3377270370825737883
+    second: HackVFX_V1_98
+  - first:
+      213: 5584376949951803474
+    second: HackVFX_V1_99
+  - first:
+      213: 886862443075298821
+    second: HackVFX_V1_100
+  - first:
+      213: -1083577114265133802
+    second: HackVFX_V1_101
+  - first:
+      213: 6701253027875070015
+    second: HackVFX_V1_102
+  - first:
+      213: 1763829879156886259
+    second: HackVFX_V1_103
+  - first:
+      213: 8478365372755144175
+    second: HackVFX_V1_104
+  - first:
+      213: -4347118688551285914
+    second: HackVFX_V1_105
+  - first:
+      213: 3882814144507195063
+    second: HackVFX_V1_106
+  - first:
+      213: -3367094488409144546
+    second: HackVFX_V1_107
+  - first:
+      213: -5291111060389294192
+    second: HackVFX_V1_108
+  - first:
+      213: 4688812188460502520
+    second: HackVFX_V1_109
+  - first:
+      213: 1814410859275531810
+    second: HackVFX_V1_110
+  - first:
+      213: -3340486423170253162
+    second: HackVFX_V1_111
+  - first:
+      213: -7035150473300786177
+    second: HackVFX_V1_112
+  - first:
+      213: 1999201676104344334
+    second: HackVFX_V1_113
+  - first:
+      213: -4171751912921314548
+    second: HackVFX_V1_114
+  - first:
+      213: -5150334480007932716
+    second: HackVFX_V1_115
+  - first:
+      213: 6605399838476569076
+    second: HackVFX_V1_116
+  - first:
+      213: 2706455399218560985
+    second: HackVFX_V1_117
+  - first:
+      213: 8711522580936576321
+    second: HackVFX_V1_118
+  - first:
+      213: -2215858430607638711
+    second: HackVFX_V1_119
+  - first:
+      213: -4886352782601455220
+    second: HackVFX_V1_120
+  - first:
+      213: 7754743191135368988
+    second: HackVFX_V1_121
+  - first:
+      213: -6758475359566283800
+    second: HackVFX_V1_122
+  - first:
+      213: -4009028303431558934
+    second: HackVFX_V1_123
+  - first:
+      213: -8073228772208299776
+    second: HackVFX_V1_124
+  - first:
+      213: 7709271575358076257
+    second: HackVFX_V1_125
+  - first:
+      213: 8634914165019565044
+    second: HackVFX_V1_126
+  - first:
+      213: -8564784110991257732
+    second: HackVFX_V1_127
+  - first:
+      213: -2359299167523187245
+    second: HackVFX_V1_128
+  - first:
+      213: 3063297674350505854
+    second: HackVFX_V1_129
+  - first:
+      213: -5019600216663300220
+    second: HackVFX_V1_130
+  - first:
+      213: 5779555385157877950
+    second: HackVFX_V1_131
+  - first:
+      213: -1078920692007537335
+    second: HackVFX_V1_132
+  - first:
+      213: -4505923167224468266
+    second: HackVFX_V1_133
+  - first:
+      213: 8718448208728519740
+    second: HackVFX_V1_134
+  - first:
+      213: -346120273462058134
+    second: HackVFX_V1_135
+  - first:
+      213: 3352775258211168409
+    second: HackVFX_V1_136
+  - first:
+      213: -7401358757054421733
+    second: HackVFX_V1_137
+  - first:
+      213: 1254198559354573095
+    second: HackVFX_V1_138
+  - first:
+      213: 6559945331900472635
+    second: HackVFX_V1_139
+  - first:
+      213: 8959358102718999669
+    second: HackVFX_V1_140
+  - first:
+      213: 1379448371631652886
+    second: HackVFX_V1_141
+  - first:
+      213: 3268136955195635283
+    second: HackVFX_V1_142
+  - first:
+      213: -9055227236659887017
+    second: HackVFX_V1_143
+  - first:
+      213: -6751406788711809242
+    second: HackVFX_V1_144
+  - first:
+      213: 4663153172845423706
+    second: HackVFX_V1_145
+  - first:
+      213: 6068022375866256374
+    second: HackVFX_V1_146
+  - first:
+      213: -1201744109736545678
+    second: HackVFX_V1_147
+  - first:
+      213: -2945749377289212415
+    second: HackVFX_V1_148
+  - first:
+      213: 7662241037170860538
+    second: HackVFX_V1_149
+  - first:
+      213: 4244934877068187420
+    second: HackVFX_V1_150
+  - first:
+      213: -734396097121539333
+    second: HackVFX_V1_151
+  - first:
+      213: -4879757586811760364
+    second: HackVFX_V1_152
+  - first:
+      213: 6769725369762755252
+    second: HackVFX_V1_153
+  - first:
+      213: 4025175198158760552
+    second: HackVFX_V1_154
+  - first:
+      213: -1164147171063245451
+    second: HackVFX_V1_155
+  - first:
+      213: -7145217863094262937
+    second: HackVFX_V1_156
+  - first:
+      213: -2628123067707782982
+    second: HackVFX_V1_157
+  - first:
+      213: -9016232308156390979
+    second: HackVFX_V1_158
+  - first:
+      213: 1255299415831846317
+    second: HackVFX_V1_159
+  - first:
+      213: 7783881617782925885
+    second: HackVFX_V1_160
+  - first:
+      213: 6441015210551850061
+    second: HackVFX_V1_161
+  - first:
+      213: -3506846510951697930
+    second: HackVFX_V1_162
+  - first:
+      213: -3238226471803943155
+    second: HackVFX_V1_163
+  - first:
+      213: -3013589662353999625
+    second: HackVFX_V1_164
+  - first:
+      213: 5396425548697726882
+    second: HackVFX_V1_165
+  - first:
+      213: -4751940709450982079
+    second: HackVFX_V1_166
+  - first:
+      213: 5835222986915827694
+    second: HackVFX_V1_167
+  - first:
+      213: 4098740597787775400
+    second: HackVFX_V1_168
+  - first:
+      213: -4792795395572148281
+    second: HackVFX_V1_169
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HackVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4315cd8ccd74fa10800000000000000
+      internalID: 1942315656808829775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55291374e3e1c0e30800000000000000
+      internalID: 4470981782903296597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45a958e301682ec0800000000000000
+      internalID: -3591514033416985268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0392027866d7080800000000000000
+      internalID: -9188074934219755285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dcc42f68f7ced70800000000000000
+      internalID: 9073767566812171664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d13e01119293060800000000000000
+      internalID: 6933618254588091745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34413608a95ee480800000000000000
+      internalID: -8868052038052658117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fa7964d16563a30800000000000000
+      internalID: 4194634786680581934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2258481a02f7890800000000000000
+      internalID: -7458206579817110854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93bf1781d1dcb450800000000000000
+      internalID: 6105985892652921755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a80e48a2f32a700800000000000000
+      internalID: 550071556343106193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c05058564a49d0800000000000000
+      internalID: -2789339674084065187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b888c8a948db9fb0800000000000000
+      internalID: -4639877180199237455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd42369f71dd917c0800000000000000
+      internalID: -4100002890706115361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HackVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be258123d089c730800000000000000
+      internalID: 4019885786693709489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a080a0e31cbc811458facc8f2fad68bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HackVFX_V1_0: 1942315656808829775
+      HackVFX_V1_1: 4470981782903296597
+      HackVFX_V1_10: 550071556343106193
+      HackVFX_V1_11: -2789339674084065187
+      HackVFX_V1_12: -4639877180199237455
+      HackVFX_V1_13: -4100002890706115361
+      HackVFX_V1_14: 4019885786693709489
+      HackVFX_V1_2: -3591514033416985268
+      HackVFX_V1_3: -9188074934219755285
+      HackVFX_V1_4: 9073767566812171664
+      HackVFX_V1_5: 6933618254588091745
+      HackVFX_V1_6: -8868052038052658117
+      HackVFX_V1_7: 4194634786680581934
+      HackVFX_V1_8: -7458206579817110854
+      HackVFX_V1_9: 6105985892652921755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

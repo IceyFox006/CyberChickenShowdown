@@ -6,20 +6,26 @@ public class FighterSO : ScriptableObject
     [Header("General")]
     [SerializeField] private string _name;
     [SerializeField] ElementSO _element;
-    [TextArea(5, 10)][SerializeField] private string _description;
-    [SerializeField] private Enums.SuperFunction _superFunction;
+    [TextArea(5, 1)][SerializeField] private string _description;
+    [TextArea(2, 1)][SerializeField] private string[] _winQuotes;
 
     [Header("Stats")]
     [SerializeField] private int _HP;
     [SerializeField] private int _Attack;
-    [SerializeField] private int _superCapacity = 100;
-    [SerializeField] [Range(0, 1)] private float _superFillSpeed = 0.1f;
     [SerializeField][Range(0, 1)] private float _blockEffectiveness = 0.8f;
+    [SerializeField] private Enums.SuperFunction _superFunction;
+    [SerializeField] private int _superCapacity = 100;
+    [SerializeField][Range(0, 1)] private float _superFillSpeed = 0.1f;
     [SerializeField] private float _superDrainRate = 1f;
     [SerializeField] private float _superEffectiveness = 10f;
 
     [Header("Visuals")]
     [SerializeField] private RuntimeAnimatorController _animationController;
+    [SerializeField] private Sprite _superVisual;
+
+    [Header("Select Screen")]
+    [SerializeField] private Sprite _portrait;
+
 
     public string Name { get => _name; set => _name = value; }
     public int HP { get => _HP; set => _HP = value; }
@@ -32,4 +38,7 @@ public class FighterSO : ScriptableObject
     public Enums.SuperFunction SuperFunction { get => _superFunction; set => _superFunction = value; }
     public float SuperEffectiveness { get => _superEffectiveness; set => _superEffectiveness = value; }
     public RuntimeAnimatorController AnimationController { get => _animationController; set => _animationController = value; }
+    public string[] WinQuotes { get => _winQuotes; set => _winQuotes = value; }
+    public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
+    public Sprite Portrait { get => _portrait; set => _portrait = value; }
 }

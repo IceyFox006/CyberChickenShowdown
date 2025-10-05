@@ -15,12 +15,16 @@ MonoBehaviour:
   _name: Mother Clucker
   _element: {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
   _description: 
-  _superFunction: 2
+  _winQuotes:
+  - insert Mother Clucker quote here
   _HP: 1000
   _Attack: 20
+  _blockEffectiveness: 0.8
+  _superFunction: 2
   _superCapacity: 50
   _superFillSpeed: 0.1
-  _blockEffectiveness: 0.8
   _superDrainRate: 1
   _superEffectiveness: 50
-  _animationController: {fileID: 9100000, guid: 4b497936ed8733b43a7599aff774545f, type: 2}
+  _animationController: {fileID: 9100000, guid: 35fbf3b2f1c4f7147a712b863b89f96d, type: 2}
+  _superVisual: {fileID: 0}
+  _portrait: {fileID: -5101227768197015883, guid: acd17aea1d0e4ed4e9af8a738183b715, type: 3}

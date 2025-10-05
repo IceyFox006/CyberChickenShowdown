@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: eaf403d69b3599d42aad4bdd3a34f4eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4280585827670477755
+    second: Layout Example 1_0
+  - first:
+      213: -7219966464095304308
+    second: Layout Example 1_1
+  - first:
+      213: 7491363091413215410
+    second: Layout Example 1_2
+  - first:
+      213: -6430475255266673121
+    second: Layout Example 1_3
+  - first:
+      213: 6375093520710449072
+    second: Layout Example 1_4
+  - first:
+      213: -8826771577040063500
+    second: Layout Example 1_5
+  - first:
+      213: 8827472768637190981
+    second: Layout Example 1_6
+  - first:
+      213: -5471659754308653477
+    second: Layout Example 1_7
+  - first:
+      213: 7727574815724016303
+    second: Layout Example 1_8
+  - first:
+      213: 5005777401713657663
+    second: Layout Example 1_9
+  - first:
+      213: 4689834006608899893
+    second: Layout Example 1_10
+  - first:
+      213: -7138782859391370165
+    second: Layout Example 1_11
+  - first:
+      213: 5073093572353514563
+    second: Layout Example 1_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Layout Example 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 883
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbced87122b76b30800000000000000
+      internalID: 4280585827670477755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 956
+        width: 896
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85cd5101c68dcb90800000000000000
+      internalID: -7219966464095304308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 903
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8282b6a0ba6f760800000000000000
+      internalID: 7491363091413215410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 903
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef3e053dc52c6a0800000000000000
+      internalID: -6430475255266673121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 903
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b737d7c7c1e87850800000000000000
+      internalID: 6375093520710449072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 903
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f333055402018580800000000000000
+      internalID: -8826771577040063500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_6
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 903
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543cd0f86bb718a70800000000000000
+      internalID: 8827472768637190981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_7
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 903
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ea1ac8172c014b0800000000000000
+      internalID: -5471659754308653477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_8
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 903
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa21c7a3a5cdd3b60800000000000000
+      internalID: 7727574815724016303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_9
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 903
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3702dd6608187540800000000000000
+      internalID: 5005777401713657663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 189
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f68736e23a51140800000000000000
+      internalID: 4689834006608899893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 50
+        width: 1493
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c7451ffc2fdec90800000000000000
+      internalID: -7138782859391370165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layout Example 1_12
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 77
+        width: 189
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cd274c9bf376640800000000000000
+      internalID: 5073093572353514563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Layout Example 1_0: 4280585827670477755
+      Layout Example 1_1: -7219966464095304308
+      Layout Example 1_10: 4689834006608899893
+      Layout Example 1_11: -7138782859391370165
+      Layout Example 1_12: 5073093572353514563
+      Layout Example 1_2: 7491363091413215410
+      Layout Example 1_3: -6430475255266673121
+      Layout Example 1_4: 6375093520710449072
+      Layout Example 1_5: -8826771577040063500
+      Layout Example 1_6: 8827472768637190981
+      Layout Example 1_7: -5471659754308653477
+      Layout Example 1_8: 7727574815724016303
+      Layout Example 1_9: 5005777401713657663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

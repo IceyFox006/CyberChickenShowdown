@@ -16,6 +16,7 @@ public class Enums : MonoBehaviour
         ColumnKO,
         CrossKOsmall,
         CrossKOlarge,
+        InfectNeighbors,
     }
     public enum Element
     {
@@ -32,6 +33,8 @@ public class Enums : MonoBehaviour
         nil,
         ImmediateDamage,
         LeechOpponentSuperToHP,
+        Turn30PercentOfThisBoardToFighterElement,
+        HackOpponentBoard,
+        FighterElementAttackBoost,
     }
-
 }

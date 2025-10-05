@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 12e9cd0dd23679f4893e61e46e624201
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2541403151769522417
+    second: BIG_Die_Draft_0
+  - first:
+      213: 613909836376425634
+    second: BIG_Die_Draft_1
+  - first:
+      213: -4162701693872363407
+    second: BIG_Die_Draft_2
+  - first:
+      213: 7158275598870949146
+    second: BIG_Die_Draft_3
+  - first:
+      213: -3652158977607736468
+    second: BIG_Die_Draft_4
+  - first:
+      213: 5544987573956282888
+    second: BIG_Die_Draft_5
+  - first:
+      213: -3210786337973014554
+    second: BIG_Die_Draft_6
+  - first:
+      213: 8995146441632953350
+    second: BIG_Die_Draft_7
+  - first:
+      213: 643162059877770647
+    second: BIG_Die_Draft_8
+  - first:
+      213: 4467043896814669687
+    second: BIG_Die_Draft_9
+  - first:
+      213: 3279210598433184809
+    second: BIG_Die_Draft_10
+  - first:
+      213: -1453999767566252751
+    second: BIG_Die_Draft_11
+  - first:
+      213: -6801886904850560211
+    second: BIG_Die_Draft_12
+  - first:
+      213: -6637073290298991412
+    second: BIG_Die_Draft_13
+  - first:
+      213: -2441133107217682287
+    second: BIG_Die_Draft_14
+  - first:
+      213: -6716583141578077358
+    second: BIG_Die_Draft_15
+  - first:
+      213: 2798783909365306566
+    second: BIG_Die_Draft_16
+  - first:
+      213: -425357118591347057
+    second: BIG_Die_Draft_17
+  - first:
+      213: -7935695984996863451
+    second: BIG_Die_Draft_18
+  - first:
+      213: -7570853917150775761
+    second: BIG_Die_Draft_19
+  - first:
+      213: -4906479691805006514
+    second: BIG_Die_Draft_20
+  - first:
+      213: 6206316432101877221
+    second: BIG_Die_Draft_21
+  - first:
+      213: -3233354681805116974
+    second: BIG_Die_Draft_22
+  - first:
+      213: 8755731470609188901
+    second: BIG_Die_Draft_23
+  - first:
+      213: -1813305878351113647
+    second: BIG_Die_Draft_24
+  - first:
+      213: 6942491696932074205
+    second: BIG_Die_Draft_25
+  - first:
+      213: -4863978793186396833
+    second: BIG_Die_Draft_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BIG_Die_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0d74c93b0e44320800000000000000
+      internalID: 2541403151769522417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4c5595ebb058800800000000000000
+      internalID: 613909836376425634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17822d64ddc1b36c0800000000000000
+      internalID: -4162701693872363407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dac032bbd475360800000000000000
+      internalID: 7158275598870949146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63ef6482cce05dc0800000000000000
+      internalID: -3652158977607736468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a8e95e1d0c3fc40800000000000000
+      internalID: 5544987573956282888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efe07b46def073d0800000000000000
+      internalID: -3210786337973014554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604b624c70e25dc70800000000000000
+      internalID: 8995146441632953350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795e5006c78fce800800000000000000
+      internalID: 643162059877770647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f07b9b1c02efd30800000000000000
+      internalID: 4467043896814669687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c5e4f4aa8128d20800000000000000
+      internalID: 3279210598433184809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13586be3aea52dbe0800000000000000
+      internalID: -1453999767566252751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7875d5295f2c17d4dac36b2eec276bbc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BIG_Die_Draft_0: 2541403151769522417
+      BIG_Die_Draft_1: 613909836376425634
+      BIG_Die_Draft_10: 3279210598433184809
+      BIG_Die_Draft_11: -1453999767566252751
+      BIG_Die_Draft_2: -4162701693872363407
+      BIG_Die_Draft_3: 7158275598870949146
+      BIG_Die_Draft_4: -3652158977607736468
+      BIG_Die_Draft_5: 5544987573956282888
+      BIG_Die_Draft_6: -3210786337973014554
+      BIG_Die_Draft_7: 8995146441632953350
+      BIG_Die_Draft_8: 643162059877770647
+      BIG_Die_Draft_9: 4467043896814669687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
