@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 744023f9fe6e9b24fb2db7c21e4e935f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -595341353853880182
+    second: STABMeleeVFX_V1_0
+  - first:
+      213: 5053057657650171350
+    second: STABMeleeVFX_V1_1
+  - first:
+      213: 5129590613555164009
+    second: STABMeleeVFX_V1_2
+  - first:
+      213: 3384662190933687907
+    second: STABMeleeVFX_V1_3
+  - first:
+      213: 8746513435099310924
+    second: STABMeleeVFX_V1_4
+  - first:
+      213: 60605146503786255
+    second: STABMeleeVFX_V1_5
+  - first:
+      213: 2918711293884704526
+    second: STABMeleeVFX_V1_6
+  - first:
+      213: 5437408002119927525
+    second: STABMeleeVFX_V1_7
+  - first:
+      213: 4377612450608758801
+    second: STABMeleeVFX_V1_8
+  - first:
+      213: -547453784037649963
+    second: STABMeleeVFX_V1_9
+  - first:
+      213: 3469599207862736189
+    second: STABMeleeVFX_V1_10
+  - first:
+      213: 922240302431309775
+    second: STABMeleeVFX_V1_11
+  - first:
+      213: -7600499267001093569
+    second: STABMeleeVFX_V1_12
+  - first:
+      213: -2404066703915020264
+    second: STABMeleeVFX_V1_13
+  - first:
+      213: 3006233196422264925
+    second: STABMeleeVFX_V1_14
+  - first:
+      213: -1422396430255662924
+    second: STABMeleeVFX_V1_15
+  - first:
+      213: -6352069096194635853
+    second: STABMeleeVFX_V1_16
+  - first:
+      213: -7232817043093386102
+    second: STABMeleeVFX_V1_17
+  - first:
+      213: -5954984717017267936
+    second: STABMeleeVFX_V1_18
+  - first:
+      213: -4415691691711009363
+    second: STABMeleeVFX_V1_19
+  - first:
+      213: -1454815947652664235
+    second: STABMeleeVFX_V1_20
+  - first:
+      213: -8376405078991880147
+    second: STABMeleeVFX_V1_21
+  - first:
+      213: 2981733008616289405
+    second: STABMeleeVFX_V1_22
+  - first:
+      213: 2632312260886868700
+    second: STABMeleeVFX_V1_23
+  - first:
+      213: 8906628658373713580
+    second: STABMeleeVFX_V1_24
+  - first:
+      213: -1796530251200460613
+    second: STABMeleeVFX_V1_25
+  - first:
+      213: 6835780917890736031
+    second: STABMeleeVFX_V1_26
+  - first:
+      213: 7799595494449677883
+    second: STABMeleeVFX_V1_27
+  - first:
+      213: 1310694146598337198
+    second: STABMeleeVFX_V1_28
+  - first:
+      213: 7571526772654872787
+    second: STABMeleeVFX_V1_29
+  - first:
+      213: -5716621805585366797
+    second: STABMeleeVFX_V1_30
+  - first:
+      213: 4789506617592310214
+    second: STABMeleeVFX_V1_31
+  - first:
+      213: 4049337728842817650
+    second: STABMeleeVFX_V1_32
+  - first:
+      213: 6230852310468382529
+    second: STABMeleeVFX_V1_33
+  - first:
+      213: -6998580077365636347
+    second: STABMeleeVFX_V1_34
+  - first:
+      213: 3613857091844544787
+    second: STABMeleeVFX_V1_35
+  - first:
+      213: -2050856576432864139
+    second: STABMeleeVFX_V1_36
+  - first:
+      213: 6223349578917901153
+    second: STABMeleeVFX_V1_37
+  - first:
+      213: -2213804395581684141
+    second: STABMeleeVFX_V1_38
+  - first:
+      213: 4604458812930206915
+    second: STABMeleeVFX_V1_39
+  - first:
+      213: 7826205736013161517
+    second: STABMeleeVFX_V1_40
+  - first:
+      213: 2664810668300904972
+    second: STABMeleeVFX_V1_41
+  - first:
+      213: 4489304540195182184
+    second: STABMeleeVFX_V1_42
+  - first:
+      213: -6373764814566228866
+    second: STABMeleeVFX_V1_43
+  - first:
+      213: -8874504775231277426
+    second: STABMeleeVFX_V1_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a887073613cecb7f0800000000000000
+      internalID: -595341353853880182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd4ec9da21102640800000000000000
+      internalID: 5053057657650171350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963322c3c77ff2740800000000000000
+      internalID: 5129590613555164009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e3c47745cb8fe20800000000000000
+      internalID: 3384662190933687907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ba642d0abd16970800000000000000
+      internalID: 8746513435099310924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f2be44f0057d000800000000000000
+      internalID: 60605146503786255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e072be13578518820800000000000000
+      internalID: 2918711293884704526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e68931f4cd857b40800000000000000
+      internalID: 5437408002119927525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110ccda845760cc30800000000000000
+      internalID: 4377612450608758801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d11e771fad0768f0800000000000000
+      internalID: -547453784037649963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3592a9c81e762030800000000000000
+      internalID: 3469599207862736189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf87f73ba47ccc00800000000000000
+      internalID: 922240302431309775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3278c29f2a958690800000000000000
+      internalID: -7600499267001093569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABMeleeVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8101dc0f11a03aed0800000000000000
+      internalID: -2404066703915020264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a63c9c2d8c5e97d41a51321a00667ba2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      STABMeleeVFX_V1_0: -595341353853880182
+      STABMeleeVFX_V1_1: 5053057657650171350
+      STABMeleeVFX_V1_10: 3469599207862736189
+      STABMeleeVFX_V1_11: 922240302431309775
+      STABMeleeVFX_V1_12: -7600499267001093569
+      STABMeleeVFX_V1_13: -2404066703915020264
+      STABMeleeVFX_V1_2: 5129590613555164009
+      STABMeleeVFX_V1_3: 3384662190933687907
+      STABMeleeVFX_V1_4: 8746513435099310924
+      STABMeleeVFX_V1_5: 60605146503786255
+      STABMeleeVFX_V1_6: 2918711293884704526
+      STABMeleeVFX_V1_7: 5437408002119927525
+      STABMeleeVFX_V1_8: 4377612450608758801
+      STABMeleeVFX_V1_9: -547453784037649963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

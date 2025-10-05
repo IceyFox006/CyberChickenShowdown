@@ -663,6 +663,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
@@ -683,6 +687,10 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2497234062899000148, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 35fbf3b2f1c4f7147a712b863b89f96d, type: 2}
     - target: {fileID: 2772978725126035643, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Material
       value: 
@@ -755,6 +763,22 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5607448946923830258, guid: 6380b36eddb151a4a808a90f61b6f90a, type: 3}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
       value: PlayerRevamped2
@@ -819,6 +843,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
@@ -882,6 +914,22 @@ PrefabInstance:
     - target: {fileID: 3662361400700715840, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_SortingLayerID
       value: 1441544909
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -542940308500832587, guid: 02bf1b3ae1067b641a01bab03b5f80b3, type: 3}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
