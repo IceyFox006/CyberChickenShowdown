@@ -13,6 +13,10 @@ public class VFXAnimator : MonoBehaviour
         _VFXAnimator.SetBool("isSTAB", _owner.CombatManager.IsSTAB);
         _VFXAnimator.SetInteger("elementID", _owner.CombatManager.AttackElementID);
     }
+    public void TriggerOpponentAnimation()
+    {
+        GameManager.Instance.GetOpponent(_owner).GameObjectController.FighterAnimator.TriggerAnimation();
+    }
     public void ResetElement()
     {
         _VFXAnimator.ResetTrigger("triggerAnimation");

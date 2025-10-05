@@ -1352,6 +1352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _owner: {fileID: 8679915244876676160}
+  _fighterAnimator: {fileID: 8820728886219569787}
   _blockVisualGO: {fileID: 1042559542077177590}
 --- !u!114 &8820728886219569787
 MonoBehaviour:
