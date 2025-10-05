@@ -663,6 +663,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
@@ -839,6 +843,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 1c54142d5ae30af4fb78ac0779e361b3, type: 2}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 975007570710066356, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 981021673802893507, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: _overlayCanvas
       value: 
