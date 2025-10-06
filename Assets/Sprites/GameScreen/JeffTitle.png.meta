@@ -1,37 +1,19 @@
 fileFormatVersion: 2
-guid: a9d16873e211c294c9fa80ac0715dbe7
+guid: b91f31b7a15a3e8449bb6f379d5b983c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1366479056160649110
-    second: BIG_Hurt_Draft_0
+      213: -3290836179186486240
+    second: JeffTitle_0
   - first:
-      213: 8206862077998379694
-    second: BIG_Hurt_Draft_1
+      213: -6229335643086284199
+    second: JeffTitle_1
   - first:
-      213: -6664053826498764704
-    second: BIG_Hurt_Draft_2
+      213: 2456058430689511875
+    second: JeffTitle_2
   - first:
-      213: 5553721780807355298
-    second: BIG_Hurt_Draft_3
-  - first:
-      213: 254023175607178961
-    second: BIG_Hurt_Draft_4
-  - first:
-      213: -1535731762299826376
-    second: BIG_Hurt_Draft_5
-  - first:
-      213: 7288496161289761689
-    second: BIG_Hurt_Draft_6
-  - first:
-      213: 4619016077771766611
-    second: BIG_Hurt_Draft_7
-  - first:
-      213: -8023925049821532999
-    second: BIG_Hurt_Draft_8
-  - first:
-      213: -4427023305551250330
-    second: BIG_Hurt_Draft_9
+      213: -8564786364790723437
+    second: JeffTitle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,10 +81,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,10 +107,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,79 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BIG_Hurt_Draft_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 800
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a609880d98a490de0800000000000000
-      internalID: -1366479056160649110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BIG_Hurt_Draft_1
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 800
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea2b7bff391a4e170800000000000000
-      internalID: 8206862077998379694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BIG_Hurt_Draft_2
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 800
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 060657b3a568483a0800000000000000
-      internalID: -6664053826498764704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BIG_Hurt_Draft_3
+      name: JeffTitle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1200
-        height: 800
+        width: 12
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ab4f56e888c21d40800000000000000
-      internalID: 5553721780807355298
+      spriteID: 024f59d3ee99452d0800000000000000
+      internalID: -3290836179186486240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIG_Hurt_Draft_4
+      name: JeffTitle_1
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 1200
-        height: 800
+        x: 13
+        y: 3
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d658ca7bb8768300800000000000000
-      internalID: 254023175607178961
+      spriteID: 95a992fac34fc89a0800000000000000
+      internalID: -6229335643086284199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIG_Hurt_Draft_5
+      name: JeffTitle_2
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 0
-        width: 1200
-        height: 800
+        x: 33
+        y: 3
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +181,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83f85dd491cffaae0800000000000000
-      internalID: -1535731762299826376
+      spriteID: 3c90ad4412ca51220800000000000000
+      internalID: 2456058430689511875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JeffTitle_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c2a8ded24c32980800000000000000
+      internalID: -8564786364790723437
       vertices: []
       indices: 
       edges: []
@@ -275,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 80d55db4ea8ae4047bb530a4300e2a9d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -285,12 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BIG_Hurt_Draft_0: -1366479056160649110
-      BIG_Hurt_Draft_1: 8206862077998379694
-      BIG_Hurt_Draft_2: -6664053826498764704
-      BIG_Hurt_Draft_3: 5553721780807355298
-      BIG_Hurt_Draft_4: 254023175607178961
-      BIG_Hurt_Draft_5: -1535731762299826376
+      JeffTitle_0: -3290836179186486240
+      JeffTitle_1: -6229335643086284199
+      JeffTitle_2: 2456058430689511875
+      JeffTitle_3: -8564786364790723437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
