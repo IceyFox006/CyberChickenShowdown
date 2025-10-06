@@ -776,8 +776,16 @@ PrefabInstance:
       value: -215
       objectReference: {fileID: 0}
     - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.75
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_FlipX
@@ -835,6 +843,10 @@ PrefabInstance:
       propertyPath: _playerData
       value: 
       objectReference: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
+    - target: {fileID: 9213617072586829336, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -959,6 +971,18 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1441544909
       objectReference: {fileID: 0}
+    - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685233251035948426, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -983,6 +1007,10 @@ PrefabInstance:
       propertyPath: _data
       value: 
       objectReference: {fileID: 11400000, guid: 0b70ab1fb48a0d54292e6b5202d1f715, type: 2}
+    - target: {fileID: 9213617072586829336, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
