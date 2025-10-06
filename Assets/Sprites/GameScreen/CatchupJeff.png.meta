@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 36aef8943cf2d2c47909cbcefba568cd
+guid: 67e3107a0d91382408b2a5ac5a284731
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5567826033261725767
-    second: JeffPortait_0
+      213: -4722771773065080852
+    second: CatchupJeff_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JeffPortait_0
+      name: CatchupJeff_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 231
-        height: 215
+        width: 107
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b7334ce8bb1bb2b0800000000000000
-      internalID: -5567826033261725767
+      spriteID: cefc63f3818557eb0800000000000000
+      internalID: -4722771773065080852
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JeffPortait_0: -5567826033261725767
+      CatchupJeff_0: -4722771773065080852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
