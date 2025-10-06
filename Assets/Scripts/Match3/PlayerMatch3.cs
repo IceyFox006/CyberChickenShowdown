@@ -28,6 +28,8 @@ public class PlayerMatch3 : MonoBehaviour
     private ActivePieceController endSwapPiece = null;
     private bool isSelecting = false;
 
+    private int[] pieceFills;
+
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
 
@@ -48,9 +50,12 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void Start()
     {
+        pieceFills = new int[_boardWidth];
         gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
+        //if (_matchPieceHolder.GetComponent<GridLayoutGroup>() != null)
+        //    _matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
     private void FixedUpdate()
     {
@@ -66,6 +71,9 @@ public class PlayerMatch3 : MonoBehaviour
             ActivePieceController piece = piecesFinishedUpdating[index];
             SwappedPieces swapped = GetSwappedPieces(piece);
             ActivePieceController swappedPiece = null;
+
+            int x = (int)piece.GridPoint.X;
+            pieceFills[x] = Mathf.Clamp(pieceFills[x] - 1, 0, _boardWidth);
 
             List<GridPoint> connectedPieces = GetConnectedPieces(piece.GridPoint, true);
             List<GridPoint> connectedPiecesToPiece = GetConnectedPieces(piece.GridPoint, true);
@@ -96,7 +104,9 @@ public class PlayerMatch3 : MonoBehaviour
                     ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
                     if (cellPiece != null)
                         cellPiece.GetComponent<Image>().enabled = false;
+                    cellPiece.PlayBreakParticles();
                     cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
+                    
                 }
                
             }
@@ -155,6 +165,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
             Destroy(_matchPieceHolder.GetChild(index).gameObject);
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = true;
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
@@ -213,6 +224,7 @@ public class PlayerMatch3 : MonoBehaviour
                 gameBoard[x, y].ActivePieceController = matchPieceObject.GetComponent<ActivePieceController>(); //!!!
             }
         }
+        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
 
     public void ChangePercentOfPiecesToElement(ElementSO element, float percentage)
@@ -282,7 +294,6 @@ public class PlayerMatch3 : MonoBehaviour
             }
         }
         GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
-        Debug.Log("Virus expelled.");
     }
 
 
@@ -562,10 +573,15 @@ public class PlayerMatch3 : MonoBehaviour
                     if (nextElement != Enums.Element.Empty)
                     {
                         ActivePieceController gotPiece = GetCellAtGridPoint(nextGridPoint).ActivePieceController; /////!!!!!!!
+
+                        GridPoint fallPoint = new GridPoint(x, (1 - pieceFills[x]));//(-1 - pieceFills[x]));
+                        gotPiece.GetComponent<RectTransform>().anchoredPosition = GetPositionFromGridPoint(fallPoint);
+                        
                         cellPiece.SetUp(gotPiece.MatchPiece);
                         AddUpdatingPiece(ref piecesUpdating, gotPiece); //piecesUpdating.Add(gotPiece);
 
                         gotPiece.SetUp(GameManager.Instance.EmptyPiece); //gotPiece.SetUp(null);
+                        pieceFills[x]++;
                     }
                     break;
                 }

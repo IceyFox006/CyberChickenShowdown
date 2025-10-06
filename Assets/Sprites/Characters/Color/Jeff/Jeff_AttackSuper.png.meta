@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 60e14250d809dc74d8e5148fc837dfe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6570064949144879439
+    second: Jeff_AttackSuper_0
+  - first:
+      213: 6258057136136339335
+    second: Jeff_AttackSuper_1
+  - first:
+      213: -4654339663381344096
+    second: Jeff_AttackSuper_2
+  - first:
+      213: 6183983088071290085
+    second: Jeff_AttackSuper_3
+  - first:
+      213: 5280802057770165497
+    second: Jeff_AttackSuper_4
+  - first:
+      213: -8212254677796831986
+    second: Jeff_AttackSuper_5
+  - first:
+      213: -2574536243943145901
+    second: Jeff_AttackSuper_6
+  - first:
+      213: -7814762414686100243
+    second: Jeff_AttackSuper_7
+  - first:
+      213: 27312481627591316
+    second: Jeff_AttackSuper_8
+  - first:
+      213: 6459404971930661103
+    second: Jeff_AttackSuper_9
+  - first:
+      213: -7296080057369320875
+    second: Jeff_AttackSuper_10
+  - first:
+      213: 7692552548957119217
+    second: Jeff_AttackSuper_11
+  - first:
+      213: 4614912792838216592
+    second: Jeff_AttackSuper_12
+  - first:
+      213: -6983096089299540249
+    second: Jeff_AttackSuper_13
+  - first:
+      213: 3232845335241766182
+    second: Jeff_AttackSuper_14
+  - first:
+      213: 4840348978054668846
+    second: Jeff_AttackSuper_15
+  - first:
+      213: -6836302530639818169
+    second: Jeff_AttackSuper_16
+  - first:
+      213: -1906403972670443360
+    second: Jeff_AttackSuper_17
+  - first:
+      213: -4939486983015443795
+    second: Jeff_AttackSuper_18
+  - first:
+      213: 5469637347811758421
+    second: Jeff_AttackSuper_19
+  - first:
+      213: -4001046138899031277
+    second: Jeff_AttackSuper_20
+  - first:
+      213: 6971618307084532900
+    second: Jeff_AttackSuper_21
+  - first:
+      213: -3014880352743445719
+    second: Jeff_AttackSuper_22
+  - first:
+      213: 4136450272243033876
+    second: Jeff_AttackSuper_23
+  - first:
+      213: -5548337690362549525
+    second: Jeff_AttackSuper_24
+  - first:
+      213: -7487907917752988354
+    second: Jeff_AttackSuper_25
+  - first:
+      213: -3012114551334245942
+    second: Jeff_AttackSuper_26
+  - first:
+      213: -7374901228339801163
+    second: Jeff_AttackSuper_27
+  - first:
+      213: 1863273203095751925
+    second: Jeff_AttackSuper_28
+  - first:
+      213: 8790896118579124096
+    second: Jeff_AttackSuper_29
+  - first:
+      213: -1764410762683143392
+    second: Jeff_AttackSuper_30
+  - first:
+      213: 514580142714799359
+    second: Jeff_AttackSuper_31
+  - first:
+      213: 4499200367653149612
+    second: Jeff_AttackSuper_32
+  - first:
+      213: 7724382152374000120
+    second: Jeff_AttackSuper_33
+  - first:
+      213: -8177059369158796053
+    second: Jeff_AttackSuper_34
+  - first:
+      213: -3844470175743019159
+    second: Jeff_AttackSuper_35
+  - first:
+      213: 2716498713620521105
+    second: Jeff_AttackSuper_36
+  - first:
+      213: 570485969440093872
+    second: Jeff_AttackSuper_37
+  - first:
+      213: 1955735446759728945
+    second: Jeff_AttackSuper_38
+  - first:
+      213: 3808414183837438093
+    second: Jeff_AttackSuper_39
+  - first:
+      213: -8394525730798617058
+    second: Jeff_AttackSuper_40
+  - first:
+      213: -2330285499068339072
+    second: Jeff_AttackSuper_41
+  - first:
+      213: 7288253183559327569
+    second: Jeff_AttackSuper_42
+  - first:
+      213: -3916584094586813840
+    second: Jeff_AttackSuper_43
+  - first:
+      213: -5261622466937431840
+    second: Jeff_AttackSuper_44
+  - first:
+      213: -4754328953562856816
+    second: Jeff_AttackSuper_45
+  - first:
+      213: 7935328804895014860
+    second: Jeff_AttackSuper_46
+  - first:
+      213: 7538811696751225291
+    second: Jeff_AttackSuper_47
+  - first:
+      213: -3006518617831998146
+    second: Jeff_AttackSuper_48
+  - first:
+      213: -1416667637506363574
+    second: Jeff_AttackSuper_49
+  - first:
+      213: 4948102755014575691
+    second: Jeff_AttackSuper_50
+  - first:
+      213: -2261487352806921865
+    second: Jeff_AttackSuper_51
+  - first:
+      213: 5522214127494453670
+    second: Jeff_AttackSuper_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be79fa0db072d4a0800000000000000
+      internalID: -6570064949144879439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f31870fc519d650800000000000000
+      internalID: 6258057136136339335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0d4246cb6786fb0800000000000000
+      internalID: -4654339663381344096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec238dbadbe1d550800000000000000
+      internalID: 6183983088071290085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4ea8e1e7d294940800000000000000
+      internalID: 5280802057770165497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d31e481e5380e80800000000000000
+      internalID: -8212254677796831986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e76663de8654cd0800000000000000
+      internalID: -2574536243943145901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4af8cfcf26c8390800000000000000
+      internalID: -7814762414686100243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492d85dae88016000800000000000000
+      internalID: 27312481627591316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0b15c399a64a950800000000000000
+      internalID: 6459404971930661103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552a0b718dd1fba90800000000000000
+      internalID: -7296080057369320875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f26d9059cf61ca60800000000000000
+      internalID: 7692552548957119217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b1786fbb67b0040800000000000000
+      internalID: 4614912792838216592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6a1e4da1f071f90800000000000000
+      internalID: -6983096089299540249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6253ddc34bf5ddc20800000000000000
+      internalID: 3232845335241766182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22afd110cf5c2340800000000000000
+      internalID: 4840348978054668846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7421c1491139021a0800000000000000
+      internalID: -6836302530639818169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0b59affa71b85e0800000000000000
+      internalID: -1906403972670443360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2d2bc62ca637bb0800000000000000
+      internalID: -4939486983015443795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551978e303e08eb40800000000000000
+      internalID: 5469637347811758421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b99f03cbd6978c0800000000000000
+      internalID: -4001046138899031277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff_AttackSuper_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac326fb9e920c060800000000000000
+      internalID: 6971618307084532900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 64469684d339f9f44a39c96659c965f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jeff_AttackSuper_0: -6570064949144879439
+      Jeff_AttackSuper_1: 6258057136136339335
+      Jeff_AttackSuper_10: -7296080057369320875
+      Jeff_AttackSuper_11: 7692552548957119217
+      Jeff_AttackSuper_12: 4614912792838216592
+      Jeff_AttackSuper_13: -6983096089299540249
+      Jeff_AttackSuper_14: 3232845335241766182
+      Jeff_AttackSuper_15: 4840348978054668846
+      Jeff_AttackSuper_16: -6836302530639818169
+      Jeff_AttackSuper_17: -1906403972670443360
+      Jeff_AttackSuper_18: -4939486983015443795
+      Jeff_AttackSuper_19: 5469637347811758421
+      Jeff_AttackSuper_2: -4654339663381344096
+      Jeff_AttackSuper_20: -4001046138899031277
+      Jeff_AttackSuper_21: 6971618307084532900
+      Jeff_AttackSuper_3: 6183983088071290085
+      Jeff_AttackSuper_4: 5280802057770165497
+      Jeff_AttackSuper_5: -8212254677796831986
+      Jeff_AttackSuper_6: -2574536243943145901
+      Jeff_AttackSuper_7: -7814762414686100243
+      Jeff_AttackSuper_8: 27312481627591316
+      Jeff_AttackSuper_9: 6459404971930661103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

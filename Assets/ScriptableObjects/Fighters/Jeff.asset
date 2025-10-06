@@ -21,8 +21,10 @@ MonoBehaviour:
   _Attack: 20
   _blockEffectiveness: 0.8
   _superFunction: 1
-  _superCapacity: 50
+  _superCapacity: 1
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 15
   _animationController: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
+  _superVisual: {fileID: 0}
+  _portrait: {fileID: 2163814417044054617, guid: f82e2a7244c41324b9615a1a530a002b, type: 3}

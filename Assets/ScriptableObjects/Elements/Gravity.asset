@@ -19,3 +19,7 @@ MonoBehaviour:
   _resistances:
   - {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
   _icon: {fileID: 21300000, guid: e7287be2246a6dd49adbe241a57c0c31, type: 3}
+  _damageFT:
+    _isInternal: 0
+    _text: 
+    _color: {r: 0.9960785, g: 0.882353, b: 0.023529414, a: 0}

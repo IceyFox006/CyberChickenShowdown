@@ -27,3 +27,4 @@ MonoBehaviour:
   _superEffectiveness: 50
   _animationController: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
   _superVisual: {fileID: 21300000, guid: 239bbb1486c9daf4d8183f3f8b53b584, type: 3}
+  _portrait: {fileID: -4652795913882670123, guid: 473b07a41128aba4aa5c1318e5a5a137, type: 3}

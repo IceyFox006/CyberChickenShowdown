@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 9b6dbb052b4dcf74cbc1d4ce505b21f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5079853255125712078
+    second: BIG_Die_0
+  - first:
+      213: -6505536950934197902
+    second: BIG_Die_1
+  - first:
+      213: -5001862313625905252
+    second: BIG_Die_2
+  - first:
+      213: 7551073442334637469
+    second: BIG_Die_3
+  - first:
+      213: -348060412160083282
+    second: BIG_Die_4
+  - first:
+      213: -3513905845075398470
+    second: BIG_Die_5
+  - first:
+      213: -259533013297542792
+    second: BIG_Die_6
+  - first:
+      213: -4233572399744816107
+    second: BIG_Die_7
+  - first:
+      213: -3419968176620279119
+    second: BIG_Die_8
+  - first:
+      213: 5052737848207760524
+    second: BIG_Die_9
+  - first:
+      213: -5704650942512144895
+    second: BIG_Die_10
+  - first:
+      213: 3657403476143736956
+    second: BIG_Die_11
+  - first:
+      213: 8798534666548517924
+    second: BIG_Die_12
+  - first:
+      213: -981594354203092640
+    second: BIG_Die_13
+  - first:
+      213: -4979280378840956402
+    second: BIG_Die_14
+  - first:
+      213: -3187358585311940872
+    second: BIG_Die_15
+  - first:
+      213: 2409171901624196687
+    second: BIG_Die_16
+  - first:
+      213: 4316557923609096516
+    second: BIG_Die_17
+  - first:
+      213: 8993473773153506181
+    second: BIG_Die_18
+  - first:
+      213: -156890708654521045
+    second: BIG_Die_19
+  - first:
+      213: -6327258382413902602
+    second: BIG_Die_20
+  - first:
+      213: 1353329204899421376
+    second: BIG_Die_21
+  - first:
+      213: -4015927504095935859
+    second: BIG_Die_22
+  - first:
+      213: -1118578801304970306
+    second: BIG_Die_23
+  - first:
+      213: 3907532514209067522
+    second: BIG_Die_24
+  - first:
+      213: 5310906495083568700
+    second: BIG_Die_25
+  - first:
+      213: 4956113974065970980
+    second: BIG_Die_26
+  - first:
+      213: 7307401418070076668
+    second: BIG_Die_27
+  - first:
+      213: -5365561818505706698
+    second: BIG_Die_28
+  - first:
+      213: 4097202816005109781
+    second: BIG_Die_29
+  - first:
+      213: -7958550627218403882
+    second: BIG_Die_30
+  - first:
+      213: 3712818551835724523
+    second: BIG_Die_31
+  - first:
+      213: 6392457373873084873
+    second: BIG_Die_32
+  - first:
+      213: -8030107369498962490
+    second: BIG_Die_33
+  - first:
+      213: 6826021572151210730
+    second: BIG_Die_34
+  - first:
+      213: 816192530421358629
+    second: BIG_Die_35
+  - first:
+      213: -2310870645864787916
+    second: BIG_Die_36
+  - first:
+      213: -7379120917940509387
+    second: BIG_Die_37
+  - first:
+      213: -8218123041932972986
+    second: BIG_Die_38
+  - first:
+      213: 2178808312260712830
+    second: BIG_Die_39
+  - first:
+      213: -8072616831879729386
+    second: BIG_Die_40
+  - first:
+      213: -5856314939167606999
+    second: BIG_Die_41
+  - first:
+      213: -1500154012914260956
+    second: BIG_Die_42
+  - first:
+      213: -1048112277472120072
+    second: BIG_Die_43
+  - first:
+      213: -2898303985646549913
+    second: BIG_Die_44
+  - first:
+      213: 5678039136798391204
+    second: BIG_Die_45
+  - first:
+      213: -4000924049957172630
+    second: BIG_Die_46
+  - first:
+      213: 4015224248068770132
+    second: BIG_Die_47
+  - first:
+      213: 1147295282983546652
+    second: BIG_Die_48
+  - first:
+      213: -4146968209890938323
+    second: BIG_Die_49
+  - first:
+      213: 2421094803977458580
+    second: BIG_Die_50
+  - first:
+      213: 8679187738401082004
+    second: BIG_Die_51
+  - first:
+      213: 7092592074830572155
+    second: BIG_Die_52
+  - first:
+      213: 4153841468001794093
+    second: BIG_Die_53
+  - first:
+      213: -6362496631148777027
+    second: BIG_Die_54
+  - first:
+      213: -6509231805030113828
+    second: BIG_Die_55
+  - first:
+      213: -8272207559878861683
+    second: BIG_Die_56
+  - first:
+      213: 1455888931950250280
+    second: BIG_Die_57
+  - first:
+      213: -6993942352490297381
+    second: BIG_Die_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BIG_Die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc31ee0f934f7640800000000000000
+      internalID: 5079853255125712078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279a3666c90b7b5a0800000000000000
+      internalID: -6505536950934197902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c971aec0ab0d59ab0800000000000000
+      internalID: -5001862313625905252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dfd3bd94dcac860800000000000000
+      internalID: 7551073442334637469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa72d436e07b2bf0800000000000000
+      internalID: -348060412160083282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0bc1a50491c3fc0800000000000000
+      internalID: -3513905845075398470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879c9e67914f56cf0800000000000000
+      internalID: -259533013297542792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cef4635545f35c0800000000000000
+      internalID: -4233572399744816107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba68692015d980d0800000000000000
+      internalID: -3419968176620279119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c58996d4eee1640800000000000000
+      internalID: 5052737848207760524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e57fb313205d0b0800000000000000
+      internalID: -5704650942512144895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7883d37515b1c230800000000000000
+      internalID: 3657403476143736956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c959f99acaa1a70800000000000000
+      internalID: 8798534666548517924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0691234b22da062f0800000000000000
+      internalID: -981594354203092640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02cc1670ea06eab0800000000000000
+      internalID: -4979280378840956402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea0b6014a34c3d0800000000000000
+      internalID: -3187358585311940872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e992784191f6120800000000000000
+      internalID: 2409171901624196687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4413e19bf8e77eb30800000000000000
+      internalID: 4316557923609096516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5835b994fbc3fcc70800000000000000
+      internalID: 8993473773153506181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIG_Die_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2586125bbc92ddf0800000000000000
+      internalID: -156890708654521045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e85779b4f9b284349bb0d3389ab5505b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BIG_Die_0: 5079853255125712078
+      BIG_Die_1: -6505536950934197902
+      BIG_Die_10: -5704650942512144895
+      BIG_Die_11: 3657403476143736956
+      BIG_Die_12: 8798534666548517924
+      BIG_Die_13: -981594354203092640
+      BIG_Die_14: -4979280378840956402
+      BIG_Die_15: -3187358585311940872
+      BIG_Die_16: 2409171901624196687
+      BIG_Die_17: 4316557923609096516
+      BIG_Die_18: 8993473773153506181
+      BIG_Die_19: -156890708654521045
+      BIG_Die_2: -5001862313625905252
+      BIG_Die_3: 7551073442334637469
+      BIG_Die_4: -348060412160083282
+      BIG_Die_5: -3513905845075398470
+      BIG_Die_6: -259533013297542792
+      BIG_Die_7: -4233572399744816107
+      BIG_Die_8: -3419968176620279119
+      BIG_Die_9: 5052737848207760524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

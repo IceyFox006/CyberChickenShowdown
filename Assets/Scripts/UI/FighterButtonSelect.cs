@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FighterButtonSelect : MonoBehaviour
 {
-    [SerializeField] private SelectScreenBehaviors _ssb;
+    [SerializeField] private PlayerSelectScreen _owner;
     [SerializeField] private Button _button;
     [SerializeField] private Image _selectionImage;
     [SerializeField] private Image _hoverImage;
@@ -12,18 +13,21 @@ public class FighterButtonSelect : MonoBehaviour
 
     public void Hover()
     {
-        if (selected)
+        if (selected || _owner.HasSelected)
             return;
         Exit();
         _hoverImage.enabled = true;
     }
     public void Select()
     {
-        if (selected)
+        if (selected || _owner.HasSelected)
             return;
         Exit();
         _selectionImage.enabled = true;
+        _owner.HasSelected = true;
         selected = true;
+        if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
+            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);
     }
     public void Exit()
     {
