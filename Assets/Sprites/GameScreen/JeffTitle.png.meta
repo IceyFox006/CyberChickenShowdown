@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 4890e6cfef4adce40b62339639bb3d4a
+guid: f3305e18e78427246a2593d01b70e624
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3558226265635949491
-    second: Victorytext_0
+      213: -3290836179186486240
+    second: JeffTitle_0
   - first:
-      213: 7673167592282628645
-    second: Victorytext_1
+      213: -6229335643086284199
+    second: JeffTitle_1
   - first:
-      213: 1110371899597612196
-    second: Victorytext_2
+      213: 2456058430689511875
+    second: JeffTitle_2
   - first:
-      213: -5986836973254146371
-    second: Victorytext_3
-  - first:
-      213: 7503816736640955141
-    second: Victorytext_4
-  - first:
-      213: -6212235335582896211
-    second: Victorytext_5
+      213: -8564786364790723437
+    second: JeffTitle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -128,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Victorytext_0
+      name: JeffTitle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 119
-        height: 110
+        width: 12
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d44fd4e4014ae9ec0800000000000000
-      internalID: -3558226265635949491
+      spriteID: 024f59d3ee99452d0800000000000000
+      internalID: -3290836179186486240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victorytext_1
+      name: JeffTitle_1
       rect:
         serializedVersion: 2
-        x: 124
-        y: 0
-        width: 36
-        height: 110
+        x: 13
+        y: 3
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 522ab0065419c7a60800000000000000
-      internalID: 7673167592282628645
+      spriteID: 95a992fac34fc89a0800000000000000
+      internalID: -6229335643086284199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victorytext_2
+      name: JeffTitle_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 0
-        width: 74
-        height: 93
+        x: 33
+        y: 3
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a467141c55d86f00800000000000000
-      internalID: 1110371899597612196
+      spriteID: 3c90ad4412ca51220800000000000000
+      internalID: 2456058430689511875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victorytext_3
+      name: JeffTitle_3
       rect:
         serializedVersion: 2
-        x: 242
-        y: 0
-        width: 73
-        height: 93
+        x: 47
+        y: 3
+        width: 14
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,52 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db603011e7b7aeca0800000000000000
-      internalID: -5986836973254146371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victorytext_4
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 0
-        width: 75
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5037d17a099e22860800000000000000
-      internalID: 7503816736640955141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victorytext_5
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 0
-        width: 55
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dafa37940e4b9c9a0800000000000000
-      internalID: -6212235335582896211
+      spriteID: 39c2a8ded24c32980800000000000000
+      internalID: -8564786364790723437
       vertices: []
       indices: 
       edges: []
@@ -263,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Victorytext_0: -3558226265635949491
-      Victorytext_1: 7673167592282628645
-      Victorytext_2: 1110371899597612196
-      Victorytext_3: -5986836973254146371
-      Victorytext_4: 7503816736640955141
-      Victorytext_5: -6212235335582896211
+      JeffTitle_0: -3290836179186486240
+      JeffTitle_1: -6229335643086284199
+      JeffTitle_2: 2456058430689511875
+      JeffTitle_3: -8564786364790723437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
