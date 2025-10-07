@@ -15,3 +15,4 @@ MonoBehaviour:
   _name: Player 2
   _ID: 2
   _fighter: {fileID: 11400000, guid: f7a668d29befb0a43a1e5e377ceca2b1, type: 2}
+  _uiIndicatorPrefab: {fileID: 225778561723252736, guid: 36140afa44930074da5fcdf61905f0c3, type: 3}
