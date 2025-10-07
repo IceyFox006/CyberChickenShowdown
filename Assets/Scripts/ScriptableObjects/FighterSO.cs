@@ -6,7 +6,7 @@ public class FighterSO : ScriptableObject
     [Header("General")]
     [SerializeField] private string _name;
     [SerializeField] ElementSO _element;
-    [TextArea(5, 1)][SerializeField] private string _description;
+    [TextArea(5, 1)][SerializeField] private string _superDescription;
     [TextArea(2, 1)][SerializeField] private string[] _winQuotes;
 
     [Header("Stats")]
@@ -41,4 +41,5 @@ public class FighterSO : ScriptableObject
     public string[] WinQuotes { get => _winQuotes; set => _winQuotes = value; }
     public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
     public Sprite Portrait { get => _portrait; set => _portrait = value; }
+    public string SuperDescription { get => _superDescription; set => _superDescription = value; }
 }

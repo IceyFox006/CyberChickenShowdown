@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Guy Fiery
   _element: {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
-  _description: 
+  _superDescription: '*insert GF super description here*'
   _winQuotes:
   - insert Guy Fiery quote here
   _HP: 1000

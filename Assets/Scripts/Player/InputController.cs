@@ -68,8 +68,10 @@ public class InputController : MonoBehaviour
     }
     private void Super_performed(InputAction.CallbackContext obj)
     {
-        if (owner.CombatManager.IsSuperFull())
-            owner.CombatManager.IsSuper = true;
+        if (!owner.CombatManager.IsSuperFull())
+            return;
+        owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
+        owner.CombatManager.IsSuper = true;
     }
     private void Reset_performed(InputAction.CallbackContext obj)
     {

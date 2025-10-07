@@ -16,6 +16,7 @@ public class PlayerUIHandler : MonoBehaviour
 
     [SerializeField] private FloatingText _reduceDamageFT;
     [SerializeField] private FloatingText _regenHealthFT;
+    [SerializeField] private FloatingText _STABModification;
     [SerializeField] private FloatingText _superFT;
 
     
@@ -52,14 +53,30 @@ public class PlayerUIHandler : MonoBehaviour
     {
         _fighterNameText.text = owner.Data.Fighter.Name;
     }
-    public void SpawnFloatingText(FloatingText floatingText, string externalText = "")
+    public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
         GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
         TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
         if (floatingText.IsInternal)
+        {
             text.text = floatingText.Text;
+            text.fontSize = floatingText.Size;
+            text.fontStyle = FontStyles.Bold;
+            text.fontStyle = FontStyles.Italic;
+        }
         else
+        {
+            if (isSTAB)
+            {
+                text.fontSize = _STABModification.Size;
+                if (_STABModification.IsBold)
+                    text.fontStyle = FontStyles.Bold;
+                if (_STABModification.IsItalic)
+                    text.fontStyle = FontStyles.Italic;
+            }
             text.text = externalText;
+        }
+
         text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
 
     }

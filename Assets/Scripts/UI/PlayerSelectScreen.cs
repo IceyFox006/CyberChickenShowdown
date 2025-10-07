@@ -16,6 +16,7 @@ public class PlayerSelectScreen : MonoBehaviour
     [SerializeField] private TMP_Text _elementText;
     [SerializeField] private Image _elementImage;
     [SerializeField] private Image _portraitImage;
+    [SerializeField] private TMP_Text _superDescriptionText;
 
     public bool HasSelected { get => hasSelected; set => hasSelected = value; }
     public PlayerSO Player { get => _player; set => _player = value; }
@@ -42,6 +43,7 @@ public class PlayerSelectScreen : MonoBehaviour
         _elementText.text = fighter.Element.Name;
         _elementImage.sprite = fighter.Element.Icon;
         _portraitImage.sprite = fighter.Portrait;
+        _superDescriptionText.text = fighter.SuperDescription;
     }
     public void Button_HowToPlay()
     {

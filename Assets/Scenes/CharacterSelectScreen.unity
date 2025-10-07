@@ -4301,6 +4301,10 @@ PrefabInstance:
       value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
+    - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: _lockedInVisual
       value: 
       objectReference: {fileID: 1756407955}
@@ -4600,6 +4604,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -4028215714946745388, guid: fbd8881110579174abc0b4007df41ef4, type: 3}
+    - target: {fileID: 6996104493689824385, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -195
+      objectReference: {fileID: 0}
     - target: {fileID: 7119928356891721204, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_Color.a
       value: 0.76862746
@@ -5300,14 +5308,6 @@ PrefabInstance:
       propertyPath: m_TargetGraphic
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 11400000, guid: 0b70ab1fb48a0d54292e6b5202d1f715, type: 2}
-    - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
-      propertyPath: _lockedInVisual
-      value: 
-      objectReference: {fileID: 698930096546353474}
     - target: {fileID: 1531094105366343550, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_TargetGraphic
       value: 
@@ -5661,11 +5661,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
---- !u!1 &698930096546353474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3712172129288261436, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
-  m_PrefabInstance: {fileID: 698930096546353473}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
