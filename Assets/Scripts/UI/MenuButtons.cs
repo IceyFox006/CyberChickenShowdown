@@ -3,17 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-    public void ChangeCharacter()
+    public void LoadCharacterSelect()
     {
         SceneManager.LoadScene("CharacterSelectScreen");
     }
-    public void Rematch()
+    public void LoadGameScreen()
     {
         SceneManager.LoadScene("GameScreen");
     }
-    public void MainMenu()
+    public void LoadTitleScreen()
     {
-        Debug.Log("Not implemented yet.");
-        //Go to title scene
+        SceneManager.LoadScene("TitleScreen");
     }
 }
