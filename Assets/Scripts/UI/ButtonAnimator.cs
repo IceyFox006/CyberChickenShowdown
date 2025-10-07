@@ -10,10 +10,14 @@ public class ButtonAnimator : MonoBehaviour
         Tutorial,
         Credits,
         Exit,
+        Rematch,
+        CharacterSelect,
+        TitleScreen,
     }
     [SerializeField] private Function function;
 
     [SerializeField] private Animator _animator;
+    [SerializeField] private bool facingRight;
 
     public void PlayDormantAnimation()
     {
@@ -21,21 +25,33 @@ public class ButtonAnimator : MonoBehaviour
     }
     public void PlayHoverEnterAnimation()
     {
-        _animator.Play("HOVER_ENTER");
+        if (!facingRight)
+            _animator.Play("HOVER_ENTER");
+        else
+            _animator.Play("HOVER_ENTER(R)");
     }
     public void PlayHoverExitAnimation()
     {
-        _animator.Play("HOVER_EXIT");
+        if (!facingRight)
+            _animator.Play("HOVER_EXIT");
+        else
+            _animator.Play("HOVER_EXIT(R)");
     }
     public void PlaySelectAnimation()
     {
-        _animator.Play("SELECT");
+        if (!facingRight)
+            _animator.Play("SELECT");
+        else
+            _animator.Play("SELECT(R)");
     }
     public void ActivateFunction()
     {
         switch (function)
         {
             case Function.Play: SceneManager.LoadScene("CharacterSelectScreen"); break;
+            case Function.CharacterSelect: SceneManager.LoadScene("CharacterSelectScreen"); break;
+            case Function.Rematch: SceneManager.LoadScene("GameScreen"); break;
+            case Function.TitleScreen: SceneManager.LoadScene("TitleScreen"); break;
 
             case Function.None:
                 Debug.LogError("No function assigned to " + gameObject.name + "'s button animator."); break;
