@@ -28,6 +28,7 @@ public class Enums : MonoBehaviour
         Hack = 4,
         Direct = 5,
     }
+    //
     public enum SuperFunction
     {
         nil,
