@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 987d6e9799380624e99e8703ea08cf6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3585170373626859763
+    second: SuperMeleeVFX_V1_0
+  - first:
+      213: 547435477548209255
+    second: SuperMeleeVFX_V1_1
+  - first:
+      213: 3352188063447581865
+    second: SuperMeleeVFX_V1_2
+  - first:
+      213: -8372181743733135142
+    second: SuperMeleeVFX_V1_3
+  - first:
+      213: -5637377417551418767
+    second: SuperMeleeVFX_V1_4
+  - first:
+      213: -4310429590834344156
+    second: SuperMeleeVFX_V1_5
+  - first:
+      213: 5111407156816912574
+    second: SuperMeleeVFX_V1_6
+  - first:
+      213: 4963647193285000543
+    second: SuperMeleeVFX_V1_7
+  - first:
+      213: -1802082492608581925
+    second: SuperMeleeVFX_V1_8
+  - first:
+      213: -4750220814569079736
+    second: SuperMeleeVFX_V1_9
+  - first:
+      213: 1401218097054858113
+    second: SuperMeleeVFX_V1_10
+  - first:
+      213: -8329437395584763014
+    second: SuperMeleeVFX_V1_11
+  - first:
+      213: -3492433783029682356
+    second: SuperMeleeVFX_V1_12
+  - first:
+      213: 6350301939474398376
+    second: SuperMeleeVFX_V1_13
+  - first:
+      213: -4382740749357672654
+    second: SuperMeleeVFX_V1_14
+  - first:
+      213: 3522575044910232499
+    second: SuperMeleeVFX_V1_15
+  - first:
+      213: 3374271202375975901
+    second: SuperMeleeVFX_V1_16
+  - first:
+      213: -5876835225004622566
+    second: SuperMeleeVFX_V1_17
+  - first:
+      213: -8177342178971879582
+    second: SuperMeleeVFX_V1_18
+  - first:
+      213: -4385044956708404182
+    second: SuperMeleeVFX_V1_19
+  - first:
+      213: -14601203310547328
+    second: SuperMeleeVFX_V1_20
+  - first:
+      213: 3179121106598565914
+    second: SuperMeleeVFX_V1_21
+  - first:
+      213: 8197417265289987903
+    second: SuperMeleeVFX_V1_22
+  - first:
+      213: -5903764380705575045
+    second: SuperMeleeVFX_V1_23
+  - first:
+      213: -2211386307891979421
+    second: SuperMeleeVFX_V1_24
+  - first:
+      213: 1898588588582527455
+    second: SuperMeleeVFX_V1_25
+  - first:
+      213: 7947473763639140987
+    second: SuperMeleeVFX_V1_26
+  - first:
+      213: 3286414503964374007
+    second: SuperMeleeVFX_V1_27
+  - first:
+      213: 5516778468369563863
+    second: SuperMeleeVFX_V1_28
+  - first:
+      213: -314012044681004915
+    second: SuperMeleeVFX_V1_29
+  - first:
+      213: -3746707562228002560
+    second: SuperMeleeVFX_V1_30
+  - first:
+      213: -5841940954739252833
+    second: SuperMeleeVFX_V1_31
+  - first:
+      213: -4542123697281113363
+    second: SuperMeleeVFX_V1_32
+  - first:
+      213: -2542260412447814025
+    second: SuperMeleeVFX_V1_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f67bc4a8aee3ec0800000000000000
+      internalID: -3585170373626859763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76415b89aa1e89700800000000000000
+      internalID: 547435477548209255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a40916784d558e20800000000000000
+      internalID: 3352188063447581865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8a6c1df0900db80800000000000000
+      internalID: -8372181743733135142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ae90a5b1304c1b0800000000000000
+      internalID: -5637377417551418767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f8cf0ff174e24c0800000000000000
+      internalID: -4310429590834344156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0267c4abd5fe640800000000000000
+      internalID: 5111407156816912574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dfd12e2da62e440800000000000000
+      internalID: 4963647193285000543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperMeleeVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde6d145587bdf6e0800000000000000
+      internalID: -1802082492608581925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eeb00d1608710704385a50cc2a6fe9f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SuperMeleeVFX_V1_0: -3585170373626859763
+      SuperMeleeVFX_V1_1: 547435477548209255
+      SuperMeleeVFX_V1_2: 3352188063447581865
+      SuperMeleeVFX_V1_3: -8372181743733135142
+      SuperMeleeVFX_V1_4: -5637377417551418767
+      SuperMeleeVFX_V1_5: -4310429590834344156
+      SuperMeleeVFX_V1_6: 5111407156816912574
+      SuperMeleeVFX_V1_7: 4963647193285000543
+      SuperMeleeVFX_V1_8: -1802082492608581925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

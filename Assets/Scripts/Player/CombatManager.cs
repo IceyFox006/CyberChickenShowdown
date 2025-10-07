@@ -100,7 +100,7 @@ public class CombatManager : MonoBehaviour
     }
     public void UpdateMatchElement(Match match)
     {
-        if (IsSTAB)
+        if (isSTAB || isSuper)
             return;
         attackElementID = (int)match.Element.Element;
     }
