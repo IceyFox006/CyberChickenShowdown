@@ -1187,7 +1187,7 @@ MonoBehaviour:
     _isInternal: 1
     _text: SUPER
     _color: {r: 0, g: 1, b: 0.79582405, a: 0}
-    _isBold: 0
+    _isBold: 1
     _isItalic: 0
   _HPBarFillImage: {fileID: 2772978725126035643}
   _HPBarGradient:

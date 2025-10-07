@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Mother Clucker
   _element: {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
-  _description: 
+  _superDescription: '*insert MC super description here*'
   _winQuotes:
   - insert Mother Clucker quote here
   _HP: 1000

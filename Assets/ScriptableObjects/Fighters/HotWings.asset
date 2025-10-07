@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Hot Wings
   _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
-  _description: 
+  _superDescription: '*insert HW super description here*'
   _winQuotes:
   - insert Hot Wings quote here
   _HP: 1000
