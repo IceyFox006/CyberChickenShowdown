@@ -65,7 +65,18 @@ public class PlayerUIHandler : MonoBehaviour
             text.fontStyle = FontStyles.Italic;
         }
         else
+        {
+            if (isSTAB)
+            {
+                text.fontSize = _STABModification.Size;
+                if (_STABModification.IsBold)
+                    text.fontStyle = FontStyles.Bold;
+                if (_STABModification.IsItalic)
+                    text.fontStyle = FontStyles.Italic;
+            }
             text.text = externalText;
+        }
+
         text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
 
     }
