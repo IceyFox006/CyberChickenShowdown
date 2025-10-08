@@ -89,7 +89,6 @@ public class CombatManager : MonoBehaviour
 
         if (target.CurrentHP <= 0)
             target.CombatManager.IsDead = true;
-
     }
     public void RegenHealth(Player target, float regenValue)
     {
