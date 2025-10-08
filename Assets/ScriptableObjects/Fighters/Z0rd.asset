@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Z0rd
   _element: {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
-  _superDescription: '*insert Z0rd super description here*'
+  _superDescription: He's activated his trap! Hack your opponents board and place
+    temporary blockers.
   _winQuotes:
-  - insert Z0rd quote here
+  - Hmph! All according to my calculations.
+  - Heh! A most predictable outcome.
   _HP: 1000
   _Attack: 20
   _blockEffectiveness: 0.8

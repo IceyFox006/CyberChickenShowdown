@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Hot Wings
   _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
-  _superDescription: '*insert HW super description here*'
+  _superDescription: Become a star. Enter a performance state as deal extra damage
+    for a short time.
   _winQuotes:
-  - insert Hot Wings quote here
+  - '*insane air guitar solo*'
+  - What a show!
   _HP: 1000
   _Attack: 20
   _blockEffectiveness: 0.8
