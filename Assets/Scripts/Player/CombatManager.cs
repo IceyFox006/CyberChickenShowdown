@@ -31,6 +31,8 @@ public class CombatManager : MonoBehaviour
     }
     public void AttackOpponent(Player target, Match match)
     {
+        bool hasPlayedMatchSFX = false;
+
         float damage = owner.Data.Fighter.Attack;
         isAttacking = true;
         UpdateMatchElement(match);
@@ -40,6 +42,8 @@ public class CombatManager : MonoBehaviour
         {
             damage *= GameManager.Instance.STABMultiplier;
             isSTAB = true;
+            owner.AudioManager.PlaySound("STABMatch");
+            hasPlayedMatchSFX = true;
 
             //FighterElementAttackBoost
             if (superIsActive && owner.Data.Fighter.SuperFunction == Enums.SuperFunction.FighterElementAttackBoost)
@@ -68,6 +72,9 @@ public class CombatManager : MonoBehaviour
         if (target.CombatManager.IsBlocking)
             damage *= (1 - target.Data.Fighter.BlockEffectiveness);
 
+        if (!hasPlayedMatchSFX)
+            owner.AudioManager.PlaySound("Match");
+
         DealDamage(target, damage, true, match.Element);
 
         ChargeSuper(damage);
@@ -88,7 +95,10 @@ public class CombatManager : MonoBehaviour
         }
 
         if (target.CurrentHP <= 0)
+        {
             target.CombatManager.IsDead = true;
+            owner.AudioManager.PlaySound("PlayerDeath");
+        }
 
     }
     public void RegenHealth(Player target, float regenValue)
@@ -147,6 +157,7 @@ public class CombatManager : MonoBehaviour
 
         float value = 0;
         target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
+        owner.AudioManager.PlaySound("SuperActivate");
         switch (owner.Data.Fighter.SuperFunction)
         {
             case Enums.SuperFunction.ImmediateDamage:

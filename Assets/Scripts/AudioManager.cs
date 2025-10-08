@@ -5,8 +5,6 @@ public class AudioManager : MonoBehaviour
     private static AudioManager instance;
 
     [SerializeField] private AudioData[] _audioLibrary;
-    [SerializeField] private GameObject _audioPlayerPrefab;
-
     public static AudioManager Instance { get => instance; set => instance = value; }
 
     private void Awake()
@@ -40,7 +38,7 @@ public class AudioManager : MonoBehaviour
             if (audioData.Name == name)
                 return audioData;
         }
-        Debug.LogError("Audio clip " + name + " no found in AudioManager audio library.");
+        Debug.LogError("Audio clip " + name + " not found in AudioManager audio library.");
         return null;
     }
 }

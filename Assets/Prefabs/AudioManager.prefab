@@ -45,7 +45,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioLibrary:
-  - _name: PlayerDies
+  - _name: UIClick
+    _clip: {fileID: 8300000, guid: 1eb65214bd59e754b9180a93b5dbfd3b, type: 3}
+    _volume: 1
+  - _name: JoystickMove
+    _clip: {fileID: 8300000, guid: 0335234743675934a83a971708a444db, type: 3}
+    _volume: 1
+  - _name: Match
+    _clip: {fileID: 8300000, guid: 042bc407222c9d24f9e2145adaeead23, type: 3}
+    _volume: 1
+  - _name: STABMatch
+    _clip: {fileID: 8300000, guid: 7f9ff74e5282df04fbb36bf45bcf4abb, type: 3}
+    _volume: 1
+  - _name: SuperActivate
+    _clip: {fileID: 8300000, guid: e329c044b69cb9d429b3535e9736213e, type: 3}
+    _volume: 1
+  - _name: PlayerDeath
     _clip: {fileID: 8300000, guid: a6e911f35a4f45c4eac297d53967e061, type: 3}
-    _volume: 0
+    _volume: 1
   _audioPlayerPrefab: {fileID: 0}
