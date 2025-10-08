@@ -807,6 +807,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1756556853
+      objectReference: {fileID: 0}
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
       value: PlayerRevamped2
@@ -998,6 +1006,14 @@ PrefabInstance:
     - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944932994654330705, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1756556853
       objectReference: {fileID: 0}
     - target: {fileID: 6428098557363354321, guid: 7b2b5220107423340a2661172dfcce24, type: 3}
       propertyPath: m_Name
@@ -1361,7 +1377,7 @@ MonoBehaviour:
   m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000dfdfb0dcb3b40868
+  m_ApplyToSortingLayers: 00000000dfdfb0dcb3b4086835eeb268
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0

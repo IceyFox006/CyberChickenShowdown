@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Jeff
   _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
-  _superDescription: '*insert Jeff super description here*'
+  _superDescription: Jeff is no ordinay chicken. Shoot beams of intense heat at your
+    opponent and drain their health.
   _winQuotes:
-  - insert Jeff quote here
+  - Buckaw!
+  - Bok bok!
+  - I am a chicken.
   _HP: 1000
   _Attack: 20
   _blockEffectiveness: 0.8
