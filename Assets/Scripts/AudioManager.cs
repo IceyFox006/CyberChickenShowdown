@@ -4,9 +4,8 @@ public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
 
+    [SerializeField] private GameObject _SDSoundPrefab;
     [SerializeField] private AudioData[] _audioLibrary;
-    [SerializeField] private GameObject _audioPlayerPrefab;
-
     public static AudioManager Instance { get => instance; set => instance = value; }
 
     private void Awake()
@@ -33,6 +32,15 @@ public class AudioManager : MonoBehaviour
         audioData.Source.Play();
         Debug.Log("Played " + name);
     }
+    public void PlaySoundAt(Vector2 position, string name)
+    {
+        GameObject go = Instantiate(_SDSoundPrefab, position, Quaternion.identity);
+        AudioSource audioSource = go.GetComponent<AudioSource>();
+        AudioData audioData = FindAudioData(name);
+        audioSource.volume = audioData.Volume;
+        audioSource.Play();
+        Debug.Log("Played " + name + " at " + position);
+    }
     private AudioData FindAudioData(string name)
     {
         foreach (AudioData audioData in _audioLibrary)
@@ -40,7 +48,7 @@ public class AudioManager : MonoBehaviour
             if (audioData.Name == name)
                 return audioData;
         }
-        Debug.LogError("Audio clip " + name + " no found in AudioManager audio library.");
+        Debug.LogError("Audio clip " + name + " not found in AudioManager audio library.");
         return null;
     }
 }

@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerMatch3 _game;
     [SerializeField] private PlayerUIHandler _uiHandler;
     [SerializeField] private CombatManager _combatManager;
+    [SerializeField] private AudioManager _audioManager;
 
     [Header("Combat")]
     private float currentHP;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     public CombatManager CombatManager { get => _combatManager; set => _combatManager = value; }
     public PlayerGOController GameObjectController { get => _gameObjectController; set => _gameObjectController = value; }
     public PlayerSO Data { get => _data; set => _data = value; }
+    public AudioManager AudioManager { get => _audioManager; set => _audioManager = value; }
 
     private void Awake()
     {
