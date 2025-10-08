@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class SelectScreenBehavior : MonoBehaviour
 {
@@ -12,9 +11,11 @@ public class SelectScreenBehavior : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private GameObject _chooseMatchNumberUIGO;
+    [SerializeField] private GameObject _matchNumberSelectedButton;
 
     public static SelectScreenBehavior Instance { get => instance; set => instance = value; }
     public GameObject ChooseMatchNumberUIGO { get => _chooseMatchNumberUIGO; set => _chooseMatchNumberUIGO = value; }
+    public GameObject MatchNumberSelectedButton { get => _matchNumberSelectedButton; set => _matchNumberSelectedButton = value; }
 
     public void Button_SetMatchCount(int  matchCount)
     {
