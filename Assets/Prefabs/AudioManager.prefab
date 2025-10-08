@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45cf692137f1694aaf697ac93bc7fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _SDSoundPrefab: {fileID: 2269989444112940820, guid: 73d853d2379305843ba1da42a7280e78, type: 3}
   _audioLibrary:
   - _name: UIClick
     _clip: {fileID: 8300000, guid: 1eb65214bd59e754b9180a93b5dbfd3b, type: 3}
@@ -63,4 +64,3 @@ MonoBehaviour:
   - _name: PlayerDeath
     _clip: {fileID: 8300000, guid: a6e911f35a4f45c4eac297d53967e061, type: 3}
     _volume: 1
-  _audioPlayerPrefab: {fileID: 0}

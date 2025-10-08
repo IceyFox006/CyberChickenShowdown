@@ -770,6 +770,7 @@ GameObject:
   - component: {fileID: 5166896432736334380}
   - component: {fileID: 291483838772304722}
   - component: {fileID: 2875701731809449599}
+  - component: {fileID: 4188452164700990186}
   - component: {fileID: 837690348702128130}
   - component: {fileID: 7200989472628688073}
   m_Layer: 5
@@ -824,6 +825,18 @@ MonoBehaviour:
   _button: {fileID: 837690348702128130}
   _selectionImage: {fileID: 6265132286958491536}
   _hoverImage: {fileID: 7119928356891721204}
+--- !u!114 &4188452164700990186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079028005294738072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fd1332af20bc41b8e53a59ea78a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &837690348702128130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,6 +905,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4188452164700990186}
+        m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: UIClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7200989472628688073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,6 +956,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 4188452164700990186}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: f7a668d29befb0a43a1e5e377ceca2b1, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
             m_BoolArgument: 0
           m_CallState: 2
   - eventID: 8
@@ -1363,6 +1400,7 @@ GameObject:
   - component: {fileID: 7281804386085201116}
   - component: {fileID: 7094379440422373393}
   - component: {fileID: 3883299508671605550}
+  - component: {fileID: 6854343251880508008}
   - component: {fileID: 7185253319686491380}
   - component: {fileID: 2036774575197602381}
   m_Layer: 5
@@ -1417,6 +1455,18 @@ MonoBehaviour:
   _button: {fileID: 7185253319686491380}
   _selectionImage: {fileID: 6453317566785318069}
   _hoverImage: {fileID: 6234780678048544483}
+--- !u!114 &6854343251880508008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598541713374700295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fd1332af20bc41b8e53a59ea78a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7185253319686491380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,6 +1535,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6854343251880508008}
+        m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: UIClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2036774575197602381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,6 +1586,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 6854343251880508008}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 9c37b6a4d87b2ea41970aaf2e70b1604, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
             m_BoolArgument: 0
           m_CallState: 2
   - eventID: 8
@@ -1907,6 +1981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5192981639091606126}
   - component: {fileID: 5813108689151053331}
+  - component: {fileID: 2408599486609713601}
   - component: {fileID: 2399938348724384943}
   - component: {fileID: 1531094105366343550}
   - component: {fileID: 7474266079734332150}
@@ -1954,6 +2029,18 @@ MonoBehaviour:
   _button: {fileID: 1531094105366343550}
   _selectionImage: {fileID: 5397672128569527609}
   _hoverImage: {fileID: 5468279563786394234}
+--- !u!114 &2408599486609713601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7897619908768089871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fd1332af20bc41b8e53a59ea78a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &2399938348724384943
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2030,6 +2117,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2408599486609713601}
+        m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: UIClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7474266079734332150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2069,6 +2168,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2408599486609713601}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 585397a360d55a64cb55eea963e8bae7, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
             m_BoolArgument: 0
           m_CallState: 2
   - eventID: 8
@@ -2201,6 +2312,7 @@ GameObject:
   - component: {fileID: 1728260550386526503}
   - component: {fileID: 4004119765974590827}
   - component: {fileID: 8934046873118962767}
+  - component: {fileID: 9074645817689361319}
   - component: {fileID: 1311016200175347481}
   - component: {fileID: 3803953973384784800}
   m_Layer: 5
@@ -2255,6 +2367,18 @@ MonoBehaviour:
   _button: {fileID: 1311016200175347481}
   _selectionImage: {fileID: 5805522168888639072}
   _hoverImage: {fileID: 5503958264445499224}
+--- !u!114 &9074645817689361319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8107548114925873343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fd1332af20bc41b8e53a59ea78a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1311016200175347481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2323,6 +2447,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9074645817689361319}
+        m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: UIClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3803953973384784800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2364,22 +2500,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 9074645817689361319}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: b2b8a864496b1c744bfbcc4b6925385c, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 8
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1352917147430033179}
-          m_TargetAssemblyTypeName: SelectScreenBehaviors, Assembly-CSharp
-          m_MethodName: EnterHover_ShowFighterInformation
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: b2b8a864496b1c744bfbcc4b6925385c, type: 2}
-            m_ObjectArgumentAssemblyTypeName: FighterSO, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 8934046873118962767}
           m_TargetAssemblyTypeName: FighterButtonSelect, Assembly-CSharp
           m_MethodName: Hover
@@ -2390,6 +2526,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 9074645817689361319}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
             m_BoolArgument: 0
           m_CallState: 2
   - eventID: 10
@@ -2705,6 +2853,7 @@ GameObject:
   - component: {fileID: 5011240176151077552}
   - component: {fileID: 4497376391079299356}
   - component: {fileID: 8235372775704170917}
+  - component: {fileID: 6952678440273403035}
   - component: {fileID: 695077885603011558}
   - component: {fileID: 2698542016171404472}
   m_Layer: 5
@@ -2759,6 +2908,18 @@ MonoBehaviour:
   _button: {fileID: 695077885603011558}
   _selectionImage: {fileID: 7678465229479441292}
   _hoverImage: {fileID: 2366253849703260694}
+--- !u!114 &6952678440273403035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8633331397138441189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fd1332af20bc41b8e53a59ea78a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &695077885603011558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2827,6 +2988,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6952678440273403035}
+        m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: UIClick
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2698542016171404472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2866,6 +3039,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 6952678440273403035}
+          m_TargetAssemblyTypeName: UISFX, Assembly-CSharp
+          m_MethodName: PlaySFX
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: JoystickMove
             m_BoolArgument: 0
           m_CallState: 2
   - eventID: 8
