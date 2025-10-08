@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Mother Clucker
   _element: {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
-  _superDescription: '*insert MC super description here*'
+  _superDescription: Big chicken, heavy gravity. Drain your opponents super meter
+    and raise your health.
   _winQuotes:
-  - insert Mother Clucker quote here
+  - War is cruel indeed.
+  - "I win. Who\u2019s the motherclucker now?"
   _HP: 1000
   _Attack: 20
   _blockEffectiveness: 0.8
