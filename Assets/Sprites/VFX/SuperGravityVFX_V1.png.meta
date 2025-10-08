@@ -1,0 +1,1550 @@
+fileFormatVersion: 2
+guid: b3660811674a086458b4d7f4c23ad344
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 493665849993035777
+    second: SuperGravityVFX_V1_0
+  - first:
+      213: -4281763691126474790
+    second: SuperGravityVFX_V1_1
+  - first:
+      213: -7667328260336519572
+    second: SuperGravityVFX_V1_2
+  - first:
+      213: -2690080995365015797
+    second: SuperGravityVFX_V1_3
+  - first:
+      213: -3229736312796225385
+    second: SuperGravityVFX_V1_4
+  - first:
+      213: 7747795678327758066
+    second: SuperGravityVFX_V1_5
+  - first:
+      213: -1739576333474198601
+    second: SuperGravityVFX_V1_6
+  - first:
+      213: 5036985011094201111
+    second: SuperGravityVFX_V1_7
+  - first:
+      213: -8692733181246201353
+    second: SuperGravityVFX_V1_8
+  - first:
+      213: 2077235187004253168
+    second: SuperGravityVFX_V1_9
+  - first:
+      213: 2399293037819330140
+    second: SuperGravityVFX_V1_10
+  - first:
+      213: 3280787910183209701
+    second: SuperGravityVFX_V1_11
+  - first:
+      213: -2570542870423610366
+    second: SuperGravityVFX_V1_12
+  - first:
+      213: -8934274561666836905
+    second: SuperGravityVFX_V1_13
+  - first:
+      213: 2722078729303576091
+    second: SuperGravityVFX_V1_14
+  - first:
+      213: -2508594275988688362
+    second: SuperGravityVFX_V1_15
+  - first:
+      213: 5382949280619116093
+    second: SuperGravityVFX_V1_16
+  - first:
+      213: -4955984496434243486
+    second: SuperGravityVFX_V1_17
+  - first:
+      213: -3548747554610553882
+    second: SuperGravityVFX_V1_18
+  - first:
+      213: 6480586739506478570
+    second: SuperGravityVFX_V1_19
+  - first:
+      213: 8015088004976858645
+    second: SuperGravityVFX_V1_20
+  - first:
+      213: -8223273861477726512
+    second: SuperGravityVFX_V1_21
+  - first:
+      213: -220257195100665216
+    second: SuperGravityVFX_V1_22
+  - first:
+      213: -6844053247408099446
+    second: SuperGravityVFX_V1_23
+  - first:
+      213: 2355339877827118074
+    second: SuperGravityVFX_V1_24
+  - first:
+      213: -6915074220491894758
+    second: SuperGravityVFX_V1_25
+  - first:
+      213: -380490472164805989
+    second: SuperGravityVFX_V1_26
+  - first:
+      213: 7468114439775982517
+    second: SuperGravityVFX_V1_27
+  - first:
+      213: -3735839639724956187
+    second: SuperGravityVFX_V1_28
+  - first:
+      213: 8127756791858159347
+    second: SuperGravityVFX_V1_29
+  - first:
+      213: 5010730961847161478
+    second: SuperGravityVFX_V1_30
+  - first:
+      213: -5515336823849808693
+    second: SuperGravityVFX_V1_31
+  - first:
+      213: -4649471329516768773
+    second: SuperGravityVFX_V1_32
+  - first:
+      213: 2002729388090982683
+    second: SuperGravityVFX_V1_33
+  - first:
+      213: -1899496979869108553
+    second: SuperGravityVFX_V1_34
+  - first:
+      213: 3763518777972801525
+    second: SuperGravityVFX_V1_35
+  - first:
+      213: -9138916426242040705
+    second: SuperGravityVFX_V1_36
+  - first:
+      213: 1171561353758105488
+    second: SuperGravityVFX_V1_37
+  - first:
+      213: -1858320179339840641
+    second: SuperGravityVFX_V1_38
+  - first:
+      213: -3942340323908299378
+    second: SuperGravityVFX_V1_39
+  - first:
+      213: -1625394520120830478
+    second: SuperGravityVFX_V1_40
+  - first:
+      213: -1062624453482127335
+    second: SuperGravityVFX_V1_41
+  - first:
+      213: 7876105485904066990
+    second: SuperGravityVFX_V1_42
+  - first:
+      213: 6173355129880043755
+    second: SuperGravityVFX_V1_43
+  - first:
+      213: 8388466893824383869
+    second: SuperGravityVFX_V1_44
+  - first:
+      213: -6467284427804668461
+    second: SuperGravityVFX_V1_45
+  - first:
+      213: -137127477504910083
+    second: SuperGravityVFX_V1_46
+  - first:
+      213: -8326735754201785851
+    second: SuperGravityVFX_V1_47
+  - first:
+      213: 2034525220743785526
+    second: SuperGravityVFX_V1_48
+  - first:
+      213: -5876194018754606420
+    second: SuperGravityVFX_V1_49
+  - first:
+      213: -6179791530839163476
+    second: SuperGravityVFX_V1_50
+  - first:
+      213: 4953194811599355816
+    second: SuperGravityVFX_V1_51
+  - first:
+      213: -3953594241280745347
+    second: SuperGravityVFX_V1_52
+  - first:
+      213: 8099800386386259342
+    second: SuperGravityVFX_V1_53
+  - first:
+      213: -2471742545396596189
+    second: SuperGravityVFX_V1_54
+  - first:
+      213: 4461918023294957958
+    second: SuperGravityVFX_V1_55
+  - first:
+      213: -4486566113188038502
+    second: SuperGravityVFX_V1_56
+  - first:
+      213: -6303264842250621168
+    second: SuperGravityVFX_V1_57
+  - first:
+      213: -7892829677780148843
+    second: SuperGravityVFX_V1_58
+  - first:
+      213: 170860715638342024
+    second: SuperGravityVFX_V1_59
+  - first:
+      213: -1726249831497497348
+    second: SuperGravityVFX_V1_60
+  - first:
+      213: 8204762761221303124
+    second: SuperGravityVFX_V1_61
+  - first:
+      213: -4897457518359977397
+    second: SuperGravityVFX_V1_62
+  - first:
+      213: 6444295408747346960
+    second: SuperGravityVFX_V1_63
+  - first:
+      213: -1332434008454559908
+    second: SuperGravityVFX_V1_64
+  - first:
+      213: 5598203502473307123
+    second: SuperGravityVFX_V1_65
+  - first:
+      213: 3779481056211509971
+    second: SuperGravityVFX_V1_66
+  - first:
+      213: 4112450083724377390
+    second: SuperGravityVFX_V1_67
+  - first:
+      213: -9135645649066993433
+    second: SuperGravityVFX_V1_68
+  - first:
+      213: 6558962060401856130
+    second: SuperGravityVFX_V1_69
+  - first:
+      213: -7427755985934055133
+    second: SuperGravityVFX_V1_70
+  - first:
+      213: 1040870619936600653
+    second: SuperGravityVFX_V1_71
+  - first:
+      213: -8441346221070980340
+    second: SuperGravityVFX_V1_72
+  - first:
+      213: 2959582852459273937
+    second: SuperGravityVFX_V1_73
+  - first:
+      213: 4859832090551563594
+    second: SuperGravityVFX_V1_74
+  - first:
+      213: -6395126088413199705
+    second: SuperGravityVFX_V1_75
+  - first:
+      213: -7669665418325061794
+    second: SuperGravityVFX_V1_76
+  - first:
+      213: 7087382010833908159
+    second: SuperGravityVFX_V1_77
+  - first:
+      213: 8232098438507972850
+    second: SuperGravityVFX_V1_78
+  - first:
+      213: 6522102607640482661
+    second: SuperGravityVFX_V1_79
+  - first:
+      213: 5656555316418640832
+    second: SuperGravityVFX_V1_80
+  - first:
+      213: 2421937954620050071
+    second: SuperGravityVFX_V1_81
+  - first:
+      213: 740087420706823910
+    second: SuperGravityVFX_V1_82
+  - first:
+      213: -1803894617993473779
+    second: SuperGravityVFX_V1_83
+  - first:
+      213: 1634031406802563874
+    second: SuperGravityVFX_V1_84
+  - first:
+      213: 8897489126538906221
+    second: SuperGravityVFX_V1_85
+  - first:
+      213: -6813834126022649452
+    second: SuperGravityVFX_V1_86
+  - first:
+      213: 1168873158612448896
+    second: SuperGravityVFX_V1_87
+  - first:
+      213: -2856528536848139299
+    second: SuperGravityVFX_V1_88
+  - first:
+      213: -6052868840909657146
+    second: SuperGravityVFX_V1_89
+  - first:
+      213: -3607686164113398989
+    second: SuperGravityVFX_V1_90
+  - first:
+      213: 3886035879116688341
+    second: SuperGravityVFX_V1_91
+  - first:
+      213: 8311379557256525
+    second: SuperGravityVFX_V1_92
+  - first:
+      213: 1167331636321642961
+    second: SuperGravityVFX_V1_93
+  - first:
+      213: -8951127992411449011
+    second: SuperGravityVFX_V1_94
+  - first:
+      213: -3461430459141565291
+    second: SuperGravityVFX_V1_95
+  - first:
+      213: 3051843359951856342
+    second: SuperGravityVFX_V1_96
+  - first:
+      213: 5171390159376683769
+    second: SuperGravityVFX_V1_97
+  - first:
+      213: -1757296896342972718
+    second: SuperGravityVFX_V1_98
+  - first:
+      213: -2691952444362121069
+    second: SuperGravityVFX_V1_99
+  - first:
+      213: 3004351404151074740
+    second: SuperGravityVFX_V1_100
+  - first:
+      213: 6289630926747097328
+    second: SuperGravityVFX_V1_101
+  - first:
+      213: -393034861311798347
+    second: SuperGravityVFX_V1_102
+  - first:
+      213: -2550021476887543249
+    second: SuperGravityVFX_V1_103
+  - first:
+      213: 8802884750801077955
+    second: SuperGravityVFX_V1_104
+  - first:
+      213: 6090828501827634778
+    second: SuperGravityVFX_V1_105
+  - first:
+      213: -287398160244136246
+    second: SuperGravityVFX_V1_106
+  - first:
+      213: -1298745006623923416
+    second: SuperGravityVFX_V1_107
+  - first:
+      213: 9026804227611900144
+    second: SuperGravityVFX_V1_108
+  - first:
+      213: 6410807500367786891
+    second: SuperGravityVFX_V1_109
+  - first:
+      213: -6717513563883007063
+    second: SuperGravityVFX_V1_110
+  - first:
+      213: -473245321268301899
+    second: SuperGravityVFX_V1_111
+  - first:
+      213: -7625652477721387757
+    second: SuperGravityVFX_V1_112
+  - first:
+      213: 8279660465393285603
+    second: SuperGravityVFX_V1_113
+  - first:
+      213: 6477572364546768411
+    second: SuperGravityVFX_V1_114
+  - first:
+      213: -1076711298625863264
+    second: SuperGravityVFX_V1_115
+  - first:
+      213: -3237381368577504704
+    second: SuperGravityVFX_V1_116
+  - first:
+      213: -651253567684616694
+    second: SuperGravityVFX_V1_117
+  - first:
+      213: -3700299654725721394
+    second: SuperGravityVFX_V1_118
+  - first:
+      213: 1643228704556442922
+    second: SuperGravityVFX_V1_119
+  - first:
+      213: -673915556967425031
+    second: SuperGravityVFX_V1_120
+  - first:
+      213: 7268431993415579637
+    second: SuperGravityVFX_V1_121
+  - first:
+      213: 7677841815029023804
+    second: SuperGravityVFX_V1_122
+  - first:
+      213: 3386990755809355562
+    second: SuperGravityVFX_V1_123
+  - first:
+      213: -4452278689404900368
+    second: SuperGravityVFX_V1_124
+  - first:
+      213: 7634559530106624079
+    second: SuperGravityVFX_V1_125
+  - first:
+      213: -7957090195730597838
+    second: SuperGravityVFX_V1_126
+  - first:
+      213: 8895155422132963491
+    second: SuperGravityVFX_V1_127
+  - first:
+      213: -862475434991111294
+    second: SuperGravityVFX_V1_128
+  - first:
+      213: 6260393576661883479
+    second: SuperGravityVFX_V1_129
+  - first:
+      213: 6081886539827311713
+    second: SuperGravityVFX_V1_130
+  - first:
+      213: -242694354204959095
+    second: SuperGravityVFX_V1_131
+  - first:
+      213: -1293026489081522809
+    second: SuperGravityVFX_V1_132
+  - first:
+      213: -4804765241681510569
+    second: SuperGravityVFX_V1_133
+  - first:
+      213: -1534920693059116687
+    second: SuperGravityVFX_V1_134
+  - first:
+      213: 2246033343900513579
+    second: SuperGravityVFX_V1_135
+  - first:
+      213: 5286770140277900965
+    second: SuperGravityVFX_V1_136
+  - first:
+      213: 2305545444291495060
+    second: SuperGravityVFX_V1_137
+  - first:
+      213: 2305004713235363855
+    second: SuperGravityVFX_V1_138
+  - first:
+      213: 4189952399350377672
+    second: SuperGravityVFX_V1_139
+  - first:
+      213: -4648557860431418247
+    second: SuperGravityVFX_V1_140
+  - first:
+      213: -9006341765392408174
+    second: SuperGravityVFX_V1_141
+  - first:
+      213: 7757775382442651027
+    second: SuperGravityVFX_V1_142
+  - first:
+      213: 7297448206178152551
+    second: SuperGravityVFX_V1_143
+  - first:
+      213: 738301371203711743
+    second: SuperGravityVFX_V1_144
+  - first:
+      213: 7766718740812321894
+    second: SuperGravityVFX_V1_145
+  - first:
+      213: 3781200731486488192
+    second: SuperGravityVFX_V1_146
+  - first:
+      213: 5502596183867639670
+    second: SuperGravityVFX_V1_147
+  - first:
+      213: -2971057469387842565
+    second: SuperGravityVFX_V1_148
+  - first:
+      213: 4317739509754758199
+    second: SuperGravityVFX_V1_149
+  - first:
+      213: -7767686059138707170
+    second: SuperGravityVFX_V1_150
+  - first:
+      213: 3477213633161596155
+    second: SuperGravityVFX_V1_151
+  - first:
+      213: 8730644244038093325
+    second: SuperGravityVFX_V1_152
+  - first:
+      213: 7581654586008931986
+    second: SuperGravityVFX_V1_153
+  - first:
+      213: 3996926371184792961
+    second: SuperGravityVFX_V1_154
+  - first:
+      213: -6312365719512429822
+    second: SuperGravityVFX_V1_155
+  - first:
+      213: -3277631427796934458
+    second: SuperGravityVFX_V1_156
+  - first:
+      213: -2811724419742432458
+    second: SuperGravityVFX_V1_157
+  - first:
+      213: -1351689622190212751
+    second: SuperGravityVFX_V1_158
+  - first:
+      213: 5899212740340379766
+    second: SuperGravityVFX_V1_159
+  - first:
+      213: -4014848912760992643
+    second: SuperGravityVFX_V1_160
+  - first:
+      213: 3055441241741306851
+    second: SuperGravityVFX_V1_161
+  - first:
+      213: -3132210831043818008
+    second: SuperGravityVFX_V1_162
+  - first:
+      213: -5389243734283038616
+    second: SuperGravityVFX_V1_163
+  - first:
+      213: 2189280426082171193
+    second: SuperGravityVFX_V1_164
+  - first:
+      213: -5826358387643453588
+    second: SuperGravityVFX_V1_165
+  - first:
+      213: -1082406793038165835
+    second: SuperGravityVFX_V1_166
+  - first:
+      213: -1017113352702843783
+    second: SuperGravityVFX_V1_167
+  - first:
+      213: 5456120594124847667
+    second: SuperGravityVFX_V1_168
+  - first:
+      213: 2218865768513449811
+    second: SuperGravityVFX_V1_169
+  - first:
+      213: 9096521906041582295
+    second: SuperGravityVFX_V1_170
+  - first:
+      213: -7134533279396461564
+    second: SuperGravityVFX_V1_171
+  - first:
+      213: 9097957797540258593
+    second: SuperGravityVFX_V1_172
+  - first:
+      213: -2480636767392777428
+    second: SuperGravityVFX_V1_173
+  - first:
+      213: 6752349752337219676
+    second: SuperGravityVFX_V1_174
+  - first:
+      213: -6630930488361146842
+    second: SuperGravityVFX_V1_175
+  - first:
+      213: -6290339050995950151
+    second: SuperGravityVFX_V1_176
+  - first:
+      213: -5812656305675810686
+    second: SuperGravityVFX_V1_177
+  - first:
+      213: 1052594871446670604
+    second: SuperGravityVFX_V1_178
+  - first:
+      213: 5947526639239675659
+    second: SuperGravityVFX_V1_179
+  - first:
+      213: -899119930132263507
+    second: SuperGravityVFX_V1_180
+  - first:
+      213: 6778582144403224590
+    second: SuperGravityVFX_V1_181
+  - first:
+      213: -2638683263284693293
+    second: SuperGravityVFX_V1_182
+  - first:
+      213: -4016352491653179508
+    second: SuperGravityVFX_V1_183
+  - first:
+      213: -434437689532077509
+    second: SuperGravityVFX_V1_184
+  - first:
+      213: 367212511311803480
+    second: SuperGravityVFX_V1_185
+  - first:
+      213: 1863320095132028372
+    second: SuperGravityVFX_V1_186
+  - first:
+      213: 197259930437660495
+    second: SuperGravityVFX_V1_187
+  - first:
+      213: 5514991566543999662
+    second: SuperGravityVFX_V1_188
+  - first:
+      213: -8506265832767386075
+    second: SuperGravityVFX_V1_189
+  - first:
+      213: 1386668278603870785
+    second: SuperGravityVFX_V1_190
+  - first:
+      213: -4731161978538134438
+    second: SuperGravityVFX_V1_191
+  - first:
+      213: -1094093859305291572
+    second: SuperGravityVFX_V1_192
+  - first:
+      213: 7377919386544789036
+    second: SuperGravityVFX_V1_193
+  - first:
+      213: 8326198380625064980
+    second: SuperGravityVFX_V1_194
+  - first:
+      213: -2107692313323332130
+    second: SuperGravityVFX_V1_195
+  - first:
+      213: 4856013765325098288
+    second: SuperGravityVFX_V1_196
+  - first:
+      213: 1880345127957410423
+    second: SuperGravityVFX_V1_197
+  - first:
+      213: 6562249177265545997
+    second: SuperGravityVFX_V1_198
+  - first:
+      213: 4017009496271650793
+    second: SuperGravityVFX_V1_199
+  - first:
+      213: 8446780243681828707
+    second: SuperGravityVFX_V1_200
+  - first:
+      213: -5350148689449166478
+    second: SuperGravityVFX_V1_201
+  - first:
+      213: 1449822774307128797
+    second: SuperGravityVFX_V1_202
+  - first:
+      213: 605276049759197822
+    second: SuperGravityVFX_V1_203
+  - first:
+      213: 3181976075827647983
+    second: SuperGravityVFX_V1_204
+  - first:
+      213: 404112851758505582
+    second: SuperGravityVFX_V1_205
+  - first:
+      213: -7611591114871107791
+    second: SuperGravityVFX_V1_206
+  - first:
+      213: 4150379232158690834
+    second: SuperGravityVFX_V1_207
+  - first:
+      213: -4030927633234556026
+    second: SuperGravityVFX_V1_208
+  - first:
+      213: 3602736472760215645
+    second: SuperGravityVFX_V1_209
+  - first:
+      213: 2402754543015188521
+    second: SuperGravityVFX_V1_210
+  - first:
+      213: -950750046994600792
+    second: SuperGravityVFX_V1_211
+  - first:
+      213: -148354148396758104
+    second: SuperGravityVFX_V1_212
+  - first:
+      213: 4826374629761385615
+    second: SuperGravityVFX_V1_213
+  - first:
+      213: 5172509473469002381
+    second: SuperGravityVFX_V1_214
+  - first:
+      213: 6668805056751663452
+    second: SuperGravityVFX_V1_215
+  - first:
+      213: -2510320402281246899
+    second: SuperGravityVFX_V1_216
+  - first:
+      213: 6876418839614137121
+    second: SuperGravityVFX_V1_217
+  - first:
+      213: 836018228575898064
+    second: SuperGravityVFX_V1_218
+  - first:
+      213: -6415082020815180482
+    second: SuperGravityVFX_V1_219
+  - first:
+      213: -4612200350412355027
+    second: SuperGravityVFX_V1_220
+  - first:
+      213: 5953953499190227834
+    second: SuperGravityVFX_V1_221
+  - first:
+      213: 2699825803599594855
+    second: SuperGravityVFX_V1_222
+  - first:
+      213: -442961952458805122
+    second: SuperGravityVFX_V1_223
+  - first:
+      213: -507050057750426717
+    second: SuperGravityVFX_V1_224
+  - first:
+      213: -2225634607034221795
+    second: SuperGravityVFX_V1_225
+  - first:
+      213: -8488619344719691610
+    second: SuperGravityVFX_V1_226
+  - first:
+      213: 6133939111550587300
+    second: SuperGravityVFX_V1_227
+  - first:
+      213: 8581623872697757580
+    second: SuperGravityVFX_V1_228
+  - first:
+      213: 4894619058908739870
+    second: SuperGravityVFX_V1_229
+  - first:
+      213: -615946342449238874
+    second: SuperGravityVFX_V1_230
+  - first:
+      213: 5219410822765223086
+    second: SuperGravityVFX_V1_231
+  - first:
+      213: -3077854964889708233
+    second: SuperGravityVFX_V1_232
+  - first:
+      213: 7002511982867976007
+    second: SuperGravityVFX_V1_233
+  - first:
+      213: 9072217473056173931
+    second: SuperGravityVFX_V1_234
+  - first:
+      213: -8493604312971306645
+    second: SuperGravityVFX_V1_235
+  - first:
+      213: -4876717939333002501
+    second: SuperGravityVFX_V1_236
+  - first:
+      213: 3024765584330910518
+    second: SuperGravityVFX_V1_237
+  - first:
+      213: 3914521456632777353
+    second: SuperGravityVFX_V1_238
+  - first:
+      213: 4019917604511545143
+    second: SuperGravityVFX_V1_239
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100839a997ad9d600800000000000000
+      internalID: 493665849993035777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7bd32db9e1494c0800000000000000
+      internalID: -4281763691126474790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66f35a029d289590800000000000000
+      internalID: -7667328260336519572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2d3e5699eaaad0800000000000000
+      internalID: -2690080995365015797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790e9957febad23d0800000000000000
+      internalID: -3229736312796225385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc580fae13b58b60800000000000000
+      internalID: 7747795678327758066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb08979a88cbd7e0800000000000000
+      internalID: -1739576333474198601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713ac353e27f6e540800000000000000
+      internalID: 5036985011094201111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1a19c4a353d5780800000000000000
+      internalID: -8692733181246201353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3a45c9562d3dc10800000000000000
+      internalID: 2077235187004253168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ef94f4e400c4120800000000000000
+      internalID: 2399293037819330140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eacdd1d833b78d20800000000000000
+      internalID: 3280787910183209701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cdc70f0e8935cd0800000000000000
+      internalID: -2570542870423610366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7561a0a3f94130480800000000000000
+      internalID: -8934274561666836905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e49ce9e24c6c520800000000000000
+      internalID: 2722078729303576091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_15
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612bd1e0cceaf2dd0800000000000000
+      internalID: -2508594275988688362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363f33c9d314ba40800000000000000
+      internalID: 5382949280619116093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26891b1cb5ec83bb0800000000000000
+      internalID: -4955984496434243486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_18
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebd6e1b6e050cec0800000000000000
+      internalID: -3548747554610553882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_19
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedf360dd4bafe950800000000000000
+      internalID: 6480586739506478570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516d32423105b3f60800000000000000
+      internalID: 8015088004976858645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_21
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68dd3edff01ed80800000000000000
+      internalID: -8223273861477726512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_22
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a0dce7f3d71fcf0800000000000000
+      internalID: -220257195100665216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_23
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fa16435d90501a0800000000000000
+      internalID: -6844053247408099446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af38237c329dfa020800000000000000
+      internalID: 2355339877827118074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_25
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a109e1452a8b800a0800000000000000
+      internalID: -6915074220491894758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_26
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9232367ee938baf0800000000000000
+      internalID: -380490472164805989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_27
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b310d4e38214a760800000000000000
+      internalID: 7468114439775982517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5ee5814a1a72cc0800000000000000
+      internalID: -3735839639724956187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_29
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe597f4db79bc070800000000000000
+      internalID: 8127756791858159347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperGravityVFX_V1_30
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68293f50341b98540800000000000000
+      internalID: 5010730961847161478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec09052c7dd4c6045a99b33aa5a3f2a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SuperGravityVFX_V1_0: 493665849993035777
+      SuperGravityVFX_V1_1: -4281763691126474790
+      SuperGravityVFX_V1_10: 2399293037819330140
+      SuperGravityVFX_V1_11: 3280787910183209701
+      SuperGravityVFX_V1_12: -2570542870423610366
+      SuperGravityVFX_V1_13: -8934274561666836905
+      SuperGravityVFX_V1_14: 2722078729303576091
+      SuperGravityVFX_V1_15: -2508594275988688362
+      SuperGravityVFX_V1_16: 5382949280619116093
+      SuperGravityVFX_V1_17: -4955984496434243486
+      SuperGravityVFX_V1_18: -3548747554610553882
+      SuperGravityVFX_V1_19: 6480586739506478570
+      SuperGravityVFX_V1_2: -7667328260336519572
+      SuperGravityVFX_V1_20: 8015088004976858645
+      SuperGravityVFX_V1_21: -8223273861477726512
+      SuperGravityVFX_V1_22: -220257195100665216
+      SuperGravityVFX_V1_23: -6844053247408099446
+      SuperGravityVFX_V1_24: 2355339877827118074
+      SuperGravityVFX_V1_25: -6915074220491894758
+      SuperGravityVFX_V1_26: -380490472164805989
+      SuperGravityVFX_V1_27: 7468114439775982517
+      SuperGravityVFX_V1_28: -3735839639724956187
+      SuperGravityVFX_V1_29: 8127756791858159347
+      SuperGravityVFX_V1_3: -2690080995365015797
+      SuperGravityVFX_V1_30: 5010730961847161478
+      SuperGravityVFX_V1_4: -3229736312796225385
+      SuperGravityVFX_V1_5: 7747795678327758066
+      SuperGravityVFX_V1_6: -1739576333474198601
+      SuperGravityVFX_V1_7: 5036985011094201111
+      SuperGravityVFX_V1_8: -8692733181246201353
+      SuperGravityVFX_V1_9: 2077235187004253168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

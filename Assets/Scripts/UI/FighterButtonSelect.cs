@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class FighterButtonSelect : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class FighterButtonSelect : MonoBehaviour
     [SerializeField] private Image _hoverImage;
 
     private bool selected = false;
+    private GameObject playerIndicator;
 
     public void Hover()
     {
@@ -17,6 +19,7 @@ public class FighterButtonSelect : MonoBehaviour
             return;
         Exit();
         _hoverImage.enabled = true;
+        SpawnPlayerIndicator();
     }
     public void Select()
     {
@@ -35,5 +38,14 @@ public class FighterButtonSelect : MonoBehaviour
             return;
         _selectionImage.enabled = false;
         _hoverImage.enabled = false;
+        DespawnPlayerIndicator();
+    }
+    public void SpawnPlayerIndicator()
+    {
+        playerIndicator = Instantiate(_owner.Player.UiIndicatorPrefab, transform);
+    }
+    public void DespawnPlayerIndicator()
+    {
+        Destroy(playerIndicator);
     }
 }

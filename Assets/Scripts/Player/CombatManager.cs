@@ -84,7 +84,7 @@ public class CombatManager : MonoBehaviour
             if (damageElement == null)
                 target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
             else
-                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, damage.ToString());
+                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, damage.ToString(), damageElement == owner.Data.Fighter.Element);
         }
 
         if (target.CurrentHP <= 0)
@@ -100,7 +100,7 @@ public class CombatManager : MonoBehaviour
     }
     public void UpdateMatchElement(Match match)
     {
-        if (IsSTAB)
+        if (isSTAB || isSuper)
             return;
         attackElementID = (int)match.Element.Element;
     }
