@@ -20,10 +20,10 @@ MonoBehaviour:
   - War is cruel indeed.
   - "I win. Who\u2019s the motherclucker now?"
   _HP: 1000
-  _Attack: 20
+  _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 2
-  _superCapacity: 1
+  _superCapacity: 50
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 50
