@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc7b0b8e624d4741994be3489809961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tutorialButton: {fileID: 901571181}
+  _tutorialButton: {fileID: 1576978072}
   _tutorial: {fileID: 590283539}
   _keyboardControlsTutorial: {fileID: 2013103197}
   _arcadeControlsTutorial: {fileID: 268136366}
@@ -1235,11 +1235,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6084701080737213569, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
   m_PrefabInstance: {fileID: 901571179}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &901571181 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1770692462044338893, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
-  m_PrefabInstance: {fileID: 901571179}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &905738777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1590,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1576978072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1040733225048423153, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
+  m_PrefabInstance: {fileID: 901571179}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1626376780
 GameObject:
   m_ObjectHideFlags: 0
