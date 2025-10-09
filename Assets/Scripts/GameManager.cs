@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
         Debug.Log(StaticData.CurrentMatchCount + "/" + StaticData.InitialMatchCount);
         if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
         {
-            winner.Data.IsWinner = true;
+            //winner.Data.IsWinner = true;
             SceneManager.LoadScene("WinLoseScene");
         }
         else

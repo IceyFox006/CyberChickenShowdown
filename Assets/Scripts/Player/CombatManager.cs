@@ -201,6 +201,7 @@ public class CombatManager : MonoBehaviour
         owner.CurrentSuper -= blockThreshold;
         owner.CombatManager.IsBlocking = true;
         owner.GameObjectController.BlockVisualGO.GetComponent<SpriteRenderer>().enabled = true;
+        owner.AudioManager.PlaySound("BlockActivate");
         StartCoroutine(Blocking());
     }
     private IEnumerator Blocking()

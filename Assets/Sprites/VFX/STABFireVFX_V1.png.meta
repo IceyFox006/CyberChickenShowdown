@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: dece809af295edb4796cd8a8202896bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2828939318912542912
+    second: STABFireVFX_V1_0
+  - first:
+      213: -6584088008587899058
+    second: STABFireVFX_V1_1
+  - first:
+      213: 3976850740645824685
+    second: STABFireVFX_V1_2
+  - first:
+      213: -8298625453720772982
+    second: STABFireVFX_V1_3
+  - first:
+      213: -1184412611800885343
+    second: STABFireVFX_V1_4
+  - first:
+      213: 8439958984752846798
+    second: STABFireVFX_V1_5
+  - first:
+      213: 8761974084257062319
+    second: STABFireVFX_V1_6
+  - first:
+      213: -1214759260617046697
+    second: STABFireVFX_V1_7
+  - first:
+      213: -4445906878189439684
+    second: STABFireVFX_V1_8
+  - first:
+      213: -3644406749435290174
+    second: STABFireVFX_V1_9
+  - first:
+      213: 6785516353703311919
+    second: STABFireVFX_V1_10
+  - first:
+      213: -8865347877848875236
+    second: STABFireVFX_V1_11
+  - first:
+      213: 8505452564069073938
+    second: STABFireVFX_V1_12
+  - first:
+      213: 6483657287145686761
+    second: STABFireVFX_V1_13
+  - first:
+      213: -1168775951729088933
+    second: STABFireVFX_V1_14
+  - first:
+      213: -1150928848661512055
+    second: STABFireVFX_V1_15
+  - first:
+      213: -6107541539046995479
+    second: STABFireVFX_V1_16
+  - first:
+      213: 798266556775581700
+    second: STABFireVFX_V1_17
+  - first:
+      213: -5052604728195513620
+    second: STABFireVFX_V1_18
+  - first:
+      213: -5981528162703815229
+    second: STABFireVFX_V1_19
+  - first:
+      213: -5047947026728343962
+    second: STABFireVFX_V1_20
+  - first:
+      213: -3715152720911021952
+    second: STABFireVFX_V1_21
+  - first:
+      213: -3886984574460854856
+    second: STABFireVFX_V1_22
+  - first:
+      213: -6501566395432121081
+    second: STABFireVFX_V1_23
+  - first:
+      213: 8056223396600535205
+    second: STABFireVFX_V1_24
+  - first:
+      213: -3948982993140086461
+    second: STABFireVFX_V1_25
+  - first:
+      213: 100263345483860050
+    second: STABFireVFX_V1_26
+  - first:
+      213: -6857570047487131233
+    second: STABFireVFX_V1_27
+  - first:
+      213: 4578274263816051536
+    second: STABFireVFX_V1_28
+  - first:
+      213: -5672270172898663617
+    second: STABFireVFX_V1_29
+  - first:
+      213: 3808472452280310536
+    second: STABFireVFX_V1_30
+  - first:
+      213: -6303659196049649817
+    second: STABFireVFX_V1_31
+  - first:
+      213: -1144567676152665610
+    second: STABFireVFX_V1_32
+  - first:
+      213: 5926573432335704173
+    second: STABFireVFX_V1_33
+  - first:
+      213: 4263936102781503305
+    second: STABFireVFX_V1_34
+  - first:
+      213: -6029705162423695794
+    second: STABFireVFX_V1_35
+  - first:
+      213: -2689199493264636850
+    second: STABFireVFX_V1_36
+  - first:
+      213: -8588791034992429695
+    second: STABFireVFX_V1_37
+  - first:
+      213: 4015120476817876264
+    second: STABFireVFX_V1_38
+  - first:
+      213: -7970249884188751946
+    second: STABFireVFX_V1_39
+  - first:
+      213: 6495559906984935215
+    second: STABFireVFX_V1_40
+  - first:
+      213: 7332180876790657558
+    second: STABFireVFX_V1_41
+  - first:
+      213: -5456379638144019643
+    second: STABFireVFX_V1_42
+  - first:
+      213: -1099224845467721713
+    second: STABFireVFX_V1_43
+  - first:
+      213: -2078205033113119488
+    second: STABFireVFX_V1_44
+  - first:
+      213: 5360272864159010093
+    second: STABFireVFX_V1_45
+  - first:
+      213: -2553195043773264874
+    second: STABFireVFX_V1_46
+  - first:
+      213: 8218626637604938473
+    second: STABFireVFX_V1_47
+  - first:
+      213: 2805311110233094314
+    second: STABFireVFX_V1_48
+  - first:
+      213: 8037151648966442411
+    second: STABFireVFX_V1_49
+  - first:
+      213: -2281877393839346356
+    second: STABFireVFX_V1_50
+  - first:
+      213: 2823094109920752523
+    second: STABFireVFX_V1_51
+  - first:
+      213: -45476923070966338
+    second: STABFireVFX_V1_52
+  - first:
+      213: 474398465787312825
+    second: STABFireVFX_V1_53
+  - first:
+      213: 4562976192881615370
+    second: STABFireVFX_V1_54
+  - first:
+      213: -6527427977661465494
+    second: STABFireVFX_V1_55
+  - first:
+      213: -1665314901051914675
+    second: STABFireVFX_V1_56
+  - first:
+      213: -1560048389851176162
+    second: STABFireVFX_V1_57
+  - first:
+      213: 2952398385136791007
+    second: STABFireVFX_V1_58
+  - first:
+      213: -6209912622902887374
+    second: STABFireVFX_V1_59
+  - first:
+      213: -3144040643872566902
+    second: STABFireVFX_V1_60
+  - first:
+      213: 1238857521004087577
+    second: STABFireVFX_V1_61
+  - first:
+      213: 110828507507930257
+    second: STABFireVFX_V1_62
+  - first:
+      213: 5815172762753344882
+    second: STABFireVFX_V1_63
+  - first:
+      213: 2845152134576968200
+    second: STABFireVFX_V1_64
+  - first:
+      213: -4330282264387237775
+    second: STABFireVFX_V1_65
+  - first:
+      213: 1616154839920136705
+    second: STABFireVFX_V1_66
+  - first:
+      213: -2093519353348021369
+    second: STABFireVFX_V1_67
+  - first:
+      213: 3182126409761522449
+    second: STABFireVFX_V1_68
+  - first:
+      213: 6181790248456764713
+    second: STABFireVFX_V1_69
+  - first:
+      213: 7015322485558727924
+    second: STABFireVFX_V1_70
+  - first:
+      213: 8937957590614986450
+    second: STABFireVFX_V1_71
+  - first:
+      213: -1826459296897337228
+    second: STABFireVFX_V1_72
+  - first:
+      213: -1539514411751160501
+    second: STABFireVFX_V1_73
+  - first:
+      213: -3555082109925928342
+    second: STABFireVFX_V1_74
+  - first:
+      213: 3822225424549844834
+    second: STABFireVFX_V1_75
+  - first:
+      213: -3217082917779241603
+    second: STABFireVFX_V1_76
+  - first:
+      213: -7199793097823995255
+    second: STABFireVFX_V1_77
+  - first:
+      213: 3520794168717389048
+    second: STABFireVFX_V1_78
+  - first:
+      213: -8998262820060291303
+    second: STABFireVFX_V1_79
+  - first:
+      213: 3161977776078442813
+    second: STABFireVFX_V1_80
+  - first:
+      213: -201360911332910847
+    second: STABFireVFX_V1_81
+  - first:
+      213: 5455620945966002034
+    second: STABFireVFX_V1_82
+  - first:
+      213: 9205495604107672747
+    second: STABFireVFX_V1_83
+  - first:
+      213: 2797875906917573116
+    second: STABFireVFX_V1_84
+  - first:
+      213: -663342709698365556
+    second: STABFireVFX_V1_85
+  - first:
+      213: 7497666185687233141
+    second: STABFireVFX_V1_86
+  - first:
+      213: -776715717519405119
+    second: STABFireVFX_V1_87
+  - first:
+      213: -799358405457796233
+    second: STABFireVFX_V1_88
+  - first:
+      213: 6644150015938368028
+    second: STABFireVFX_V1_89
+  - first:
+      213: 523448474208628348
+    second: STABFireVFX_V1_90
+  - first:
+      213: -7336819892501039162
+    second: STABFireVFX_V1_91
+  - first:
+      213: -8409674619818490714
+    second: STABFireVFX_V1_92
+  - first:
+      213: 3060983746532868921
+    second: STABFireVFX_V1_93
+  - first:
+      213: -407431268244400806
+    second: STABFireVFX_V1_94
+  - first:
+      213: 647710153425325135
+    second: STABFireVFX_V1_95
+  - first:
+      213: -1358031454882039104
+    second: STABFireVFX_V1_96
+  - first:
+      213: 354456117569154694
+    second: STABFireVFX_V1_97
+  - first:
+      213: 3983255710473266570
+    second: STABFireVFX_V1_98
+  - first:
+      213: 7837728847393968464
+    second: STABFireVFX_V1_99
+  - first:
+      213: -210493097631588502
+    second: STABFireVFX_V1_100
+  - first:
+      213: 3454764445812474
+    second: STABFireVFX_V1_101
+  - first:
+      213: 7829653819034334137
+    second: STABFireVFX_V1_102
+  - first:
+      213: -1663548257147961187
+    second: STABFireVFX_V1_103
+  - first:
+      213: 5234145113810967147
+    second: STABFireVFX_V1_104
+  - first:
+      213: -7806221607724803609
+    second: STABFireVFX_V1_105
+  - first:
+      213: 108739027155568242
+    second: STABFireVFX_V1_106
+  - first:
+      213: 495312553801234178
+    second: STABFireVFX_V1_107
+  - first:
+      213: 747330985343087176
+    second: STABFireVFX_V1_108
+  - first:
+      213: 8580434898211198227
+    second: STABFireVFX_V1_109
+  - first:
+      213: -9051677092830914663
+    second: STABFireVFX_V1_110
+  - first:
+      213: -5429076496576004806
+    second: STABFireVFX_V1_111
+  - first:
+      213: 1376349398355648737
+    second: STABFireVFX_V1_112
+  - first:
+      213: 7604867840191999774
+    second: STABFireVFX_V1_113
+  - first:
+      213: -6879841957450471717
+    second: STABFireVFX_V1_114
+  - first:
+      213: 3798378174165506546
+    second: STABFireVFX_V1_115
+  - first:
+      213: -6792488035488277097
+    second: STABFireVFX_V1_116
+  - first:
+      213: 6320154807276733657
+    second: STABFireVFX_V1_117
+  - first:
+      213: -7421702153206385215
+    second: STABFireVFX_V1_118
+  - first:
+      213: 1451872119317058451
+    second: STABFireVFX_V1_119
+  - first:
+      213: 3095995088473322064
+    second: STABFireVFX_V1_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STABFireVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8eaea7259624720800000000000000
+      internalID: 2828939318912542912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f853617de90a4a0800000000000000
+      internalID: -6584088008587899058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da881f8adac903730800000000000000
+      internalID: 3976850740645824685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e55fa2e1c55dc80800000000000000
+      internalID: -8298625453720772982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a79d1e310f109fe0800000000000000
+      internalID: -1184412611800885343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec75f05daf1c02570800000000000000
+      internalID: 8439958984752846798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad1257b109c89970800000000000000
+      internalID: 8761974084257062319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7550e4773ee442fe0800000000000000
+      internalID: -1214759260617046697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c357d0def37fc42c0800000000000000
+      internalID: -4445906878189439684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd9fdace577c6dc0800000000000000
+      internalID: -3644406749435290174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABFireVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2af6182c2ffa2e50800000000000000
+      internalID: 6785516353703311919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b2852b8134b9eab44b7fd1c057246713
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      STABFireVFX_V1_0: 2828939318912542912
+      STABFireVFX_V1_1: -6584088008587899058
+      STABFireVFX_V1_10: 6785516353703311919
+      STABFireVFX_V1_2: 3976850740645824685
+      STABFireVFX_V1_3: -8298625453720772982
+      STABFireVFX_V1_4: -1184412611800885343
+      STABFireVFX_V1_5: 8439958984752846798
+      STABFireVFX_V1_6: 8761974084257062319
+      STABFireVFX_V1_7: -1214759260617046697
+      STABFireVFX_V1_8: -4445906878189439684
+      STABFireVFX_V1_9: -3644406749435290174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

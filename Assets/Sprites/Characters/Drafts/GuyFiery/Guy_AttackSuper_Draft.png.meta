@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 9836c38e9e9d9c54e9174d13df1e7e37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2869730005972377192
+    second: Guy_AttackSuper_Draft_0
+  - first:
+      213: -334408540007861681
+    second: Guy_AttackSuper_Draft_1
+  - first:
+      213: -2174010115628683705
+    second: Guy_AttackSuper_Draft_2
+  - first:
+      213: -1998704946338281083
+    second: Guy_AttackSuper_Draft_3
+  - first:
+      213: -7494676332458840324
+    second: Guy_AttackSuper_Draft_4
+  - first:
+      213: 1600860357166302502
+    second: Guy_AttackSuper_Draft_5
+  - first:
+      213: -5449782057444798024
+    second: Guy_AttackSuper_Draft_6
+  - first:
+      213: 7853492979467773945
+    second: Guy_AttackSuper_Draft_7
+  - first:
+      213: -6967164947906578118
+    second: Guy_AttackSuper_Draft_8
+  - first:
+      213: -6592807800900705920
+    second: Guy_AttackSuper_Draft_9
+  - first:
+      213: 1019155580678481557
+    second: Guy_AttackSuper_Draft_10
+  - first:
+      213: -2019879280788571089
+    second: Guy_AttackSuper_Draft_11
+  - first:
+      213: 847708366987966484
+    second: Guy_AttackSuper_Draft_12
+  - first:
+      213: -866452927613827319
+    second: Guy_AttackSuper_Draft_13
+  - first:
+      213: 1974298618246882271
+    second: Guy_AttackSuper_Draft_14
+  - first:
+      213: -2580379759486148935
+    second: Guy_AttackSuper_Draft_15
+  - first:
+      213: 500198079905002700
+    second: Guy_AttackSuper_Draft_16
+  - first:
+      213: 1578744285499501266
+    second: Guy_AttackSuper_Draft_17
+  - first:
+      213: 1134201636541426335
+    second: Guy_AttackSuper_Draft_18
+  - first:
+      213: 1047169184383387863
+    second: Guy_AttackSuper_Draft_19
+  - first:
+      213: -5906613129992126263
+    second: Guy_AttackSuper_Draft_20
+  - first:
+      213: -258803509181926343
+    second: Guy_AttackSuper_Draft_21
+  - first:
+      213: -6242683731280483066
+    second: Guy_AttackSuper_Draft_22
+  - first:
+      213: 3120058588274797289
+    second: Guy_AttackSuper_Draft_23
+  - first:
+      213: 1678365030195366984
+    second: Guy_AttackSuper_Draft_24
+  - first:
+      213: -5869853342587269467
+    second: Guy_AttackSuper_Draft_25
+  - first:
+      213: 8766130503723201639
+    second: Guy_AttackSuper_Draft_26
+  - first:
+      213: -3653011274551823415
+    second: Guy_AttackSuper_Draft_27
+  - first:
+      213: 402215632422593709
+    second: Guy_AttackSuper_Draft_28
+  - first:
+      213: -3195091214040521892
+    second: Guy_AttackSuper_Draft_29
+  - first:
+      213: 1870855320138914895
+    second: Guy_AttackSuper_Draft_30
+  - first:
+      213: 7153799175131163032
+    second: Guy_AttackSuper_Draft_31
+  - first:
+      213: -8316994925387563295
+    second: Guy_AttackSuper_Draft_32
+  - first:
+      213: 1880014472388344725
+    second: Guy_AttackSuper_Draft_33
+  - first:
+      213: 4309015488603770389
+    second: Guy_AttackSuper_Draft_34
+  - first:
+      213: 6286191917253132151
+    second: Guy_AttackSuper_Draft_35
+  - first:
+      213: -365189650444398102
+    second: Guy_AttackSuper_Draft_36
+  - first:
+      213: -2730209654623039083
+    second: Guy_AttackSuper_Draft_37
+  - first:
+      213: -415019714199315832
+    second: Guy_AttackSuper_Draft_38
+  - first:
+      213: 5422146379042715029
+    second: Guy_AttackSuper_Draft_39
+  - first:
+      213: 8388673190382528441
+    second: Guy_AttackSuper_Draft_40
+  - first:
+      213: 6768906908561454460
+    second: Guy_AttackSuper_Draft_41
+  - first:
+      213: -5659748401942468446
+    second: Guy_AttackSuper_Draft_42
+  - first:
+      213: 5976967625238343395
+    second: Guy_AttackSuper_Draft_43
+  - first:
+      213: -2981349643578443704
+    second: Guy_AttackSuper_Draft_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891acb893cbac28d0800000000000000
+      internalID: -2869730005972377192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4279f26431fb5bf0800000000000000
+      internalID: -334408540007861681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ea8d7715d54d1e0800000000000000
+      internalID: -2174010115628683705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589c0bed07c2344e0800000000000000
+      internalID: -1998704946338281083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe6349859f8df790800000000000000
+      internalID: -7494676332458840324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62507eb5306673610800000000000000
+      internalID: 1600860357166302502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b194bac71c7e54b0800000000000000
+      internalID: -5449782057444798024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7633751463dfc60800000000000000
+      internalID: 7853492979467773945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b97cb468af4f90800000000000000
+      internalID: -6967164947906578118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081a3ea3c34a184a0800000000000000
+      internalID: -6592807800900705920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596a235d994c42e00800000000000000
+      internalID: 1019155580678481557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cfc63fe72f7f3e0800000000000000
+      internalID: -2019879280788571089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418b177b44aa3cb00800000000000000
+      internalID: 847708366987966484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9070bfa27adb9f3f0800000000000000
+      internalID: -866452927613827319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3662d022e166b10800000000000000
+      internalID: 1974298618246882271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be583ab746a03cd0800000000000000
+      internalID: -2580379759486148935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4f116e08f01f600800000000000000
+      internalID: 500198079905002700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da20682093d8e510800000000000000
+      internalID: 1578744285499501266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ae7b1116e7dbf00800000000000000
+      internalID: 1134201636541426335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d848e633da488e00800000000000000
+      internalID: 1047169184383387863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0492127ae770ea0800000000000000
+      internalID: -5906613129992126263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9343690649b886cf0800000000000000
+      internalID: -258803509181926343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60daae7b8388d59a0800000000000000
+      internalID: -6242683731280483066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_Draft_23
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaa68851ccac4b20800000000000000
+      internalID: 3120058588274797289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 74699ef2f486290429cfefc2b38c66bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guy_AttackSuper_Draft_0: -2869730005972377192
+      Guy_AttackSuper_Draft_1: -334408540007861681
+      Guy_AttackSuper_Draft_10: 1019155580678481557
+      Guy_AttackSuper_Draft_11: -2019879280788571089
+      Guy_AttackSuper_Draft_12: 847708366987966484
+      Guy_AttackSuper_Draft_13: -866452927613827319
+      Guy_AttackSuper_Draft_14: 1974298618246882271
+      Guy_AttackSuper_Draft_15: -2580379759486148935
+      Guy_AttackSuper_Draft_16: 500198079905002700
+      Guy_AttackSuper_Draft_17: 1578744285499501266
+      Guy_AttackSuper_Draft_18: 1134201636541426335
+      Guy_AttackSuper_Draft_19: 1047169184383387863
+      Guy_AttackSuper_Draft_2: -2174010115628683705
+      Guy_AttackSuper_Draft_20: -5906613129992126263
+      Guy_AttackSuper_Draft_21: -258803509181926343
+      Guy_AttackSuper_Draft_22: -6242683731280483066
+      Guy_AttackSuper_Draft_23: 3120058588274797289
+      Guy_AttackSuper_Draft_3: -1998704946338281083
+      Guy_AttackSuper_Draft_4: -7494676332458840324
+      Guy_AttackSuper_Draft_5: 1600860357166302502
+      Guy_AttackSuper_Draft_6: -5449782057444798024
+      Guy_AttackSuper_Draft_7: 7853492979467773945
+      Guy_AttackSuper_Draft_8: -6967164947906578118
+      Guy_AttackSuper_Draft_9: -6592807800900705920
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

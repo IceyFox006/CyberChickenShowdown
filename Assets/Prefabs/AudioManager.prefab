@@ -52,6 +52,9 @@ MonoBehaviour:
   - _name: JoystickMove
     _clip: {fileID: 8300000, guid: 0335234743675934a83a971708a444db, type: 3}
     _volume: 1
+  - _name: LockInFighter
+    _clip: {fileID: 8300000, guid: 785f0428052215d4290cc89e23bd8634, type: 3}
+    _volume: 1
   - _name: Match
     _clip: {fileID: 8300000, guid: 042bc407222c9d24f9e2145adaeead23, type: 3}
     _volume: 1
@@ -60,6 +63,12 @@ MonoBehaviour:
     _volume: 1
   - _name: SuperActivate
     _clip: {fileID: 8300000, guid: e329c044b69cb9d429b3535e9736213e, type: 3}
+    _volume: 1
+  - _name: BlockActivate
+    _clip: {fileID: 8300000, guid: 3dca0c82b72787747acfcb2c9d494a55, type: 3}
+    _volume: 1
+  - _name: ReshuffleBoard
+    _clip: {fileID: 8300000, guid: f83ae9634f29d064d9a0d2c57512b2e0, type: 3}
     _volume: 1
   - _name: PlayerDeath
     _clip: {fileID: 8300000, guid: a6e911f35a4f45c4eac297d53967e061, type: 3}

@@ -163,6 +163,7 @@ public class PlayerMatch3 : MonoBehaviour
     //Reshuffles board with new pieces.
     public void ReshuffleBoard()
     {
+        owner.AudioManager.PlaySound("ReshuffleBoard");
         for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
             Destroy(_matchPieceHolder.GetChild(index).gameObject);
         //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = true;
