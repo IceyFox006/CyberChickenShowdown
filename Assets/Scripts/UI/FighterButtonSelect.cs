@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class FighterButtonSelect : MonoBehaviour
 {
@@ -30,7 +29,10 @@ public class FighterButtonSelect : MonoBehaviour
         _owner.HasSelected = true;
         selected = true;
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
+        {
             SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);
+            //EventSystem.current.SetSelectedGameObject(SelectScreenBehavior.Instance.MatchNumberSelectedButton);
+        }
     }
     public void Exit()
     {
