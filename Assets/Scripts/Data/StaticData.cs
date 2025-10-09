@@ -14,10 +14,14 @@ public static class StaticData
 
     public static PlayerSO GetWinner()
     {
-        if (player1.IsWinner)
+        if (player1.Wins > player2.Wins)
             return player1;
         else
             return player2;
+        //if (player1.IsWinner)
+        //    return player1;
+        //else
+        //    return player2;
     }
     public static void ResetGame()
     {
@@ -30,9 +34,9 @@ public static class StaticData
         player1.Reset();
         player2.Reset();
     }
-    public static void ResetWinner()
-    {
-        player1.IsWinner = false;
-        player2.IsWinner = false;
-    }
+    //public static void ResetWinner()
+    //{
+    //    player1.IsWinner = false;
+    //    player2.IsWinner = false;
+    //}
 }

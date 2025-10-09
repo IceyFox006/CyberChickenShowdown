@@ -15,6 +15,7 @@ public class SelectScreenBehavior : MonoBehaviour
 
     public static SelectScreenBehavior Instance { get => instance; set => instance = value; }
     public GameObject ChooseMatchNumberUIGO { get => _chooseMatchNumberUIGO; set => _chooseMatchNumberUIGO = value; }
+    public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
 
     public void Button_SetMatchCount(int  matchCount)
     {
