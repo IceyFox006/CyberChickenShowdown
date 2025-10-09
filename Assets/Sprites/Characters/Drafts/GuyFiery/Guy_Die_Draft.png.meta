@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: de3c31dd63051934a9c14209b0216d65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3542935313126609318
+    second: Guy_Die_Draft_0
+  - first:
+      213: 1229726867842245456
+    second: Guy_Die_Draft_1
+  - first:
+      213: 4625349348049163883
+    second: Guy_Die_Draft_2
+  - first:
+      213: -7474159053359142158
+    second: Guy_Die_Draft_3
+  - first:
+      213: -7099684803644345567
+    second: Guy_Die_Draft_4
+  - first:
+      213: -3582303240977026997
+    second: Guy_Die_Draft_5
+  - first:
+      213: -3341388702620948735
+    second: Guy_Die_Draft_6
+  - first:
+      213: -7142397662779401373
+    second: Guy_Die_Draft_7
+  - first:
+      213: 2346095481286992554
+    second: Guy_Die_Draft_8
+  - first:
+      213: -8677579060819058405
+    second: Guy_Die_Draft_9
+  - first:
+      213: 3547571035752786992
+    second: Guy_Die_Draft_10
+  - first:
+      213: 2661518894015878956
+    second: Guy_Die_Draft_11
+  - first:
+      213: -7590476393825258118
+    second: Guy_Die_Draft_12
+  - first:
+      213: -4511206650339163787
+    second: Guy_Die_Draft_13
+  - first:
+      213: -3840748688269982895
+    second: Guy_Die_Draft_14
+  - first:
+      213: -1637931926186979195
+    second: Guy_Die_Draft_15
+  - first:
+      213: 5437235021883599084
+    second: Guy_Die_Draft_16
+  - first:
+      213: -7419329341673576047
+    second: Guy_Die_Draft_17
+  - first:
+      213: -2752899212049150212
+    second: Guy_Die_Draft_18
+  - first:
+      213: -7424302522174474140
+    second: Guy_Die_Draft_19
+  - first:
+      213: -8468574373869602263
+    second: Guy_Die_Draft_20
+  - first:
+      213: -570249068221376637
+    second: Guy_Die_Draft_21
+  - first:
+      213: -395692840493013897
+    second: Guy_Die_Draft_22
+  - first:
+      213: -7639962263203077367
+    second: Guy_Die_Draft_23
+  - first:
+      213: -7152717935469369130
+    second: Guy_Die_Draft_24
+  - first:
+      213: 7047288676255926164
+    second: Guy_Die_Draft_25
+  - first:
+      213: -4752065336368973757
+    second: Guy_Die_Draft_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guy_Die_Draft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1591165e80b2130800000000000000
+      internalID: 3542935313126609318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053ad78221ed01110800000000000000
+      internalID: 1229726867842245456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b661e84d9ba803040800000000000000
+      internalID: 4625349348049163883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa22c5d0f3764890800000000000000
+      internalID: -7474159053359142158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1233a8d694ad87d90800000000000000
+      internalID: -7099684803644345567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4075d3ae2a194ec0800000000000000
+      internalID: -3582303240977026997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10766cbada001a1d0800000000000000
+      internalID: -3341388702620948735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b1471fa2b11ec90800000000000000
+      internalID: -7142397662779401373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2a24bf8610f8020800000000000000
+      internalID: 2346095481286992554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b112389e1db039780800000000000000
+      internalID: -8677579060819058405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c6289af018b3130800000000000000
+      internalID: 3547571035752786992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c279ec0355d9fe420800000000000000
+      internalID: 2661518894015878956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_Draft_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75be069fe539a690800000000000000
+      internalID: -7590476393825258118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 087cf5cd1f72f2149bf30ddf276c1bcb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guy_Die_Draft_0: 3542935313126609318
+      Guy_Die_Draft_1: 1229726867842245456
+      Guy_Die_Draft_10: 3547571035752786992
+      Guy_Die_Draft_11: 2661518894015878956
+      Guy_Die_Draft_12: -7590476393825258118
+      Guy_Die_Draft_2: 4625349348049163883
+      Guy_Die_Draft_3: -7474159053359142158
+      Guy_Die_Draft_4: -7099684803644345567
+      Guy_Die_Draft_5: -3582303240977026997
+      Guy_Die_Draft_6: -3341388702620948735
+      Guy_Die_Draft_7: -7142397662779401373
+      Guy_Die_Draft_8: 2346095481286992554
+      Guy_Die_Draft_9: -8677579060819058405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
