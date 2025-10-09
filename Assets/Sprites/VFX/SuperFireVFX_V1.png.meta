@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: a5d7246dd35602143a80bf7b5987431e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9133621738310674002
+    second: SuperFireVFX_V1_0
+  - first:
+      213: 5725379058969193441
+    second: SuperFireVFX_V1_1
+  - first:
+      213: 9012141431549124553
+    second: SuperFireVFX_V1_2
+  - first:
+      213: 1729815478217688711
+    second: SuperFireVFX_V1_3
+  - first:
+      213: 8746815910644117488
+    second: SuperFireVFX_V1_4
+  - first:
+      213: -1310166068895920276
+    second: SuperFireVFX_V1_5
+  - first:
+      213: 675754230574337457
+    second: SuperFireVFX_V1_6
+  - first:
+      213: -8455091693402217617
+    second: SuperFireVFX_V1_7
+  - first:
+      213: 5782474133675776572
+    second: SuperFireVFX_V1_8
+  - first:
+      213: 3515228938915611925
+    second: SuperFireVFX_V1_9
+  - first:
+      213: 5857155378258614833
+    second: SuperFireVFX_V1_10
+  - first:
+      213: -6193672543746127507
+    second: SuperFireVFX_V1_11
+  - first:
+      213: 2048318532733935740
+    second: SuperFireVFX_V1_12
+  - first:
+      213: 2693068975762178034
+    second: SuperFireVFX_V1_13
+  - first:
+      213: 2937569636931040570
+    second: SuperFireVFX_V1_14
+  - first:
+      213: -3702841670972624139
+    second: SuperFireVFX_V1_15
+  - first:
+      213: -5118132478674703684
+    second: SuperFireVFX_V1_16
+  - first:
+      213: 3078689403008386944
+    second: SuperFireVFX_V1_17
+  - first:
+      213: 6055656788344489209
+    second: SuperFireVFX_V1_18
+  - first:
+      213: 1922592546814988837
+    second: SuperFireVFX_V1_19
+  - first:
+      213: 3143552009075240470
+    second: SuperFireVFX_V1_20
+  - first:
+      213: -2837628645531036243
+    second: SuperFireVFX_V1_21
+  - first:
+      213: -1347740398895173891
+    second: SuperFireVFX_V1_22
+  - first:
+      213: 796586079678874280
+    second: SuperFireVFX_V1_23
+  - first:
+      213: -3499893214207139202
+    second: SuperFireVFX_V1_24
+  - first:
+      213: -7957589078355753096
+    second: SuperFireVFX_V1_25
+  - first:
+      213: 1066533944607370938
+    second: SuperFireVFX_V1_26
+  - first:
+      213: 5614019157372647631
+    second: SuperFireVFX_V1_27
+  - first:
+      213: -6183012566665992189
+    second: SuperFireVFX_V1_28
+  - first:
+      213: 157322609880262962
+    second: SuperFireVFX_V1_29
+  - first:
+      213: -4486548923395301059
+    second: SuperFireVFX_V1_30
+  - first:
+      213: -5563618719483901868
+    second: SuperFireVFX_V1_31
+  - first:
+      213: 4334012299947290329
+    second: SuperFireVFX_V1_32
+  - first:
+      213: 3218122405508263730
+    second: SuperFireVFX_V1_33
+  - first:
+      213: -4006627190062722653
+    second: SuperFireVFX_V1_34
+  - first:
+      213: 3557127699777944914
+    second: SuperFireVFX_V1_35
+  - first:
+      213: -496063787772895040
+    second: SuperFireVFX_V1_36
+  - first:
+      213: 5273276256112764627
+    second: SuperFireVFX_V1_37
+  - first:
+      213: -4394961768062304181
+    second: SuperFireVFX_V1_38
+  - first:
+      213: -1476807963206393777
+    second: SuperFireVFX_V1_39
+  - first:
+      213: -4324957445778345948
+    second: SuperFireVFX_V1_40
+  - first:
+      213: 1446960657490550300
+    second: SuperFireVFX_V1_41
+  - first:
+      213: -336420805681399251
+    second: SuperFireVFX_V1_42
+  - first:
+      213: -3899499442772117333
+    second: SuperFireVFX_V1_43
+  - first:
+      213: -3449220471029946649
+    second: SuperFireVFX_V1_44
+  - first:
+      213: 6550900894546119898
+    second: SuperFireVFX_V1_45
+  - first:
+      213: 1714381607257851302
+    second: SuperFireVFX_V1_46
+  - first:
+      213: 8114486075114242156
+    second: SuperFireVFX_V1_47
+  - first:
+      213: 4903083970648700371
+    second: SuperFireVFX_V1_48
+  - first:
+      213: 3295318169862858540
+    second: SuperFireVFX_V1_49
+  - first:
+      213: -4064504622344898969
+    second: SuperFireVFX_V1_50
+  - first:
+      213: -3440973471110197427
+    second: SuperFireVFX_V1_51
+  - first:
+      213: 8076092035294436001
+    second: SuperFireVFX_V1_52
+  - first:
+      213: 636950395343429267
+    second: SuperFireVFX_V1_53
+  - first:
+      213: -3443065070325765705
+    second: SuperFireVFX_V1_54
+  - first:
+      213: -3109649321937021598
+    second: SuperFireVFX_V1_55
+  - first:
+      213: 2171350867635370907
+    second: SuperFireVFX_V1_56
+  - first:
+      213: 2026073377827394455
+    second: SuperFireVFX_V1_57
+  - first:
+      213: 1373267668466180261
+    second: SuperFireVFX_V1_58
+  - first:
+      213: -4132230767078997853
+    second: SuperFireVFX_V1_59
+  - first:
+      213: -8999502461082419080
+    second: SuperFireVFX_V1_60
+  - first:
+      213: -1747625590851864288
+    second: SuperFireVFX_V1_61
+  - first:
+      213: -8302064552089748743
+    second: SuperFireVFX_V1_62
+  - first:
+      213: -5859223573700485511
+    second: SuperFireVFX_V1_63
+  - first:
+      213: 1611050926897423251
+    second: SuperFireVFX_V1_64
+  - first:
+      213: 5598757762792576487
+    second: SuperFireVFX_V1_65
+  - first:
+      213: 1637341098704827055
+    second: SuperFireVFX_V1_66
+  - first:
+      213: 6966849300936755714
+    second: SuperFireVFX_V1_67
+  - first:
+      213: 3744514572389637532
+    second: SuperFireVFX_V1_68
+  - first:
+      213: 8600065430580592624
+    second: SuperFireVFX_V1_69
+  - first:
+      213: 3540141306162636206
+    second: SuperFireVFX_V1_70
+  - first:
+      213: 1526203556429321679
+    second: SuperFireVFX_V1_71
+  - first:
+      213: -1761528317485215265
+    second: SuperFireVFX_V1_72
+  - first:
+      213: 1954494244102243683
+    second: SuperFireVFX_V1_73
+  - first:
+      213: -6468067831738402782
+    second: SuperFireVFX_V1_74
+  - first:
+      213: -5629704594454972777
+    second: SuperFireVFX_V1_75
+  - first:
+      213: 6914258590952243622
+    second: SuperFireVFX_V1_76
+  - first:
+      213: -1888233608058435414
+    second: SuperFireVFX_V1_77
+  - first:
+      213: 6018443450448193318
+    second: SuperFireVFX_V1_78
+  - first:
+      213: -23447039512199720
+    second: SuperFireVFX_V1_79
+  - first:
+      213: -8698197384631889962
+    second: SuperFireVFX_V1_80
+  - first:
+      213: 6822092822365034986
+    second: SuperFireVFX_V1_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9d437cb6bde3180800000000000000
+      internalID: -9133621738310674002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eba1567be1a47f40800000000000000
+      internalID: 5725379058969193441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfd01532ee811d70800000000000000
+      internalID: 9012141431549124553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7864322330a810810800000000000000
+      internalID: 1729815478217688711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff6da56abee26970800000000000000
+      internalID: 8746815910644117488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f40b2e6ea51dde0800000000000000
+      internalID: -1310166068895920276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdc9d474e2c06900800000000000000
+      internalID: 675754230574337457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63a76fd6ea79aa80800000000000000
+      internalID: -8455091693402217617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a11a476997f3050800000000000000
+      internalID: 5782474133675776572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5150d30781a98c030800000000000000
+      internalID: 3515228938915611925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a9f53b8cbc84150800000000000000
+      internalID: 5857155378258614833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d690cee03a7ab0aa0800000000000000
+      internalID: -6193672543746127507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70a4726ad61d6c10800000000000000
+      internalID: 2048318532733935740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperFireVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fffde707f3bf5520800000000000000
+      internalID: 2693068975762178034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f428e5eaecafc2c42bccd14fcc214e17
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SuperFireVFX_V1_0: -9133621738310674002
+      SuperFireVFX_V1_1: 5725379058969193441
+      SuperFireVFX_V1_10: 5857155378258614833
+      SuperFireVFX_V1_11: -6193672543746127507
+      SuperFireVFX_V1_12: 2048318532733935740
+      SuperFireVFX_V1_13: 2693068975762178034
+      SuperFireVFX_V1_2: 9012141431549124553
+      SuperFireVFX_V1_3: 1729815478217688711
+      SuperFireVFX_V1_4: 8746815910644117488
+      SuperFireVFX_V1_5: -1310166068895920276
+      SuperFireVFX_V1_6: 675754230574337457
+      SuperFireVFX_V1_7: -8455091693402217617
+      SuperFireVFX_V1_8: 5782474133675776572
+      SuperFireVFX_V1_9: 3515228938915611925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

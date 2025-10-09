@@ -1414,6 +1414,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1756556853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
@@ -1750,7 +1762,7 @@ PrefabInstance:
     - target: {fileID: 2123477882378706702, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2574d36fe5def1a498bc114f35267c2c, type: 2}
+      objectReference: {fileID: 9100000, guid: 69edabe3abf59b9468fc5755458fb642, type: 2}
     - target: {fileID: 2216385492403157292, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1910,6 +1922,18 @@ PrefabInstance:
     - target: {fileID: 4367100429107345862, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 55.831
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1756556853
       objectReference: {fileID: 0}
     - target: {fileID: 4780344257589071889, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_UiScaleMode
