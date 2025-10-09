@@ -1,46 +1,40 @@
 fileFormatVersion: 2
-guid: eaf403d69b3599d42aad4bdd3a34f4eb
+guid: 904de5ae560fcfc4b9113aa41965c317
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4280585827670477755
-    second: Layout Example 1_0
+      213: -211537588168414349
+    second: RoundsText_0
   - first:
-      213: -7219966464095304308
-    second: Layout Example 1_1
+      213: 5418285326638652496
+    second: RoundsText_1
   - first:
-      213: 7491363091413215410
-    second: Layout Example 1_2
+      213: 2558099436119402577
+    second: RoundsText_2
   - first:
-      213: -6430475255266673121
-    second: Layout Example 1_3
+      213: 4951130622562403556
+    second: RoundsText_3
   - first:
-      213: 6375093520710449072
-    second: Layout Example 1_4
+      213: -8473970545528678246
+    second: RoundsText_4
   - first:
-      213: -8826771577040063500
-    second: Layout Example 1_5
+      213: -7594435683784745059
+    second: RoundsText_5
   - first:
-      213: 8827472768637190981
-    second: Layout Example 1_6
+      213: 8868525825937417281
+    second: RoundsText_6
   - first:
-      213: -5471659754308653477
-    second: Layout Example 1_7
+      213: 2460204651554971271
+    second: RoundsText_7
   - first:
-      213: 7727574815724016303
-    second: Layout Example 1_8
+      213: 5257400574087183418
+    second: RoundsText_8
   - first:
-      213: 5005777401713657663
-    second: Layout Example 1_9
+      213: -5017779110790410416
+    second: RoundsText_9
   - first:
-      213: 4689834006608899893
-    second: Layout Example 1_10
-  - first:
-      213: -7138782859391370165
-    second: Layout Example 1_11
-  - first:
-      213: 5073093572353514563
-    second: Layout Example 1_12
+      213: -4742908155155151036
+    second: RoundsText_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -136,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layout Example 1_0
+      name: RoundsText_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 956
-        width: 883
-        height: 79
+        y: 0
+        width: 28
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbbced87122b76b30800000000000000
-      internalID: 4280585827670477755
+      spriteID: 37b24903fa7701df0800000000000000
+      internalID: -211537588168414349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layout Example 1_1
+      name: RoundsText_1
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 956
-        width: 896
-        height: 79
+        x: 34
+        y: 0
+        width: 32
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c85cd5101c68dcb90800000000000000
-      internalID: -7219966464095304308
+      spriteID: 05c120a1ccd913b40800000000000000
+      internalID: 5418285326638652496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layout Example 1_2
+      name: RoundsText_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 903
-        width: 26
-        height: 35
+        x: 70
+        y: 0
+        width: 21
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +189,174 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b8282b6a0ba6f760800000000000000
-      internalID: 7491363091413215410
+      spriteID: 158260e32e1308320800000000000000
+      internalID: 2558099436119402577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layout Example 1_3
+      name: RoundsText_3
       rect:
         serializedVersion: 2
-        x: 85
-        y: 903
+        x: 94
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4046aa113f5b440800000000000000
+      internalID: 4951130622562403556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 14
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98d3a49fa8666a80800000000000000
+      internalID: -8473970545528678246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f957e8bf42b9690800000000000000
+      internalID: -7594435683784745059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 42
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144a0605045531b70800000000000000
+      internalID: 8868525825937417281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e92ba8817642220800000000000000
+      internalID: 2460204651554971271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cb66c97f906f840800000000000000
+      internalID: 5257400574087183418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f46fbeb744d5ab0800000000000000
+      internalID: -5017779110790410416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoundsText_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
         width: 22
-        height: 26
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,206 +365,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1ef3e053dc52c6a0800000000000000
-      internalID: -6430475255266673121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_4
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 903
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b737d7c7c1e87850800000000000000
-      internalID: 6375093520710449072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_5
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 903
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f333055402018580800000000000000
-      internalID: -8826771577040063500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_6
-      rect:
-        serializedVersion: 2
-        x: 1744
-        y: 903
-        width: 26
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 543cd0f86bb718a70800000000000000
-      internalID: 8827472768637190981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_7
-      rect:
-        serializedVersion: 2
-        x: 1773
-        y: 903
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5ea1ac8172c014b0800000000000000
-      internalID: -5471659754308653477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_8
-      rect:
-        serializedVersion: 2
-        x: 1798
-        y: 903
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa21c7a3a5cdd3b60800000000000000
-      internalID: 7727574815724016303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_9
-      rect:
-        serializedVersion: 2
-        x: 1837
-        y: 903
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3702dd6608187540800000000000000
-      internalID: 5005777401713657663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 76
-        width: 189
-        height: 505
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53f68736e23a51140800000000000000
-      internalID: 4689834006608899893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_11
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 50
-        width: 1493
-        height: 570
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4c7451ffc2fdec90800000000000000
-      internalID: -7138782859391370165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Layout Example 1_12
-      rect:
-        serializedVersion: 2
-        x: 1731
-        y: 77
-        width: 189
-        height: 504
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34cd274c9bf376640800000000000000
-      internalID: 5073093572353514563
+      spriteID: 4478ca1792ecd2eb0800000000000000
+      internalID: -4742908155155151036
       vertices: []
       indices: 
       edges: []
@@ -425,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -435,19 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Layout Example 1_0: 4280585827670477755
-      Layout Example 1_1: -7219966464095304308
-      Layout Example 1_10: 4689834006608899893
-      Layout Example 1_11: -7138782859391370165
-      Layout Example 1_12: 5073093572353514563
-      Layout Example 1_2: 7491363091413215410
-      Layout Example 1_3: -6430475255266673121
-      Layout Example 1_4: 6375093520710449072
-      Layout Example 1_5: -8826771577040063500
-      Layout Example 1_6: 8827472768637190981
-      Layout Example 1_7: -5471659754308653477
-      Layout Example 1_8: 7727574815724016303
-      Layout Example 1_9: 5005777401713657663
+      RoundsText_0: -211537588168414349
+      RoundsText_1: 5418285326638652496
+      RoundsText_10: -4742908155155151036
+      RoundsText_2: 2558099436119402577
+      RoundsText_3: 4951130622562403556
+      RoundsText_4: -8473970545528678246
+      RoundsText_5: -7594435683784745059
+      RoundsText_6: 8868525825937417281
+      RoundsText_7: 2460204651554971271
+      RoundsText_8: 5257400574087183418
+      RoundsText_9: -5017779110790410416
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
