@@ -35,6 +35,7 @@ public class PlayerSelectScreen : MonoBehaviour
             return;
         _player.Fighter = fighter;
         _lockedInVisual.SetActive(true);
+        AudioManager.Instance.PlaySound("LockInFighter");
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {
