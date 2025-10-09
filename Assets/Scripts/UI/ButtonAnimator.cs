@@ -49,6 +49,7 @@ public class ButtonAnimator : MonoBehaviour
         switch (function)
         {
             case Function.Play: SceneManager.LoadScene("CharacterSelectScreen"); break;
+            case Function.Tutorial: FindObjectOfType<TitleScreenBehavior>().OpenTutorial(); break;
             case Function.CharacterSelect: SceneManager.LoadScene("CharacterSelectScreen"); break;
             case Function.Rematch: SceneManager.LoadScene("GameScreen"); break;
             case Function.TitleScreen: SceneManager.LoadScene("TitleScreen"); break;
@@ -59,4 +60,5 @@ public class ButtonAnimator : MonoBehaviour
                 Debug.LogError(gameObject.name + "'s function has not been implemented yet."); break;
         }
     }
+
 }

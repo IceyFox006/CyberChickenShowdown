@@ -2,6 +2,8 @@ using UnityEngine;
 
 public static class StaticData
 {
+    private static bool isKeyboardControls = false;
+
     private static PlayerSO player1;
     private static PlayerSO player2;
 
@@ -11,6 +13,7 @@ public static class StaticData
     public static PlayerSO Player2 { get => player2; set => player2 = value; }
     public static int InitialMatchCount { get => initialMatchCount; set => initialMatchCount = value; }
     public static int CurrentMatchCount { get => currentMatchCount; set => currentMatchCount = value; }
+    public static bool IsKeyboardControls { get => isKeyboardControls; set => isKeyboardControls = value; }
 
     public static PlayerSO GetWinner()
     {
@@ -34,9 +37,4 @@ public static class StaticData
         player1.Reset();
         player2.Reset();
     }
-    //public static void ResetWinner()
-    //{
-    //    player1.IsWinner = false;
-    //    player2.IsWinner = false;
-    //}
 }
