@@ -21,10 +21,10 @@ MonoBehaviour:
   - Bok bok!
   - I am a chicken.
   _HP: 1000
-  _Attack: 20
+  _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 1
-  _superCapacity: 1
+  _superCapacity: 50
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 15
