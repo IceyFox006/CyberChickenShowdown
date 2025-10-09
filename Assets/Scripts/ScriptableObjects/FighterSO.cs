@@ -22,6 +22,7 @@ public class FighterSO : ScriptableObject
     [Header("Visuals")]
     [SerializeField] private RuntimeAnimatorController _animationController;
     [SerializeField] private Sprite _superVisual;
+    [SerializeField] private Color _spotLightColor;
 
     [Header("Select Screen")]
     [SerializeField] private Sprite _portrait;
@@ -42,4 +43,5 @@ public class FighterSO : ScriptableObject
     public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
     public Sprite Portrait { get => _portrait; set => _portrait = value; }
     public string SuperDescription { get => _superDescription; set => _superDescription = value; }
+    public Color SpotLightColor { get => _spotLightColor; set => _spotLightColor = value; }
 }
