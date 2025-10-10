@@ -2,7 +2,7 @@ using UnityEngine;
 
 public static class StaticData
 {
-    private static bool isKeyboardControls = false;
+    private static bool isKeyboardControls = true;
 
     private static PlayerSO player1;
     private static PlayerSO player2;

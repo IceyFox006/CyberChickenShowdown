@@ -2773,9 +2773,9 @@ MonoBehaviour:
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
   m_PointAction: {fileID: 0}
-  m_MoveAction: {fileID: 6445505190780356935, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
-  m_SubmitAction: {fileID: -7470054522866645533, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
-  m_CancelAction: {fileID: -6637532447385300824, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_MoveAction: {fileID: -7889449984039731693, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_SubmitAction: {fileID: 6363428132775341408, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_CancelAction: {fileID: 3253440657257296862, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
   m_LeftClickAction: {fileID: 0}
   m_MiddleClickAction: {fileID: 0}
   m_RightClickAction: {fileID: 0}
@@ -4386,7 +4386,7 @@ PrefabInstance:
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_MoveAction
       value: 
-      objectReference: {fileID: -5621944873005374716, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
+      objectReference: {fileID: -7889449984039731693, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_ActionsAsset
       value: 
@@ -4394,11 +4394,11 @@ PrefabInstance:
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_CancelAction
       value: 
-      objectReference: {fileID: -3973306413363906199, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
+      objectReference: {fileID: 8607981194174956822, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_SubmitAction
       value: 
-      objectReference: {fileID: 6423386468364387517, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
+      objectReference: {fileID: 6363428132775341408, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
     - target: {fileID: 1064182979659339181, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -10
@@ -5450,15 +5450,15 @@ PrefabInstance:
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_MoveAction
       value: 
-      objectReference: {fileID: 6445505190780356935, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+      objectReference: {fileID: -7889449984039731693, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_CancelAction
       value: 
-      objectReference: {fileID: -6637532447385300824, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+      objectReference: {fileID: 8607981194174956822, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
     - target: {fileID: 566775729503191577, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_SubmitAction
       value: 
-      objectReference: {fileID: -7470054522866645533, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+      objectReference: {fileID: 6363428132775341408, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
     - target: {fileID: 2036774575197602381, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
