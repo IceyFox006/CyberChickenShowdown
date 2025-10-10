@@ -50,6 +50,12 @@ public class ButtonAnimator : MonoBehaviour
         {
             case Function.Play: SceneManager.LoadScene("CharacterSelectScreen"); break;
             case Function.Tutorial: FindObjectOfType<TitleScreenBehavior>().OpenTutorial(); break;
+            case Function.Exit:
+                Application.Quit();
+                #if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+#endif
+                break;
             case Function.CharacterSelect: SceneManager.LoadScene("CharacterSelectScreen"); break;
             case Function.Rematch: SceneManager.LoadScene("GameScreen"); break;
             case Function.TitleScreen: SceneManager.LoadScene("TitleScreen"); break;
