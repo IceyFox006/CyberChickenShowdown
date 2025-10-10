@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,9 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private Image _superVisualImage;
     [SerializeField] private Image _portraitImage;
     [SerializeField] private Image _legUpImage;
+    [SerializeField] private Transform _roundHolder;
+    [SerializeField] private GameObject _roundHeartPrefab;
+    [SerializeField] private Sprite _brokenHeart;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -23,7 +27,7 @@ public class PlayerUIHandler : MonoBehaviour
     
 
     [Header("HP Bar")]
-    [SerializeField] private UnityEngine.UI.Image _HPBarFillImage;
+    [SerializeField] private Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
     [SerializeField] private float _HPBarFillSpeed = 3;
     private float activeHPFillSpeed;
@@ -55,7 +59,7 @@ public class PlayerUIHandler : MonoBehaviour
         _fighterNameText.text = owner.Data.Fighter.Name;
         _portraitImage.sprite = owner.Data.Fighter.GameScreenPortrait;
         _legUpImage.sprite = owner.Data.Fighter.LegUpIcon;
-
+        GenerateRoundHearts();
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
@@ -82,7 +86,6 @@ public class PlayerUIHandler : MonoBehaviour
         }
 
         text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
-
     }
     public void LinkHPToHPBar()
     {
@@ -108,5 +111,18 @@ public class PlayerUIHandler : MonoBehaviour
     public void DeactivateSuperVisual()
     {
         _superVisualImage.enabled = false;
+    }
+
+    public void GenerateRoundHearts()
+    {
+        int brokenHearts = (StaticData.CurrentMatchCount - owner.Data.Wins) - 1;
+        Debug.Log(brokenHearts);
+        for (int index = 0; index < StaticData.InitialMatchCount;  index++)
+        {
+            GameObject roundHeart = Instantiate(_roundHeartPrefab, _roundHolder);
+            if (brokenHearts > 0)
+                roundHeart.GetComponent<Image>().sprite = _brokenHeart;
+            brokenHearts--;
+        }
     }
 }

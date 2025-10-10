@@ -38,7 +38,7 @@ public class FighterAnimator : MonoBehaviour
     }
     public void EnactDie()
     {
-        GameManager.Instance.EndGame(GameManager.Instance.GetOpponent(_owner));
+        GameManager.Instance.EndRound(GameManager.Instance.GetOpponent(_owner));
     }
     public void TriggerAnimation()
     {
