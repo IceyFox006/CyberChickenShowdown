@@ -1,13 +1,14 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerUIHandler : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
-    [SerializeField] private UnityEngine.UI.Image _superVisualImage;
+    [SerializeField] private Image _superVisualImage;
+    [SerializeField] private Image _portraitImage;
+    [SerializeField] private Image _legUpImage;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -36,21 +37,25 @@ public class PlayerUIHandler : MonoBehaviour
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
     public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
     public Transform OverlayCanvas { get => _overlayCanvas; set => _overlayCanvas = value; }
+    public Image LegUpImage { get => _legUpImage; set => _legUpImage = value; }
 
     private void Start()
     {
         owner = GetComponent<Player>();
 
-        LinkFighterNameText();
+        LinkFighterInfo();
     }
     private void FixedUpdate()
     {
         LinkHPToHPBar();
         LinkSuperToBar();
     }
-    private void LinkFighterNameText()
+    private void LinkFighterInfo()
     {
         _fighterNameText.text = owner.Data.Fighter.Name;
+        _portraitImage.sprite = owner.Data.Fighter.GameScreenPortrait;
+        _legUpImage.sprite = owner.Data.Fighter.LegUpIcon;
+
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {

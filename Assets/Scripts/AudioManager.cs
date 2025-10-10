@@ -4,7 +4,6 @@ public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
 
-    [SerializeField] private GameObject _SDSoundPrefab;
     [SerializeField] private AudioData[] _audioLibrary;
     public static AudioManager Instance { get => instance; set => instance = value; }
 
@@ -30,16 +29,6 @@ public class AudioManager : MonoBehaviour
     {
         AudioData audioData = FindAudioData(name);
         audioData.Source.Play();
-        Debug.Log("Played " + name);
-    }
-    public void PlaySoundAt(Vector2 position, string name)
-    {
-        GameObject go = Instantiate(_SDSoundPrefab, position, Quaternion.identity);
-        AudioSource audioSource = go.GetComponent<AudioSource>();
-        AudioData audioData = FindAudioData(name);
-        audioSource.volume = audioData.Volume;
-        audioSource.Play();
-        Debug.Log("Played " + name + " at " + position);
     }
     private AudioData FindAudioData(string name)
     {

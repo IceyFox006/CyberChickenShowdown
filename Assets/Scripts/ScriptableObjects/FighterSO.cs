@@ -48,4 +48,6 @@ public class FighterSO : ScriptableObject
     public string SuperDescription { get => _superDescription; set => _superDescription = value; }
     public Color GlowColor { get => _glowColor; set => _glowColor = value; }
     public Gradient SuperGradient { get => _superGradient; set => _superGradient = value; }
+    public Sprite GameScreenPortrait { get => _gameScreenPortrait; set => _gameScreenPortrait = value; }
+    public Sprite LegUpIcon { get => _legUpIcon; set => _legUpIcon = value; }
 }

@@ -146,9 +146,15 @@ public class CombatManager : MonoBehaviour
     private void UpdateLegUp()
     {
         if (owner.GetHPPercentage() > GameManager.Instance.GetOpponent(owner).GetHPPercentage())
+        {
             legUp = 1f;
+            owner.UiHandler.LegUpImage.enabled = false;
+        }
         else
+        {
             legUp = (1 + (owner.GetHPPercentage() / GameManager.Instance.GetOpponent(owner).GetHPPercentage()) * 0.5f) * GameManager.Instance.LegUpMultiplier;
+            owner.UiHandler.LegUpImage.enabled = true;
+        }
     }
     public void UseSuper(Player target)
     {
