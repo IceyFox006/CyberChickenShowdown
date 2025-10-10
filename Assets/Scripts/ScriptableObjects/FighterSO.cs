@@ -19,10 +19,13 @@ public class FighterSO : ScriptableObject
     [SerializeField] private float _superDrainRate = 1f;
     [SerializeField] private float _superEffectiveness = 10f;
 
-    [Header("Visuals")]
+    [Header("Game Visuals")]
+    [SerializeField] private Sprite _gameScreenPortrait;
+    [SerializeField] private Sprite _legUpIcon;
     [SerializeField] private RuntimeAnimatorController _animationController;
     [SerializeField] private Sprite _superVisual;
-    [SerializeField] private Color _spotLightColor;
+    [SerializeField] private Gradient _superGradient;
+    [SerializeField] private Color _glowColor;
 
     [Header("Select Screen")]
     [SerializeField] private Sprite _portrait;
@@ -43,5 +46,6 @@ public class FighterSO : ScriptableObject
     public Sprite SuperVisual { get => _superVisual; set => _superVisual = value; }
     public Sprite Portrait { get => _portrait; set => _portrait = value; }
     public string SuperDescription { get => _superDescription; set => _superDescription = value; }
-    public Color SpotLightColor { get => _spotLightColor; set => _spotLightColor = value; }
+    public Color GlowColor { get => _glowColor; set => _glowColor = value; }
+    public Gradient SuperGradient { get => _superGradient; set => _superGradient = value; }
 }

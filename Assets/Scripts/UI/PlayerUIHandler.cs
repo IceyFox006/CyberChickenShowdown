@@ -29,7 +29,6 @@ public class PlayerUIHandler : MonoBehaviour
 
     [Header("Super Bar")]
     [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
-    [SerializeField] private Gradient _superBarGradient;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
 
@@ -92,7 +91,7 @@ public class PlayerUIHandler : MonoBehaviour
         float superPercented = owner.CurrentSuper / owner.Data.Fighter.SuperCapacity;
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
-        _superBarFillImage.color = _superBarGradient.Evaluate(superPercented);
+        _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
     }
     public void ActivateSuperVisual()
     {
