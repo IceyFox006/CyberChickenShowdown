@@ -21,10 +21,6 @@ public static class StaticData
             return player1;
         else
             return player2;
-        //if (player1.IsWinner)
-        //    return player1;
-        //else
-        //    return player2;
     }
     public static void ResetGame()
     {
