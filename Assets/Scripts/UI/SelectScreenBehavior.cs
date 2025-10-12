@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class SelectScreenBehavior : MonoBehaviour
@@ -6,6 +7,7 @@ public class SelectScreenBehavior : MonoBehaviour
     private static SelectScreenBehavior instance;
 
     [Header("Players")]
+    [SerializeField] private EventSystem _universalEventSystem;
     [SerializeField] private PlayerSelectScreen _player1;
     [SerializeField] private PlayerSelectScreen _player2;
 
@@ -16,8 +18,9 @@ public class SelectScreenBehavior : MonoBehaviour
     public static SelectScreenBehavior Instance { get => instance; set => instance = value; }
     public GameObject ChooseMatchNumberUIGO { get => _chooseMatchNumberUIGO; set => _chooseMatchNumberUIGO = value; }
     public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
+    public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
 
-    public void Button_SetMatchCount(int  matchCount)
+    public void SetRoundCount(int  matchCount)
     {
         StaticData.InitialMatchCount = matchCount;
         StaticData.CurrentMatchCount = 1;
