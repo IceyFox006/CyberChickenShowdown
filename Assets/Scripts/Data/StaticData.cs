@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public static class StaticData
 {
     private static bool isKeyboardControls = true;
