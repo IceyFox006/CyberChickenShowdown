@@ -197,7 +197,6 @@ public class CombatManager : MonoBehaviour
         yield return new WaitForSeconds(duration);
         superIsActive = false;
         owner.UiHandler.DeactivateSuperVisual();
-        Debug.Log("Song ended.");
     }
     public void StartBlocking()
     {

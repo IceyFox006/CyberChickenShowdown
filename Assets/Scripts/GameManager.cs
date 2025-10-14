@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
         else if (_player1.CurrentSuper < _player2.CurrentSuper)
             return _player2;
 
-        Debug.Log("Random winner.");
         //Random winner
         if (Random.Range(0, 2) == 0)
             return _player1;
@@ -78,12 +77,10 @@ public class GameManager : MonoBehaviour
     {
         winner.Data.Wins++;
         StaticData.CurrentMatchCount++;
-        Debug.Log(StaticData.CurrentMatchCount + "/" + StaticData.InitialMatchCount);
         if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
             SceneManager.LoadScene("WinLoseScene");
         else
         {
-            Debug.Log("NEW MATCH!");
             _player1.Data.SavedSuper = _player1.CurrentSuper;
             _player2.Data.SavedSuper = _player2.CurrentSuper;
             SceneManager.LoadScene("GameScreen");

@@ -17,6 +17,19 @@ public class VFXAnimator : MonoBehaviour
     public void TriggerOpponentAnimation()
     {
         GameManager.Instance.GetOpponent(_owner).GameObjectController.FighterAnimator.TriggerAnimation();
+        TriggerElementSFX(_VFXAnimator.GetInteger("elementID"));
+    }
+    public void TriggerElementSFX(int elementID)
+    {
+        switch (elementID)
+        {
+            case 1: _owner.AudioManager.PlaySound("PlasmaMatch"); break;
+            case 2: _owner.AudioManager.PlaySound("GravityMatch"); break;
+            case 3: _owner.AudioManager.PlaySound("FireMatch"); break;
+            case 4: _owner.AudioManager.PlaySound("HackMatch"); break;
+            case 5: _owner.AudioManager.PlaySound("DirectMatch"); break;
+        }
+        
     }
     public void EnactSuper()
     {
