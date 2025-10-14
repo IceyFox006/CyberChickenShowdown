@@ -462,7 +462,6 @@ public class PlayerMatch3 : MonoBehaviour
         }
         catch (IndexOutOfRangeException)
         {
-            Debug.Log("CAUGHT: \"IndexOutOfRangeException\"");
             gameBoard[gridPoint.X, gridPoint.Y].MatchPiece = GameManager.Instance.MatchPieces[(int)element + 2];
         }
     }
@@ -549,7 +548,6 @@ public class PlayerMatch3 : MonoBehaviour
         startSwapPiece = null;
         endSwapPiece = null;
         isSelecting = false;
-        //Debug.Log(owner.Name + " - deselects all pieces");
     }
 
     private void ApplyGravityToBoard()
