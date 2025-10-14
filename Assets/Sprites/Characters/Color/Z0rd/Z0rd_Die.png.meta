@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 403db1a1662ff6f48adc447a9cca50b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3975002949860565442
+    second: Z0rd_Die_0
+  - first:
+      213: 3639528129693333779
+    second: Z0rd_Die_1
+  - first:
+      213: -7549806803211806340
+    second: Z0rd_Die_2
+  - first:
+      213: -7677648828491060041
+    second: Z0rd_Die_3
+  - first:
+      213: -3505843914565299343
+    second: Z0rd_Die_4
+  - first:
+      213: -6433614530200051456
+    second: Z0rd_Die_5
+  - first:
+      213: 36264027952116650
+    second: Z0rd_Die_6
+  - first:
+      213: -3006444719829541944
+    second: Z0rd_Die_7
+  - first:
+      213: 6143366069244879758
+    second: Z0rd_Die_8
+  - first:
+      213: 8428424699490514414
+    second: Z0rd_Die_9
+  - first:
+      213: 8076603932501095043
+    second: Z0rd_Die_10
+  - first:
+      213: 6275961052773489162
+    second: Z0rd_Die_11
+  - first:
+      213: 4306478759921760893
+    second: Z0rd_Die_12
+  - first:
+      213: 3593894595100620024
+    second: Z0rd_Die_13
+  - first:
+      213: -6623040547184068252
+    second: Z0rd_Die_14
+  - first:
+      213: 2740653910905397526
+    second: Z0rd_Die_15
+  - first:
+      213: 303008897139811853
+    second: Z0rd_Die_16
+  - first:
+      213: 263509935090494880
+    second: Z0rd_Die_17
+  - first:
+      213: -8473420539023038354
+    second: Z0rd_Die_18
+  - first:
+      213: 217448540385248072
+    second: Z0rd_Die_19
+  - first:
+      213: 3773600015111792646
+    second: Z0rd_Die_20
+  - first:
+      213: -6020977779712925495
+    second: Z0rd_Die_21
+  - first:
+      213: 7903799246005501462
+    second: Z0rd_Die_22
+  - first:
+      213: -4487927352055164757
+    second: Z0rd_Die_23
+  - first:
+      213: 1065099909720476225
+    second: Z0rd_Die_24
+  - first:
+      213: -4663404667777000665
+    second: Z0rd_Die_25
+  - first:
+      213: -2537040509389484280
+    second: Z0rd_Die_26
+  - first:
+      213: 4965664099685457540
+    second: Z0rd_Die_27
+  - first:
+      213: 6589446573791070630
+    second: Z0rd_Die_28
+  - first:
+      213: 2375053027341365298
+    second: Z0rd_Die_29
+  - first:
+      213: 7822991383873721597
+    second: Z0rd_Die_30
+  - first:
+      213: 5845824791480340123
+    second: Z0rd_Die_31
+  - first:
+      213: 4721110112055823460
+    second: Z0rd_Die_32
+  - first:
+      213: 5699184789476551374
+    second: Z0rd_Die_33
+  - first:
+      213: 3368090470121301814
+    second: Z0rd_Die_34
+  - first:
+      213: -515352181304054604
+    second: Z0rd_Die_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Z0rd_Die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a1975f1c0a2730800000000000000
+      internalID: 3975002949860565442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b9680d83328230800000000000000
+      internalID: 3639528129693333779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c799bbb86b2b93790800000000000000
+      internalID: -7549806803211806340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bca8938113837590800000000000000
+      internalID: -7677648828491060041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173de52d88db85fc0800000000000000
+      internalID: -3505843914565299343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00162a9eba537b6a0800000000000000
+      internalID: -6433614530200051456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3f538f0f5d08000800000000000000
+      internalID: 36264027952116650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb16b5c476f646d0800000000000000
+      internalID: -3006444719829541944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83678a14ee914550800000000000000
+      internalID: 6143366069244879758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b245cb97c7f470800000000000000
+      internalID: 8428424699490514414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38230442c7cd51070800000000000000
+      internalID: 8076603932501095043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a10c67351b81750800000000000000
+      internalID: 6275961052773489162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_Die_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ab6ed8d9fa3cb30800000000000000
+      internalID: 4306478759921760893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 83a7dcf48f48aab42b1474ffcf32903a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Z0rd_Die_0: 3975002949860565442
+      Z0rd_Die_1: 3639528129693333779
+      Z0rd_Die_10: 8076603932501095043
+      Z0rd_Die_11: 6275961052773489162
+      Z0rd_Die_12: 4306478759921760893
+      Z0rd_Die_2: -7549806803211806340
+      Z0rd_Die_3: -7677648828491060041
+      Z0rd_Die_4: -3505843914565299343
+      Z0rd_Die_5: -6433614530200051456
+      Z0rd_Die_6: 36264027952116650
+      Z0rd_Die_7: -3006444719829541944
+      Z0rd_Die_8: 6143366069244879758
+      Z0rd_Die_9: 8428424699490514414
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
