@@ -61,5 +61,5 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
-  _glowColor: {r: 0.99215686, g: 0.4117647, b: 0.78039217, a: 0}
+  _glowColor: {r: 0.99215686, g: 0.4117647, b: 0.78039217, a: 1}
   _portrait: {fileID: -6692223724181090642, guid: 16bf90b5b08ab814e83fb94c5314df3d, type: 3}
