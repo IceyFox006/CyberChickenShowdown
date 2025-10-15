@@ -342,6 +342,7 @@ public class PlayerMatch3 : MonoBehaviour
                 }
             }
         }
+        //Detect if no matches left & reshuffle.
     }
     //Returns a list of the grid points that are in a match with gridPoint.
     public List<GridPoint> GetConnectedPieces(GridPoint gridPoint, bool isFirstPieceChecked)
@@ -616,6 +617,8 @@ public class PlayerMatch3 : MonoBehaviour
             ResetPiece(filledPiece);
         }
     }
+
+    //Returns true if the board is full and false if it isn't.
     private bool IsBoardFull()
     {
         for (int x = 0; x < _boardWidth; x++)
@@ -628,6 +631,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
         return true;
     }
+
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {
