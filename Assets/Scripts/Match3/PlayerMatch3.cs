@@ -171,7 +171,7 @@ public class PlayerMatch3 : MonoBehaviour
         {
             for (int y = 0; y < _boardHeight; y++)
             {
-                if (gameBoard[x, y].MatchPiece != GameManager.Instance.WallPiece)
+                if (!gameBoard[x, y].MatchPiece.IgnoreReshuffle)
                     gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
             }
         }
