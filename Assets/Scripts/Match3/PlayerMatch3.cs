@@ -54,8 +54,6 @@ public class PlayerMatch3 : MonoBehaviour
         gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
-        //if (_matchPieceHolder.GetComponent<GridLayoutGroup>() != null)
-        //    _matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
     }
     private void FixedUpdate()
     {
@@ -115,6 +113,8 @@ public class PlayerMatch3 : MonoBehaviour
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);
             ElimateConnectedPieces();
+            if (IsBoardFull())
+                ReshuffleOnNoMatches();
         }
     }
     
@@ -164,20 +164,49 @@ public class PlayerMatch3 : MonoBehaviour
     public void ReshuffleBoard()
     {
         owner.AudioManager.PlaySound("ReshuffleBoard");
-        for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
-            Destroy(_matchPieceHolder.GetChild(index).gameObject);
-        //_matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = true;
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
             {
-                if (!gameBoard[x, y].MatchPiece.IgnoreReshuffle)
+                if (!gameBoard[x, y].MatchPiece.Unmoveable)
                     gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
             }
         }
-        ValidateGameBoard();
-        InstantiateGameBoard();
-        SetSelectedPieceToStartPiece();
+        ValidateGameBoard(true);
+    }
+
+    public void ReshuffleOnNoMatches()
+    {
+        GridPoint[] directions = {GridPoint.up, GridPoint.right, GridPoint.left, GridPoint.down};
+        List<GridPoint> connectedPieces = new List<GridPoint>();
+        Debug.Log(owner.Data.Name + " RAN");
+        for (int x = 0; x < _boardWidth; x++)
+        {
+            for (int y = 0; y < _boardHeight; y++)
+            {
+                GridPoint originPoint = new GridPoint(x, y);
+                if (gameBoard[originPoint.X, originPoint.Y].MatchPiece.Unmoveable)
+                    continue;
+                foreach (GridPoint direction in directions)
+                {
+                    GridPoint swapPoint = new GridPoint (x + direction.X, y + direction.Y);
+
+                    if (!IsGridPointInBounds(swapPoint))
+                        continue;
+                    if (gameBoard[swapPoint.X, swapPoint.Y].MatchPiece.Unmoveable)
+                        continue;
+
+                    FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
+                    connectedPieces = GetConnectedPieces(originPoint, false);
+                    FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
+                    //Debug.Log(owner.Data.Name + "\t" + connectedPieces.Count + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
+                    if (connectedPieces.Count > 2)
+                        return;
+                }
+            }
+        }
+        Debug.Log("Reshuffle here");
+        ReshuffleBoard();
     }
 
     //Checks over all pieces on the board and removes matches.
@@ -239,7 +268,7 @@ public class PlayerMatch3 : MonoBehaviour
             {
                 for (int y = 0; y < _boardHeight; y++)
                 {
-                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
+                    if (gameBoard[x, y].MatchPiece.Unmoveable)// == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
                         continue;
                     if (UnityEngine.Random.Range(0, 100) < (int)(percentage * 100))
                     {
@@ -343,6 +372,7 @@ public class PlayerMatch3 : MonoBehaviour
             }
         }
     }
+
     //Returns a list of the grid points that are in a match with gridPoint.
     public List<GridPoint> GetConnectedPieces(GridPoint gridPoint, bool isFirstPieceChecked)
     {
@@ -385,27 +415,6 @@ public class PlayerMatch3 : MonoBehaviour
             if (sameElement > 1)
                 CombineGridPoints(ref connectedPieces, combo);
         }
-
-        //Checking for a square of the same element
-        //for (int index = 0; index < 4; index++) //(int index = 0; index < 4; index++)
-        //{
-        //    List<GridPoint> combo = new List<GridPoint>();
-        //    int sameElement = 0;
-        //    int nextChecked = index + 1;
-        //    if (nextChecked >= _matchPieces.Length)//if (nextChecked >= 4)
-        //        nextChecked -= _matchPieces.Length;//nextChecked -= 4;
-        //    GridPoint[] checkedPoints = {GridPoint.Add(gridPoint, directions[index]), GridPoint.Add(gridPoint, directions[nextChecked]), GridPoint.Add(gridPoint, GridPoint.Add(directions[index], directions[nextChecked])) };
-        //    foreach (GridPoint pointChecked in checkedPoints)
-        //    {
-        //        if (GetElementAtGridPoint(pointChecked) == element)
-        //        {
-        //            combo.Add(pointChecked);
-        //            sameElement++;
-        //        }
-        //    }
-        //    if (sameElement > 2)
-        //        CombineGridPoints(ref connectedPieces, combo);
-        //}
 
         //Checks if a piece is used in multiple matches.
         if (isFirstPieceChecked)
@@ -514,6 +523,13 @@ public class PlayerMatch3 : MonoBehaviour
             ResetPiece(startPiece);
     }
 
+    private void FauxSwap(ActivePieceController startPiece, ActivePieceController endPiece)
+    {
+        MatchPieceSO endPieceHolder = endPiece.MatchPiece;
+        endPiece.SetUp(startPiece.MatchPiece);
+        startPiece.SetUp(endPieceHolder);
+    }
+
     private SwappedPieces GetSwappedPieces(ActivePieceController piece)
     {
         SwappedPieces thisSwappedPieces = null;
@@ -616,6 +632,8 @@ public class PlayerMatch3 : MonoBehaviour
             ResetPiece(filledPiece);
         }
     }
+
+    //Returns true if the board is full and false if it isn't.
     private bool IsBoardFull()
     {
         for (int x = 0; x < _boardWidth; x++)
@@ -628,6 +646,7 @@ public class PlayerMatch3 : MonoBehaviour
         }
         return true;
     }
+
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {

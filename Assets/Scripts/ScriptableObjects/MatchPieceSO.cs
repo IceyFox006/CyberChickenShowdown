@@ -11,7 +11,7 @@ public class MatchPieceSO : ScriptableObject
 {
     [SerializeField] private string _name;
     [SerializeField] private Enums.MatchPieceFunction _boardFunction;
-    [SerializeField] private bool _ignoreReshuffle;
+    [SerializeField] private bool _unmoveable;
     [SerializeField] private ElementSO _element;
     [SerializeField] private Sprite _sprite;
     [SerializeField] private GameObject _breakParticlePrefab;
@@ -21,5 +21,5 @@ public class MatchPieceSO : ScriptableObject
     public Sprite Sprite { get => _sprite; set => _sprite = value; }
     public ElementSO Element { get => _element; set => _element = value; }
     public GameObject BreakParticlePrefab { get => _breakParticlePrefab; set => _breakParticlePrefab = value; }
-    public bool IgnoreReshuffle { get => _ignoreReshuffle; set => _ignoreReshuffle = value; }
+    public bool Unmoveable { get => _unmoveable; set => _unmoveable = value; }
 }
