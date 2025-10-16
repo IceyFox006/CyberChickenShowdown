@@ -54,13 +54,6 @@ public class PlayerMatch3 : MonoBehaviour
         gameBoardLayout = BoardManager.Instance.GetRandomBoard();
         pieceMover = GetComponent<MatchPieceMovement>();
         StartGame();
-        //if (_matchPieceHolder.GetComponent<GridLayoutGroup>() != null)
-        //    _matchPieceHolder.GetComponent<GridLayoutGroup>().enabled = false;
-    }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Y))
-            ReshuffleOnNoMatches();
     }
     private void FixedUpdate()
     {
