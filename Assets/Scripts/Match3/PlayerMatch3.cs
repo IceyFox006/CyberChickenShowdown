@@ -164,19 +164,15 @@ public class PlayerMatch3 : MonoBehaviour
     public void ReshuffleBoard()
     {
         owner.AudioManager.PlaySound("ReshuffleBoard");
-        //for (int index = _matchPieceHolder.childCount - 1; index >= 0; index--)
-        //    Destroy(_matchPieceHolder.GetChild(index).gameObject);
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
             {
-                if (!gameBoard[x, y].MatchPiece.IgnoreReshuffle)
+                if (!gameBoard[x, y].MatchPiece.Unmoveable)
                     gameBoard[x, y].ActivePieceController.SetUp(GetRandomPiece());
             }
         }
         ValidateGameBoard(true);
-        //InstantiateGameBoard();
-        //SetSelectedPieceToStartPiece();
     }
 
     //Checks over all pieces on the board and removes matches.
@@ -238,7 +234,7 @@ public class PlayerMatch3 : MonoBehaviour
             {
                 for (int y = 0; y < _boardHeight; y++)
                 {
-                    if (gameBoard[x, y].MatchPiece == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
+                    if (gameBoard[x, y].MatchPiece.Unmoveable)// == GameManager.Instance.WallPiece)// || gameBoard[x, y].MatchPiece.Element == GameManager.Instance.MatchPieces[(int)element.Element - 1])
                         continue;
                     if (UnityEngine.Random.Range(0, 100) < (int)(percentage * 100))
                     {
@@ -341,30 +337,6 @@ public class PlayerMatch3 : MonoBehaviour
                 }
             }
         }
-    }
-
-    private bool DoPossibleMatchesExist()
-    {
-        GridPoint[] directions = { GridPoint.up, GridPoint.right, GridPoint.down, GridPoint.left };
-        for (int x = 0; x < _boardWidth; x++)
-        {
-            for (int y = 0; y < _boardHeight; y++)
-            {
-                GridPoint checkedPoint = new GridPoint(x, y);
-                foreach (GridPoint direction in directions)
-                {
-                    if (!IsGridPointInBounds(GridPoint.Add(checkedPoint, direction)))
-                        continue;
-                    FauxSwap(gameBoard[x, y].ActivePieceController, gameBoard[x + direction.X, y + direction.Y].ActivePieceController);
-                    List<GridPoint> connectedPieces = GetConnectedPieces(checkedPoint, true);
-                    FauxSwap(gameBoard[x, y].ActivePieceController, gameBoard[x + direction.X, y + direction.Y].ActivePieceController);
-                    if (connectedPieces.Count > 0)
-                        return true;
-                }
-            }
-        }
-        Debug.Log("Reshuffled");
-        return false;
     }
 
     //Returns a list of the grid points that are in a match with gridPoint.
@@ -536,14 +508,6 @@ public class PlayerMatch3 : MonoBehaviour
         }
         else
             ResetPiece(startPiece);
-    }
-    private void FauxSwap(ActivePieceController startPiece, ActivePieceController endPiece)
-    {
-        if (GetCellAtGridPoint(startPiece.GridPoint).MatchPiece.BoardFunction == Enums.MatchPieceFunction.Unmoveable)
-            return;
-        MatchPieceSO endPieceHolder = endPiece.MatchPiece;
-        endPiece.MatchPiece = startPiece.MatchPiece;
-        startPiece.MatchPiece = endPieceHolder;
     }
 
     private SwappedPieces GetSwappedPieces(ActivePieceController piece)
