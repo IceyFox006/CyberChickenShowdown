@@ -16,4 +16,4 @@ MonoBehaviour:
   _boardFunction: 1
   _element: {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
   _sprite: {fileID: 21300000, guid: 00d41d29da7199c42936f14922e7e1f2, type: 3}
-  _breakParticlePrefab: {fileID: 2254443054934326899, guid: 17be20d5b921fb24baed027df3f6b9b4, type: 3}
+  _breakParticlePrefab: {fileID: 2254443054934326899, guid: b4f93a728cfbeb44795e069f12703627, type: 3}
