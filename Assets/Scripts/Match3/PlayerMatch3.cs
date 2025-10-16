@@ -196,20 +196,18 @@ public class PlayerMatch3 : MonoBehaviour
                 foreach (GridPoint direction in directions)
                 {
                     GridPoint swapPoint = new GridPoint (x + direction.X, y + direction.Y);
-                    Debug.Log("Origin Point:\t" + originPoint.AsString() + "\nSwap Point:\t" + swapPoint.AsString());
-                    if (IsGridPointInBounds(swapPoint))
-                    {
-                        if (gameBoard[swapPoint.X, swapPoint.Y].MatchPiece.Unmoveable)
-                            continue;
-                        FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
-                        connectedPieces = GetConnectedPieces(swapPoint, false);
-                        FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
-                        Debug.Log(connectedPieces.Count);
-                        if (connectedPieces.Count > 2)
-                        {
-                            return;
-                        }
-                    }
+
+                    if (!IsGridPointInBounds(swapPoint))
+                        continue;
+                    if (gameBoard[swapPoint.X, swapPoint.Y].MatchPiece.Unmoveable)
+                        continue;
+
+                    FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
+                    connectedPieces = GetConnectedPieces(originPoint, false);
+                    FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
+                    Debug.Log(owner.Data.Name + "\t" + connectedPieces.Count + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
+                    if (connectedPieces.Count > 2)
+                        return;
 
                 }
             }
