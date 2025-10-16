@@ -2513,6 +2513,10 @@ PrefabInstance:
       value: 197.228
       objectReference: {fileID: 0}
     - target: {fileID: 4340363383577148772, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: ignoreMe
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340363383577148772, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: _pieceSize.x
       value: 42
       objectReference: {fileID: 0}

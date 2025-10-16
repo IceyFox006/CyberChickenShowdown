@@ -116,7 +116,6 @@ public class PlayerUIHandler : MonoBehaviour
     public void GenerateRoundHearts()
     {
         int brokenHearts = (StaticData.CurrentMatchCount - owner.Data.Wins) - 1;
-        Debug.Log(brokenHearts);
         for (int index = 0; index < StaticData.InitialMatchCount;  index++)
         {
             GameObject roundHeart = Instantiate(_roundHeartPrefab, _roundHolder);

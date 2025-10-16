@@ -45,6 +45,11 @@ public class GridPoint
         _y *= mutiplier;
     }
 
+    public string AsString()
+    {
+        return "[ " + X + ", " + Y + " ]";
+    }
+
     //Returns a new gridpoint from a vector2.
     public static GridPoint TransformFromVector(Vector2 vector2)
     {
