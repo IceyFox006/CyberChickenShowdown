@@ -11,8 +11,6 @@ public class PlayerMatch3 : MonoBehaviour
     [SerializeField] private MultiplayerEventSystem _eventSystem;
     private MatchPieceMovement pieceMover;
 
-    public bool ignoreMe = false;
-
     [Header("Board")]
     private Inspector2DArrayLayout gameBoardLayout;
     private BoardCell[,] gameBoard;
@@ -122,6 +120,8 @@ public class PlayerMatch3 : MonoBehaviour
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);
             ElimateConnectedPieces();
+            if (IsBoardFull())
+                ReshuffleOnNoMatches();
         }
     }
     
@@ -186,6 +186,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         GridPoint[] directions = {GridPoint.up, GridPoint.right, GridPoint.left, GridPoint.down};
         List<GridPoint> connectedPieces = new List<GridPoint>();
+        Debug.Log(owner.Data.Name + " RAN");
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)
@@ -205,14 +206,18 @@ public class PlayerMatch3 : MonoBehaviour
                     FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
                     connectedPieces = GetConnectedPieces(originPoint, false);
                     FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
-                    Debug.Log(owner.Data.Name + "\t" + connectedPieces.Count + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
+
                     if (connectedPieces.Count > 2)
+                    {
+                        Debug.Log(owner.Data.Name + "\t" + connectedPieces.Count + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
                         return;
+                    }
 
                 }
             }
         }
         Debug.Log("Reshuffle here");
+        ReshuffleBoard();
     }
 
     //Checks over all pieces on the board and removes matches.
@@ -382,8 +387,6 @@ public class PlayerMatch3 : MonoBehaviour
     //Returns a list of the grid points that are in a match with gridPoint.
     public List<GridPoint> GetConnectedPieces(GridPoint gridPoint, bool isFirstPieceChecked)
     {
-        if (ignoreMe)
-            return null;
         List<GridPoint> connectedPieces = new List<GridPoint>();
         Enums.Element element = GetElementAtGridPoint(gridPoint);
         GridPoint[] directions = {GridPoint.up, GridPoint.right, GridPoint.down, GridPoint.left};
