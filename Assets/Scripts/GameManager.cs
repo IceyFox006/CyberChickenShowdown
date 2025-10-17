@@ -126,6 +126,8 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
+        if (!StaticData.IsKeyboardControls)
+            return;
         paused = true;
         PauseCanvas.SetActive(true);
         Time.timeScale = 0;
@@ -135,6 +137,8 @@ public class GameManager : MonoBehaviour
 
     public void ResumeGame()
     {
+        if (!StaticData.IsKeyboardControls)
+            return;
         paused = false;
         PauseCanvas.SetActive(false);
         Time.timeScale = 1;
