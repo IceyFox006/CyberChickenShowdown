@@ -112,10 +112,10 @@ public class GameManager : MonoBehaviour
     }
     private void Quit_performed(InputAction.CallbackContext obj)
     {
-        if (GameManager.Instance.Paused)
-            GameManager.Instance.ResumeGame();
+        if (paused)
+            ResumeGame();
         else
-            GameManager.Instance.PauseGame();
+            PauseGame();
         /*
         Application.Quit();
         #if UNITY_EDITOR
