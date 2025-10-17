@@ -129,7 +129,8 @@ public class GameManager : MonoBehaviour
         paused = true;
         PauseCanvas.SetActive(true);
         Time.timeScale = 0;
-        Debug.Log("Pause");
+        _player1.EventSystem.enabled = false;
+        _player2.EventSystem.enabled = false;
     }
 
     public void ResumeGame()
@@ -137,7 +138,8 @@ public class GameManager : MonoBehaviour
         paused = false;
         PauseCanvas.SetActive(false);
         Time.timeScale = 1;
-        Debug.Log("Resume");
+        _player1.EventSystem.enabled = true;
+        _player2.EventSystem.enabled = true;
     }
 
     private void OnDestroy()
