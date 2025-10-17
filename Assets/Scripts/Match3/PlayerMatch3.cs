@@ -179,7 +179,6 @@ public class PlayerMatch3 : MonoBehaviour
     {
         GridPoint[] directions = {GridPoint.up, GridPoint.right, GridPoint.left, GridPoint.down};
         List<GridPoint> connectedPieces = new List<GridPoint>();
-        Debug.Log(owner.Data.Name + " RAN");
         for (int x = 0; x < _boardWidth; x++)
         {
             for (int y = 0; y < _boardHeight; y++)

@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     [SerializeField] private float _tick;
+    [SerializeField] private PlayerInput _universalInput;
 
     [Header("General")]
     [SerializeField] private Player _player1;
@@ -26,6 +28,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _blockDrainSpeed;
     [SerializeField] private float _legUpMultiplier;
 
+    [Header("UI")]
+    [SerializeField] private GameObject _pauseCanvas;
+    private bool paused;
+
+    private InputAction reset;
+    private InputAction quit;
+
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
     public MatchPieceSO EmptyPiece { get => _emptyPiece; set => _emptyPiece = value; }
@@ -40,10 +49,20 @@ public class GameManager : MonoBehaviour
     public int GameTime { get => _gameTime; set => _gameTime = value; }
     public MatchPieceSO VirusPiece { get => _virusPiece; set => _virusPiece = value; }
     public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
+    public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
+    public bool Paused { get => paused; set => paused = value; }
 
     private void Awake()
     {
         instance = this;
+    }
+    private void Start()
+    {
+        reset = _universalInput.currentActionMap.FindAction("Reset");
+        quit = _universalInput.currentActionMap.FindAction("Quit");
+
+        reset.performed += Reset_performed;
+        quit.performed += Quit_performed;
     }
     public Player GetOpponent(Player player)
     {
@@ -85,5 +104,51 @@ public class GameManager : MonoBehaviour
             _player2.Data.SavedSuper = _player2.CurrentSuper;
             SceneManager.LoadScene("GameScreen");
         }
+    }
+
+    private void Reset_performed(InputAction.CallbackContext obj)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    private void Quit_performed(InputAction.CallbackContext obj)
+    {
+        if (GameManager.Instance.Paused)
+            GameManager.Instance.ResumeGame();
+        else
+            GameManager.Instance.PauseGame();
+        /*
+        Application.Quit();
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+        */
+    }
+
+    public void PauseGame()
+    {
+        if (!StaticData.IsKeyboardControls)
+            return;
+        paused = true;
+        PauseCanvas.SetActive(true);
+        Time.timeScale = 0;
+        _player1.EventSystem.enabled = false;
+        _player2.EventSystem.enabled = false;
+    }
+
+    public void ResumeGame()
+    {
+        if (!StaticData.IsKeyboardControls)
+            return;
+        paused = false;
+        PauseCanvas.SetActive(false);
+        Time.timeScale = 1;
+        _player1.EventSystem.enabled = true;
+        _player2.EventSystem.enabled = true;
+    }
+
+    private void OnDestroy()
+    {
+        reset.performed -= Reset_performed;
+        quit.performed -= Quit_performed;
     }
 }

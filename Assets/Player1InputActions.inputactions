@@ -192,17 +192,6 @@
                 },
                 {
                     "name": "",
-                    "id": "338c921b-f809-480b-95af-bed30d4ab08e",
-                    "path": "<Keyboard>/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Reshuffle",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "ec04fa07-a4bc-4d14-b032-337949fe5b8e",
                     "path": "<Keyboard>/v",
                     "interactions": "",
@@ -399,17 +388,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Block",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "84776222-3e03-466f-a713-5d3fbb155305",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Reshuffle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
