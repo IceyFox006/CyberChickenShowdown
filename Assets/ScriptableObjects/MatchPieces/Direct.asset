@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Direct
   _boardFunction: 1
+  _unmoveable: 0
   _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
   _sprite: {fileID: 21300000, guid: 34cd14393716c6f4685662d412ddf0a3, type: 3}
-  _breakParticlePrefab: {fileID: 3409524693307021370, guid: c1fab9f29e310d944a40833bb26a624d, type: 3}
+  _breakParticlePrefab: {fileID: 3409524693307021370, guid: 44474655bb9c60e4e891581ab8cceb81, type: 3}
