@@ -10,6 +10,9 @@ public class ButtonAnimator : MonoBehaviour
         Tutorial,
         Credits,
         Exit,
+        Rounds1,
+        Rounds3,
+        Rounds5,
         Rematch,
         CharacterSelect,
         TitleScreen,
@@ -49,7 +52,16 @@ public class ButtonAnimator : MonoBehaviour
         switch (function)
         {
             case Function.Play: SceneManager.LoadScene("CharacterSelectScreen"); break;
-            case Function.Tutorial: FindObjectOfType<TitleScreenBehavior>().OpenTutorial(); break;
+            case Function.Tutorial: FindFirstObjectByType<TitleScreenBehavior>().OpenTutorial(); break;
+            case Function.Exit:
+                Application.Quit();
+                #if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+                #endif
+                break;
+            case Function.Rounds1: FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(1); break;
+            case Function.Rounds3: FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(3); break;
+            case Function.Rounds5: FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(5); break;
             case Function.CharacterSelect: SceneManager.LoadScene("CharacterSelectScreen"); break;
             case Function.Rematch: SceneManager.LoadScene("GameScreen"); break;
             case Function.TitleScreen: SceneManager.LoadScene("TitleScreen"); break;

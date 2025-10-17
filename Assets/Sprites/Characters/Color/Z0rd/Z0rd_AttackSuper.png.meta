@@ -1,0 +1,1323 @@
+fileFormatVersion: 2
+guid: ce5706885827e024d874b7bd667c8221
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2282724334087070341
+    second: Z0rd_AttackSuper_0
+  - first:
+      213: -8570976382451825489
+    second: Z0rd_AttackSuper_1
+  - first:
+      213: -6954763318503894158
+    second: Z0rd_AttackSuper_2
+  - first:
+      213: -974576629106953731
+    second: Z0rd_AttackSuper_3
+  - first:
+      213: 8575668553943398178
+    second: Z0rd_AttackSuper_4
+  - first:
+      213: -5607085510418060787
+    second: Z0rd_AttackSuper_5
+  - first:
+      213: 3194968006110127846
+    second: Z0rd_AttackSuper_6
+  - first:
+      213: -1193340788792245722
+    second: Z0rd_AttackSuper_7
+  - first:
+      213: 6944079962539923387
+    second: Z0rd_AttackSuper_8
+  - first:
+      213: 5306802865944665568
+    second: Z0rd_AttackSuper_9
+  - first:
+      213: 6363814535234259551
+    second: Z0rd_AttackSuper_10
+  - first:
+      213: 1086835297904049045
+    second: Z0rd_AttackSuper_11
+  - first:
+      213: 4135173290074222790
+    second: Z0rd_AttackSuper_12
+  - first:
+      213: -5561737109762043032
+    second: Z0rd_AttackSuper_13
+  - first:
+      213: -3533946579061047556
+    second: Z0rd_AttackSuper_14
+  - first:
+      213: 5410985530222575263
+    second: Z0rd_AttackSuper_15
+  - first:
+      213: 3661854667727041549
+    second: Z0rd_AttackSuper_16
+  - first:
+      213: -9013278719329413171
+    second: Z0rd_AttackSuper_17
+  - first:
+      213: 1078599420273558301
+    second: Z0rd_AttackSuper_18
+  - first:
+      213: -3564871246970449349
+    second: Z0rd_AttackSuper_19
+  - first:
+      213: 5491737705021231457
+    second: Z0rd_AttackSuper_20
+  - first:
+      213: -6296162191400885044
+    second: Z0rd_AttackSuper_21
+  - first:
+      213: 5273949882393146363
+    second: Z0rd_AttackSuper_22
+  - first:
+      213: 854178170345128892
+    second: Z0rd_AttackSuper_23
+  - first:
+      213: 7750514948472300962
+    second: Z0rd_AttackSuper_24
+  - first:
+      213: 146860184754349285
+    second: Z0rd_AttackSuper_25
+  - first:
+      213: -8939193607517552891
+    second: Z0rd_AttackSuper_26
+  - first:
+      213: 7515089518329339730
+    second: Z0rd_AttackSuper_27
+  - first:
+      213: 865151136185406831
+    second: Z0rd_AttackSuper_28
+  - first:
+      213: 5994512718681404267
+    second: Z0rd_AttackSuper_29
+  - first:
+      213: 5731507460710822088
+    second: Z0rd_AttackSuper_30
+  - first:
+      213: -7025013259224574619
+    second: Z0rd_AttackSuper_31
+  - first:
+      213: -5154074360752266385
+    second: Z0rd_AttackSuper_32
+  - first:
+      213: 8554573687421080907
+    second: Z0rd_AttackSuper_33
+  - first:
+      213: -8195378807037469249
+    second: Z0rd_AttackSuper_34
+  - first:
+      213: -7658723931305975546
+    second: Z0rd_AttackSuper_35
+  - first:
+      213: 332038874598740382
+    second: Z0rd_AttackSuper_36
+  - first:
+      213: -5853667591960184662
+    second: Z0rd_AttackSuper_37
+  - first:
+      213: -2904307436514618051
+    second: Z0rd_AttackSuper_38
+  - first:
+      213: -3857782478099080256
+    second: Z0rd_AttackSuper_39
+  - first:
+      213: 2193456525960984598
+    second: Z0rd_AttackSuper_40
+  - first:
+      213: 5536821234097745414
+    second: Z0rd_AttackSuper_41
+  - first:
+      213: -9153814311842929474
+    second: Z0rd_AttackSuper_42
+  - first:
+      213: 4562007557141989416
+    second: Z0rd_AttackSuper_43
+  - first:
+      213: -7573455246297591754
+    second: Z0rd_AttackSuper_44
+  - first:
+      213: 4231870381081077345
+    second: Z0rd_AttackSuper_45
+  - first:
+      213: -6531725467709257236
+    second: Z0rd_AttackSuper_46
+  - first:
+      213: 234851395768947338
+    second: Z0rd_AttackSuper_47
+  - first:
+      213: -6356126248182428310
+    second: Z0rd_AttackSuper_48
+  - first:
+      213: 2700082630554019973
+    second: Z0rd_AttackSuper_49
+  - first:
+      213: -7538940079418071742
+    second: Z0rd_AttackSuper_50
+  - first:
+      213: 7181743650057056678
+    second: Z0rd_AttackSuper_51
+  - first:
+      213: 1302485779556743204
+    second: Z0rd_AttackSuper_52
+  - first:
+      213: -5163140555632470498
+    second: Z0rd_AttackSuper_53
+  - first:
+      213: -5999699380702869903
+    second: Z0rd_AttackSuper_54
+  - first:
+      213: -5573787190544229334
+    second: Z0rd_AttackSuper_55
+  - first:
+      213: -2680290227499408524
+    second: Z0rd_AttackSuper_56
+  - first:
+      213: 8801289910271704292
+    second: Z0rd_AttackSuper_57
+  - first:
+      213: -6608732090672097812
+    second: Z0rd_AttackSuper_58
+  - first:
+      213: -432938647493798050
+    second: Z0rd_AttackSuper_59
+  - first:
+      213: -7675890551923228620
+    second: Z0rd_AttackSuper_60
+  - first:
+      213: -3146599683564684863
+    second: Z0rd_AttackSuper_61
+  - first:
+      213: 1431988459804173279
+    second: Z0rd_AttackSuper_62
+  - first:
+      213: -1599588807023427514
+    second: Z0rd_AttackSuper_63
+  - first:
+      213: 5450974461155112393
+    second: Z0rd_AttackSuper_64
+  - first:
+      213: 522639923968841030
+    second: Z0rd_AttackSuper_65
+  - first:
+      213: -5251709942072544458
+    second: Z0rd_AttackSuper_66
+  - first:
+      213: 4933786715532126257
+    second: Z0rd_AttackSuper_67
+  - first:
+      213: 2241100227497963702
+    second: Z0rd_AttackSuper_68
+  - first:
+      213: 4610663483003593211
+    second: Z0rd_AttackSuper_69
+  - first:
+      213: -235990469630528098
+    second: Z0rd_AttackSuper_70
+  - first:
+      213: -8134783216157008198
+    second: Z0rd_AttackSuper_71
+  - first:
+      213: 2333596621589646839
+    second: Z0rd_AttackSuper_72
+  - first:
+      213: 9154146223015985430
+    second: Z0rd_AttackSuper_73
+  - first:
+      213: 7496099778032956735
+    second: Z0rd_AttackSuper_74
+  - first:
+      213: -8672616872440078419
+    second: Z0rd_AttackSuper_75
+  - first:
+      213: -7943534992133856872
+    second: Z0rd_AttackSuper_76
+  - first:
+      213: -4184190087566330272
+    second: Z0rd_AttackSuper_77
+  - first:
+      213: 8995217800746057089
+    second: Z0rd_AttackSuper_78
+  - first:
+      213: -1171177180778776244
+    second: Z0rd_AttackSuper_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582666dffadddaf10800000000000000
+      internalID: 2282724334087070341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa442b12466cd0980800000000000000
+      internalID: -8570976382451825489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27398a71c97bb7f90800000000000000
+      internalID: -6954763318503894158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1bea728bb9972f0800000000000000
+      internalID: -974576629106953731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227b84d2d15e20770800000000000000
+      internalID: 8575668553943398178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aaa469f61af22b0800000000000000
+      internalID: -5607085510418060787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_6
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6aee0597ec65c20800000000000000
+      internalID: 3194968006110127846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622cd0c00e6607fe0800000000000000
+      internalID: -1193340788792245722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb799134fe35e5060800000000000000
+      internalID: 6944079962539923387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed18a5071d85a940800000000000000
+      internalID: 5306802865944665568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_10
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a0b155a9fc05850800000000000000
+      internalID: 6363814535234259551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_11
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b3de4f1f6351f00800000000000000
+      internalID: 1086835297904049045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_12
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0be8fb236136930800000000000000
+      internalID: 4135173290074222790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_13
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8639686e09db0d2b0800000000000000
+      internalID: -5561737109762043032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfefbdb5f46e4fec0800000000000000
+      internalID: -3533946579061047556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ef1bdcbaea71b40800000000000000
+      internalID: 5410985530222575263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f9f04b6581d230800000000000000
+      internalID: 3661854667727041549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc758c852c66ae280800000000000000
+      internalID: -9013278719329413171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_18
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1309544574f7fe00800000000000000
+      internalID: 1078599420273558301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3292560d78078ec0800000000000000
+      internalID: -3564871246970449349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_20
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161d863a852963c40800000000000000
+      internalID: 5491737705021231457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc42e4d68d98f98a0800000000000000
+      internalID: -6296162191400885044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3b147b975d03940800000000000000
+      internalID: 5273949882393146363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb380523586aadb00800000000000000
+      internalID: 854178170345128892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_24
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5eb0a184c5f8b60800000000000000
+      internalID: 7750514948472300962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_25
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e46ee75f80c90200800000000000000
+      internalID: 146860184754349285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_26
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f397d96ca91f380800000000000000
+      internalID: -8939193607517552891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_27
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f184ba916fa4860800000000000000
+      internalID: 7515089518329339730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f655b55ef52a10c00800000000000000
+      internalID: 865151136185406831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_29
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63f09eae89c03350800000000000000
+      internalID: 5994512718681404267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_30
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c07b2f2ba76a8f40800000000000000
+      internalID: 5731507460710822088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_31
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565928d29a3228e90800000000000000
+      internalID: -7025013259224574619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_32
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63a9652dac0978b0800000000000000
+      internalID: -5154074360752266385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_33
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4513a3d173f7b670800000000000000
+      internalID: 8554573687421080907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_34
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd54ce556a244e80800000000000000
+      internalID: -8195378807037469249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60169b1892fb6b590800000000000000
+      internalID: -7658723931305975546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e911414e893ab9400800000000000000
+      internalID: 332038874598740382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_37
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa83ff3d65893cea0800000000000000
+      internalID: -5853667591960184662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35550036c3d1b7d0800000000000000
+      internalID: -2904307436514618051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_39
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb9d2c8647667ac0800000000000000
+      internalID: -3857782478099080256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_40
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618ba24c619b07e10800000000000000
+      internalID: 2193456525960984598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackSuper_41
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6c3bb39db6dc40800000000000000
+      internalID: 5536821234097745414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3880457c32a2899469639c9c8a9ecbad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Z0rd_AttackSuper_0: 2282724334087070341
+      Z0rd_AttackSuper_1: -8570976382451825489
+      Z0rd_AttackSuper_10: 6363814535234259551
+      Z0rd_AttackSuper_11: 1086835297904049045
+      Z0rd_AttackSuper_12: 4135173290074222790
+      Z0rd_AttackSuper_13: -5561737109762043032
+      Z0rd_AttackSuper_14: -3533946579061047556
+      Z0rd_AttackSuper_15: 5410985530222575263
+      Z0rd_AttackSuper_16: 3661854667727041549
+      Z0rd_AttackSuper_17: -9013278719329413171
+      Z0rd_AttackSuper_18: 1078599420273558301
+      Z0rd_AttackSuper_19: -3564871246970449349
+      Z0rd_AttackSuper_2: -6954763318503894158
+      Z0rd_AttackSuper_20: 5491737705021231457
+      Z0rd_AttackSuper_21: -6296162191400885044
+      Z0rd_AttackSuper_22: 5273949882393146363
+      Z0rd_AttackSuper_23: 854178170345128892
+      Z0rd_AttackSuper_24: 7750514948472300962
+      Z0rd_AttackSuper_25: 146860184754349285
+      Z0rd_AttackSuper_26: -8939193607517552891
+      Z0rd_AttackSuper_27: 7515089518329339730
+      Z0rd_AttackSuper_28: 865151136185406831
+      Z0rd_AttackSuper_29: 5994512718681404267
+      Z0rd_AttackSuper_3: -974576629106953731
+      Z0rd_AttackSuper_30: 5731507460710822088
+      Z0rd_AttackSuper_31: -7025013259224574619
+      Z0rd_AttackSuper_32: -5154074360752266385
+      Z0rd_AttackSuper_33: 8554573687421080907
+      Z0rd_AttackSuper_34: -8195378807037469249
+      Z0rd_AttackSuper_35: -7658723931305975546
+      Z0rd_AttackSuper_36: 332038874598740382
+      Z0rd_AttackSuper_37: -5853667591960184662
+      Z0rd_AttackSuper_38: -2904307436514618051
+      Z0rd_AttackSuper_39: -3857782478099080256
+      Z0rd_AttackSuper_4: 8575668553943398178
+      Z0rd_AttackSuper_40: 2193456525960984598
+      Z0rd_AttackSuper_41: 5536821234097745414
+      Z0rd_AttackSuper_5: -5607085510418060787
+      Z0rd_AttackSuper_6: 3194968006110127846
+      Z0rd_AttackSuper_7: -1193340788792245722
+      Z0rd_AttackSuper_8: 6944079962539923387
+      Z0rd_AttackSuper_9: 5306802865944665568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

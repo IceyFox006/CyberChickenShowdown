@@ -27,6 +27,39 @@ MonoBehaviour:
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 50
+  _gameScreenPortrait: {fileID: 4808280784027641415, guid: d78dfc5f46701244ab6596aa1aee9ce9, type: 3}
+  _legUpIcon: {fileID: 8637252553646648370, guid: b92ff6d742674bd4792e92954465e93e, type: 3}
   _animationController: {fileID: 9100000, guid: 35fbf3b2f1c4f7147a712b863b89f96d, type: 2}
   _superVisual: {fileID: 0}
+  _superGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0.8312501, b: 0, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65404
+    ctime2: 65469
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  _glowColor: {r: 1, g: 0.89411765, b: 0.37254903, a: 1}
   _portrait: {fileID: -5101227768197015883, guid: acd17aea1d0e4ed4e9af8a738183b715, type: 3}

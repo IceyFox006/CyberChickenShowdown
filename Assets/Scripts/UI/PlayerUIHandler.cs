@@ -1,13 +1,18 @@
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerUIHandler : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
-    [SerializeField] private UnityEngine.UI.Image _superVisualImage;
+    [SerializeField] private Image _superVisualImage;
+    [SerializeField] private Image _portraitImage;
+    [SerializeField] private Image _legUpImage;
+    [SerializeField] private Transform _roundHolder;
+    [SerializeField] private GameObject _roundHeartPrefab;
+    [SerializeField] private Sprite _brokenHeart;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -22,14 +27,13 @@ public class PlayerUIHandler : MonoBehaviour
     
 
     [Header("HP Bar")]
-    [SerializeField] private UnityEngine.UI.Image _HPBarFillImage;
+    [SerializeField] private Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
     [SerializeField] private float _HPBarFillSpeed = 3;
     private float activeHPFillSpeed;
 
     [Header("Super Bar")]
     [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
-    [SerializeField] private Gradient _superBarGradient;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
 
@@ -37,21 +41,25 @@ public class PlayerUIHandler : MonoBehaviour
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
     public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
     public Transform OverlayCanvas { get => _overlayCanvas; set => _overlayCanvas = value; }
+    public Image LegUpImage { get => _legUpImage; set => _legUpImage = value; }
 
     private void Start()
     {
         owner = GetComponent<Player>();
 
-        LinkFighterNameText();
+        LinkFighterInfo();
     }
     private void FixedUpdate()
     {
         LinkHPToHPBar();
         LinkSuperToBar();
     }
-    private void LinkFighterNameText()
+    private void LinkFighterInfo()
     {
         _fighterNameText.text = owner.Data.Fighter.Name;
+        _portraitImage.sprite = owner.Data.Fighter.GameScreenPortrait;
+        _legUpImage.sprite = owner.Data.Fighter.LegUpIcon;
+        GenerateRoundHearts();
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
@@ -78,7 +86,6 @@ public class PlayerUIHandler : MonoBehaviour
         }
 
         text.color = new Color(floatingText.Color.r, floatingText.Color.g, floatingText.Color.b);
-
     }
     public void LinkHPToHPBar()
     {
@@ -92,7 +99,7 @@ public class PlayerUIHandler : MonoBehaviour
         float superPercented = owner.CurrentSuper / owner.Data.Fighter.SuperCapacity;
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
-        _superBarFillImage.color = _superBarGradient.Evaluate(superPercented);
+        _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
     }
     public void ActivateSuperVisual()
     {
@@ -104,5 +111,17 @@ public class PlayerUIHandler : MonoBehaviour
     public void DeactivateSuperVisual()
     {
         _superVisualImage.enabled = false;
+    }
+
+    public void GenerateRoundHearts()
+    {
+        int brokenHearts = (StaticData.CurrentMatchCount - owner.Data.Wins) - 1;
+        for (int index = 0; index < StaticData.InitialMatchCount;  index++)
+        {
+            GameObject roundHeart = Instantiate(_roundHeartPrefab, _roundHolder);
+            if (brokenHearts > 0)
+                roundHeart.GetComponent<Image>().sprite = _brokenHeart;
+            brokenHearts--;
+        }
     }
 }

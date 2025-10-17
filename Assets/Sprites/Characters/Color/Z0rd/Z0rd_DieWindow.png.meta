@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: bb31ed6d09516dd4bb5d36b510ab886a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3233290287281454296
+    second: Z0rd_DieWindow_0
+  - first:
+      213: 6312683200800723284
+    second: Z0rd_DieWindow_1
+  - first:
+      213: -8371058210615649030
+    second: Z0rd_DieWindow_2
+  - first:
+      213: -2827179369441599159
+    second: Z0rd_DieWindow_3
+  - first:
+      213: 4126285424259259280
+    second: Z0rd_DieWindow_4
+  - first:
+      213: 2785253376434086802
+    second: Z0rd_DieWindow_5
+  - first:
+      213: -8582746470508256729
+    second: Z0rd_DieWindow_6
+  - first:
+      213: 3459315828193521780
+    second: Z0rd_DieWindow_7
+  - first:
+      213: -6224002312914814043
+    second: Z0rd_DieWindow_8
+  - first:
+      213: 5846372647443046731
+    second: Z0rd_DieWindow_9
+  - first:
+      213: -6986596790948799626
+    second: Z0rd_DieWindow_10
+  - first:
+      213: 3529553736679638703
+    second: Z0rd_DieWindow_11
+  - first:
+      213: -8989528984361486479
+    second: Z0rd_DieWindow_12
+  - first:
+      213: -6834426800113578050
+    second: Z0rd_DieWindow_13
+  - first:
+      213: -1226400033479857114
+    second: Z0rd_DieWindow_14
+  - first:
+      213: 6640941559183072421
+    second: Z0rd_DieWindow_15
+  - first:
+      213: -3755114495060277045
+    second: Z0rd_DieWindow_16
+  - first:
+      213: -966428407066317851
+    second: Z0rd_DieWindow_17
+  - first:
+      213: -1991247715870036887
+    second: Z0rd_DieWindow_18
+  - first:
+      213: -4595781958268202551
+    second: Z0rd_DieWindow_19
+  - first:
+      213: -1812862145873488203
+    second: Z0rd_DieWindow_20
+  - first:
+      213: -8396635288104553257
+    second: Z0rd_DieWindow_21
+  - first:
+      213: 529255665396167194
+    second: Z0rd_DieWindow_22
+  - first:
+      213: 8215651733754046060
+    second: Z0rd_DieWindow_23
+  - first:
+      213: 933805144692380355
+    second: Z0rd_DieWindow_24
+  - first:
+      213: -9086670522297963370
+    second: Z0rd_DieWindow_25
+  - first:
+      213: 5612037920618017017
+    second: Z0rd_DieWindow_26
+  - first:
+      213: -8856603046635998803
+    second: Z0rd_DieWindow_27
+  - first:
+      213: -6379352631835560031
+    second: Z0rd_DieWindow_28
+  - first:
+      213: -9057880115791427864
+    second: Z0rd_DieWindow_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Z0rd_DieWindow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcb125b264fedc20800000000000000
+      internalID: 3233290287281454296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_DieWindow_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4519d43dce72b9750800000000000000
+      internalID: 6312683200800723284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e9b519063a3dbe945b92253d0981f36c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Z0rd_DieWindow_0: 3233290287281454296
+      Z0rd_DieWindow_1: 6312683200800723284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

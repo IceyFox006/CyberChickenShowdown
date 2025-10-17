@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: '!$&*(#$()!&$'
   _boardFunction: 6
+  _unmoveable: 1
   _element: {fileID: 11400000, guid: 353b71fbfa76ce24188750d4da89d90d, type: 2}
   _sprite: {fileID: -6017161630642107537, guid: 0b6d73b56486c594e853f673d22c027b, type: 3}
+  _breakParticlePrefab: {fileID: 0}

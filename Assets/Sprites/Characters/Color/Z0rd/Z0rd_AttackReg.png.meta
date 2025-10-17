@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 7265f325558ee6b409707e3ce950954c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3881401214358774365
+    second: Z0rd_AttackReg_0
+  - first:
+      213: 6640437525480137114
+    second: Z0rd_AttackReg_1
+  - first:
+      213: 36233565974751224
+    second: Z0rd_AttackReg_2
+  - first:
+      213: -1425471680110961183
+    second: Z0rd_AttackReg_3
+  - first:
+      213: -6057041820952562268
+    second: Z0rd_AttackReg_4
+  - first:
+      213: -968012841980257511
+    second: Z0rd_AttackReg_5
+  - first:
+      213: -2948899527472507115
+    second: Z0rd_AttackReg_6
+  - first:
+      213: -5278646358555337798
+    second: Z0rd_AttackReg_7
+  - first:
+      213: -8529470331515245185
+    second: Z0rd_AttackReg_8
+  - first:
+      213: 4549024838975200309
+    second: Z0rd_AttackReg_9
+  - first:
+      213: -6452146632574904120
+    second: Z0rd_AttackReg_10
+  - first:
+      213: 8581896857816239117
+    second: Z0rd_AttackReg_11
+  - first:
+      213: 5001671393059890712
+    second: Z0rd_AttackReg_12
+  - first:
+      213: -4973781828730038744
+    second: Z0rd_AttackReg_13
+  - first:
+      213: -8273546540768586905
+    second: Z0rd_AttackReg_14
+  - first:
+      213: -5070443253192337128
+    second: Z0rd_AttackReg_15
+  - first:
+      213: 5840885089543540144
+    second: Z0rd_AttackReg_16
+  - first:
+      213: -5365758419234832305
+    second: Z0rd_AttackReg_17
+  - first:
+      213: 5038314916566954130
+    second: Z0rd_AttackReg_18
+  - first:
+      213: 6733963677104339217
+    second: Z0rd_AttackReg_19
+  - first:
+      213: 7007061397771317554
+    second: Z0rd_AttackReg_20
+  - first:
+      213: 2432402231863428764
+    second: Z0rd_AttackReg_21
+  - first:
+      213: 8922229174074266099
+    second: Z0rd_AttackReg_22
+  - first:
+      213: 2955446012791215406
+    second: Z0rd_AttackReg_23
+  - first:
+      213: 2906906856144203611
+    second: Z0rd_AttackReg_24
+  - first:
+      213: -8161050471656597381
+    second: Z0rd_AttackReg_25
+  - first:
+      213: -2077753254456904683
+    second: Z0rd_AttackReg_26
+  - first:
+      213: 3463937288303169706
+    second: Z0rd_AttackReg_27
+  - first:
+      213: 2556041046587460313
+    second: Z0rd_AttackReg_28
+  - first:
+      213: -8689714904182382896
+    second: Z0rd_AttackReg_29
+  - first:
+      213: 1995827328493609047
+    second: Z0rd_AttackReg_30
+  - first:
+      213: -3698814815020638799
+    second: Z0rd_AttackReg_31
+  - first:
+      213: 5282716658492353648
+    second: Z0rd_AttackReg_32
+  - first:
+      213: -5669137054495354273
+    second: Z0rd_AttackReg_33
+  - first:
+      213: -7977976436500098856
+    second: Z0rd_AttackReg_34
+  - first:
+      213: 5277544245106235201
+    second: Z0rd_AttackReg_35
+  - first:
+      213: 6694080729860059362
+    second: Z0rd_AttackReg_36
+  - first:
+      213: 1282724642285244874
+    second: Z0rd_AttackReg_37
+  - first:
+      213: 578762908732546872
+    second: Z0rd_AttackReg_38
+  - first:
+      213: 7975200821685195008
+    second: Z0rd_AttackReg_39
+  - first:
+      213: -7770627840398557601
+    second: Z0rd_AttackReg_40
+  - first:
+      213: 8477052716171879659
+    second: Z0rd_AttackReg_41
+  - first:
+      213: -5927366087917647537
+    second: Z0rd_AttackReg_42
+  - first:
+      213: 6367912752287078612
+    second: Z0rd_AttackReg_43
+  - first:
+      213: -502924286420958903
+    second: Z0rd_AttackReg_44
+  - first:
+      213: -329758695558596883
+    second: Z0rd_AttackReg_45
+  - first:
+      213: -6674450208032385305
+    second: Z0rd_AttackReg_46
+  - first:
+      213: -2623471060027762654
+    second: Z0rd_AttackReg_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52ef9407d18dd530800000000000000
+      internalID: 3881401214358774365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91ea633fb2972c50800000000000000
+      internalID: 6640437525480137114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7eedc7c3ab08000800000000000000
+      internalID: 36233565974751224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed5b953f05b73ce0800000000000000
+      internalID: -1425471680110961183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5ff603e8011fba0800000000000000
+      internalID: -6057041820952562268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b10cfe27de092f0800000000000000
+      internalID: -968012841980257511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5171fa2f0876317d0800000000000000
+      internalID: -2948899527472507115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb5667ba1b7eb6b0800000000000000
+      internalID: -5278646358555337798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7deccfaceb31a980800000000000000
+      internalID: -8529470331515245185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c9b814df1612f30800000000000000
+      internalID: 4549024838975200309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z0rd_AttackReg_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8d3a692de5576a0800000000000000
+      internalID: -6452146632574904120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df87f6e59ef3aa04196c65e679bd74bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Z0rd_AttackReg_0: 3881401214358774365
+      Z0rd_AttackReg_1: 6640437525480137114
+      Z0rd_AttackReg_10: -6452146632574904120
+      Z0rd_AttackReg_2: 36233565974751224
+      Z0rd_AttackReg_3: -1425471680110961183
+      Z0rd_AttackReg_4: -6057041820952562268
+      Z0rd_AttackReg_5: -968012841980257511
+      Z0rd_AttackReg_6: -2948899527472507115
+      Z0rd_AttackReg_7: -5278646358555337798
+      Z0rd_AttackReg_8: -8529470331515245185
+      Z0rd_AttackReg_9: 4549024838975200309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

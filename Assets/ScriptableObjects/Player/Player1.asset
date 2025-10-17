@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Player 1
   _ID: 1
-  _fighter: {fileID: 11400000, guid: 585397a360d55a64cb55eea963e8bae7, type: 2}
+  _fighter: {fileID: 11400000, guid: b2b8a864496b1c744bfbcc4b6925385c, type: 2}
   _uiIndicatorPrefab: {fileID: 3985362771674573437, guid: 4906aa497c040264ab4094ecb29da19e, type: 3}

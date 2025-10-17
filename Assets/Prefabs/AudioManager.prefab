@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45cf692137f1694aaf697ac93bc7fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SDSoundPrefab: {fileID: 2269989444112940820, guid: 73d853d2379305843ba1da42a7280e78, type: 3}
   _audioLibrary:
   - _name: UIClick
     _clip: {fileID: 8300000, guid: 1eb65214bd59e754b9180a93b5dbfd3b, type: 3}
@@ -63,6 +62,21 @@ MonoBehaviour:
     _volume: 1
   - _name: SuperActivate
     _clip: {fileID: 8300000, guid: e329c044b69cb9d429b3535e9736213e, type: 3}
+    _volume: 1
+  - _name: FireMatch
+    _clip: {fileID: 8300000, guid: e68a9c8665533bf45b529c2150e8e7e3, type: 3}
+    _volume: 1
+  - _name: GravityMatch
+    _clip: {fileID: 8300000, guid: 46aa87f1de8c2c54baa1ab49a454a3b3, type: 3}
+    _volume: 1
+  - _name: HackMatch
+    _clip: {fileID: 8300000, guid: d632e3a40d7e0be499719aef06fa09b3, type: 3}
+    _volume: 1
+  - _name: PlasmaMatch
+    _clip: {fileID: 8300000, guid: 7695bbd41559e0c43905f7747d3c9f54, type: 3}
+    _volume: 1
+  - _name: DirectMatch
+    _clip: {fileID: 8300000, guid: 6751a96bba5ff1142b877d625303bb85, type: 3}
     _volume: 1
   - _name: BlockActivate
     _clip: {fileID: 8300000, guid: 3dca0c82b72787747acfcb2c9d494a55, type: 3}
