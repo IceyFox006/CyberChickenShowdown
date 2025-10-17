@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     [SerializeField] private float _tick;
+    [SerializeField] private PlayerInput _universalInput;
 
     [Header("General")]
     [SerializeField] private Player _player1;
@@ -30,6 +32,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _pauseCanvas;
     private bool paused;
 
+    private InputAction reset;
+    private InputAction quit;
+
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
     public MatchPieceSO EmptyPiece { get => _emptyPiece; set => _emptyPiece = value; }
@@ -50,6 +55,14 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
+    private void Start()
+    {
+        reset = _universalInput.currentActionMap.FindAction("Reset");
+        quit = _universalInput.currentActionMap.FindAction("Quit");
+
+        reset.performed += Reset_performed;
+        quit.performed += Quit_performed;
     }
     public Player GetOpponent(Player player)
     {
@@ -93,6 +106,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Reset_performed(InputAction.CallbackContext obj)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    private void Quit_performed(InputAction.CallbackContext obj)
+    {
+        if (GameManager.Instance.Paused)
+            GameManager.Instance.ResumeGame();
+        else
+            GameManager.Instance.PauseGame();
+        /*
+        Application.Quit();
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+        */
+    }
+
     public void PauseGame()
     {
         paused = true;
@@ -107,5 +138,11 @@ public class GameManager : MonoBehaviour
         PauseCanvas.SetActive(false);
         Time.timeScale = 1;
         Debug.Log("Resume");
+    }
+
+    private void OnDestroy()
+    {
+        reset.performed -= Reset_performed;
+        quit.performed -= Quit_performed;
     }
 }

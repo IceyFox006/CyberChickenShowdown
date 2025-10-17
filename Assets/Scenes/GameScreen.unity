@@ -982,6 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tick: 1
+  _universalInput: {fileID: 1306314344}
   _player1: {fileID: 1028971726}
   _player2: {fileID: 939394337}
   _gameTime: 90
@@ -1020,6 +1021,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 52fffccd42a61174bbcc20a739f925bb, type: 2}
   - {fileID: 11400000, guid: e0ab0708ebae2434e935a291631f9b66, type: 2}
   - {fileID: 11400000, guid: 5592f0be195d35f43bbdcd8e84e69b41, type: 2}
+--- !u!114 &1306314344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 150641795050849299, guid: 2418e1b165c635041895481cb2226473, type: 3}
+  m_PrefabInstance: {fileID: 3428578527685354732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1433942745
 GameObject:
   m_ObjectHideFlags: 0
