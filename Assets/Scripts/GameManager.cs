@@ -26,6 +26,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _blockDrainSpeed;
     [SerializeField] private float _legUpMultiplier;
 
+    [Header("UI")]
+    [SerializeField] private GameObject _pauseCanvas;
+    private bool paused;
+
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
     public MatchPieceSO EmptyPiece { get => _emptyPiece; set => _emptyPiece = value; }
@@ -40,6 +44,8 @@ public class GameManager : MonoBehaviour
     public int GameTime { get => _gameTime; set => _gameTime = value; }
     public MatchPieceSO VirusPiece { get => _virusPiece; set => _virusPiece = value; }
     public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
+    public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
+    public bool Paused { get => paused; set => paused = value; }
 
     private void Awake()
     {
@@ -85,5 +91,21 @@ public class GameManager : MonoBehaviour
             _player2.Data.SavedSuper = _player2.CurrentSuper;
             SceneManager.LoadScene("GameScreen");
         }
+    }
+
+    public void PauseGame()
+    {
+        paused = true;
+        PauseCanvas.SetActive(true);
+        Time.timeScale = 0;
+        Debug.Log("Pause");
+    }
+
+    public void ResumeGame()
+    {
+        paused = false;
+        PauseCanvas.SetActive(false);
+        Time.timeScale = 1;
+        Debug.Log("Resume");
     }
 }

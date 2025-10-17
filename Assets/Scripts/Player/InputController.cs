@@ -78,9 +78,15 @@ public class InputController : MonoBehaviour
     }
     private void Quit_performed(InputAction.CallbackContext obj)
     {
+        if (GameManager.Instance.Paused)
+            GameManager.Instance.ResumeGame();
+        else
+            GameManager.Instance.PauseGame();
+        /*
         Application.Quit();
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
+        */
     }
 }
