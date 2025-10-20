@@ -63,7 +63,11 @@ public class PlayerUIHandler : MonoBehaviour
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
-        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
+        float spawnRangeX = Random.Range(_floatingTextSpawnLocation.position.x - 40, _floatingTextSpawnLocation.position.x + 40);
+        float spawnRangeY = Random.Range(_floatingTextSpawnLocation.position.y - 5, _floatingTextSpawnLocation.position.y + 15);
+        Vector2 spawnLocation = new Vector2(spawnRangeX, spawnRangeY);
+
+        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, spawnLocation, Quaternion.identity, _overlayCanvas);
         TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
         if (floatingText.IsInternal)
         {

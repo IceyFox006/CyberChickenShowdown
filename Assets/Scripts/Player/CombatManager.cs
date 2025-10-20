@@ -89,9 +89,9 @@ public class CombatManager : MonoBehaviour
         if (spawnFloatingText)
         {
             if (damageElement == null)
-                target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
+                target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, Mathf.RoundToInt(damage).ToString());
             else
-                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, damage.ToString(), damageElement == owner.Data.Fighter.Element);
+                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, Mathf.RoundToInt(damage).ToString(), damageElement == owner.Data.Fighter.Element);
         }
 
         if (target.CurrentHP <= 0)
@@ -106,7 +106,7 @@ public class CombatManager : MonoBehaviour
         target.CurrentHP += regenValue;
         CorrectHPAmount();
 
-        target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, regenValue.ToString());
+        target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, Mathf.RoundToInt(regenValue).ToString());
     }
     public void UpdateMatchElement(Match match)
     {
