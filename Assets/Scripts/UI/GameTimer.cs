@@ -30,9 +30,6 @@ public class GameTimer : MonoBehaviour
     }
     private void LinkTimeToTimer()
     {
-        int minutes = currentTime / 60;
-        int seconds = currentTime % 60;
-
-        _timerText.text = minutes + " : " + seconds;
+        _timerText.text = currentTime.ToString();
     }
 }
