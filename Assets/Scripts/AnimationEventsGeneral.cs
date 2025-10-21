@@ -26,4 +26,8 @@ public class AnimationEventsGeneral : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void NextRound()
+    {
+        GameManager.Instance.NextRound();
+    }
 }

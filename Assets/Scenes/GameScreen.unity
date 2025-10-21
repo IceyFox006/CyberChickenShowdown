@@ -704,6 +704,11 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &751417073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1770692462044338893, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
+  m_PrefabInstance: {fileID: 1819129133}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &796368569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,7 +1673,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1770692462044338893, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819129136}
   m_SourcePrefab: {fileID: 100100000, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
 --- !u!224 &1819129134 stripped
 RectTransform:
@@ -1680,6 +1688,18 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
   m_PrefabInstance: {fileID: 1819129133}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1819129136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751417073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a07037630f8a943bf2f507193b946b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationEventsGeneral
 --- !u!1 &1841503280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,7 +2201,7 @@ PrefabInstance:
     - target: {fileID: 2123477882378706702, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f21fdfdebc8ac804fb307ea0afe154bf, type: 2}
+      objectReference: {fileID: 9100000, guid: 35fbf3b2f1c4f7147a712b863b89f96d, type: 2}
     - target: {fileID: 2216385492403157292, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -101,6 +101,9 @@ public class GameManager : MonoBehaviour
     {
         winner.Data.Wins++;
         StaticData.CurrentMatchCount++;
+    }
+    public void NextRound()
+    {
         if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
             SceneManager.LoadScene("WinLoseScene");
         else
