@@ -33,9 +33,10 @@ public class PlayerUIHandler : MonoBehaviour
     private float activeHPFillSpeed;
 
     [Header("Super Bar")]
-    [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
+    [SerializeField] private Image _superBarFillImage;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
+    [SerializeField] private Animator _superBarAnimator;
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
@@ -104,6 +105,11 @@ public class PlayerUIHandler : MonoBehaviour
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
         _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
+
+        if (owner.CombatManager.IsSuperFull())
+            _superBarAnimator.SetBool("IsFlashing", true);
+        else
+            _superBarAnimator.SetBool("IsFlashing", false);
     }
     public void ActivateSuperVisual()
     {
