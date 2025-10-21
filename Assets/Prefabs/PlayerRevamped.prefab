@@ -817,6 +817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4351938150878609315}
+  - component: {fileID: 5084353656594693914}
   m_Layer: 0
   m_Name: SuperBar
   m_TagString: Untagged
@@ -846,6 +847,28 @@ RectTransform:
   m_AnchoredPosition: {x: 122.5, y: 301.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &5084353656594693914
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337888596175825091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50f470fa0447f374abd5b63bf1adb700, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4557334239418115488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1316,7 @@ MonoBehaviour:
   _HPBarFillSpeed: 3
   _superBarFillImage: {fileID: 2683607087037296655}
   _superBarFillSpeed: 3
+  _superBarAnimator: {fileID: 5084353656594693914}
 --- !u!1 &5270857289328460978
 GameObject:
   m_ObjectHideFlags: 0

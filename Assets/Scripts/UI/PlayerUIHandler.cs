@@ -33,9 +33,10 @@ public class PlayerUIHandler : MonoBehaviour
     private float activeHPFillSpeed;
 
     [Header("Super Bar")]
-    [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
+    [SerializeField] private Image _superBarFillImage;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
+    [SerializeField] private Animator _superBarAnimator;
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
@@ -63,7 +64,11 @@ public class PlayerUIHandler : MonoBehaviour
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
-        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
+        float spawnRangeX = Random.Range(_floatingTextSpawnLocation.position.x - 40, _floatingTextSpawnLocation.position.x + 40);
+        float spawnRangeY = Random.Range(_floatingTextSpawnLocation.position.y - 5, _floatingTextSpawnLocation.position.y + 15);
+        Vector2 spawnLocation = new Vector2(spawnRangeX, spawnRangeY);
+
+        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, spawnLocation, Quaternion.identity, _overlayCanvas);
         TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
         if (floatingText.IsInternal)
         {
@@ -100,6 +105,11 @@ public class PlayerUIHandler : MonoBehaviour
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
         _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
+
+        if (owner.CombatManager.IsSuperFull())
+            _superBarAnimator.SetBool("IsFlashing", true);
+        else
+            _superBarAnimator.SetBool("IsFlashing", false);
     }
     public void ActivateSuperVisual()
     {
