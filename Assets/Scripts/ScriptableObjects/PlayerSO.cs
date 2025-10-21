@@ -10,12 +10,16 @@ public class PlayerSO : ScriptableObject
     private int wins;
 
     [SerializeField] private GameObject _uiIndicatorPrefab;
+    [SerializeField] private Sprite _keyboardControlsSprite;
+    [SerializeField] private Sprite _arcadeControlsSprite;
     public string Name { get => _name; set => _name = value; }
     public FighterSO Fighter { get => _fighter; set => _fighter = value; }
     public int ID { get => _ID; set => _ID = value; }
     public int Wins { get => wins; set => wins = value; }
     public float SavedSuper { get => savedSuper; set => savedSuper = value; }
     public GameObject UiIndicatorPrefab { get => _uiIndicatorPrefab; set => _uiIndicatorPrefab = value; }
+    public Sprite KeyboardControlsSprite { get => _keyboardControlsSprite; set => _keyboardControlsSprite = value; }
+    public Sprite ArcadeControlsSprite { get => _arcadeControlsSprite; set => _arcadeControlsSprite = value; }
 
     public void Reset()
     {

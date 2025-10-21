@@ -200,6 +200,17 @@
                     "action": "Super",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e28e73ff-21d9-4cd8-9bee-b1e6d9ba7193",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reshuffle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -399,6 +410,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Super",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4b4e3bde-ad21-4d4d-891a-2eeafe03158b",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reshuffle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

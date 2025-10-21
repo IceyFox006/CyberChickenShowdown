@@ -57,7 +57,8 @@ public class InputController : MonoBehaviour
     }
     private void Reshuffle_performed(InputAction.CallbackContext obj)
     {
-        owner.Game.ReshuffleBoard();
+        owner.UiHandler.ShowControlGuide();
+        //owner.Game.ReshuffleBoard();
     }
     private void Super_performed(InputAction.CallbackContext obj)
     {
