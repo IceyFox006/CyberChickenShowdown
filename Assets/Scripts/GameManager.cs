@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     [SerializeField] private GameObject _pauseCanvas;
     private bool paused;
+    [SerializeField] private Animator _transitionAnimator;
 
     private InputAction reset;
     private InputAction quit;
@@ -64,6 +65,8 @@ public class GameManager : MonoBehaviour
 
         reset.performed += Reset_performed;
         quit.performed += Quit_performed;
+
+        _transitionAnimator.Play("OpenAnimation");
     }
     public Player GetOpponent(Player player)
     {
