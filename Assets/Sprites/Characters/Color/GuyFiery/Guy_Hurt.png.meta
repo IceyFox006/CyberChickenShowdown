@@ -1,37 +1,34 @@
 fileFormatVersion: 2
-guid: d81ce4b904b43d144bd33bc2ff1fd5a3
+guid: 66743a508c6a53c49bb8bafee183e9df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -746508699800701985
-    second: Guy_Attack_Draft_0
+      213: -2430067208900132463
+    second: Guy_Hurt_0
   - first:
-      213: -6361871764659771318
-    second: Guy_Attack_Draft_1
+      213: 2545320723433273110
+    second: Guy_Hurt_1
   - first:
-      213: 4516402618531838432
-    second: Guy_Attack_Draft_2
+      213: -2007037015837671765
+    second: Guy_Hurt_2
   - first:
-      213: 8464126415932296127
-    second: Guy_Attack_Draft_3
+      213: -5922159517720609296
+    second: Guy_Hurt_3
   - first:
-      213: -5935262660224202978
-    second: Guy_Attack_Draft_4
+      213: 4710389112803491781
+    second: Guy_Hurt_4
   - first:
-      213: 4247256850000921807
-    second: Guy_Attack_Draft_5
+      213: 6624322544695974053
+    second: Guy_Hurt_5
   - first:
-      213: 9208604930951192599
-    second: Guy_Attack_Draft_6
+      213: 945190638068920788
+    second: Guy_Hurt_6
   - first:
-      213: -7321524104065013862
-    second: Guy_Attack_Draft_7
+      213: -7290919082377265216
+    second: Guy_Hurt_7
   - first:
-      213: -5376486890551022835
-    second: Guy_Attack_Draft_8
-  - first:
-      213: -9101494247080923054
-    second: Guy_Attack_Draft_9
+      213: 5845585941456313467
+    second: Guy_Hurt_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,10 +96,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,73 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guy_Attack_Draft_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1600
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd3f3aeea4ed3a5f0800000000000000
-      internalID: -746508699800701985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Guy_Attack_Draft_1
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 1600
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a48edd0365716b7a0800000000000000
-      internalID: -6361871764659771318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Guy_Attack_Draft_2
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 1600
-        width: 1200
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e9fb3ca04c7dae30800000000000000
-      internalID: 4516402618531838432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Guy_Attack_Draft_3
+      name: Guy_Hurt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -214,21 +145,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbb05a3612e967570800000000000000
-      internalID: 8464126415932296127
+      spriteID: 191ce21afbaa64ed0800000000000000
+      internalID: -2430067208900132463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_Attack_Draft_4
+      name: Guy_Hurt_1
       rect:
         serializedVersion: 2
         x: 1200
@@ -236,21 +167,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1742b09e06b1ada0800000000000000
-      internalID: -5935262660224202978
+      spriteID: 6173ea756bbc25320800000000000000
+      internalID: 2545320723433273110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_Attack_Draft_5
+      name: Guy_Hurt_2
       rect:
         serializedVersion: 2
         x: 2400
@@ -258,21 +189,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc446262a9941fa30800000000000000
-      internalID: 4247256850000921807
+      spriteID: bae7fe3c7729524e0800000000000000
+      internalID: -2007037015837671765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_Attack_Draft_6
+      name: Guy_Hurt_3
       rect:
         serializedVersion: 2
         x: 0
@@ -280,15 +211,37 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 710a14a35698bcf70800000000000000
-      internalID: 9208604930951192599
+      spriteID: 0fd701bab4340dda0800000000000000
+      internalID: -5922159517720609296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cff48ef0f9ae5140800000000000000
+      internalID: 4710389112803491781
       vertices: []
       indices: 
       edges: []
@@ -297,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: abdcc9b7a8f6bcd45b197e42c6a0051f
+    spriteID: 8bae8f1c362a4894a962b0b55e108796
     internalID: 0
     vertices: []
     indices: 
@@ -305,15 +258,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Guy_Attack_Draft_0: -746508699800701985
-      Guy_Attack_Draft_1: -6361871764659771318
-      Guy_Attack_Draft_2: 4516402618531838432
-      Guy_Attack_Draft_3: 8464126415932296127
-      Guy_Attack_Draft_4: -5935262660224202978
-      Guy_Attack_Draft_5: 4247256850000921807
-      Guy_Attack_Draft_6: 9208604930951192599
+      Guy_Hurt_0: -2430067208900132463
+      Guy_Hurt_1: 2545320723433273110
+      Guy_Hurt_2: -2007037015837671765
+      Guy_Hurt_3: -5922159517720609296
+      Guy_Hurt_4: 4710389112803491781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

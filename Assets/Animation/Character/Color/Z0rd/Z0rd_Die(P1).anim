@@ -106,7 +106,7 @@ AnimationClip:
       value: {fileID: 6275961052773489162, guid: 403db1a1662ff6f48adc447a9cca50b7, type: 3}
     - time: 1.4166666
       value: {fileID: 4306478759921760893, guid: 403db1a1662ff6f48adc447a9cca50b7, type: 3}
-    - time: 1.625
+    - time: 2.0416667
       value: {fileID: 4306478759921760893, guid: 403db1a1662ff6f48adc447a9cca50b7, type: 3}
     attribute: m_Sprite
     path: 
@@ -118,6 +118,10 @@ AnimationClip:
     - time: 0
       value: {fileID: 0}
     - time: 1.0833334
+      value: {fileID: 3233290287281454296, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
+    - time: 1.5833334
+      value: {fileID: 6312683200800723284, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
+    - time: 2.0833333
       value: {fileID: 3233290287281454296, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
     attribute: m_Sprite
     path: FighterVFX
@@ -184,12 +188,14 @@ AnimationClip:
     - {fileID: 4306478759921760893, guid: 403db1a1662ff6f48adc447a9cca50b7, type: 3}
     - {fileID: 0}
     - {fileID: 3233290287281454296, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
+    - {fileID: 6312683200800723284, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
+    - {fileID: 3233290287281454296, guid: bb31ed6d09516dd4bb5d36b510ab886a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.6666666
+    m_StopTime: 2.125
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -269,7 +275,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1.625
+  - time: 2.0416667
     functionName: EnactDie
     data: 
     objectReferenceParameter: {fileID: 0}

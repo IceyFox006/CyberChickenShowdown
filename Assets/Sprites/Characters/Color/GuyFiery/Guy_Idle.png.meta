@@ -1,61 +1,76 @@
 fileFormatVersion: 2
-guid: 1a55f4441ecf5524ea147369b5ce3d68
+guid: 1a4f524ab1cef734c9a654583e931ca0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -650509179126449303
-    second: Guy_AttackSTAB_Draft_0
+      213: 6587553945906198732
+    second: Guy_Idle_0
   - first:
-      213: -8165345126211698068
-    second: Guy_AttackSTAB_Draft_1
+      213: 2067113620574131097
+    second: Guy_Idle_1
   - first:
-      213: -5089230371482960684
-    second: Guy_AttackSTAB_Draft_2
+      213: -2135705025209805762
+    second: Guy_Idle_2
   - first:
-      213: -5178577712599854381
-    second: Guy_AttackSTAB_Draft_3
+      213: 2290274279462714265
+    second: Guy_Idle_3
   - first:
-      213: -472619531562188478
-    second: Guy_AttackSTAB_Draft_4
+      213: -4880595734091835232
+    second: Guy_Idle_4
   - first:
-      213: -430029406346730212
-    second: Guy_AttackSTAB_Draft_5
+      213: -2592688136761784148
+    second: Guy_Idle_5
   - first:
-      213: 3171360193442389934
-    second: Guy_AttackSTAB_Draft_6
+      213: -1974333715565627360
+    second: Guy_Idle_6
   - first:
-      213: -2813321456252711514
-    second: Guy_AttackSTAB_Draft_7
+      213: -2897583585858282851
+    second: Guy_Idle_7
   - first:
-      213: -8572844371368361637
-    second: Guy_AttackSTAB_Draft_8
+      213: 4298097092642596728
+    second: Guy_Idle_8
   - first:
-      213: -915000989211397203
-    second: Guy_AttackSTAB_Draft_9
+      213: 1269959402328655070
+    second: Guy_Idle_9
   - first:
-      213: -5511163133527085112
-    second: Guy_AttackSTAB_Draft_10
+      213: 7559771439099946168
+    second: Guy_Idle_10
   - first:
-      213: 3007629473964680804
-    second: Guy_AttackSTAB_Draft_11
+      213: -6221857330292348564
+    second: Guy_Idle_11
   - first:
-      213: -2108077209786490495
-    second: Guy_AttackSTAB_Draft_12
+      213: 7956695252700468404
+    second: Guy_Idle_12
   - first:
-      213: 4558616808658955448
-    second: Guy_AttackSTAB_Draft_13
+      213: 7693021108663038305
+    second: Guy_Idle_13
   - first:
-      213: 3482831253807420026
-    second: Guy_AttackSTAB_Draft_14
+      213: 2277541776317316127
+    second: Guy_Idle_14
   - first:
-      213: 3751830228391498008
-    second: Guy_AttackSTAB_Draft_15
+      213: 8287679312261197454
+    second: Guy_Idle_15
   - first:
-      213: -2370411892161881974
-    second: Guy_AttackSTAB_Draft_16
+      213: 5886198737702270481
+    second: Guy_Idle_16
   - first:
-      213: 7868817550822270510
-    second: Guy_AttackSTAB_Draft_17
+      213: 6579233975354146688
+    second: Guy_Idle_17
+  - first:
+      213: -4082766398560943299
+    second: Guy_Idle_18
+  - first:
+      213: 8497636003306665249
+    second: Guy_Idle_19
+  - first:
+      213: 6344518903719008572
+    second: Guy_Idle_20
+  - first:
+      213: 8857420950992412923
+    second: Guy_Idle_21
+  - first:
+      213: -1930544498405463428
+    second: Guy_Idle_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,10 +138,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -164,7 +179,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_0
+      name: Guy_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,21 +187,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96b790f195de8f6f0800000000000000
-      internalID: -650509179126449303
+      spriteID: cc836745961bb6b50800000000000000
+      internalID: 6587553945906198732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_1
+      name: Guy_Idle_1
       rect:
         serializedVersion: 2
         x: 1200
@@ -194,21 +209,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c624fab9edddeae80800000000000000
-      internalID: -8165345126211698068
+      spriteID: 99351b8c2ecdfac10800000000000000
+      internalID: 2067113620574131097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_2
+      name: Guy_Idle_2
       rect:
         serializedVersion: 2
         x: 2400
@@ -216,21 +231,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dcf0a7e0fb6f59b0800000000000000
-      internalID: -5089230371482960684
+      spriteID: e345a5358937c52e0800000000000000
+      internalID: -2135705025209805762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_3
+      name: Guy_Idle_3
       rect:
         serializedVersion: 2
         x: 3600
@@ -238,21 +253,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d21bb6f10ff128b0800000000000000
-      internalID: -5178577712599854381
+      spriteID: 99bb691a250b8cf10800000000000000
+      internalID: 2290274279462714265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_4
+      name: Guy_Idle_4
       rect:
         serializedVersion: 2
         x: 0
@@ -260,21 +275,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24103534a0be079f0800000000000000
-      internalID: -472619531562188478
+      spriteID: 0a85b21d904a44cb0800000000000000
+      internalID: -4880595734091835232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_5
+      name: Guy_Idle_5
       rect:
         serializedVersion: 2
         x: 1200
@@ -282,21 +297,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c152bb7888a380af0800000000000000
-      internalID: -430029406346730212
+      spriteID: ca8c1f250ebe40cd0800000000000000
+      internalID: -2592688136761784148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_6
+      name: Guy_Idle_6
       rect:
         serializedVersion: 2
         x: 2400
@@ -304,21 +319,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf92f81b4fe20c20800000000000000
-      internalID: 3171360193442389934
+      spriteID: 02832a732f1c994e0800000000000000
+      internalID: -1974333715565627360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_7
+      name: Guy_Idle_7
       rect:
         serializedVersion: 2
         x: 3600
@@ -326,21 +341,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ad82198a0315f8d0800000000000000
-      internalID: -2813321456252711514
+      spriteID: d9a1ae9a417b9c7d0800000000000000
+      internalID: -2897583585858282851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_8
+      name: Guy_Idle_8
       rect:
         serializedVersion: 2
         x: 0
@@ -348,21 +363,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b51c1e11773270980800000000000000
-      internalID: -8572844371368361637
+      spriteID: 877e9119888e5ab30800000000000000
+      internalID: 4298097092642596728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_9
+      name: Guy_Idle_9
       rect:
         serializedVersion: 2
         x: 1200
@@ -370,15 +385,59 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da37cecb2734d43f0800000000000000
-      internalID: -915000989211397203
+      spriteID: ed487fe095dcf9110800000000000000
+      internalID: 1269959402328655070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b422ba0214b9e860800000000000000
+      internalID: 7559771439099946168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69a3c019b587a9a0800000000000000
+      internalID: -6221857330292348564
       vertices: []
       indices: 
       edges: []
@@ -387,7 +446,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9d39672c4e4edee43aad8c02ad917864
+    spriteID: fc90352e0dbbe8e488402228c1338489
     internalID: 0
     vertices: []
     indices: 
@@ -395,18 +454,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Guy_AttackSTAB_Draft_0: -650509179126449303
-      Guy_AttackSTAB_Draft_1: -8165345126211698068
-      Guy_AttackSTAB_Draft_2: -5089230371482960684
-      Guy_AttackSTAB_Draft_3: -5178577712599854381
-      Guy_AttackSTAB_Draft_4: -472619531562188478
-      Guy_AttackSTAB_Draft_5: -430029406346730212
-      Guy_AttackSTAB_Draft_6: 3171360193442389934
-      Guy_AttackSTAB_Draft_7: -2813321456252711514
-      Guy_AttackSTAB_Draft_8: -8572844371368361637
-      Guy_AttackSTAB_Draft_9: -915000989211397203
+      Guy_Idle_0: 6587553945906198732
+      Guy_Idle_1: 2067113620574131097
+      Guy_Idle_10: 7559771439099946168
+      Guy_Idle_11: -6221857330292348564
+      Guy_Idle_2: -2135705025209805762
+      Guy_Idle_3: 2290274279462714265
+      Guy_Idle_4: -4880595734091835232
+      Guy_Idle_5: -2592688136761784148
+      Guy_Idle_6: -1974333715565627360
+      Guy_Idle_7: -2897583585858282851
+      Guy_Idle_8: 4298097092642596728
+      Guy_Idle_9: 1269959402328655070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

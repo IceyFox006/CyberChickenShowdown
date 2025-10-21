@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
     public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
     public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
     public bool Paused { get => paused; set => paused = value; }
+    public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
 
     private void Awake()
     {

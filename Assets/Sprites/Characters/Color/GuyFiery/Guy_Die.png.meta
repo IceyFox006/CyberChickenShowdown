@@ -1,61 +1,82 @@
 fileFormatVersion: 2
-guid: 1a55f4441ecf5524ea147369b5ce3d68
+guid: 145c12e28e1907e44860d35e3da45114
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -650509179126449303
-    second: Guy_AttackSTAB_Draft_0
+      213: -6528052822486596949
+    second: Guy_Die_0
   - first:
-      213: -8165345126211698068
-    second: Guy_AttackSTAB_Draft_1
+      213: 3503403225424755931
+    second: Guy_Die_1
   - first:
-      213: -5089230371482960684
-    second: Guy_AttackSTAB_Draft_2
+      213: 6519232733555639067
+    second: Guy_Die_2
   - first:
-      213: -5178577712599854381
-    second: Guy_AttackSTAB_Draft_3
+      213: -1784407872702798106
+    second: Guy_Die_3
   - first:
-      213: -472619531562188478
-    second: Guy_AttackSTAB_Draft_4
+      213: 2734357471322645864
+    second: Guy_Die_4
   - first:
-      213: -430029406346730212
-    second: Guy_AttackSTAB_Draft_5
+      213: -4795056572643273625
+    second: Guy_Die_5
   - first:
-      213: 3171360193442389934
-    second: Guy_AttackSTAB_Draft_6
+      213: -3476973576377575876
+    second: Guy_Die_6
   - first:
-      213: -2813321456252711514
-    second: Guy_AttackSTAB_Draft_7
+      213: 6602886996977177858
+    second: Guy_Die_7
   - first:
-      213: -8572844371368361637
-    second: Guy_AttackSTAB_Draft_8
+      213: -120340150308709422
+    second: Guy_Die_8
   - first:
-      213: -915000989211397203
-    second: Guy_AttackSTAB_Draft_9
+      213: 2463992798732619325
+    second: Guy_Die_9
   - first:
-      213: -5511163133527085112
-    second: Guy_AttackSTAB_Draft_10
+      213: -417892679702078465
+    second: Guy_Die_10
   - first:
-      213: 3007629473964680804
-    second: Guy_AttackSTAB_Draft_11
+      213: 7831405458126729631
+    second: Guy_Die_11
   - first:
-      213: -2108077209786490495
-    second: Guy_AttackSTAB_Draft_12
+      213: 7213682837186964930
+    second: Guy_Die_12
   - first:
-      213: 4558616808658955448
-    second: Guy_AttackSTAB_Draft_13
+      213: -3025864209207848640
+    second: Guy_Die_13
   - first:
-      213: 3482831253807420026
-    second: Guy_AttackSTAB_Draft_14
+      213: -2500162594176910748
+    second: Guy_Die_14
   - first:
-      213: 3751830228391498008
-    second: Guy_AttackSTAB_Draft_15
+      213: -458609390052370546
+    second: Guy_Die_15
   - first:
-      213: -2370411892161881974
-    second: Guy_AttackSTAB_Draft_16
+      213: -4943973229793699915
+    second: Guy_Die_16
   - first:
-      213: 7868817550822270510
-    second: Guy_AttackSTAB_Draft_17
+      213: 1033604365672382649
+    second: Guy_Die_17
+  - first:
+      213: 5166384567058805427
+    second: Guy_Die_18
+  - first:
+      213: 6435526629412912586
+    second: Guy_Die_19
+  - first:
+      213: 624697396376445789
+    second: Guy_Die_20
+  - first:
+      213: 5626725966024107517
+    second: Guy_Die_21
+  - first:
+      213: -775124175997407223
+    second: Guy_Die_22
+  - first:
+      213: 1629512828866738388
+    second: Guy_Die_23
+  - first:
+      213: 8849824399239007977
+    second: Guy_Die_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,10 +144,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -164,7 +185,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_0
+      name: Guy_Die_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba243b88b82b765a0800000000000000
+      internalID: -6528052822486596949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7664fba69e9030800000000000000
+      internalID: 3503403225424755931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13ceab71a7f87a50800000000000000
+      internalID: 6519232733555639067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6a3257e728c37e0800000000000000
+      internalID: -1784407872702798106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_4
       rect:
         serializedVersion: 2
         x: 0
@@ -172,21 +281,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96b790f195de8f6f0800000000000000
-      internalID: -650509179126449303
+      spriteID: 8652f1702a362f520800000000000000
+      internalID: 2734357471322645864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_1
+      name: Guy_Die_5
       rect:
         serializedVersion: 2
         x: 1200
@@ -194,21 +303,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c624fab9edddeae80800000000000000
-      internalID: -8165345126211698068
+      spriteID: 76412b5d379847db0800000000000000
+      internalID: -4795056572643273625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_2
+      name: Guy_Die_6
       rect:
         serializedVersion: 2
         x: 2400
@@ -216,21 +325,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dcf0a7e0fb6f59b0800000000000000
-      internalID: -5089230371482960684
+      spriteID: c36589e34fe4fbfc0800000000000000
+      internalID: -3476973576377575876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_3
+      name: Guy_Die_7
       rect:
         serializedVersion: 2
         x: 3600
@@ -238,21 +347,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d21bb6f10ff128b0800000000000000
-      internalID: -5178577712599854381
+      spriteID: 205deda7dba22ab50800000000000000
+      internalID: 6602886996977177858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_4
+      name: Guy_Die_8
       rect:
         serializedVersion: 2
         x: 0
@@ -260,21 +369,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24103534a0be079f0800000000000000
-      internalID: -472619531562188478
+      spriteID: 2dbd1a85547745ef0800000000000000
+      internalID: -120340150308709422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_5
+      name: Guy_Die_9
       rect:
         serializedVersion: 2
         x: 1200
@@ -282,21 +391,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c152bb7888a380af0800000000000000
-      internalID: -430029406346730212
+      spriteID: d3e0499456cd13220800000000000000
+      internalID: 2463992798732619325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_6
+      name: Guy_Die_10
       rect:
         serializedVersion: 2
         x: 2400
@@ -304,21 +413,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf92f81b4fe20c20800000000000000
-      internalID: 3171360193442389934
+      spriteID: ffb1f1862d8533af0800000000000000
+      internalID: -417892679702078465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_7
+      name: Guy_Die_11
       rect:
         serializedVersion: 2
         x: 3600
@@ -326,21 +435,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ad82198a0315f8d0800000000000000
-      internalID: -2813321456252711514
+      spriteID: f91f2b785cdbeac60800000000000000
+      internalID: 7831405458126729631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_8
+      name: Guy_Die_12
       rect:
         serializedVersion: 2
         x: 0
@@ -348,21 +457,21 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b51c1e11773270980800000000000000
-      internalID: -8572844371368361637
+      spriteID: 2cd6cd812562c1460800000000000000
+      internalID: 7213682837186964930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guy_AttackSTAB_Draft_9
+      name: Guy_Die_13
       rect:
         serializedVersion: 2
         x: 1200
@@ -370,15 +479,37 @@ TextureImporter:
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da37cecb2734d43f0800000000000000
-      internalID: -915000989211397203
+      spriteID: 041199f8888f106d0800000000000000
+      internalID: -3025864209207848640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Die_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46abd55fd53ad4dd0800000000000000
+      internalID: -2500162594176910748
       vertices: []
       indices: 
       edges: []
@@ -387,7 +518,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9d39672c4e4edee43aad8c02ad917864
+    spriteID: 4258e61f5566a0049aa8b145ca3502e5
     internalID: 0
     vertices: []
     indices: 
@@ -395,18 +526,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Guy_AttackSTAB_Draft_0: -650509179126449303
-      Guy_AttackSTAB_Draft_1: -8165345126211698068
-      Guy_AttackSTAB_Draft_2: -5089230371482960684
-      Guy_AttackSTAB_Draft_3: -5178577712599854381
-      Guy_AttackSTAB_Draft_4: -472619531562188478
-      Guy_AttackSTAB_Draft_5: -430029406346730212
-      Guy_AttackSTAB_Draft_6: 3171360193442389934
-      Guy_AttackSTAB_Draft_7: -2813321456252711514
-      Guy_AttackSTAB_Draft_8: -8572844371368361637
-      Guy_AttackSTAB_Draft_9: -915000989211397203
+      Guy_Die_0: -6528052822486596949
+      Guy_Die_1: 3503403225424755931
+      Guy_Die_10: -417892679702078465
+      Guy_Die_11: 7831405458126729631
+      Guy_Die_12: 7213682837186964930
+      Guy_Die_13: -3025864209207848640
+      Guy_Die_14: -2500162594176910748
+      Guy_Die_2: 6519232733555639067
+      Guy_Die_3: -1784407872702798106
+      Guy_Die_4: 2734357471322645864
+      Guy_Die_5: -4795056572643273625
+      Guy_Die_6: -3476973576377575876
+      Guy_Die_7: 6602886996977177858
+      Guy_Die_8: -120340150308709422
+      Guy_Die_9: 2463992798732619325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -49,4 +49,8 @@ public class FighterAnimator : MonoBehaviour
     {
         _VFXAnimator.SetTrigger("triggerAnimation");
     }
+    public void PlayTransitionClose()
+    {
+        GameManager.Instance.TransitionAnimator.Play("CloseAnimation");
+    }
 }
