@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: aded5c146c020904caca9edc33e182c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 34722244522473434
+    second: SuperHackVFX_Part2_V1_0
+  - first:
+      213: 2283276865312503158
+    second: SuperHackVFX_Part2_V1_1
+  - first:
+      213: -5958596816000353016
+    second: SuperHackVFX_Part2_V1_2
+  - first:
+      213: 1572956435207222103
+    second: SuperHackVFX_Part2_V1_3
+  - first:
+      213: -8766099298137676531
+    second: SuperHackVFX_Part2_V1_4
+  - first:
+      213: -4673965597603847647
+    second: SuperHackVFX_Part2_V1_5
+  - first:
+      213: 4202660410276241805
+    second: SuperHackVFX_Part2_V1_6
+  - first:
+      213: 1980645945966550195
+    second: SuperHackVFX_Part2_V1_7
+  - first:
+      213: -8042839402344480567
+    second: SuperHackVFX_Part2_V1_8
+  - first:
+      213: 8510320157645497449
+    second: SuperHackVFX_Part2_V1_9
+  - first:
+      213: 2378153289948049762
+    second: SuperHackVFX_Part2_V1_10
+  - first:
+      213: -2250597130278922346
+    second: SuperHackVFX_Part2_V1_11
+  - first:
+      213: -1100648182825057287
+    second: SuperHackVFX_Part2_V1_12
+  - first:
+      213: 8699416130920422981
+    second: SuperHackVFX_Part2_V1_13
+  - first:
+      213: 4697641786121117219
+    second: SuperHackVFX_Part2_V1_14
+  - first:
+      213: -2963072588381714806
+    second: SuperHackVFX_Part2_V1_15
+  - first:
+      213: -8150192117040104959
+    second: SuperHackVFX_Part2_V1_16
+  - first:
+      213: -7427680159111004522
+    second: SuperHackVFX_Part2_V1_17
+  - first:
+      213: 3539349054067449422
+    second: SuperHackVFX_Part2_V1_18
+  - first:
+      213: -4078557672574680540
+    second: SuperHackVFX_Part2_V1_19
+  - first:
+      213: 2682387524855415824
+    second: SuperHackVFX_Part2_V1_20
+  - first:
+      213: -4297679805302739093
+    second: SuperHackVFX_Part2_V1_21
+  - first:
+      213: -8462919569443268815
+    second: SuperHackVFX_Part2_V1_22
+  - first:
+      213: -3804950101357847594
+    second: SuperHackVFX_Part2_V1_23
+  - first:
+      213: -1611822636622086833
+    second: SuperHackVFX_Part2_V1_24
+  - first:
+      213: 5932549453991686406
+    second: SuperHackVFX_Part2_V1_25
+  - first:
+      213: -3923497658128065741
+    second: SuperHackVFX_Part2_V1_26
+  - first:
+      213: 8799937263236615311
+    second: SuperHackVFX_Part2_V1_27
+  - first:
+      213: 7226450676629480890
+    second: SuperHackVFX_Part2_V1_28
+  - first:
+      213: -6276339475015558217
+    second: SuperHackVFX_Part2_V1_29
+  - first:
+      213: -2402838474263595455
+    second: SuperHackVFX_Part2_V1_30
+  - first:
+      213: -3907034387820797781
+    second: SuperHackVFX_Part2_V1_31
+  - first:
+      213: 8887763159344062754
+    second: SuperHackVFX_Part2_V1_32
+  - first:
+      213: 8794467851123705328
+    second: SuperHackVFX_Part2_V1_33
+  - first:
+      213: -4180523561787680895
+    second: SuperHackVFX_Part2_V1_34
+  - first:
+      213: -5923064228859170924
+    second: SuperHackVFX_Part2_V1_35
+  - first:
+      213: 7761902047080299821
+    second: SuperHackVFX_Part2_V1_36
+  - first:
+      213: -7969931070347829896
+    second: SuperHackVFX_Part2_V1_37
+  - first:
+      213: 9097332206369562029
+    second: SuperHackVFX_Part2_V1_38
+  - first:
+      213: 4023249384775689493
+    second: SuperHackVFX_Part2_V1_39
+  - first:
+      213: 5151490689625491944
+    second: SuperHackVFX_Part2_V1_40
+  - first:
+      213: -4358279550414947762
+    second: SuperHackVFX_Part2_V1_41
+  - first:
+      213: 6443528531329403675
+    second: SuperHackVFX_Part2_V1_42
+  - first:
+      213: 8244904832180777040
+    second: SuperHackVFX_Part2_V1_43
+  - first:
+      213: -2750985171780687244
+    second: SuperHackVFX_Part2_V1_44
+  - first:
+      213: 8692067243035906424
+    second: SuperHackVFX_Part2_V1_45
+  - first:
+      213: 5134475790271569714
+    second: SuperHackVFX_Part2_V1_46
+  - first:
+      213: -5695635254903403275
+    second: SuperHackVFX_Part2_V1_47
+  - first:
+      213: 6450943887582427868
+    second: SuperHackVFX_Part2_V1_48
+  - first:
+      213: 5256935152611602929
+    second: SuperHackVFX_Part2_V1_49
+  - first:
+      213: -2400831116249490410
+    second: SuperHackVFX_Part2_V1_50
+  - first:
+      213: -5778045355390819842
+    second: SuperHackVFX_Part2_V1_51
+  - first:
+      213: 5186039620589907171
+    second: SuperHackVFX_Part2_V1_52
+  - first:
+      213: 5045717088235253572
+    second: SuperHackVFX_Part2_V1_53
+  - first:
+      213: 7795865364947700755
+    second: SuperHackVFX_Part2_V1_54
+  - first:
+      213: -6839094134993701030
+    second: SuperHackVFX_Part2_V1_55
+  - first:
+      213: -7427171264385281273
+    second: SuperHackVFX_Part2_V1_56
+  - first:
+      213: -4717641393620272997
+    second: SuperHackVFX_Part2_V1_57
+  - first:
+      213: -9196885141234240095
+    second: SuperHackVFX_Part2_V1_58
+  - first:
+      213: -5430983737705936274
+    second: SuperHackVFX_Part2_V1_59
+  - first:
+      213: -8931671443605465212
+    second: SuperHackVFX_Part2_V1_60
+  - first:
+      213: -6244785432877609610
+    second: SuperHackVFX_Part2_V1_61
+  - first:
+      213: 560867558619546665
+    second: SuperHackVFX_Part2_V1_62
+  - first:
+      213: 7622700390827035032
+    second: SuperHackVFX_Part2_V1_63
+  - first:
+      213: -3241473253303561489
+    second: SuperHackVFX_Part2_V1_64
+  - first:
+      213: -4694262060398903971
+    second: SuperHackVFX_Part2_V1_65
+  - first:
+      213: 3709062673890853487
+    second: SuperHackVFX_Part2_V1_66
+  - first:
+      213: -1234053107790095107
+    second: SuperHackVFX_Part2_V1_67
+  - first:
+      213: -5312546631061083797
+    second: SuperHackVFX_Part2_V1_68
+  - first:
+      213: -6379096172140866956
+    second: SuperHackVFX_Part2_V1_69
+  - first:
+      213: -7563490090025894663
+    second: SuperHackVFX_Part2_V1_70
+  - first:
+      213: -3720708208700426749
+    second: SuperHackVFX_Part2_V1_71
+  - first:
+      213: -5317868910123233568
+    second: SuperHackVFX_Part2_V1_72
+  - first:
+      213: 3428414742060986578
+    second: SuperHackVFX_Part2_V1_73
+  - first:
+      213: 1369310040333631485
+    second: SuperHackVFX_Part2_V1_74
+  - first:
+      213: 8684188387038936445
+    second: SuperHackVFX_Part2_V1_75
+  - first:
+      213: 620658456196677757
+    second: SuperHackVFX_Part2_V1_76
+  - first:
+      213: -5982014218520840537
+    second: SuperHackVFX_Part2_V1_77
+  - first:
+      213: 8007310510857022311
+    second: SuperHackVFX_Part2_V1_78
+  - first:
+      213: -1057147005838667141
+    second: SuperHackVFX_Part2_V1_79
+  - first:
+      213: -5949416002096132111
+    second: SuperHackVFX_Part2_V1_80
+  - first:
+      213: -7588716079649654323
+    second: SuperHackVFX_Part2_V1_81
+  - first:
+      213: 2414649872775332293
+    second: SuperHackVFX_Part2_V1_82
+  - first:
+      213: 2579554880181404461
+    second: SuperHackVFX_Part2_V1_83
+  - first:
+      213: 5067156641826591488
+    second: SuperHackVFX_Part2_V1_84
+  - first:
+      213: -7724550470798934741
+    second: SuperHackVFX_Part2_V1_85
+  - first:
+      213: 4757347805748771829
+    second: SuperHackVFX_Part2_V1_86
+  - first:
+      213: 1757370860838097868
+    second: SuperHackVFX_Part2_V1_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7f09a82bb5b7000800000000000000
+      internalID: 34722244522473434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4320
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675b1d03634dfaf10800000000000000
+      internalID: 2283276865312503158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d768e04cfce4da0800000000000000
+      internalID: -5958596816000353016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_3
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4320
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753f0bf3b8344d510800000000000000
+      internalID: 1572956435207222103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05e3b4122f885680800000000000000
+      internalID: -8766099298137676531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1222d6e7d0db22fb0800000000000000
+      internalID: -4673965597603847647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_6
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81ec126069d25a30800000000000000
+      internalID: 4202660410276241805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_7
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc57237efaac7b10800000000000000
+      internalID: 1980645945966550195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c00eb52d28126090800000000000000
+      internalID: -8042839402344480567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9646e41081bba1670800000000000000
+      internalID: 8510320157645497449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261b7c431d5e00120800000000000000
+      internalID: 2378153289948049762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperHackVFX_Part2_V1_11
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697163d85d544c0e0800000000000000
+      internalID: -2250597130278922346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b33e84422e519ed4faec680fcda59b68
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1920.0,"y":2160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
+    nameFileIdTable:
+      SuperHackVFX_Part2_V1_0: 34722244522473434
+      SuperHackVFX_Part2_V1_1: 2283276865312503158
+      SuperHackVFX_Part2_V1_10: 2378153289948049762
+      SuperHackVFX_Part2_V1_11: -2250597130278922346
+      SuperHackVFX_Part2_V1_2: -5958596816000353016
+      SuperHackVFX_Part2_V1_3: 1572956435207222103
+      SuperHackVFX_Part2_V1_4: -8766099298137676531
+      SuperHackVFX_Part2_V1_5: -4673965597603847647
+      SuperHackVFX_Part2_V1_6: 4202660410276241805
+      SuperHackVFX_Part2_V1_7: 1980645945966550195
+      SuperHackVFX_Part2_V1_8: -8042839402344480567
+      SuperHackVFX_Part2_V1_9: 8510320157645497449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
