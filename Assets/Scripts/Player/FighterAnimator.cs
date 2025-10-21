@@ -51,6 +51,7 @@ public class FighterAnimator : MonoBehaviour
     }
     public void PlayTransitionClose()
     {
+        GameManager.Instance.EndRound(GameManager.Instance.GetOpponent(_owner));
         GameManager.Instance.TransitionAnimator.Play("CloseAnimation");
     }
 }
