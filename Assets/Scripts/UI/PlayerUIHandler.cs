@@ -14,6 +14,11 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private GameObject _roundHeartPrefab;
     [SerializeField] private Sprite _brokenHeart;
 
+    [Header("Control Guide")]
+    private bool isShowingControls = false;
+    [SerializeField] private Animator _controlsAnimator;
+    [SerializeField] private Image _controlsImage;
+
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
     [SerializeField] private GameObject _floatingTextPrefab;
@@ -23,8 +28,6 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private FloatingText _regenHealthFT;
     [SerializeField] private FloatingText _STABModification;
     [SerializeField] private FloatingText _superFT;
-
-    
 
     [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
@@ -49,11 +52,29 @@ public class PlayerUIHandler : MonoBehaviour
         owner = GetComponent<Player>();
 
         LinkFighterInfo();
+
+        if (StaticData.IsKeyboardControls)
+            _controlsImage.sprite = owner.Data.KeyboardControlsSprite;
+        else
+            _controlsImage.sprite = owner.Data.ArcadeControlsSprite;
     }
     private void FixedUpdate()
     {
         LinkHPToHPBar();
         LinkSuperToBar();
+    }
+    public void ShowControlGuide()
+    {
+        if (!isShowingControls)
+        {
+            _controlsAnimator.Play("SHOW");
+            isShowingControls = true;
+        }
+        else
+        {
+            _controlsAnimator.Play("HIDE");
+            isShowingControls = false;
+        }
     }
     private void LinkFighterInfo()
     {

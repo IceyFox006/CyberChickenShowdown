@@ -8,6 +8,7 @@ public class FighterAnimator : MonoBehaviour
     private void Start()
     {
         _fighterAnimator.runtimeAnimatorController = _owner.Data.Fighter.AnimationController;
+        _fighterAnimator.SetInteger("PlayerID", _owner.Data.ID);
     }
     private void FixedUpdate()
     {
