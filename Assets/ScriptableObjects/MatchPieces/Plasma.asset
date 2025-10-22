@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Plasma
   _boardFunction: 1
+  _unmoveable: 0
   _element: {fileID: 11400000, guid: aed2342438a66ec45940e9e914b5915d, type: 2}
-  _sprite: {fileID: 21300000, guid: 76cf3425cc9fb654d8f4173796c0dade, type: 3}
+  _sprite: {fileID: 3004253350976466914, guid: 49c16578144cdde419809a8de93b7436, type: 3}
   _breakParticlePrefab: {fileID: 5888863340477360239, guid: f47571c390e1670408f589ffe6c06b0d, type: 3}

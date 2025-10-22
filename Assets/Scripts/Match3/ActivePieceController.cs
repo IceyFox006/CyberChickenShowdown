@@ -6,6 +6,7 @@ public class ActivePieceController : MonoBehaviour
     private Player owner;
     [SerializeField] private MatchPieceSO _matchPiece;
     [SerializeField] private GridPoint _gridPoint;
+    [SerializeField] private Image _sprite;
     [SerializeField] private Image _selectedBorder;
 
     private Vector2 positionOnBoard;
@@ -23,7 +24,7 @@ public class ActivePieceController : MonoBehaviour
         _matchPiece = matchPiece;
         owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
         if (matchPiece.Element.Element != Enums.Element.Empty)
-            GetComponent<Image>().enabled = true;
+            _sprite.enabled = true; //GetComponent<Image>().enabled = true;
         ApplySprite();
         SetUpInteractability();
     }
@@ -134,7 +135,7 @@ public class ActivePieceController : MonoBehaviour
     }
     private void ApplySprite()
     {
-        gameObject.GetComponent<Image>().sprite = _matchPiece.Sprite;
+        _sprite.sprite = _matchPiece.Sprite;//gameObject.GetComponent<Image>().sprite = _matchPiece.Sprite;
     }
     public void ResetPositionOnBoard()
     {

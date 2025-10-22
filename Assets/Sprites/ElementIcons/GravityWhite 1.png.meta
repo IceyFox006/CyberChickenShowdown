@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b810b62f6dd075347a00be20e893bbe6
+guid: cfff62b6116c92e4b8adfefaa65647f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3664396984090529868
-    second: HackWhite_0
+      213: -9172309343771983079
+    second: GravityWhite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HackWhite_0
+      name: GravityWhite_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 11
-        width: 284
-        height: 277
+        x: 16
+        y: 18
+        width: 269
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c409ab864ad8ad230800000000000000
-      internalID: 3664396984090529868
+      spriteID: 9138972bf3965b080800000000000000
+      internalID: -9172309343771983079
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HackWhite_0: 3664396984090529868
+      GravityWhite_0: -9172309343771983079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
