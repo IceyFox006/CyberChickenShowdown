@@ -1212,7 +1212,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1407533428}
-  - component: {fileID: 1407533429}
   - component: {fileID: 1407533430}
   m_Layer: 0
   m_Name: ===UI===
@@ -1238,23 +1237,6 @@ Transform:
   - {fileID: 581083119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1407533429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407533427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fc7b0b8e624d4741994be3489809961, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tutorialButton: {fileID: 0}
-  _tutorial: {fileID: 0}
-  _keyboardControlsTutorial: {fileID: 0}
-  _arcadeControlsTutorial: {fileID: 0}
-  _exitTutorialButton: {fileID: 0}
 --- !u!114 &1407533430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,6 +1249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 301d0c6b1243ad14d9b306f660aabe7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _transitionAnimator: {fileID: 1564997490}
   _winnerText: {fileID: 1575724882}
   _winnerQuoteText: {fileID: 2043658102}
 --- !u!1 &1443997792
@@ -1377,6 +1360,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!95 &1564997490 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
+  m_PrefabInstance: {fileID: 377009877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1575724880
 GameObject:
   m_ObjectHideFlags: 0
