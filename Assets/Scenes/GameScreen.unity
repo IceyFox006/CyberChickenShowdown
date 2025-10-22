@@ -1163,6 +1163,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 52fffccd42a61174bbcc20a739f925bb, type: 2}
   - {fileID: 11400000, guid: e0ab0708ebae2434e935a291631f9b66, type: 2}
   - {fileID: 11400000, guid: 5592f0be195d35f43bbdcd8e84e69b41, type: 2}
+  - {fileID: 11400000, guid: 799fe3c18d761804c8b2d15f699573d0, type: 2}
+  - {fileID: 11400000, guid: 207a5671b0493f647a5e6db45397ec73, type: 2}
+  - {fileID: 11400000, guid: b0312eee7cb000b499b7da5fa6485323, type: 2}
 --- !u!114 &1306314344 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 150641795050849299, guid: 2418e1b165c635041895481cb2226473, type: 3}
