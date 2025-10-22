@@ -231,6 +231,7 @@ MonoBehaviour:
   _universalEventSystem: {fileID: 1085603510}
   _player1: {fileID: 904126127}
   _player2: {fileID: 1756407957}
+  _transitionAnimator: {fileID: 379971228}
   _chooseMatchNumberUIGO: {fileID: 656782416}
   _fsCMNUI: {fileID: 1342458401}
 --- !u!4 &215442340
@@ -574,6 +575,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6084701080737213569, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
   m_PrefabInstance: {fileID: 379971226}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &379971228 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
+  m_PrefabInstance: {fileID: 379971226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &422213332 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3883299508671605550, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
@@ -603,7 +609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &483325153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1222,7 +1228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1148724611
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1664,7 +1670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1437724266
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2097,7 +2103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2129,7 +2135,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_TargetDisplay: 0
 --- !u!224 &1712140361
 RectTransform:
