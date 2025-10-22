@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Hack
   _boardFunction: 1
+  _unmoveable: 0
   _element: {fileID: 11400000, guid: bea4dcd78ddfd9f4981f8f11e1602702, type: 2}
-  _sprite: {fileID: 21300000, guid: 5584ae0ff65475b42902167cfcd121b3, type: 3}
+  _sprite: {fileID: 3664396984090529868, guid: b810b62f6dd075347a00be20e893bbe6, type: 3}
   _breakParticlePrefab: {fileID: 7982774659147869764, guid: 8d108607b5f13b44f8f00631cdf31d1a, type: 3}

@@ -99,14 +99,15 @@ public class PlayerMatch3 : MonoBehaviour
                     RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
                 {
-                    ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                    if (cellPiece != null)
-                        cellPiece.GetComponent<Image>().enabled = false;
-                    cellPiece.PlayBreakParticles();
-                    cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
-                    
+                    GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
+                    //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                    //if (cellPiece != null)
+                    //    cellPiece.GetComponent<Image>().enabled = false;
+                    //cellPiece.PlayBreakParticles();
+                    //cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
+
                 }
-               
+
             }
             ApplyGravityToBoard();
             FillEmptyPieces();
@@ -319,7 +320,7 @@ public class PlayerMatch3 : MonoBehaviour
             {
                 if (gameBoard[x, y].MatchPiece == GameManager.Instance.VirusPiece)
                 {
-                    gameBoard[x,y].ActivePieceController.GetComponent<Image>().enabled = false;
+                    gameBoard[x, y].ActivePieceController.Sprite.enabled = false; //GetComponent<Image>().enabled = false;
                     gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.EmptyPiece);
                     AddUpdatingPiece(ref piecesUpdating, gameBoard[x, y].ActivePieceController);
                 }
@@ -327,7 +328,6 @@ public class PlayerMatch3 : MonoBehaviour
         }
         GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
     }
-
 
     private int GetNumberOfPossiblePiecesOnBoard()
     {
@@ -364,10 +364,11 @@ public class PlayerMatch3 : MonoBehaviour
                     RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
                     foreach (GridPoint gridPoint in connectedPieces)
                     {
-                        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                        if (cellPiece != null)
-                            cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                        cellPiece.SetUp(GameManager.Instance.EmptyPiece);
+                        GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
+                        //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                        //if (cellPiece != null)
+                        //    cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        //cellPiece.SetUp(GameManager.Instance.EmptyPiece);
                     }
 
                 }
@@ -434,6 +435,9 @@ public class PlayerMatch3 : MonoBehaviour
     {
         if (match.Element.Element <= 0)
             return;
+        owner.UiHandler.MatchCount++;
+        if (match.ConnectedPoints.Count > owner.UiHandler.HighestCombo)
+            owner.UiHandler.HighestCombo = match.ConnectedPoints.Count;
         owner.CombatManager.AttackOpponent(GameManager.Instance.GetOpponent(owner), match);
     }
 
@@ -642,7 +646,7 @@ public class PlayerMatch3 : MonoBehaviour
         {
             for (int y = 0; y < _boardHeight; ++y)
             {
-                if (!gameBoard[x, y].ActivePieceController.GetComponent<Image>().isActiveAndEnabled)
+                if (!gameBoard[x, y].ActivePieceController.Sprite.isActiveAndEnabled)//GetComponent<Image>().isActiveAndEnabled)
                     return false;
             }
         }

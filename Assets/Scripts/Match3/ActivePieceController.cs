@@ -6,6 +6,7 @@ public class ActivePieceController : MonoBehaviour
     private Player owner;
     [SerializeField] private MatchPieceSO _matchPiece;
     [SerializeField] private GridPoint _gridPoint;
+    [SerializeField] private Image _sprite;
     [SerializeField] private Image _selectedBorder;
 
     private Vector2 positionOnBoard;
@@ -17,13 +18,14 @@ public class ActivePieceController : MonoBehaviour
     public MatchPieceSO MatchPiece { get => _matchPiece; set => _matchPiece = value; }
     public bool IsUpdating { get => isUpdating; set => isUpdating = value; }
     public Player Owner { get => owner; set => owner = value; }
+    public Image Sprite { get => _sprite; set => _sprite = value; }
 
     public void SetUp(MatchPieceSO matchPiece)
     {
         _matchPiece = matchPiece;
         owner.Game.GameBoard[_gridPoint.X, _gridPoint.Y].MatchPiece = matchPiece;
         if (matchPiece.Element.Element != Enums.Element.Empty)
-            GetComponent<Image>().enabled = true;
+            _sprite.enabled = true; //GetComponent<Image>().enabled = true;
         ApplySprite();
         SetUpInteractability();
     }
@@ -54,7 +56,12 @@ public class ActivePieceController : MonoBehaviour
             isUpdating = false;
             return false;
         }
-
+    }
+    public void Remove()
+    {
+        _sprite.enabled = false;
+        PlayBreakParticles();
+        SetUp(GameManager.Instance.EmptyPiece);
     }
     public void Select()
     {
@@ -134,7 +141,7 @@ public class ActivePieceController : MonoBehaviour
     }
     private void ApplySprite()
     {
-        gameObject.GetComponent<Image>().sprite = _matchPiece.Sprite;
+        _sprite.sprite = _matchPiece.Sprite;//gameObject.GetComponent<Image>().sprite = _matchPiece.Sprite;
     }
     public void ResetPositionOnBoard()
     {
