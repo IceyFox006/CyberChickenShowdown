@@ -55,7 +55,12 @@ public class ActivePieceController : MonoBehaviour
             isUpdating = false;
             return false;
         }
-
+    }
+    public void Remove()
+    {
+        _sprite.enabled = false;
+        PlayBreakParticles();
+        SetUp(GameManager.Instance.EmptyPiece);
     }
     public void Select()
     {

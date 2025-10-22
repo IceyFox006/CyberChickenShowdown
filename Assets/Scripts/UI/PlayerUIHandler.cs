@@ -24,6 +24,7 @@ public class PlayerUIHandler : MonoBehaviour
     private float damageDealt = 0;
     [SerializeField] private TMP_Text _comboCountText;
     [SerializeField] private TMP_Text _matchCountText;
+    private int matchCount = 0;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -53,6 +54,7 @@ public class PlayerUIHandler : MonoBehaviour
     public Transform OverlayCanvas { get => _overlayCanvas; set => _overlayCanvas = value; }
     public Image LegUpImage { get => _legUpImage; set => _legUpImage = value; }
     public float DamageDealt { get => damageDealt; set => damageDealt = value; }
+    public int MatchCount { get => matchCount; set => matchCount = value; }
 
     private void Start()
     {
@@ -94,6 +96,8 @@ public class PlayerUIHandler : MonoBehaviour
     private void LinkTabs()
     {
         _damageDealtText.text = Mathf.RoundToInt(damageDealt).ToString();
+
+        _matchCountText.text = matchCount.ToString() + " Matches";
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {

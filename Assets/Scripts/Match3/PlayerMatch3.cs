@@ -99,14 +99,15 @@ public class PlayerMatch3 : MonoBehaviour
                     RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
                 {
-                    ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                    if (cellPiece != null)
-                        cellPiece.GetComponent<Image>().enabled = false;
-                    cellPiece.PlayBreakParticles();
-                    cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
-                    
+                    GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
+                    //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                    //if (cellPiece != null)
+                    //    cellPiece.GetComponent<Image>().enabled = false;
+                    //cellPiece.PlayBreakParticles();
+                    //cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
+
                 }
-               
+
             }
             ApplyGravityToBoard();
             FillEmptyPieces();
@@ -328,7 +329,6 @@ public class PlayerMatch3 : MonoBehaviour
         GameManager.Instance.GetOpponent(owner).UiHandler.DeactivateSuperVisual();
     }
 
-
     private int GetNumberOfPossiblePiecesOnBoard()
     {
         int pieceCount = 0;
@@ -364,10 +364,11 @@ public class PlayerMatch3 : MonoBehaviour
                     RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
                     foreach (GridPoint gridPoint in connectedPieces)
                     {
-                        ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                        if (cellPiece != null)
-                            cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                        cellPiece.SetUp(GameManager.Instance.EmptyPiece);
+                        GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
+                        //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
+                        //if (cellPiece != null)
+                        //    cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
+                        //cellPiece.SetUp(GameManager.Instance.EmptyPiece);
                     }
 
                 }
@@ -434,6 +435,7 @@ public class PlayerMatch3 : MonoBehaviour
     {
         if (match.Element.Element <= 0)
             return;
+        owner.UiHandler.MatchCount++;
         owner.CombatManager.AttackOpponent(GameManager.Instance.GetOpponent(owner), match);
     }
 
