@@ -83,6 +83,7 @@ public class CombatManager : MonoBehaviour
     private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
         target.CurrentHP -= damage;
+        owner.UiHandler.DamageDealt += damage;
         CorrectHPAmount();
 
         target.CombatManager.IsHurt = true;
