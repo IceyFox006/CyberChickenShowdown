@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonAnimator : MonoBehaviour
 {
+    private bool hasSelected = false;
     public enum Function
     {
         None,
@@ -35,6 +36,8 @@ public class ButtonAnimator : MonoBehaviour
     }
     public void PlayHoverExitAnimation()
     {
+        if (hasSelected)
+            return;
         if (!facingRight)
             _animator.Play("HOVER_EXIT");
         else
@@ -42,6 +45,7 @@ public class ButtonAnimator : MonoBehaviour
     }
     public void PlaySelectAnimation()
     {
+        hasSelected = true;
         if (!facingRight)
             _animator.Play("SELECT");
         else
@@ -49,6 +53,7 @@ public class ButtonAnimator : MonoBehaviour
     }
     public void ActivateFunction()
     {
+        hasSelected = false;
         switch (function)
         {
             case Function.Play: SceneManager.LoadScene("CharacterSelectScreen"); break;
