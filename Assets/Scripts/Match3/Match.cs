@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections.Generic;
 
 public class Match
@@ -16,21 +17,11 @@ public class Match
         this.element = element;
         this.connectedPoints = connectedPoints;
 
-        ValidateConnectPoints();
+        DeleteDuplicates();
     }
-    public void ValidateConnectPoints()
+    public void DeleteDuplicates()
     {
+
     }
 }
-//List<GridPoint> validatedPoints = new List<GridPoint>();
-//bool foundDuplicate = false;
-//for (int p1 = 0; p1 < connectedPoints.Count; p1++)
-//{
-//    foundDuplicate = false;
-//    for (int p2 = p1 + 1; p2 < connectedPoints.Count; p2++)
-//    {
-//        if (connectedPoints[p1].Equals(connectedPoints[p2]))
-//            foundDuplicate = true;
-//    }
-//}
-//connectedPoints = validatedPoints;
+
