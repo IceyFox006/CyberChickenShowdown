@@ -1411,8 +1411,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150.75002, y: 141}
-  m_SizeDelta: {x: 149.5, y: 170}
+  m_AnchoredPosition: {x: -150.75002, y: 147.403}
+  m_SizeDelta: {x: 149.5, y: 182.807}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575724882
 MonoBehaviour:
@@ -1438,8 +1438,8 @@ MonoBehaviour:
 
     Wins'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d4fa3abab621c542b1ee02e8602f752, type: 2}
+  m_sharedMaterial: {fileID: -1033922196975560544, guid: 9d4fa3abab621c542b1ee02e8602f752, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1799,8 +1799,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.1138, y: 25}
-  m_SizeDelta: {x: 1169.7725, y: 50}
+  m_AnchoredPosition: {x: -12.1138, y: 34.281}
+  m_SizeDelta: {x: 1169.772, y: 68.563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043658102
 MonoBehaviour:
@@ -1824,8 +1824,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Ha ha I win"'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d4fa3abab621c542b1ee02e8602f752, type: 2}
+  m_sharedMaterial: {fileID: -1033922196975560544, guid: 9d4fa3abab621c542b1ee02e8602f752, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 54.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
