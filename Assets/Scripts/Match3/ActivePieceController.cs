@@ -18,6 +18,7 @@ public class ActivePieceController : MonoBehaviour
     public MatchPieceSO MatchPiece { get => _matchPiece; set => _matchPiece = value; }
     public bool IsUpdating { get => isUpdating; set => isUpdating = value; }
     public Player Owner { get => owner; set => owner = value; }
+    public Image Sprite { get => _sprite; set => _sprite = value; }
 
     public void SetUp(MatchPieceSO matchPiece)
     {

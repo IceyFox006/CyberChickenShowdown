@@ -320,7 +320,7 @@ public class PlayerMatch3 : MonoBehaviour
             {
                 if (gameBoard[x, y].MatchPiece == GameManager.Instance.VirusPiece)
                 {
-                    gameBoard[x,y].ActivePieceController.GetComponent<Image>().enabled = false;
+                    gameBoard[x, y].ActivePieceController.Sprite.enabled = false; //GetComponent<Image>().enabled = false;
                     gameBoard[x, y].ActivePieceController.SetUp(GameManager.Instance.EmptyPiece);
                     AddUpdatingPiece(ref piecesUpdating, gameBoard[x, y].ActivePieceController);
                 }
@@ -436,6 +436,8 @@ public class PlayerMatch3 : MonoBehaviour
         if (match.Element.Element <= 0)
             return;
         owner.UiHandler.MatchCount++;
+        if (match.ConnectedPoints.Count > owner.UiHandler.HighestCombo)
+            owner.UiHandler.HighestCombo = match.ConnectedPoints.Count;
         owner.CombatManager.AttackOpponent(GameManager.Instance.GetOpponent(owner), match);
     }
 
@@ -644,7 +646,7 @@ public class PlayerMatch3 : MonoBehaviour
         {
             for (int y = 0; y < _boardHeight; ++y)
             {
-                if (!gameBoard[x, y].ActivePieceController.GetComponent<Image>().isActiveAndEnabled)
+                if (!gameBoard[x, y].ActivePieceController.Sprite.isActiveAndEnabled)//GetComponent<Image>().isActiveAndEnabled)
                     return false;
             }
         }

@@ -1678,7 +1678,8 @@ MonoBehaviour:
   _controlsAnimator: {fileID: 8536007964036894311}
   _controlsImage: {fileID: 6750708432943030251}
   _damageDealtText: {fileID: 3483006315045188903}
-  _comboCountText: {fileID: 7247441782687158245}
+  _highestComboText: {fileID: 7247441782687158245}
+  highestCombo: 0
   _matchCountText: {fileID: 3632487086438055669}
   _overlayCanvas: {fileID: 0}
   _floatingTextPrefab: {fileID: 726124167574297067, guid: 2c2b2c88e45b1d3449f85fa4b33c8b80, type: 3}

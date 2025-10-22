@@ -22,7 +22,8 @@ public class PlayerUIHandler : MonoBehaviour
     [Header("Tabs")]
     [SerializeField] private TMP_Text _damageDealtText;
     private float damageDealt = 0;
-    [SerializeField] private TMP_Text _comboCountText;
+    [SerializeField] private TMP_Text _highestComboText;
+    [SerializeField] private int highestCombo = 0;
     [SerializeField] private TMP_Text _matchCountText;
     private int matchCount = 0;
 
@@ -55,6 +56,7 @@ public class PlayerUIHandler : MonoBehaviour
     public Image LegUpImage { get => _legUpImage; set => _legUpImage = value; }
     public float DamageDealt { get => damageDealt; set => damageDealt = value; }
     public int MatchCount { get => matchCount; set => matchCount = value; }
+    public int HighestCombo { get => highestCombo; set => highestCombo = value; }
 
     private void Start()
     {
@@ -96,7 +98,7 @@ public class PlayerUIHandler : MonoBehaviour
     private void LinkTabs()
     {
         _damageDealtText.text = Mathf.RoundToInt(damageDealt).ToString();
-
+        _highestComboText.text = highestCombo.ToString() + " Combo";
         _matchCountText.text = matchCount.ToString() + " Matches";
     }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
