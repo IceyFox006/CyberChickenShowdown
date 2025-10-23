@@ -655,7 +655,14 @@ public class PlayerMatch3 : MonoBehaviour
 
     public void StopGameplay()
     {
-        DisableAllPieces();
+        CanvasGroup[] canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
+        foreach (CanvasGroup canvasGroup in canvases)
+        {
+            canvasGroup.interactable = false;
+            canvasGroup.alpha = 0;
+        }
+
+        //DisableAllPieces();
     }
     public void DisableAllPieces()
     {
@@ -669,8 +676,14 @@ public class PlayerMatch3 : MonoBehaviour
     }
     public void ResumeGameplay()
     {
-        EnableAllPieces();
-        owner.Game.PieceMover.DropPiece(); //SetSelectedPieceToStartPiece();
+        CanvasGroup[] canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
+        foreach (CanvasGroup canvasGroup in canvases)
+        {
+            canvasGroup.interactable = true;
+            canvasGroup.alpha = 1;
+        }
+        //EnableAllPieces();
+        //owner.Game.PieceMover.DropPiece(); //SetSelectedPieceToStartPiece();
     }
     public void EnableAllPieces()
     {
