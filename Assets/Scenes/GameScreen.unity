@@ -3393,6 +3393,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 55.831
       objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Size.x
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Size.y
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6090968338998066488, guid: ac1bc04e18a92574db3a60ad5409dc2c, type: 3}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4780344257589071889, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_UiScaleMode
       value: 1

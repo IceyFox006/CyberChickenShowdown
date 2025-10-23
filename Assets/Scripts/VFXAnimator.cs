@@ -4,6 +4,11 @@ public class VFXAnimator : MonoBehaviour
 {
     [SerializeField] private Player _owner;
     [SerializeField] private Animator _VFXAnimator;
+
+    private void Start()
+    {
+        _VFXAnimator.SetInteger("PlayerID", _owner.Data.ID);
+    }
     private void FixedUpdate()
     {
         UpdateVFXAnimation();
