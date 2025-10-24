@@ -70,8 +70,5 @@ public class InputController : MonoBehaviour
             return;
         GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
         GameManager.Instance.CameraAnimator.SetInteger("PlayerID", owner.Data.ID);
-        //owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
-        //owner.CombatManager.IsSuper = true;
     }
-
 }

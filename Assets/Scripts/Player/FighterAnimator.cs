@@ -52,7 +52,6 @@ public class FighterAnimator : MonoBehaviour
     }
     public void TriggerVFXAnimation()
     {
-        Debug.Log("HERE");
         _VFXAnimator.SetTrigger("triggerAnimation");
     }
     public void PlayTransitionClose()
