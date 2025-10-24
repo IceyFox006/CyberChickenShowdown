@@ -136,22 +136,6 @@ public class GameManager : MonoBehaviour
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.alpha = 0;
     }
-    public void StopAllGameplay() //
-    {
-        foreach (CanvasGroup canvasGroup in canvases)
-        {
-            canvasGroup.interactable = false;
-            canvasGroup.alpha = 0;
-        }
-    }
-    public void ResumeAllGameplay() //
-    {
-        foreach (CanvasGroup canvasGroup in canvases)
-        {
-            canvasGroup.interactable = true;
-            canvasGroup.alpha = 1;
-        }
-    }
     public void PlayCloseTransition(Player winner)
     {
         EndRound(winner);

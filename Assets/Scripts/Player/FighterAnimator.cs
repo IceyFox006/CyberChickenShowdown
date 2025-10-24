@@ -46,20 +46,13 @@ public class FighterAnimator : MonoBehaviour
     {
         GameManager.Instance.EndRound(GameManager.Instance.GetOpponent(_owner));
     }
-    public void StopAllGameplay()
-    {
-        GameManager.Instance.StopAllGameplay();
-    }
-    public void ResumeAllGameplay()
-    {
-        GameManager.Instance.ResumeAllGameplay();
-    }
     public void TriggerAnimation()
     {
         _fighterAnimator.SetTrigger("triggerAnimation");
     }
     public void TriggerVFXAnimation()
     {
+        Debug.Log("HERE");
         _VFXAnimator.SetTrigger("triggerAnimation");
     }
     public void PlayTransitionClose()

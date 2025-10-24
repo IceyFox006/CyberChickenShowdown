@@ -31,10 +31,6 @@ public class VFXAnimator : MonoBehaviour
             case 5: _owner.AudioManager.PlaySound("DirectMatch"); break;
         }
     }
-    public void ResumeAllGameplay()
-    {
-        GameManager.Instance.ResumeAllGameplay();
-    }
     public void EnactSuper()
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));
