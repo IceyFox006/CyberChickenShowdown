@@ -26,6 +26,11 @@ public class FighterAnimator : MonoBehaviour
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));
     }
+    public void EndSuper()
+    {
+        EndAttacking();
+        GameManager.Instance.EnableAllInput();
+    }
     public void EndAttacking()
     {
         _owner.CombatManager.IsAttacking = false;

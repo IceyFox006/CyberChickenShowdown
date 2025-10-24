@@ -30,7 +30,6 @@ public class VFXAnimator : MonoBehaviour
             case 4: _owner.AudioManager.PlaySound("HackMatch"); break;
             case 5: _owner.AudioManager.PlaySound("DirectMatch"); break;
         }
-        
     }
     public void ResumeAllGameplay()
     {

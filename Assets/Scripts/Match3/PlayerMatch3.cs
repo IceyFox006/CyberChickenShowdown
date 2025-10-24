@@ -653,49 +653,6 @@ public class PlayerMatch3 : MonoBehaviour
         return true;
     }
 
-    public void StopGameplay()
-    {
-        CanvasGroup[] canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
-        foreach (CanvasGroup canvasGroup in canvases)
-        {
-            canvasGroup.interactable = false;
-            canvasGroup.alpha = 0;
-        }
-
-        //DisableAllPieces();
-    }
-    public void DisableAllPieces()
-    {
-        for (int x = 0; x < _boardWidth; x++)
-        {
-            for (int y = 0; y < _boardHeight; y++)
-            {
-                gameBoard[x,y].ActivePieceController.GetComponent<Button>().enabled = false;
-            }
-        }
-    }
-    public void ResumeGameplay()
-    {
-        CanvasGroup[] canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
-        foreach (CanvasGroup canvasGroup in canvases)
-        {
-            canvasGroup.interactable = true;
-            canvasGroup.alpha = 1;
-        }
-        //EnableAllPieces();
-        //owner.Game.PieceMover.DropPiece(); //SetSelectedPieceToStartPiece();
-    }
-    public void EnableAllPieces()
-    {
-        for (int x = 0; x < _boardWidth; x++)
-        {
-            for (int y = 0; y < _boardHeight; y++)
-            {
-                gameBoard[x, y].ActivePieceController.GetComponent<Button>().enabled = true;
-            }
-        }
-    }
-
     //Returns an element not in elementsNotUsed.
     private Enums.Element NewElement(ref List<Enums.Element> elementsNotUsed)
     {
