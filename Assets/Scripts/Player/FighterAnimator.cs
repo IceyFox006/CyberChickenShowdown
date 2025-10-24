@@ -26,6 +26,11 @@ public class FighterAnimator : MonoBehaviour
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));
     }
+    public void EndSuper()
+    {
+        EndAttacking();
+        GameManager.Instance.EnableAllInput();
+    }
     public void EndAttacking()
     {
         _owner.CombatManager.IsAttacking = false;
@@ -37,18 +42,6 @@ public class FighterAnimator : MonoBehaviour
         _fighterAnimator.ResetTrigger("triggerAnimation");
         _owner.CombatManager.IsHurt = false;
     }
-    public void EnactDie()
-    {
-        GameManager.Instance.EndRound(GameManager.Instance.GetOpponent(_owner));
-    }
-    public void StopAllGameplay()
-    {
-        GameManager.Instance.StopAllGameplay();
-    }
-    public void ResumeAllGameplay()
-    {
-        GameManager.Instance.ResumeAllGameplay();
-    }
     public void TriggerAnimation()
     {
         _fighterAnimator.SetTrigger("triggerAnimation");
@@ -56,6 +49,10 @@ public class FighterAnimator : MonoBehaviour
     public void TriggerVFXAnimation()
     {
         _VFXAnimator.SetTrigger("triggerAnimation");
+    }
+    public void DisableAllInput()
+    {
+        GameManager.Instance.DisableAllInput();
     }
     public void PlayTransitionClose()
     {

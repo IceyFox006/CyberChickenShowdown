@@ -1,12 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private PlayerInput _playerInput;
-
 
     private InputAction back;
     private InputAction block;
@@ -31,8 +29,6 @@ public class InputController : MonoBehaviour
         super.performed += Super_performed;
 
     }
-
-
     private void OnDestroy()
     {
         back.performed -= Back_performed;
@@ -40,6 +36,14 @@ public class InputController : MonoBehaviour
         block.canceled -= Block_canceled;
         reshuffle.performed -= Reshuffle_performed;
         super.performed -= Super_performed;
+    }
+    public void EnableInput()
+    {
+        _playerInput.currentActionMap.Enable();
+    }
+    public void DisableInput()
+    {
+        _playerInput.currentActionMap.Disable();
     }
     private void Back_performed(InputAction.CallbackContext obj)
     {
@@ -64,8 +68,7 @@ public class InputController : MonoBehaviour
     {
         if (!owner.CombatManager.IsSuperFull())
             return;
-        owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
-        owner.CombatManager.IsSuper = true;
+        GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
+        GameManager.Instance.CameraAnimator.SetInteger("PlayerID", owner.Data.ID);
     }
-
 }

@@ -33,6 +33,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _pauseCanvas;
     private bool paused;
     [SerializeField] private Animator _transitionAnimator;
+    private CanvasGroup[] canvases;
+
+    [Header("Camera")]
+    [SerializeField] private Animator _cameraAnimator;
 
     private InputAction reset;
     private InputAction quit;
@@ -54,6 +58,7 @@ public class GameManager : MonoBehaviour
     public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
     public bool Paused { get => paused; set => paused = value; }
     public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
+    public Animator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
 
     private void Awake()
     {
@@ -67,6 +72,8 @@ public class GameManager : MonoBehaviour
         reset.performed += Reset_performed;
         quit.performed += Quit_performed;
 
+        canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
+
         _transitionAnimator.Play("OpenAnimation");
     }
     public Player GetOpponent(Player player)
@@ -75,6 +82,14 @@ public class GameManager : MonoBehaviour
             return _player2;
         else if (player == _player2)
             return _player1;
+        return null;
+    }
+    public Player GetPlayerFromID(int id)
+    {
+        if (id == 1)
+            return _player1;
+        else if (id == 2)
+            return _player2;
         return null;
     }
     public Player DetermineWinner()
@@ -97,15 +112,29 @@ public class GameManager : MonoBehaviour
         else
             return _player2;
     }
-    public void StopAllGameplay()
+    public void EnableAllInput()
     {
-        _player1.Game.StopGameplay();
-        _player2.Game.StopGameplay();
+        _player1.InputController.EnableInput();
+        _player2.InputController.EnableInput();
+        foreach (CanvasGroup canvasGroup in canvases)
+            canvasGroup.interactable = true;
     }
-    public void ResumeAllGameplay()
+    public void DisableAllInput()
     {
-        _player1.Game.ResumeGameplay();
-        _player2.Game.ResumeGameplay();
+        _player1.InputController.DisableInput();
+        _player2.InputController.DisableInput();
+        foreach (CanvasGroup canvasGroup in canvases)
+            canvasGroup.interactable = false;
+    }
+    public void ShowUI()
+    {
+        foreach (CanvasGroup canvasGroup in canvases)
+            canvasGroup.alpha = 1;
+    }
+    public void HideUI()
+    {
+        foreach (CanvasGroup canvasGroup in canvases)
+            canvasGroup.alpha = 0;
     }
     public void PlayCloseTransition(Player winner)
     {

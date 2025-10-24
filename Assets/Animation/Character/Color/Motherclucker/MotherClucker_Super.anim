@@ -164,15 +164,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.041666668
-    functionName: StopAllGameplay
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 2.9583333
-    functionName: ResumeAllGameplay
+    functionName: EndSuper
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

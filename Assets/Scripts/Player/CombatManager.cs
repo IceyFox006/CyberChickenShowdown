@@ -97,7 +97,10 @@ public class CombatManager : MonoBehaviour
 
         if (target.CurrentHP <= 0)
         {
-            target.CombatManager.IsDead = true;
+            //target.CombatManager.isDead = true;
+            GameManager.Instance.CameraAnimator.SetBool("isDead", true);
+            GameManager.Instance.CameraAnimator.SetInteger("PlayerID", target.Data.ID);
+            GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
             owner.AudioManager.PlaySound("PlayerDeath");
         }
 

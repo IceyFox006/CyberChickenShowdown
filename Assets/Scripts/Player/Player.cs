@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     public PlayerSO Data { get => _data; set => _data = value; }
     public AudioManager AudioManager { get => _audioManager; set => _audioManager = value; }
     public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
+    public InputController InputController { get => _inputController; set => _inputController = value; }
 
     private void Awake()
     {
