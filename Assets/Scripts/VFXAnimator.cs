@@ -38,8 +38,7 @@ public class VFXAnimator : MonoBehaviour
     }
     public void ResumeAllGameplay()
     {
-        _owner.Game.ResumeGameplay();
-        GameManager.Instance.GetOpponent(_owner).Game.ResumeGameplay();
+        GameManager.Instance.ResumeAllGameplay();
     }
     public void EnactSuper()
     {

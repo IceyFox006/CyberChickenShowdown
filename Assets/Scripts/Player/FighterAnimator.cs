@@ -43,13 +43,11 @@ public class FighterAnimator : MonoBehaviour
     }
     public void StopAllGameplay()
     {
-        _owner.Game.StopGameplay();
-        GameManager.Instance.GetOpponent(_owner).Game.StopGameplay();
+        GameManager.Instance.StopAllGameplay();
     }
     public void ResumeAllGameplay()
     {
-        _owner.Game.ResumeGameplay();
-        GameManager.Instance.GetOpponent(_owner).Game.ResumeGameplay();
+        GameManager.Instance.ResumeAllGameplay();
     }
     public void TriggerAnimation()
     {

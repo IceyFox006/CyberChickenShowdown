@@ -97,6 +97,16 @@ public class GameManager : MonoBehaviour
         else
             return _player2;
     }
+    public void StopAllGameplay()
+    {
+        _player1.Game.StopGameplay();
+        _player2.Game.StopGameplay();
+    }
+    public void ResumeAllGameplay()
+    {
+        _player1.Game.ResumeGameplay();
+        _player2.Game.ResumeGameplay();
+    }
     public void PlayCloseTransition(Player winner)
     {
         EndRound(winner);
