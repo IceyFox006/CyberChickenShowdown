@@ -42,10 +42,6 @@ public class FighterAnimator : MonoBehaviour
         _fighterAnimator.ResetTrigger("triggerAnimation");
         _owner.CombatManager.IsHurt = false;
     }
-    public void EnactDie()
-    {
-        GameManager.Instance.EndRound(GameManager.Instance.GetOpponent(_owner));
-    }
     public void TriggerAnimation()
     {
         _fighterAnimator.SetTrigger("triggerAnimation");
@@ -53,6 +49,10 @@ public class FighterAnimator : MonoBehaviour
     public void TriggerVFXAnimation()
     {
         _VFXAnimator.SetTrigger("triggerAnimation");
+    }
+    public void DisableAllInput()
+    {
+        GameManager.Instance.DisableAllInput();
     }
     public void PlayTransitionClose()
     {
