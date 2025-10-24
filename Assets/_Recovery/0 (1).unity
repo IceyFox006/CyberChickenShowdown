@@ -3412,14 +3412,10 @@ PrefabInstance:
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3510380634617199987, guid: 7599ad14239e0094ab39d78c072b4c7b, type: 3}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4780344257589071889, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_UiScaleMode

@@ -204,7 +204,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.9166666
-    functionName: EnactSuper
+    functionName: TriggerVFXAnimation
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -212,13 +212,6 @@ AnimationClip:
     messageOptions: 0
   - time: 2.3333333
     functionName: EndAttacking
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 2.375
-    functionName: ResumeAllGameplay
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

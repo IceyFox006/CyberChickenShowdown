@@ -36,6 +36,11 @@ public class VFXAnimator : MonoBehaviour
         }
         
     }
+    public void ResumeAllGameplay()
+    {
+        _owner.Game.ResumeGameplay();
+        GameManager.Instance.GetOpponent(_owner).Game.ResumeGameplay();
+    }
     public void EnactSuper()
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));

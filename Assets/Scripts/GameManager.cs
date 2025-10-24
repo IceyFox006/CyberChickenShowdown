@@ -97,6 +97,11 @@ public class GameManager : MonoBehaviour
         else
             return _player2;
     }
+    public void PlayCloseTransition(Player winner)
+    {
+        EndRound(winner);
+        TransitionAnimator.Play("CloseAnimation");
+    }
     public void EndRound(Player winner)
     {
         winner.Data.Wins++;
