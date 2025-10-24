@@ -43,4 +43,9 @@ public class GameScreenAnimationEvents : MonoBehaviour
         owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
         owner.CombatManager.IsSuper = true;
     }
+    public void StartFighterDeathAnimation()
+    {
+        Player owner = GameManager.Instance.GetPlayerFromID(_animator.GetInteger("PlayerID"));
+        owner.CombatManager.IsDead = true;
+    }
 }
