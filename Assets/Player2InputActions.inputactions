@@ -394,7 +394,7 @@
                 {
                     "name": "",
                     "id": "6dd0dd2a-8b05-46db-bfef-44a77199538a",
-                    "path": "<Keyboard>/rightShift",
+                    "path": "<Keyboard>/rightCtrl",
                     "interactions": "Hold",
                     "processors": "",
                     "groups": "",
@@ -405,7 +405,7 @@
                 {
                     "name": "",
                     "id": "2995c073-62db-4d2f-aee2-1923216c3e22",
-                    "path": "<Keyboard>/rightCtrl",
+                    "path": "<Keyboard>/rightShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

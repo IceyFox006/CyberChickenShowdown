@@ -394,7 +394,7 @@
                 {
                     "name": "",
                     "id": "4942fc6c-2261-42bd-b7db-d24baf50e8b3",
-                    "path": "<Keyboard>/leftShift",
+                    "path": "<Keyboard>/leftCtrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -405,7 +405,7 @@
                 {
                     "name": "",
                     "id": "f794915c-99a2-4db2-969c-828c7ac047a7",
-                    "path": "<Keyboard>/leftCtrl",
+                    "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
