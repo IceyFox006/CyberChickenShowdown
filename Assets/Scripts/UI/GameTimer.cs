@@ -27,7 +27,10 @@ public class GameTimer : MonoBehaviour
                 LinkTimeToTimer();
             }
         }
-        GameManager.Instance.PlayCloseTransition(GameManager.Instance.DetermineWinner());
+        Player winner = GameManager.Instance.DetermineWinner();
+        winner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(winner), 999999);
+        //GameManager.Instance.GetOpponent(GameManager.Instance.DetermineWinner()).CurrentHP = 0;
+        //GameManager.Instance.PlayCloseTransition(GameManager.Instance.DetermineWinner());
     }
     private void LinkTimeToTimer()
     {

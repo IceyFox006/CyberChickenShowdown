@@ -80,7 +80,7 @@ public class CombatManager : MonoBehaviour
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
+    public void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
         target.CurrentHP -= damage;
         owner.UiHandler.DamageDealt += damage;
