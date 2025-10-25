@@ -68,7 +68,7 @@ public class InputController : MonoBehaviour
     {
         if (!owner.CombatManager.IsSuperFull())
             return;
-        GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
-        GameManager.Instance.CameraAnimator.SetInteger("PlayerID", owner.Data.ID);
+        GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
+        GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", owner.Data.ID);
     }
 }

@@ -977,6 +977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameScreenAnimationEvents
   _animator: {fileID: 752482047}
+  _impulseSource: {fileID: 1994169444}
 --- !u!1 &796368569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,7 +1682,7 @@ MonoBehaviour:
   _legUpMultiplier: 1.5
   _pauseCanvas: {fileID: 2091706523}
   _transitionAnimator: {fileID: 1819129135}
-  _cameraAnimator: {fileID: 752482047}
+  _cameraAnimator: {fileID: 752482048}
 --- !u!114 &1234573965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2781,7 +2782,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 0.1, y: 0.1, z: 0}
+  DefaultVelocity: {x: 1, y: 1, z: 0}
 --- !u!114 &1994169445
 MonoBehaviour:
   m_ObjectHideFlags: 0

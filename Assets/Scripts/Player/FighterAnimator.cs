@@ -58,6 +58,10 @@ public class FighterAnimator : MonoBehaviour
     {
         GameManager.Instance.DisableAllInput();
     }
+    public void NormalTime()
+    {
+        Time.timeScale = 1;
+    }
     public void PlayTransitionClose()
     {
         GameManager.Instance.PlayCloseTransition(GameManager.Instance.GetOpponent(_owner));

@@ -1,8 +1,14 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
-public class GameScreenAnimationEvents : MonoBehaviour
+public class CameraAnimator : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+    [SerializeField] private CinemachineImpulseSource _impulseSource;
+
+    public Animator Animator { get => _animator; set => _animator = value; }
+    public CinemachineImpulseSource ImpulseSource { get => _impulseSource; set => _impulseSource = value; }
+
     public void SetTrigger()
     {
         _animator.SetTrigger("triggerAnimation");
@@ -30,6 +36,10 @@ public class GameScreenAnimationEvents : MonoBehaviour
     public void FreezeTime()
     {
         Time.timeScale = 0f;
+    }
+    public void SlowTime()
+    {
+        Time.timeScale = 0.5f;
     }
     public void NormalTime()
     {
