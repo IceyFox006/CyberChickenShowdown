@@ -1662,7 +1662,7 @@ MonoBehaviour:
   _universalInput: {fileID: 1306314344}
   _player1: {fileID: 1028971726}
   _player2: {fileID: 939394337}
-  _gameTime: 5
+  _gameTime: 90
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _virusPiece: {fileID: 11400000, guid: 77539dfa6231c9b479311944075cf906, type: 2}
@@ -3231,7 +3231,7 @@ PrefabInstance:
     - target: {fileID: 2123477882378706702, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2574d36fe5def1a498bc114f35267c2c, type: 2}
+      objectReference: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
     - target: {fileID: 2216385492403157292, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3599,6 +3599,14 @@ PrefabInstance:
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_FlipX
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Size.x
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Size.y
+      value: 10.8
       objectReference: {fileID: 0}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Sprite

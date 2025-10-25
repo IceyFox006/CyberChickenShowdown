@@ -86,7 +86,7 @@ public class CombatManager : MonoBehaviour
         owner.UiHandler.DamageDealt += damage;
         CorrectHPAmount();
 
-        target.CombatManager.IsHurt = true;
+
         if (spawnFloatingText)
         {
             if (damageElement == null)
@@ -97,12 +97,14 @@ public class CombatManager : MonoBehaviour
 
         if (target.CurrentHP <= 0)
         {
-            //target.CombatManager.isDead = true;
+            target.CombatManager.IsDead = true;
             GameManager.Instance.CameraAnimator.SetBool("isDead", true);
             GameManager.Instance.CameraAnimator.SetInteger("PlayerID", target.Data.ID);
             GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
             owner.AudioManager.PlaySound("PlayerDeath");
         }
+        else
+            target.CombatManager.IsHurt = true;
 
     }
     public void RegenHealth(Player target, float regenValue)
