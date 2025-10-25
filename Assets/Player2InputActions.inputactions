@@ -382,6 +382,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8f497d1c-4313-4a8e-8757-36b127e1a904",
+                    "path": "<Keyboard>/rightAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "49989882-ff45-441f-a311-f5819e94dc12",
                     "path": "<Keyboard>/slash",
                     "interactions": "",
