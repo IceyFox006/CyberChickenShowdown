@@ -188,7 +188,7 @@ public class GameManager : MonoBehaviour
         _player1.EventSystem.enabled = false;
         _player2.EventSystem.enabled = false;
     }
-
+    
     public void ResumeGame()
     {
         if (!StaticData.IsKeyboardControls)

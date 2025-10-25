@@ -27,14 +27,25 @@ public class GameScreenAnimationEvents : MonoBehaviour
     {
         GameManager.Instance.DisableAllInput();
     }
+    public void FreezeTime()
+    {
+        Time.timeScale = 0f;
+    }
+    public void NormalTime()
+    {
+        Time.timeScale = 1;
+    }
+    public void EndZoomIn()
+    {
+        ResetTrigger();
+        NormalTime();
+    }
     public void StartAnimationSequence()
     {
         GameManager.Instance.IsTimerGoing = false;
         HideUI();
         DisableAllInput();
-        //Pause fighter animation
-        //Play super activate VFX
-
+        FreezeTime();
         ResetTrigger();
     }
     public void StartFighterSuperAnimation()
