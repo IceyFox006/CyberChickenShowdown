@@ -29,6 +29,7 @@ public class GameScreenAnimationEvents : MonoBehaviour
     }
     public void StartAnimationSequence()
     {
+        GameManager.Instance.IsTimerGoing = false;
         HideUI();
         DisableAllInput();
         //Pause fighter animation

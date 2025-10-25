@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Player _player1;
     [SerializeField] private Player _player2;
     [SerializeField] private int _gameTime = 60; //By ticks
+    private bool isTimerGoing = true;
 
     [Header("Match Game")]
     [SerializeField] private MatchPieceSO _wallPiece;
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
     public bool Paused { get => paused; set => paused = value; }
     public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
     public Animator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
+    public bool IsTimerGoing { get => isTimerGoing; set => isTimerGoing = value; }
 
     private void Awake()
     {

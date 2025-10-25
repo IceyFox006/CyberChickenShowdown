@@ -5,6 +5,9 @@ public class FighterAnimator : MonoBehaviour
     [SerializeField] private Player _owner;
     [SerializeField] private Animator _fighterAnimator;
     [SerializeField] private Animator _VFXAnimator;
+
+    public Animator Animator { get => _fighterAnimator; set => _fighterAnimator = value; }
+
     private void Start()
     {
         _fighterAnimator.runtimeAnimatorController = _owner.Data.Fighter.AnimationController;
@@ -30,6 +33,7 @@ public class FighterAnimator : MonoBehaviour
     {
         EndAttacking();
         GameManager.Instance.EnableAllInput();
+        GameManager.Instance.IsTimerGoing = true;
     }
     public void EndAttacking()
     {

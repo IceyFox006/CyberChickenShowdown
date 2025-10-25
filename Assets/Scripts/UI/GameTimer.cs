@@ -21,12 +21,13 @@ public class GameTimer : MonoBehaviour
         while (currentTime > 0)
         {
             yield return new WaitForSeconds(GameManager.Instance.Tick);
-            currentTime--;
-            LinkTimeToTimer();
+            if (GameManager.Instance.IsTimerGoing)
+            {
+                currentTime--;
+                LinkTimeToTimer();
+            }
         }
         GameManager.Instance.PlayCloseTransition(GameManager.Instance.DetermineWinner());
-        //GameManager.Instance.EndRound(GameManager.Instance.DetermineWinner());
-
     }
     private void LinkTimeToTimer()
     {
