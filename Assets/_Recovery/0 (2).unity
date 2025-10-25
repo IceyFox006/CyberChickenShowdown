@@ -286,7 +286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &55306570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,12 +303,12 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: 9ab16ccde86a7b94ba74dea21d697b9e, type: 3}
-  m_PointAction: {fileID: -4481710496564309259, guid: 9ab16ccde86a7b94ba74dea21d697b9e, type: 3}
-  m_MoveAction: {fileID: -4146301416210905846, guid: 9ab16ccde86a7b94ba74dea21d697b9e, type: 3}
-  m_SubmitAction: {fileID: -8814358051226601168, guid: 9ab16ccde86a7b94ba74dea21d697b9e, type: 3}
-  m_CancelAction: {fileID: 0}
-  m_LeftClickAction: {fileID: -1358273789744858024, guid: 9ab16ccde86a7b94ba74dea21d697b9e, type: 3}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: -7889449984039731693, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_SubmitAction: {fileID: 6363428132775341408, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_CancelAction: {fileID: 8607981194174956822, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+  m_LeftClickAction: {fileID: 0}
   m_MiddleClickAction: {fileID: 0}
   m_RightClickAction: {fileID: 0}
   m_ScrollWheelAction: {fileID: 0}
@@ -882,7 +882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrain
   ShowDebugText: 0
   ShowCameraFrustum: 1
-  IgnoreTimeScale: 1
+  IgnoreTimeScale: 0
   WorldUpOverride: {fileID: 0}
   ChannelMask: -1
   UpdateMethod: 2
@@ -954,7 +954,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 336a4dbc00bef2b45b2fb849b85acb12, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
+  m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -977,7 +977,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameScreenAnimationEvents
   _animator: {fileID: 752482047}
-  _impulseSource: {fileID: 1994169444}
 --- !u!1 &796368569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1681,7 @@ MonoBehaviour:
   _legUpMultiplier: 1.5
   _pauseCanvas: {fileID: 2091706523}
   _transitionAnimator: {fileID: 1819129135}
-  _cameraAnimator: {fileID: 752482048}
+  _cameraAnimator: {fileID: 752482047}
 --- !u!114 &1234573965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,7 +2781,7 @@ MonoBehaviour:
     DissipationMode: 2
     DissipationDistance: 100
     PropagationSpeed: 343
-  DefaultVelocity: {x: 1, y: 1, z: 0}
+  DefaultVelocity: {x: 0.1, y: 0.1, z: 0}
 --- !u!114 &1994169445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3232,7 +3231,7 @@ PrefabInstance:
     - target: {fileID: 2123477882378706702, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
+      objectReference: {fileID: 9100000, guid: 2574d36fe5def1a498bc114f35267c2c, type: 2}
     - target: {fileID: 2216385492403157292, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3600,14 +3599,6 @@ PrefabInstance:
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_FlipX
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_Size.x
-      value: 38.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_Size.y
-      value: 10.8
       objectReference: {fileID: 0}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Sprite

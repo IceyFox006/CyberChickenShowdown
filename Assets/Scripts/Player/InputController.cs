@@ -53,11 +53,11 @@ public class InputController : MonoBehaviour
     }
     private void Block_started(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.StartBlocking();
+        //owner.CombatManager.StartBlocking();
     }
     private void Block_canceled(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.StopBlocking();
+        //owner.CombatManager.StopBlocking();
     }
     private void Reshuffle_performed(InputAction.CallbackContext obj)
     {
@@ -68,7 +68,7 @@ public class InputController : MonoBehaviour
     {
         if (!owner.CombatManager.IsSuperFull())
             return;
-        GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
-        GameManager.Instance.CameraAnimator.SetInteger("PlayerID", owner.Data.ID);
+        GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
+        GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", owner.Data.ID);
     }
 }

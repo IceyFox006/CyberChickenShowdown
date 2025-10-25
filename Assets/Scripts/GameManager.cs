@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Player _player1;
     [SerializeField] private Player _player2;
     [SerializeField] private int _gameTime = 60; //By ticks
+    private bool isTimerGoing = true;
 
     [Header("Match Game")]
     [SerializeField] private MatchPieceSO _wallPiece;
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
     private CanvasGroup[] canvases;
 
     [Header("Camera")]
-    [SerializeField] private Animator _cameraAnimator;
+    [SerializeField] private CameraAnimator _cameraAnimator;
 
     private InputAction reset;
     private InputAction quit;
@@ -58,7 +59,8 @@ public class GameManager : MonoBehaviour
     public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
     public bool Paused { get => paused; set => paused = value; }
     public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
-    public Animator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
+    public CameraAnimator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
+    public bool IsTimerGoing { get => isTimerGoing; set => isTimerGoing = value; }
 
     private void Awake()
     {
@@ -186,7 +188,7 @@ public class GameManager : MonoBehaviour
         _player1.EventSystem.enabled = false;
         _player2.EventSystem.enabled = false;
     }
-
+    
     public void ResumeGame()
     {
         if (!StaticData.IsKeyboardControls)

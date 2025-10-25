@@ -80,13 +80,13 @@ public class CombatManager : MonoBehaviour
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
+    public void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
         target.CurrentHP -= damage;
         owner.UiHandler.DamageDealt += damage;
         CorrectHPAmount();
 
-        target.CombatManager.IsHurt = true;
+
         if (spawnFloatingText)
         {
             if (damageElement == null)
@@ -97,12 +97,14 @@ public class CombatManager : MonoBehaviour
 
         if (target.CurrentHP <= 0)
         {
-            //target.CombatManager.isDead = true;
-            GameManager.Instance.CameraAnimator.SetBool("isDead", true);
-            GameManager.Instance.CameraAnimator.SetInteger("PlayerID", target.Data.ID);
-            GameManager.Instance.CameraAnimator.SetTrigger("triggerAnimation");
+            target.CombatManager.IsDead = true;
+            GameManager.Instance.CameraAnimator.Animator.SetBool("isDead", true);
+            GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", target.Data.ID);
+            GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
             owner.AudioManager.PlaySound("PlayerDeath");
         }
+        else
+            target.CombatManager.IsHurt = true;
 
     }
     public void RegenHealth(Player target, float regenValue)
