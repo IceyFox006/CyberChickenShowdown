@@ -9,6 +9,7 @@ public class GeneralUI : MonoBehaviour
     }
     public void SetUnactive(GameObject gameObject)
     {
+        Debug.Log(";");
         gameObject.SetActive(false);
     }
     public void EnableImage(Image image)
