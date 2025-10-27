@@ -18,8 +18,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
   _resistances:
   - {fileID: 11400000, guid: d946f74356ed0db4e9ca8f68ee9a4803, type: 2}
-  _icon: {fileID: 21300000, guid: 5584ae0ff65475b42902167cfcd121b3, type: 3}
+  _icon: {fileID: 3664396984090529868, guid: b810b62f6dd075347a00be20e893bbe6, type: 3}
   _damageFT:
     _isInternal: 0
     _text: 
     _color: {r: 0.2784314, g: 0.8470589, b: 0.2901961, a: 0}
+    _size: 24
+    _isBold: 0
+    _isItalic: 0
