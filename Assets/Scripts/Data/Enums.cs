@@ -37,10 +37,4 @@ public class Enums : MonoBehaviour
         HackOpponentBoard,
         FighterElementAttackBoost,
     }
-    public enum Scenes
-    {
-        NextRound,
-        Title,
-        CharacterSelect,
-    }
 }
