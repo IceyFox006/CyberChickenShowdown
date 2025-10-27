@@ -143,6 +143,11 @@ public class GameManager : MonoBehaviour
         EndRound(winner);
         TransitionAnimator.Play("CloseAnimation");
     }
+    public void PlayCloseTransition(string scene)
+    {
+        _transitionAnimator.GetComponent<AnimationEventsGeneral>().SceneChange = scene;
+        _transitionAnimator.Play("CloseAnimation");
+    }
     public void EndRound(Player winner)
     {
         winner.Data.Wins++;

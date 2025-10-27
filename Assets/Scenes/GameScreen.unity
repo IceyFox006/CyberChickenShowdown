@@ -465,7 +465,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 279487023}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234573964}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PlayCloseTransition
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TitleScreen
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &279487023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,7 +1109,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 817857195}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234573964}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PlayCloseTransition
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CharacterSelectScreen
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &817857195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2383,6 +2407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition
       objectReference: {fileID: 0}
+    - target: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4354259970097859790, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
@@ -2607,7 +2635,7 @@ Canvas:
   m_GameObject: {fileID: 1841503280}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 639125225}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2900,7 +2928,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2077935823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234573964}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2077935823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3032,8 +3072,8 @@ Canvas:
   m_GameObject: {fileID: 2091706523}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 639125225}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3043,8 +3083,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 100
+  m_SortingLayerID: 1745401011
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1 &2094100655
 GameObject:
@@ -3160,6 +3200,14 @@ PrefabInstance:
     - target: {fileID: 339656186425857082, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -165
+      objectReference: {fileID: 0}
+    - target: {fileID: 492338859294509107, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 492338859294509107, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 864227143160906882, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_IsActive
@@ -3579,7 +3627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4384469955773996260, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -330
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: 4475785806109002025, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3692,6 +3740,14 @@ PrefabInstance:
     - target: {fileID: 5063659737251850545, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 5114771036503104337, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 5114771036503104337, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1745401011
       objectReference: {fileID: 0}
     - target: {fileID: 5147168010923276886, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4407,6 +4463,14 @@ PrefabInstance:
       propertyPath: m_DefaultActionMap
       value: Keyboard
       objectReference: {fileID: 0}
+    - target: {fileID: 492338859294509107, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 492338859294509107, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 891912602777743600, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -4663,6 +4727,18 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5114771036503104337, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 639125225}
+    - target: {fileID: 5114771036503104337, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5114771036503104337, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1745401011
+      objectReference: {fileID: 0}
     - target: {fileID: 5237101605086524142, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Name
       value: PlayerRevamped1
@@ -4739,18 +4815,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -22.599976
       objectReference: {fileID: 0}
-    - target: {fileID: 8321135773863615103, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8321135773863615103, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 8321135773863615103, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 1080
-      objectReference: {fileID: 0}
     - target: {fileID: 8442944687043602789, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_MoveAction
       value: 
@@ -4811,9 +4875,9 @@ SceneRoots:
   - {fileID: 1102258549}
   - {fileID: 1742450025}
   - {fileID: 1234573963}
-  - {fileID: 325102680}
   - {fileID: 55306572}
   - {fileID: 558793616}
   - {fileID: 1433942747}
   - {fileID: 3428578527685354732}
   - {fileID: 2135896195}
+  - {fileID: 325102680}
