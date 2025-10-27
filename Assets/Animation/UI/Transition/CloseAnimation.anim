@@ -436,7 +436,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.9583333
-    functionName: NextRound
+    functionName: LoadSceneChange
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

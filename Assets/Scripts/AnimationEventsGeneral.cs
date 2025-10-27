@@ -5,6 +5,10 @@ public class AnimationEventsGeneral : MonoBehaviour
 {
     private Animator animator;
 
+    private string sceneChange = "NextRound";
+
+    public string SceneChange { get => sceneChange; set => sceneChange = value; }
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -26,8 +30,15 @@ public class AnimationEventsGeneral : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    public void NextRound()
+    public void LoadSceneChange()
     {
-        GameManager.Instance.NextRound();
+        Time.timeScale = 1;
+        switch (sceneChange)
+        {
+            case "NextRound":
+                GameManager.Instance.NextRound(); break;
+            default:
+                SceneManager.LoadScene(sceneChange); break;
+        }
     }
 }

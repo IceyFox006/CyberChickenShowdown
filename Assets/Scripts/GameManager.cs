@@ -35,6 +35,9 @@ public class GameManager : MonoBehaviour
     private bool paused;
     [SerializeField] private Animator _transitionAnimator;
     private CanvasGroup[] canvases;
+    [SerializeField] private Image _universalControlsImage;
+    [SerializeField] private Sprite _arcadeControlsSprite;
+    [SerializeField] private Sprite _keyboardControlsSprite;
 
     [Header("Camera")]
     [SerializeField] private CameraAnimator _cameraAnimator;
@@ -77,6 +80,11 @@ public class GameManager : MonoBehaviour
         canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
 
         _transitionAnimator.Play("OpenAnimation");
+
+        if (StaticData.IsKeyboardControls)
+            _universalControlsImage.sprite = _keyboardControlsSprite;
+        else
+            _universalControlsImage.sprite = _arcadeControlsSprite;
     }
     public Player GetOpponent(Player player)
     {
@@ -143,6 +151,11 @@ public class GameManager : MonoBehaviour
         EndRound(winner);
         TransitionAnimator.Play("CloseAnimation");
     }
+    public void PlayCloseTransition(string scene)
+    {
+        _transitionAnimator.GetComponent<AnimationEventsGeneral>().SceneChange = scene;
+        _transitionAnimator.Play("CloseAnimation");
+    }
     public void EndRound(Player winner)
     {
         winner.Data.Wins++;
@@ -170,12 +183,6 @@ public class GameManager : MonoBehaviour
             ResumeGame();
         else
             PauseGame();
-        /*
-        Application.Quit();
-        #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-        #endif
-        */
     }
 
     public void PauseGame()
@@ -185,6 +192,7 @@ public class GameManager : MonoBehaviour
         paused = true;
         PauseCanvas.SetActive(true);
         Time.timeScale = 0;
+        HideUI();
         _player1.EventSystem.enabled = false;
         _player2.EventSystem.enabled = false;
     }
@@ -196,6 +204,7 @@ public class GameManager : MonoBehaviour
         paused = false;
         PauseCanvas.SetActive(false);
         Time.timeScale = 1;
+        ShowUI();
         _player1.EventSystem.enabled = true;
         _player2.EventSystem.enabled = true;
     }
