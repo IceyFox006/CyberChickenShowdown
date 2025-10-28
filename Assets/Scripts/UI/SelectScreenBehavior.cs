@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,6 @@ public class SelectScreenBehavior : MonoBehaviour
     [SerializeField] private PlayerSelectScreen _player2;
 
     [Header("UI")]
-    [SerializeField] private Animator _transitionAnimator;
     [SerializeField] private GameObject _chooseMatchNumberUIGO;
     [SerializeField] private GameObject _fsCMNUI;
 
@@ -21,20 +21,16 @@ public class SelectScreenBehavior : MonoBehaviour
     public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
 
-    private void Start()
+    private void Awake()
     {
-        _transitionAnimator.Play("OpenAnimation");
+        instance = this;
     }
     public void SetRoundCount(int  matchCount)
     {
         StaticData.InitialMatchCount = matchCount;
         StaticData.CurrentMatchCount = 1;
 
-        SceneManager.LoadScene("GameScreen");
-    }
-    private void Awake()
-    {
-        instance = this;
+        TransitionBehavior.Instance.PlayClose("GameScreen");
     }
     public PlayerSelectScreen GetOtherPlayer(PlayerSelectScreen player)
     {

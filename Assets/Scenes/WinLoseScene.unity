@@ -531,7 +531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: function
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: facingRight
@@ -827,7 +827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: function
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: facingRight
@@ -941,7 +941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: function
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3875926043903839523, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: facingRight
@@ -1249,7 +1249,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 301d0c6b1243ad14d9b306f660aabe7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transitionAnimator: {fileID: 1564997490}
   _winnerText: {fileID: 1575724882}
   _winnerQuoteText: {fileID: 2043658102}
 --- !u!1 &1443997792
@@ -1360,11 +1359,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!95 &1564997490 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
-  m_PrefabInstance: {fileID: 377009877}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1575724880
 GameObject:
   m_ObjectHideFlags: 0

@@ -231,7 +231,6 @@ MonoBehaviour:
   _universalEventSystem: {fileID: 1085603510}
   _player1: {fileID: 904126127}
   _player2: {fileID: 1756407957}
-  _transitionAnimator: {fileID: 379971228}
   _chooseMatchNumberUIGO: {fileID: 656782416}
   _fsCMNUI: {fileID: 1342458401}
 --- !u!4 &215442340
@@ -573,11 +572,6 @@ PrefabInstance:
 --- !u!224 &379971227 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6084701080737213569, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
-  m_PrefabInstance: {fileID: 379971226}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &379971228 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2288369964820104796, guid: 45cf31774f8d7834fb651edd29216249, type: 3}
   m_PrefabInstance: {fileID: 379971226}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &422213332 stripped
@@ -962,7 +956,7 @@ RectTransform:
   m_Children:
   - {fileID: 938284218}
   - {fileID: 1031227805}
-  m_Father: {fileID: 1368340804}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3793,6 +3787,7 @@ SceneRoots:
   - {fileID: 216899937}
   - {fileID: 215442340}
   - {fileID: 625907896}
+  - {fileID: 656782420}
   - {fileID: 1368340804}
   - {fileID: 1712140361}
   - {fileID: 1085603511}
