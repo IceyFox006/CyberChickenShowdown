@@ -98,15 +98,7 @@ public class PlayerMatch3 : MonoBehaviour
                 if (connectedPiecesToPiece.Count > 0)
                     RegisterMatch(new Match(owner, piece.MatchPiece.Element, connectedPieces)); //!!!
                 foreach (GridPoint gridPoint in connectedPieces)
-                {
                     GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
-                    //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                    //if (cellPiece != null)
-                    //    cellPiece.GetComponent<Image>().enabled = false;
-                    //cellPiece.PlayBreakParticles();
-                    //cellPiece.SetUp(GameManager.Instance.EmptyPiece); 
-
-                }
 
             }
             ApplyGravityToBoard();
@@ -114,8 +106,8 @@ public class PlayerMatch3 : MonoBehaviour
             swappedPieces.Remove(swapped);
             RemoveUpdatingPiece(ref piecesUpdating, piece);
             ElimateConnectedPieces();
-            if (IsBoardFull())
-                ReshuffleOnNoMatches();
+            //if (IsBoardFull())
+            //    RecursiveReshuffle();
         }
     }
     
@@ -128,6 +120,7 @@ public class PlayerMatch3 : MonoBehaviour
         ValidateGameBoard();
         InstantiateGameBoard();
         SetSelectedPieceToStartPiece();
+        StartCoroutine(ReshuffleCheckInterval());
     }
 
     //Selects the first selectable piece in the board starting in the top left.
@@ -175,10 +168,23 @@ public class PlayerMatch3 : MonoBehaviour
         }
         ValidateGameBoard(true);
     }
-
-    public void ReshuffleOnNoMatches()
+    private void RecursiveReshuffle()
     {
-        GridPoint[] directions = {GridPoint.up, GridPoint.right, GridPoint.left, GridPoint.down};
+        while (!DoMatchesExist())
+            ReshuffleBoard();
+    }
+    private IEnumerator ReshuffleCheckInterval()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            if (IsBoardFull())
+                RecursiveReshuffle();
+        }
+    }
+    private bool DoMatchesExist()
+    {
+        GridPoint[] directions = { GridPoint.up, GridPoint.right, GridPoint.left, GridPoint.down };
         List<GridPoint> connectedPieces = new List<GridPoint>();
         for (int x = 0; x < _boardWidth; x++)
         {
@@ -189,7 +195,7 @@ public class PlayerMatch3 : MonoBehaviour
                     continue;
                 foreach (GridPoint direction in directions)
                 {
-                    GridPoint swapPoint = new GridPoint (x + direction.X, y + direction.Y);
+                    GridPoint swapPoint = new GridPoint(x + direction.X, y + direction.Y);
 
                     if (!IsGridPointInBounds(swapPoint))
                         continue;
@@ -202,14 +208,13 @@ public class PlayerMatch3 : MonoBehaviour
                     if (connectedPieces.Count > 2)
                     {
                         Debug.Log(owner.Data.Name + "\t" + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
-                        return;
+                        return true;
                     }
 
                 }
             }
         }
-        Debug.Log("Reshuffle here");
-        ReshuffleBoard();
+        return false;
     }
 
     //Checks over all pieces on the board and removes matches.
@@ -363,14 +368,7 @@ public class PlayerMatch3 : MonoBehaviour
                 {
                     RegisterMatch(new Match(owner, GameManager.Instance.MatchPieces[(int)element - 1].Element, connectedPieces)); //!!!
                     foreach (GridPoint gridPoint in connectedPieces)
-                    {
                         GetCellAtGridPoint(gridPoint).ActivePieceController.Remove();
-                        //ActivePieceController cellPiece = GetCellAtGridPoint(gridPoint).ActivePieceController;
-                        //if (cellPiece != null)
-                        //    cellPiece.GetComponent<Image>().enabled = false; //cellPiece.gameObject.SetActive(false);
-                        //cellPiece.SetUp(GameManager.Instance.EmptyPiece);
-                    }
-
                 }
             }
         }
