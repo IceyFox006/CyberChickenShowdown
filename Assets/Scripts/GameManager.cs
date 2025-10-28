@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -31,13 +32,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _legUpMultiplier;
 
     [Header("UI")]
+    [SerializeField] private EventSystem _universalEventSystem;
     [SerializeField] private GameObject _pauseCanvas;
+    [SerializeField] private GameObject _pauseFS;
     private bool paused;
     [SerializeField] private Animator _transitionAnimator;
     private CanvasGroup[] canvases;
-    [SerializeField] private Image _universalControlsImage;
-    [SerializeField] private Sprite _arcadeControlsSprite;
-    [SerializeField] private Sprite _keyboardControlsSprite;
 
     [Header("Camera")]
     [SerializeField] private CameraAnimator _cameraAnimator;
@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     private InputAction reset;
     private InputAction quit;
 
+    #region GetSetters
     public static GameManager Instance { get => instance; set => instance = value; }
     public MatchPieceSO WallPiece { get => _wallPiece; set => _wallPiece = value; }
     public MatchPieceSO EmptyPiece { get => _emptyPiece; set => _emptyPiece = value; }
@@ -64,6 +65,9 @@ public class GameManager : MonoBehaviour
     public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
     public CameraAnimator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
     public bool IsTimerGoing { get => isTimerGoing; set => isTimerGoing = value; }
+    public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
+    public GameObject PauseFS { get => _pauseFS; set => _pauseFS = value; }
+    #endregion
 
     private void Awake()
     {
@@ -80,11 +84,6 @@ public class GameManager : MonoBehaviour
         canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
 
         _transitionAnimator.Play("OpenAnimation");
-
-        if (StaticData.IsKeyboardControls)
-            _universalControlsImage.sprite = _keyboardControlsSprite;
-        else
-            _universalControlsImage.sprite = _arcadeControlsSprite;
     }
     public Player GetOpponent(Player player)
     {
@@ -180,7 +179,10 @@ public class GameManager : MonoBehaviour
     private void Quit_performed(InputAction.CallbackContext obj)
     {
         if (paused)
+        {
+            PauseScreenBehavior.Instance.UniversalControlsImage.gameObject.SetActive(false);
             ResumeGame();
+        }
         else
             PauseGame();
     }
@@ -191,6 +193,7 @@ public class GameManager : MonoBehaviour
             return;
         paused = true;
         PauseCanvas.SetActive(true);
+        _universalEventSystem.SetSelectedGameObject(_pauseFS);
         Time.timeScale = 0;
         HideUI();
         _player1.EventSystem.enabled = false;
