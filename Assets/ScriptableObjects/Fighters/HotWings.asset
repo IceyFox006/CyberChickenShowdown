@@ -19,7 +19,7 @@ MonoBehaviour:
   _winQuotes:
   - '*insane air guitar solo*'
   - What a show!
-  _HP: 1000
+  _HP: 50
   _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 5

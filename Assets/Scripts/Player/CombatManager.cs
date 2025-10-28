@@ -82,6 +82,9 @@ public class CombatManager : MonoBehaviour
 
     public void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
+        if (target.CombatManager.IsDead)
+            return;
+
         target.CurrentHP -= damage;
         owner.UiHandler.DamageDealt += damage;
         CorrectHPAmount();
@@ -101,7 +104,6 @@ public class CombatManager : MonoBehaviour
             GameManager.Instance.CameraAnimator.Animator.SetBool("isDead", true);
             GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", target.Data.ID);
             GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
-            owner.AudioManager.PlaySound("PlayerDeath");
         }
         else
             target.CombatManager.IsHurt = true;
