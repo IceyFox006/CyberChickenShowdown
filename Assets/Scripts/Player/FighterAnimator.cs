@@ -25,6 +25,10 @@ public class FighterAnimator : MonoBehaviour
         _fighterAnimator.SetBool("isHurt", _owner.CombatManager.IsHurt);
         _fighterAnimator.SetBool("isDead", _owner.CombatManager.IsDead);
     }
+    public void PlaySFX(string name)
+    {
+        _owner.AudioManager.PlaySound(name);
+    }
     public void EnactSuper()
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));

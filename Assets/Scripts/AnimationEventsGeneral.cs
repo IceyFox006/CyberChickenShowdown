@@ -13,7 +13,6 @@ public class AnimationEventsGeneral : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-
     public void TriggerAnimation()
     {
         animator.SetTrigger("triggerAnimation");
@@ -21,6 +20,10 @@ public class AnimationEventsGeneral : MonoBehaviour
     public void ResetTrigger()
     {
         animator.ResetTrigger("triggerAnimation");
+    }
+    public void PlaySFX(string name)
+    {
+        AudioManager.Instance.PlaySound(name);
     }
     public void DestroyObject()
     {

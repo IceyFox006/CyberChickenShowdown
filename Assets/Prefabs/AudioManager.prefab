@@ -78,6 +78,21 @@ MonoBehaviour:
   - _name: DirectMatch
     _clip: {fileID: 8300000, guid: 6751a96bba5ff1142b877d625303bb85, type: 3}
     _volume: 1
+  - _name: FireSuper
+    _clip: {fileID: 0}
+    _volume: 1
+  - _name: GravitySuper
+    _clip: {fileID: 8300000, guid: 4571b22796fda1d429d314dc3e925526, type: 3}
+    _volume: 1
+  - _name: HackSuper
+    _clip: {fileID: 0}
+    _volume: 1
+  - _name: PlasmaSuper
+    _clip: {fileID: 0}
+    _volume: 1
+  - _name: DirectSuper
+    _clip: {fileID: 8300000, guid: 4632da530feb51b47b39435365cb225d, type: 3}
+    _volume: 1
   - _name: BlockActivate
     _clip: {fileID: 8300000, guid: 3dca0c82b72787747acfcb2c9d494a55, type: 3}
     _volume: 1
@@ -86,4 +101,10 @@ MonoBehaviour:
     _volume: 1
   - _name: PlayerDeath
     _clip: {fileID: 8300000, guid: a6e911f35a4f45c4eac297d53967e061, type: 3}
+    _volume: 1
+  - _name: TransitionOpen
+    _clip: {fileID: 8300000, guid: c6ff4f6dc1124d244a729740542fe406, type: 3}
+    _volume: 1
+  - _name: TransitionClose
+    _clip: {fileID: 8300000, guid: f13f49f1edb94f64d9c01e8d7897b275, type: 3}
     _volume: 1
