@@ -36,7 +36,6 @@ public class AnimationEventsGeneral : MonoBehaviour
     public void LoadSceneChange()
     {
         Time.timeScale = 1;
-        Debug.Log(sceneChange);
         switch (sceneChange)
         {
             case "NextRound":
