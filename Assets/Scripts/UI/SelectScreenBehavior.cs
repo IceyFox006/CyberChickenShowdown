@@ -13,7 +13,6 @@ public class SelectScreenBehavior : MonoBehaviour
     [SerializeField] private PlayerSelectScreen _player2;
 
     [Header("UI")]
-    [SerializeField] private Animator _transitionAnimator;
     [SerializeField] private GameObject _chooseMatchNumberUIGO;
     [SerializeField] private GameObject _fsCMNUI;
 
@@ -26,18 +25,12 @@ public class SelectScreenBehavior : MonoBehaviour
     {
         instance = this;
     }
-    private void Start()
-    {
-        _transitionAnimator.Play("OpenAnimation");
-    }
     public void SetRoundCount(int  matchCount)
     {
         StaticData.InitialMatchCount = matchCount;
         StaticData.CurrentMatchCount = 1;
 
-        _transitionAnimator.GetComponent<AnimationEventsGeneral>().SceneChange = "GameScreen";
-        _transitionAnimator.Play("CloseAnimation");
-        //SceneManager.LoadScene("GameScreen");
+        TransitionBehavior.Instance.PlayClose("GameScreen");
     }
     public PlayerSelectScreen GetOtherPlayer(PlayerSelectScreen player)
     {

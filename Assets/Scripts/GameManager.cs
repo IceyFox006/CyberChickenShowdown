@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _pauseCanvas;
     [SerializeField] private GameObject _pauseFS;
     private bool paused;
-    [SerializeField] private Animator _transitionAnimator;
     private CanvasGroup[] canvases;
 
     [Header("Camera")]
@@ -62,7 +61,6 @@ public class GameManager : MonoBehaviour
     public float LegUpMultiplier { get => _legUpMultiplier; set => _legUpMultiplier = value; }
     public GameObject PauseCanvas { get => _pauseCanvas; set => _pauseCanvas = value; }
     public bool Paused { get => paused; set => paused = value; }
-    public Animator TransitionAnimator { get => _transitionAnimator; set => _transitionAnimator = value; }
     public CameraAnimator CameraAnimator { get => _cameraAnimator; set => _cameraAnimator = value; }
     public bool IsTimerGoing { get => isTimerGoing; set => isTimerGoing = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
@@ -82,8 +80,6 @@ public class GameManager : MonoBehaviour
         quit.performed += Quit_performed;
 
         canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
-
-        _transitionAnimator.Play("OpenAnimation");
     }
     public Player GetOpponent(Player player)
     {
@@ -148,12 +144,12 @@ public class GameManager : MonoBehaviour
     public void PlayCloseTransition(Player winner)
     {
         EndRound(winner);
-        TransitionAnimator.Play("CloseAnimation");
+        TransitionBehavior.Instance.PlayClose();
     }
     public void PlayCloseTransition(string scene)
     {
-        _transitionAnimator.GetComponent<AnimationEventsGeneral>().SceneChange = scene;
-        _transitionAnimator.Play("CloseAnimation");
+        TransitionBehavior.Instance.Events.SceneChange = scene;
+        TransitionBehavior.Instance.PlayClose();
     }
     public void EndRound(Player winner)
     {
