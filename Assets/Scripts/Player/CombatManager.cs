@@ -104,7 +104,6 @@ public class CombatManager : MonoBehaviour
             GameManager.Instance.CameraAnimator.Animator.SetBool("isDead", true);
             GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", target.Data.ID);
             GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
-            //owner.AudioManager.PlaySound("PlayerDeath");
         }
         else
             target.CombatManager.IsHurt = true;
