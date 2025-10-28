@@ -158,12 +158,12 @@ public class GameManager : MonoBehaviour
     public void NextRound()
     {
         if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
-            TransitionBehavior.Instance.PlayClose("WinLoseScene");//SceneManager.LoadScene("WinLoseScene");
+            SceneManager.LoadScene("WinLoseScene");
         else
         {
             _player1.Data.SavedSuper = _player1.CurrentSuper;
             _player2.Data.SavedSuper = _player2.CurrentSuper;
-            TransitionBehavior.Instance.PlayClose("GameScreen");//SceneManager.LoadScene("GameScreen");
+            SceneManager.LoadScene("GameScreen");
         }
     }
 

@@ -32,6 +32,7 @@ public class TransitionBehavior : MonoBehaviour
     public void PlayClose(string scene)
     {
         Events.SceneChange = scene;
+        Debug.Log(Events.SceneChange);
         PlayClose();
     }
 }
