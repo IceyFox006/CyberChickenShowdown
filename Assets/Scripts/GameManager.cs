@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -159,12 +158,12 @@ public class GameManager : MonoBehaviour
     public void NextRound()
     {
         if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
-            SceneManager.LoadScene("WinLoseScene");
+            TransitionBehavior.Instance.PlayClose("WinLoseScene");//SceneManager.LoadScene("WinLoseScene");
         else
         {
             _player1.Data.SavedSuper = _player1.CurrentSuper;
             _player2.Data.SavedSuper = _player2.CurrentSuper;
-            SceneManager.LoadScene("GameScreen");
+            TransitionBehavior.Instance.PlayClose("GameScreen");//SceneManager.LoadScene("GameScreen");
         }
     }
 

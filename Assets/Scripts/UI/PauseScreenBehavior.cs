@@ -11,7 +11,10 @@ public class PauseScreenBehavior : MonoBehaviour
 
     public Image UniversalControlsImage { get => _universalControlsImage; set => _universalControlsImage = value; }
     public static PauseScreenBehavior Instance { get => instance; set => instance = value; }
-
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         if (StaticData.IsKeyboardControls)
