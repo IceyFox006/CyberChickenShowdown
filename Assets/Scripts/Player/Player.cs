@@ -33,7 +33,10 @@ public class Player : MonoBehaviour
         _inputController.Owner = this;
         
         currentHP = _data.Fighter.HP;
-        currentSuper = _data.SavedSuper;
+        if (PlayerMatch3.IsInTutorial())
+            currentSuper = 0;
+        else
+            currentSuper = _data.SavedSuper;
     }
     public float GetHPPercentage()
     {

@@ -5,6 +5,10 @@ public class TitleScreenBehavior : MonoBehaviour
 {
     private static TitleScreenBehavior instance;
 
+    [SerializeField] private PlayerSO _player1;
+    [SerializeField] private PlayerSO _player2;
+    [SerializeField] private FighterSO _testDummy;
+
     [SerializeField] private GameObject _tutorialButton;
     [SerializeField] private GameObject _tutorial;
     [SerializeField] private GameObject _keyboardControlsTutorial;
@@ -12,6 +16,9 @@ public class TitleScreenBehavior : MonoBehaviour
     [SerializeField] private GameObject _exitTutorialButton;
 
     public static TitleScreenBehavior Instance { get => instance; set => instance = value; }
+    public PlayerSO Player1 { get => _player1; set => _player1 = value; }
+    public PlayerSO Player2 { get => _player2; set => _player2 = value; }
+    public FighterSO TestDummy { get => _testDummy; set => _testDummy = value; }
 
     public void OpenTutorial()
     {

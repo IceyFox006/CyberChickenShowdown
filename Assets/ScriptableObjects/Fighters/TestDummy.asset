@@ -19,7 +19,7 @@ MonoBehaviour:
 '
   _winQuotes:
   - ...
-  _HP: 500
+  _HP: 1000
   _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 1
