@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acad8568b98116f4aa27eaee124e7e0c, type: 3}
+  m_Name: FillSuperTask
+  m_EditorClassIdentifier: Assembly-CSharp::TaskSO
+  _dialogue: {fileID: 11400000, guid: f20800a0d9eab734aa5217f52dc2eea3, type: 2}
+  _next: {fileID: 11400000, guid: 8d791c3989f4d6644a32674a6979e614, type: 2}
