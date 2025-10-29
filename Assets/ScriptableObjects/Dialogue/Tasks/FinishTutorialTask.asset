@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acad8568b98116f4aa27eaee124e7e0c, type: 3}
-  m_Name: FillSuperTask
+  m_Name: FinishTutorialTask
   m_EditorClassIdentifier: Assembly-CSharp::TaskSO
-  _dialogue: {fileID: 11400000, guid: f20800a0d9eab734aa5217f52dc2eea3, type: 2}
-  _next: {fileID: 11400000, guid: 8d791c3989f4d6644a32674a6979e614, type: 2}
+  _dialogue: {fileID: 11400000, guid: f855e381dd1f89142abc7527678bcea9, type: 2}
+  _next: {fileID: 0}

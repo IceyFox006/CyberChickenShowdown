@@ -8,15 +8,18 @@ public class TutorialBehavior : MonoBehaviour
     [SerializeField] private TaskSO _startTask;
     private TaskSO _currentTask;
 
-    //[SerializeField] private List<TaskSO> _tasks = new List<TaskSO>();
     private void Start()
     {
         StartCoroutine(LateStart());
         PlayerMatch3.MatchTaskComplete += TaskCompleted;
+        CombatManager.SuperFillTaskComplete += TaskCompleted;
+        CombatManager.UseSuperTaskComplete += TaskCompleted;
     }
     private void OnDestroy()
     {
         PlayerMatch3.MatchTaskComplete -= TaskCompleted;
+        CombatManager.SuperFillTaskComplete -= TaskCompleted;
+        CombatManager.UseSuperTaskComplete -= TaskCompleted;
     }
     private IEnumerator LateStart()
     {

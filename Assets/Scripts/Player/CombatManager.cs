@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -16,6 +17,13 @@ public class CombatManager : MonoBehaviour
     private int attackElementID = 0;
 
     private bool superIsActive = false;
+
+    //Tutorial
+    public static Action SuperFillTaskComplete;
+    private bool isSuperFillTaskComplete;
+
+    public static Action UseSuperTaskComplete;
+    private bool isUseSuperTaskComplete;
 
     public bool IsBlocking { get => isBlocking; set => isBlocking = value; }
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
@@ -138,7 +146,14 @@ public class CombatManager : MonoBehaviour
     public bool IsSuperFull()
     {
         if (owner.CurrentSuper >= owner.Data.Fighter.SuperCapacity)
+        {
+            if (PlayerMatch3.IsInTutorial() && !isSuperFillTaskComplete)
+            {
+                SuperFillTaskComplete?.Invoke();
+                isSuperFillTaskComplete = true;
+            }
             return true;
+        }
         return false;
     }
     private void CorrectSuperAmount()
@@ -169,6 +184,11 @@ public class CombatManager : MonoBehaviour
         if (!IsSuperFull())
             return;
 
+        if (PlayerMatch3.IsInTutorial() && !isUseSuperTaskComplete)
+        {
+            UseSuperTaskComplete?.Invoke();
+            isUseSuperTaskComplete = true;
+        }
         float value = 0;
         target.UiHandler.SpawnFloatingText(target.UiHandler.SuperFT);
         owner.AudioManager.PlaySound("SuperActivate");

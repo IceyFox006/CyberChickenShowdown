@@ -662,7 +662,7 @@ public class PlayerMatch3 : MonoBehaviour
         return true;
     }
 
-    private static bool IsInTutorial()
+    public static bool IsInTutorial()
     {
         return (FindFirstObjectByType<TutorialBehavior>() != null);
     }

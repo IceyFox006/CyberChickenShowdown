@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acad8568b98116f4aa27eaee124e7e0c, type: 3}
   m_Name: UseSuperTask
   m_EditorClassIdentifier: Assembly-CSharp::TaskSO
-  _dialogue: {fileID: 0}
-  _prerequisites: []
-  _next: {fileID: 0}
+  _dialogue: {fileID: 11400000, guid: 7f01f404460e3e341b1a5e7090ca80d7, type: 2}
+  _next: {fileID: 11400000, guid: 0fe48d0d5524cae4a9cfc28779194dbe, type: 2}
