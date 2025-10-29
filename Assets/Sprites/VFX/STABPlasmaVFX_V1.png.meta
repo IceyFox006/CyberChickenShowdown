@@ -1,0 +1,1212 @@
+fileFormatVersion: 2
+guid: 4241b7278062aee4db6178f43c764a8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8299427141809432353
+    second: STABPlasmaVFX_V1_0
+  - first:
+      213: -4797099474201164386
+    second: STABPlasmaVFX_V1_1
+  - first:
+      213: -3695115296507908793
+    second: STABPlasmaVFX_V1_2
+  - first:
+      213: 5795907368318624288
+    second: STABPlasmaVFX_V1_3
+  - first:
+      213: 1430792338238193078
+    second: STABPlasmaVFX_V1_4
+  - first:
+      213: 7281761555326736120
+    second: STABPlasmaVFX_V1_5
+  - first:
+      213: 3916663252646416912
+    second: STABPlasmaVFX_V1_6
+  - first:
+      213: -6184352973414848118
+    second: STABPlasmaVFX_V1_7
+  - first:
+      213: 2477386175438338392
+    second: STABPlasmaVFX_V1_8
+  - first:
+      213: 8045651464331959798
+    second: STABPlasmaVFX_V1_9
+  - first:
+      213: 8544461281605554356
+    second: STABPlasmaVFX_V1_10
+  - first:
+      213: -1774133228288203573
+    second: STABPlasmaVFX_V1_11
+  - first:
+      213: -6528979292982749036
+    second: STABPlasmaVFX_V1_12
+  - first:
+      213: -4455498428644230222
+    second: STABPlasmaVFX_V1_13
+  - first:
+      213: -2718295094196493489
+    second: STABPlasmaVFX_V1_14
+  - first:
+      213: 3168402910723249657
+    second: STABPlasmaVFX_V1_15
+  - first:
+      213: -1209693460017243273
+    second: STABPlasmaVFX_V1_16
+  - first:
+      213: 7859348812284149395
+    second: STABPlasmaVFX_V1_17
+  - first:
+      213: -3920530441899352764
+    second: STABPlasmaVFX_V1_18
+  - first:
+      213: -883535427386994244
+    second: STABPlasmaVFX_V1_19
+  - first:
+      213: -7062308630014905411
+    second: STABPlasmaVFX_V1_20
+  - first:
+      213: 8204398527082637459
+    second: STABPlasmaVFX_V1_21
+  - first:
+      213: 4007657219833410402
+    second: STABPlasmaVFX_V1_22
+  - first:
+      213: -4107800468369604179
+    second: STABPlasmaVFX_V1_23
+  - first:
+      213: 8809061549142560360
+    second: STABPlasmaVFX_V1_24
+  - first:
+      213: 1716900497440374165
+    second: STABPlasmaVFX_V1_25
+  - first:
+      213: -7168135682993881360
+    second: STABPlasmaVFX_V1_26
+  - first:
+      213: 3332319646143477436
+    second: STABPlasmaVFX_V1_27
+  - first:
+      213: 5795455143025696691
+    second: STABPlasmaVFX_V1_28
+  - first:
+      213: -8543067313551651633
+    second: STABPlasmaVFX_V1_29
+  - first:
+      213: -3640883311085555850
+    second: STABPlasmaVFX_V1_30
+  - first:
+      213: -8065209588677830186
+    second: STABPlasmaVFX_V1_31
+  - first:
+      213: -7700323122657386805
+    second: STABPlasmaVFX_V1_32
+  - first:
+      213: -3052646603136749801
+    second: STABPlasmaVFX_V1_33
+  - first:
+      213: -581362136448718005
+    second: STABPlasmaVFX_V1_34
+  - first:
+      213: -3179130386469853176
+    second: STABPlasmaVFX_V1_35
+  - first:
+      213: 7762182729698758720
+    second: STABPlasmaVFX_V1_36
+  - first:
+      213: -1154615661697719614
+    second: STABPlasmaVFX_V1_37
+  - first:
+      213: 1119577802680920202
+    second: STABPlasmaVFX_V1_38
+  - first:
+      213: 2959408536409366982
+    second: STABPlasmaVFX_V1_39
+  - first:
+      213: -4500070173745845308
+    second: STABPlasmaVFX_V1_40
+  - first:
+      213: -4373151247192247507
+    second: STABPlasmaVFX_V1_41
+  - first:
+      213: -3710947038529693986
+    second: STABPlasmaVFX_V1_42
+  - first:
+      213: 3869587349350693128
+    second: STABPlasmaVFX_V1_43
+  - first:
+      213: -7873088723423287181
+    second: STABPlasmaVFX_V1_44
+  - first:
+      213: 6194494657448307241
+    second: STABPlasmaVFX_V1_45
+  - first:
+      213: 7523386111801173693
+    second: STABPlasmaVFX_V1_46
+  - first:
+      213: 7234834729275709412
+    second: STABPlasmaVFX_V1_47
+  - first:
+      213: 2872904584614690730
+    second: STABPlasmaVFX_V1_48
+  - first:
+      213: 6847653906707625805
+    second: STABPlasmaVFX_V1_49
+  - first:
+      213: -6481184879818609546
+    second: STABPlasmaVFX_V1_50
+  - first:
+      213: 638383720186295378
+    second: STABPlasmaVFX_V1_51
+  - first:
+      213: -968200107192154267
+    second: STABPlasmaVFX_V1_52
+  - first:
+      213: -680620372024826443
+    second: STABPlasmaVFX_V1_53
+  - first:
+      213: 3292173004758532506
+    second: STABPlasmaVFX_V1_54
+  - first:
+      213: 2078801124688752745
+    second: STABPlasmaVFX_V1_55
+  - first:
+      213: -5859660572516163868
+    second: STABPlasmaVFX_V1_56
+  - first:
+      213: -8913217098680504505
+    second: STABPlasmaVFX_V1_57
+  - first:
+      213: -2939171091331596216
+    second: STABPlasmaVFX_V1_58
+  - first:
+      213: -3026221664867970699
+    second: STABPlasmaVFX_V1_59
+  - first:
+      213: 8528687301438707519
+    second: STABPlasmaVFX_V1_60
+  - first:
+      213: 7564940568929973569
+    second: STABPlasmaVFX_V1_61
+  - first:
+      213: -5414510642881134335
+    second: STABPlasmaVFX_V1_62
+  - first:
+      213: 2266937165236912463
+    second: STABPlasmaVFX_V1_63
+  - first:
+      213: 8748206220702487783
+    second: STABPlasmaVFX_V1_64
+  - first:
+      213: 8492426244027973287
+    second: STABPlasmaVFX_V1_65
+  - first:
+      213: 6572772945813685947
+    second: STABPlasmaVFX_V1_66
+  - first:
+      213: -1531491931789285066
+    second: STABPlasmaVFX_V1_67
+  - first:
+      213: 5859954739677121750
+    second: STABPlasmaVFX_V1_68
+  - first:
+      213: -6271618260367425713
+    second: STABPlasmaVFX_V1_69
+  - first:
+      213: -2015850022906882902
+    second: STABPlasmaVFX_V1_70
+  - first:
+      213: -8397876193155545406
+    second: STABPlasmaVFX_V1_71
+  - first:
+      213: -9156103101273746019
+    second: STABPlasmaVFX_V1_72
+  - first:
+      213: -7633096412601778174
+    second: STABPlasmaVFX_V1_73
+  - first:
+      213: -7632667905378462984
+    second: STABPlasmaVFX_V1_74
+  - first:
+      213: -7665786088265044794
+    second: STABPlasmaVFX_V1_75
+  - first:
+      213: 6751878939266369065
+    second: STABPlasmaVFX_V1_76
+  - first:
+      213: -2504256946019447354
+    second: STABPlasmaVFX_V1_77
+  - first:
+      213: -4066522869057767404
+    second: STABPlasmaVFX_V1_78
+  - first:
+      213: -332730329206943326
+    second: STABPlasmaVFX_V1_79
+  - first:
+      213: 9001848360662536558
+    second: STABPlasmaVFX_V1_80
+  - first:
+      213: 1532413157445528464
+    second: STABPlasmaVFX_V1_81
+  - first:
+      213: 7712191995501484224
+    second: STABPlasmaVFX_V1_82
+  - first:
+      213: -5123270869137902136
+    second: STABPlasmaVFX_V1_83
+  - first:
+      213: -6425814435089225753
+    second: STABPlasmaVFX_V1_84
+  - first:
+      213: -7503462072576030291
+    second: STABPlasmaVFX_V1_85
+  - first:
+      213: 7304829054500057581
+    second: STABPlasmaVFX_V1_86
+  - first:
+      213: -4464181464479279588
+    second: STABPlasmaVFX_V1_87
+  - first:
+      213: -983516261425363821
+    second: STABPlasmaVFX_V1_88
+  - first:
+      213: 4395246337538596406
+    second: STABPlasmaVFX_V1_89
+  - first:
+      213: -5131235306219385408
+    second: STABPlasmaVFX_V1_90
+  - first:
+      213: 985926718246734056
+    second: STABPlasmaVFX_V1_91
+  - first:
+      213: 8822868824203820838
+    second: STABPlasmaVFX_V1_92
+  - first:
+      213: 778538293252701518
+    second: STABPlasmaVFX_V1_93
+  - first:
+      213: 4767543072311670412
+    second: STABPlasmaVFX_V1_94
+  - first:
+      213: 1277441101070369763
+    second: STABPlasmaVFX_V1_95
+  - first:
+      213: 5731131123674059742
+    second: STABPlasmaVFX_V1_96
+  - first:
+      213: 9032329795010296814
+    second: STABPlasmaVFX_V1_97
+  - first:
+      213: -6659907295887612577
+    second: STABPlasmaVFX_V1_98
+  - first:
+      213: -2702102316505734971
+    second: STABPlasmaVFX_V1_99
+  - first:
+      213: -2727273051476297913
+    second: STABPlasmaVFX_V1_100
+  - first:
+      213: 1916025454406770683
+    second: STABPlasmaVFX_V1_101
+  - first:
+      213: -2913498156156390998
+    second: STABPlasmaVFX_V1_102
+  - first:
+      213: -5332217026728593645
+    second: STABPlasmaVFX_V1_103
+  - first:
+      213: 4688753159238356861
+    second: STABPlasmaVFX_V1_104
+  - first:
+      213: -7935884672436377671
+    second: STABPlasmaVFX_V1_105
+  - first:
+      213: 5483211385776610153
+    second: STABPlasmaVFX_V1_106
+  - first:
+      213: -7243785642471735114
+    second: STABPlasmaVFX_V1_107
+  - first:
+      213: -1696181510249542215
+    second: STABPlasmaVFX_V1_108
+  - first:
+      213: -2130720376746099891
+    second: STABPlasmaVFX_V1_109
+  - first:
+      213: -5437384672215526187
+    second: STABPlasmaVFX_V1_110
+  - first:
+      213: 3633431406572426779
+    second: STABPlasmaVFX_V1_111
+  - first:
+      213: 5459616967204993065
+    second: STABPlasmaVFX_V1_112
+  - first:
+      213: 3208194290562376602
+    second: STABPlasmaVFX_V1_113
+  - first:
+      213: 3229359421019862776
+    second: STABPlasmaVFX_V1_114
+  - first:
+      213: 3304064384109273297
+    second: STABPlasmaVFX_V1_115
+  - first:
+      213: -4548768420353582
+    second: STABPlasmaVFX_V1_116
+  - first:
+      213: 7187328672108233262
+    second: STABPlasmaVFX_V1_117
+  - first:
+      213: 1424068110156480862
+    second: STABPlasmaVFX_V1_118
+  - first:
+      213: -6113353365457053001
+    second: STABPlasmaVFX_V1_119
+  - first:
+      213: -7856028885646959791
+    second: STABPlasmaVFX_V1_120
+  - first:
+      213: -4817564552313255604
+    second: STABPlasmaVFX_V1_121
+  - first:
+      213: -7689895353707776514
+    second: STABPlasmaVFX_V1_122
+  - first:
+      213: 7579521543466149249
+    second: STABPlasmaVFX_V1_123
+  - first:
+      213: 4376036182876686644
+    second: STABPlasmaVFX_V1_124
+  - first:
+      213: -9135102394329556495
+    second: STABPlasmaVFX_V1_125
+  - first:
+      213: -3520490356833401112
+    second: STABPlasmaVFX_V1_126
+  - first:
+      213: 6409348129322331497
+    second: STABPlasmaVFX_V1_127
+  - first:
+      213: -6223959409223923904
+    second: STABPlasmaVFX_V1_128
+  - first:
+      213: -5487384303111538168
+    second: STABPlasmaVFX_V1_129
+  - first:
+      213: 2948761126684609340
+    second: STABPlasmaVFX_V1_130
+  - first:
+      213: -5247103328769815211
+    second: STABPlasmaVFX_V1_131
+  - first:
+      213: 3283600064590986399
+    second: STABPlasmaVFX_V1_132
+  - first:
+      213: -4371394854004002500
+    second: STABPlasmaVFX_V1_133
+  - first:
+      213: 6386967094801704410
+    second: STABPlasmaVFX_V1_134
+  - first:
+      213: 1791679344424145948
+    second: STABPlasmaVFX_V1_135
+  - first:
+      213: -3156348752575324009
+    second: STABPlasmaVFX_V1_136
+  - first:
+      213: 7051887023811690194
+    second: STABPlasmaVFX_V1_137
+  - first:
+      213: -1473399631536340214
+    second: STABPlasmaVFX_V1_138
+  - first:
+      213: -7010677657436253186
+    second: STABPlasmaVFX_V1_139
+  - first:
+      213: 7724546939087526558
+    second: STABPlasmaVFX_V1_140
+  - first:
+      213: 6183075991649031487
+    second: STABPlasmaVFX_V1_141
+  - first:
+      213: 3792544165150166905
+    second: STABPlasmaVFX_V1_142
+  - first:
+      213: 2462051783743486888
+    second: STABPlasmaVFX_V1_143
+  - first:
+      213: 3502944133359943011
+    second: STABPlasmaVFX_V1_144
+  - first:
+      213: 4672065595154268488
+    second: STABPlasmaVFX_V1_145
+  - first:
+      213: 3731280556815085887
+    second: STABPlasmaVFX_V1_146
+  - first:
+      213: -8426715402318096148
+    second: STABPlasmaVFX_V1_147
+  - first:
+      213: -3203874265401165244
+    second: STABPlasmaVFX_V1_148
+  - first:
+      213: -5938843232529624460
+    second: STABPlasmaVFX_V1_149
+  - first:
+      213: 1062564284393469688
+    second: STABPlasmaVFX_V1_150
+  - first:
+      213: -2084394456791676349
+    second: STABPlasmaVFX_V1_151
+  - first:
+      213: 2860799226899450684
+    second: STABPlasmaVFX_V1_152
+  - first:
+      213: 2571993550576529827
+    second: STABPlasmaVFX_V1_153
+  - first:
+      213: 8742553554318938544
+    second: STABPlasmaVFX_V1_154
+  - first:
+      213: -6041155561710372666
+    second: STABPlasmaVFX_V1_155
+  - first:
+      213: 4626698604914177802
+    second: STABPlasmaVFX_V1_156
+  - first:
+      213: 8235482381754829227
+    second: STABPlasmaVFX_V1_157
+  - first:
+      213: 7725609575350176592
+    second: STABPlasmaVFX_V1_158
+  - first:
+      213: 9136274837535812972
+    second: STABPlasmaVFX_V1_159
+  - first:
+      213: 3155053164334389718
+    second: STABPlasmaVFX_V1_160
+  - first:
+      213: -5724985353941690930
+    second: STABPlasmaVFX_V1_161
+  - first:
+      213: -2891797363180339029
+    second: STABPlasmaVFX_V1_162
+  - first:
+      213: 8304213128725266862
+    second: STABPlasmaVFX_V1_163
+  - first:
+      213: 3825382284252778771
+    second: STABPlasmaVFX_V1_164
+  - first:
+      213: -5157331836864588209
+    second: STABPlasmaVFX_V1_165
+  - first:
+      213: -4596550257986785786
+    second: STABPlasmaVFX_V1_166
+  - first:
+      213: -3308906562633346335
+    second: STABPlasmaVFX_V1_167
+  - first:
+      213: 59119288640889092
+    second: STABPlasmaVFX_V1_168
+  - first:
+      213: 7464444678863589843
+    second: STABPlasmaVFX_V1_169
+  - first:
+      213: 1250037977591065463
+    second: STABPlasmaVFX_V1_170
+  - first:
+      213: 6927606301722613372
+    second: STABPlasmaVFX_V1_171
+  - first:
+      213: -7886891051215556728
+    second: STABPlasmaVFX_V1_172
+  - first:
+      213: -3326787970163559399
+    second: STABPlasmaVFX_V1_173
+  - first:
+      213: -1038343525585816100
+    second: STABPlasmaVFX_V1_174
+  - first:
+      213: 2367589112620891330
+    second: STABPlasmaVFX_V1_175
+  - first:
+      213: 4926359514439946224
+    second: STABPlasmaVFX_V1_176
+  - first:
+      213: -1209313530553960629
+    second: STABPlasmaVFX_V1_177
+  - first:
+      213: -8012860323265608375
+    second: STABPlasmaVFX_V1_178
+  - first:
+      213: -5219941374211349454
+    second: STABPlasmaVFX_V1_179
+  - first:
+      213: 9185593264872128092
+    second: STABPlasmaVFX_V1_180
+  - first:
+      213: 7031323957834276249
+    second: STABPlasmaVFX_V1_181
+  - first:
+      213: -3980596766952415887
+    second: STABPlasmaVFX_V1_182
+  - first:
+      213: 5920089920189028363
+    second: STABPlasmaVFX_V1_183
+  - first:
+      213: -6130622999604723734
+    second: STABPlasmaVFX_V1_184
+  - first:
+      213: 3259466345390894182
+    second: STABPlasmaVFX_V1_185
+  - first:
+      213: 1347434961928371512
+    second: STABPlasmaVFX_V1_186
+  - first:
+      213: -4582433335148715280
+    second: STABPlasmaVFX_V1_187
+  - first:
+      213: 6245126513243729873
+    second: STABPlasmaVFX_V1_188
+  - first:
+      213: 7674155724617917210
+    second: STABPlasmaVFX_V1_189
+  - first:
+      213: 7639768567512144980
+    second: STABPlasmaVFX_V1_190
+  - first:
+      213: -3501428788249566010
+    second: STABPlasmaVFX_V1_191
+  - first:
+      213: 6125822160948708825
+    second: STABPlasmaVFX_V1_192
+  - first:
+      213: 3563156875873435906
+    second: STABPlasmaVFX_V1_193
+  - first:
+      213: 8658786732028730384
+    second: STABPlasmaVFX_V1_194
+  - first:
+      213: 2761618081491040880
+    second: STABPlasmaVFX_V1_195
+  - first:
+      213: 5692449750297965579
+    second: STABPlasmaVFX_V1_196
+  - first:
+      213: -3665470127018231720
+    second: STABPlasmaVFX_V1_197
+  - first:
+      213: -5040249164609793317
+    second: STABPlasmaVFX_V1_198
+  - first:
+      213: 5197122058572637087
+    second: STABPlasmaVFX_V1_199
+  - first:
+      213: 1337247903212463736
+    second: STABPlasmaVFX_V1_200
+  - first:
+      213: -8100801702180907679
+    second: STABPlasmaVFX_V1_201
+  - first:
+      213: -6749228371804309910
+    second: STABPlasmaVFX_V1_202
+  - first:
+      213: 1295133557701596208
+    second: STABPlasmaVFX_V1_203
+  - first:
+      213: -3164688781150828660
+    second: STABPlasmaVFX_V1_204
+  - first:
+      213: 5514539580913340410
+    second: STABPlasmaVFX_V1_205
+  - first:
+      213: 6907627220214106640
+    second: STABPlasmaVFX_V1_206
+  - first:
+      213: 7295734380733731768
+    second: STABPlasmaVFX_V1_207
+  - first:
+      213: 7472793494072261697
+    second: STABPlasmaVFX_V1_208
+  - first:
+      213: 7738977320312552543
+    second: STABPlasmaVFX_V1_209
+  - first:
+      213: -7409651585598682465
+    second: STABPlasmaVFX_V1_210
+  - first:
+      213: -3542459397957939446
+    second: STABPlasmaVFX_V1_211
+  - first:
+      213: 5139016087226283013
+    second: STABPlasmaVFX_V1_212
+  - first:
+      213: 7309196417497456448
+    second: STABPlasmaVFX_V1_213
+  - first:
+      213: 7902493475158801627
+    second: STABPlasmaVFX_V1_214
+  - first:
+      213: -1750874060222259728
+    second: STABPlasmaVFX_V1_215
+  - first:
+      213: 1821927600671004970
+    second: STABPlasmaVFX_V1_216
+  - first:
+      213: 9123541820572895026
+    second: STABPlasmaVFX_V1_217
+  - first:
+      213: -5266223341524633391
+    second: STABPlasmaVFX_V1_218
+  - first:
+      213: -6358889763822773351
+    second: STABPlasmaVFX_V1_219
+  - first:
+      213: 2850804123554504863
+    second: STABPlasmaVFX_V1_220
+  - first:
+      213: 3853441017410070524
+    second: STABPlasmaVFX_V1_221
+  - first:
+      213: 5526430430691809666
+    second: STABPlasmaVFX_V1_222
+  - first:
+      213: -1984870194181340505
+    second: STABPlasmaVFX_V1_223
+  - first:
+      213: -4518326970717485707
+    second: STABPlasmaVFX_V1_224
+  - first:
+      213: 8147066747070240106
+    second: STABPlasmaVFX_V1_225
+  - first:
+      213: -8660936983565283226
+    second: STABPlasmaVFX_V1_226
+  - first:
+      213: 683487356389101231
+    second: STABPlasmaVFX_V1_227
+  - first:
+      213: 8477109207672652103
+    second: STABPlasmaVFX_V1_228
+  - first:
+      213: -9009750288729211323
+    second: STABPlasmaVFX_V1_229
+  - first:
+      213: 1065189096125121533
+    second: STABPlasmaVFX_V1_230
+  - first:
+      213: 3983187287130944901
+    second: STABPlasmaVFX_V1_231
+  - first:
+      213: 4662224155844154687
+    second: STABPlasmaVFX_V1_232
+  - first:
+      213: 480016073003009577
+    second: STABPlasmaVFX_V1_233
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8963d9cf282dc80800000000000000
+      internalID: -8299427141809432353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95c600c1774d6db0800000000000000
+      internalID: -4797099474201164386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74da883273058bcc0800000000000000
+      internalID: -3695115296507908793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02263bf1b033f6050800000000000000
+      internalID: 5795907368318624288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdb90c0d023bd310800000000000000
+      internalID: 1430792338238193078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6985cdd830e0560800000000000000
+      internalID: 7281761555326736120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012d0d61a78ca5630800000000000000
+      internalID: 3916663252646416912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a892afd9cb3cc2aa0800000000000000
+      internalID: -6184352973414848118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859377ec991716220800000000000000
+      internalID: 2477386175438338392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd9b1e0165e7af60800000000000000
+      internalID: 8045651464331959798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09d2fd346049670800000000000000
+      internalID: 8544461281605554356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc42aa78a330167e0800000000000000
+      internalID: -1774133228288203573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498d1efcce76465a0800000000000000
+      internalID: -6528979292982749036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb795f09c3ea22c0800000000000000
+      internalID: -4455498428644230222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f432bb3930da64ad0800000000000000
+      internalID: -2718295094196493489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f519fe09ad68fb20800000000000000
+      internalID: 3168402910723249657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STABPlasmaVFX_V1_16
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b1f84153e463fe0800000000000000
+      internalID: -1209693460017243273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f7eecc75d311da64789673e9690afd70
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":3840.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      STABPlasmaVFX_V1_0: -8299427141809432353
+      STABPlasmaVFX_V1_1: -4797099474201164386
+      STABPlasmaVFX_V1_10: 8544461281605554356
+      STABPlasmaVFX_V1_11: -1774133228288203573
+      STABPlasmaVFX_V1_12: -6528979292982749036
+      STABPlasmaVFX_V1_13: -4455498428644230222
+      STABPlasmaVFX_V1_14: -2718295094196493489
+      STABPlasmaVFX_V1_15: 3168402910723249657
+      STABPlasmaVFX_V1_16: -1209693460017243273
+      STABPlasmaVFX_V1_2: -3695115296507908793
+      STABPlasmaVFX_V1_3: 5795907368318624288
+      STABPlasmaVFX_V1_4: 1430792338238193078
+      STABPlasmaVFX_V1_5: 7281761555326736120
+      STABPlasmaVFX_V1_6: 3916663252646416912
+      STABPlasmaVFX_V1_7: -6184352973414848118
+      STABPlasmaVFX_V1_8: 2477386175438338392
+      STABPlasmaVFX_V1_9: 8045651464331959798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
