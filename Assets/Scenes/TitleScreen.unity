@@ -238,6 +238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc7b0b8e624d4741994be3489809961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _player1: {fileID: 11400000, guid: 0b70ab1fb48a0d54292e6b5202d1f715, type: 2}
+  _player2: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
+  _testDummy: {fileID: 11400000, guid: 211185900025da049bbdb2bad15fe015, type: 2}
   _tutorialButton: {fileID: 1576978072}
   _tutorial: {fileID: 590283539}
   _keyboardControlsTutorial: {fileID: 2013103197}

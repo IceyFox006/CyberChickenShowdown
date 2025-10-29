@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820fd247d7c4cdb4587dab490df2a9f2, type: 3}
+  m_Name: TestDummy
+  m_EditorClassIdentifier: 
+  _name: Test Dummy
+  _element: {fileID: 11400000, guid: c730f02aa534efc49a30be1fd8f6195f, type: 2}
+  _superDescription: 'Does something?
+
+'
+  _winQuotes:
+  - ...
+  _HP: 1000
+  _Attack: 25
+  _blockEffectiveness: 0.8
+  _superFunction: 1
+  _superCapacity: 10
+  _superFillSpeed: 0.1
+  _superDrainRate: 1
+  _superEffectiveness: 15
+  _gameScreenPortrait: {fileID: -5567826033261725767, guid: 36aef8943cf2d2c47909cbcefba568cd, type: 3}
+  _legUpIcon: {fileID: -4722771773065080852, guid: 67e3107a0d91382408b2a5ac5a284731, type: 3}
+  _animationController: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
+  _superVisual: {fileID: 0}
+  _superGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.98098797, g: 0, b: 0, a: 1}
+    key2: {r: 1, g: 0, b: 0, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65404
+    ctime2: 65469
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  _glowColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
+  _portrait: {fileID: 2163814417044054617, guid: f82e2a7244c41324b9615a1a530a002b, type: 3}

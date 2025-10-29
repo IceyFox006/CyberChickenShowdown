@@ -68,6 +68,9 @@ public class FighterAnimator : MonoBehaviour
     }
     public void PlayTransitionClose()
     {
-        GameManager.Instance.PlayCloseTransition(GameManager.Instance.GetOpponent(_owner));
+        if (PlayerMatch3.IsInTutorial())
+            GameManager.Instance.PlayCloseTransition("TitleScreen");
+        else
+            GameManager.Instance.PlayCloseTransition(GameManager.Instance.GetOpponent(_owner));
     }
 }

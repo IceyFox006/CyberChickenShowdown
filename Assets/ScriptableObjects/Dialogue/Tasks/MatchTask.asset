@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acad8568b98116f4aa27eaee124e7e0c, type: 3}
+  m_Name: MatchTask
+  m_EditorClassIdentifier: Assembly-CSharp::TaskSO
+  _dialogue: {fileID: 11400000, guid: 1133b358fb8f15c4a99b7c7d1c25b788, type: 2}
+  _prerequisites: []
+  _next: {fileID: 11400000, guid: 4f25a144c2d0d6d45a195cd5ab49d062, type: 2}

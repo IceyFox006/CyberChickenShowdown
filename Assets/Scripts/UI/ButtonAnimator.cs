@@ -56,8 +56,13 @@ public class ButtonAnimator : MonoBehaviour
         hasSelected = false;
         switch (function)
         {
-            case Function.Tutorial: 
-                FindFirstObjectByType<TitleScreenBehavior>().OpenTutorial(); break;
+            case Function.Tutorial:
+                TitleScreenBehavior tsb = FindFirstObjectByType<TitleScreenBehavior>();
+                tsb.Player1.Fighter = tsb.TestDummy;
+                tsb.Player2.Fighter = tsb.TestDummy;
+                TransitionBehavior.Instance.PlayClose("TutorialScene");
+            //tsb.OpenTutorial();
+                break;
             case Function.Exit:
                 Application.Quit();
                 #if UNITY_EDITOR
