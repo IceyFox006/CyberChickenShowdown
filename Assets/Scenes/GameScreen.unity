@@ -1430,17 +1430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c31fce98f0b5b4ab476878a2df6617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &968855298 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7247441782687158245, guid: 2418e1b165c635041895481cb2226473, type: 3}
-  m_PrefabInstance: {fileID: 3428578527685354732}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!114 &1028971726 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8029786887908220832, guid: 2418e1b165c635041895481cb2226473, type: 3}
@@ -1702,7 +1691,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 799fe3c18d761804c8b2d15f699573d0, type: 2}
   - {fileID: 11400000, guid: 207a5671b0493f647a5e6db45397ec73, type: 2}
   - {fileID: 11400000, guid: b0312eee7cb000b499b7da5fa6485323, type: 2}
-  - {fileID: 11400000, guid: 3e048aa0e28b86e458c577ed058cd046, type: 2}
 --- !u!1001 &1297019731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4308,10 +4296,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1841503281}
     - target: {fileID: 2614224537905411669, guid: 2418e1b165c635041895481cb2226473, type: 3}
-      propertyPath: _highestComboText
-      value: 
-      objectReference: {fileID: 968855298}
-    - target: {fileID: 2614224537905411669, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: _superVisualImage
       value: 
       objectReference: {fileID: 832509894}
@@ -4459,6 +4443,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 3.8799999
       objectReference: {fileID: 0}
+    - target: {fileID: 4786385177726083010, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2655971755338498354, guid: c60e57717e8c35f469aced2f0d31c8ad, type: 3}
     - target: {fileID: 4872360552296893999, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -28.900024
