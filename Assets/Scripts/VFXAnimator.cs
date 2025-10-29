@@ -4,6 +4,7 @@ public class VFXAnimator : MonoBehaviour
 {
     [SerializeField] private Player _owner;
     [SerializeField] private Animator _VFXAnimator;
+
     private void FixedUpdate()
     {
         UpdateVFXAnimation();
@@ -16,7 +17,10 @@ public class VFXAnimator : MonoBehaviour
     }
     public void TriggerOpponentAnimation()
     {
-        GameManager.Instance.GetOpponent(_owner).GameObjectController.FighterAnimator.TriggerAnimation();
+        Player opponent = GameManager.Instance.GetOpponent(_owner);
+        opponent.GameObjectController.FighterAnimator.TriggerAnimation();
+        if (opponent.CombatManager.IsDead)
+            ShakeCamera();
         TriggerElementSFX(_VFXAnimator.GetInteger("elementID"));
     }
     public void TriggerElementSFX(int elementID)
@@ -29,11 +33,14 @@ public class VFXAnimator : MonoBehaviour
             case 4: _owner.AudioManager.PlaySound("HackMatch"); break;
             case 5: _owner.AudioManager.PlaySound("DirectMatch"); break;
         }
-        
     }
     public void EnactSuper()
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));
+    }
+    public void ShakeCamera()
+    {
+        GameManager.Instance.CameraAnimator.ImpulseSource.GenerateImpulse();
     }
     public void ResetTrigger()
     {

@@ -16,8 +16,11 @@ MonoBehaviour:
   _element: 5
   _weaknesses: []
   _resistances: []
-  _icon: {fileID: 21300000, guid: 34cd14393716c6f4685662d412ddf0a3, type: 3}
+  _icon: {fileID: -7055518806184812158, guid: 24c677475c923e842ad4d6ea594e1797, type: 3}
   _damageFT:
     _isInternal: 0
     _text: 
     _color: {r: 0.57254905, g: 0.57254905, b: 0.57254905, a: 0}
+    _size: 24
+    _isBold: 0
+    _isItalic: 0

@@ -309,10 +309,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -333,6 +333,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -341,11 +354,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,11 +376,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1200
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,11 +398,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2400
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,11 +420,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3600
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,11 +442,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4800
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,11 +464,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6000
-        y: 4000
+        y: 4800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -472,12 +485,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_6
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 0
         y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -494,12 +507,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3200
+        x: 1200
+        y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -516,12 +529,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_8
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 3200
+        x: 2400
+        y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -538,12 +551,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_9
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 3200
+        x: 3600
+        y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -560,12 +573,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_10
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 3200
+        x: 4800
+        y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -582,12 +595,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_11
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 3200
+        x: 6000
+        y: 4000
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -604,12 +617,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_12
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 0
         y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -626,12 +639,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_13
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 1200
         y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -648,12 +661,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2400
+        x: 2400
+        y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -670,12 +683,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_15
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 2400
+        x: 3600
+        y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -692,12 +705,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_16
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 2400
+        x: 4800
+        y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -714,12 +727,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_17
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 2400
+        x: 6000
+        y: 3200
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,12 +749,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_18
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 0
         y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -758,12 +771,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_19
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 1200
         y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -780,12 +793,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_20
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 2400
         y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,12 +815,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1600
+        x: 3600
+        y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -824,12 +837,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_22
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1600
+        x: 4800
+        y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -846,12 +859,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_23
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1600
+        x: 6000
+        y: 2400
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -868,12 +881,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_24
       rect:
         serializedVersion: 2
-        x: 3600
+        x: 0
         y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,12 +903,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_25
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 1200
         y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,12 +925,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_26
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 2400
         y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -934,12 +947,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_27
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 3600
         y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -956,12 +969,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 800
+        x: 4800
+        y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -978,12 +991,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_29
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 800
+        x: 6000
+        y: 1600
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1000,12 +1013,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_30
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 0
         y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1022,12 +1035,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_31
       rect:
         serializedVersion: 2
-        x: 3600
+        x: 1200
         y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1044,12 +1057,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_32
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 2400
         y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1066,12 +1079,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_33
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 3600
         y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1088,12 +1101,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_34
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 4800
         y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1110,12 +1123,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 6000
+        y: 800
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1132,12 +1145,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_36
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 0
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1154,12 +1167,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_37
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 1200
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1176,12 +1189,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_38
       rect:
         serializedVersion: 2
-        x: 3600
+        x: 2400
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1198,12 +1211,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_39
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 3600
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1220,12 +1233,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_40
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 4800
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1242,12 +1255,12 @@ TextureImporter:
       name: Z0rd_AttackSuper_41
       rect:
         serializedVersion: 2
-        x: 7200
+        x: 6000
         y: 0
         width: 1200
         height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1272,7 +1285,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
     nameFileIdTable:
       Z0rd_AttackSuper_0: 2282724334087070341
       Z0rd_AttackSuper_1: -8570976382451825489

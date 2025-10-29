@@ -1,6 +1,5 @@
-using NUnit.Framework;
+using JetBrains.Annotations;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class Match
 {
@@ -17,5 +16,12 @@ public class Match
         this.owner = owner;
         this.element = element;
         this.connectedPoints = connectedPoints;
+
+        DeleteDuplicates();
+    }
+    public void DeleteDuplicates()
+    {
+
     }
 }
+

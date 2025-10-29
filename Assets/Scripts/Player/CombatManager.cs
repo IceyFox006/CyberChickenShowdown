@@ -80,25 +80,33 @@ public class CombatManager : MonoBehaviour
         ChargeSuper(damage);
     }
 
-    private void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
+    public void DealDamage(Player target, float damage, bool spawnFloatingText = false, ElementSO damageElement = null)
     {
+        if (target.CombatManager.IsDead)
+            return;
+
         target.CurrentHP -= damage;
+        owner.UiHandler.DamageDealt += damage;
         CorrectHPAmount();
 
-        target.CombatManager.IsHurt = true;
+
         if (spawnFloatingText)
         {
             if (damageElement == null)
-                target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, damage.ToString());
+                target.UiHandler.SpawnFloatingText(target.UiHandler.ReduceDamageFT, Mathf.RoundToInt(damage).ToString());
             else
-                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, damage.ToString(), damageElement == owner.Data.Fighter.Element);
+                target.UiHandler.SpawnFloatingText(damageElement.DamageFT, Mathf.RoundToInt(damage).ToString(), damageElement == owner.Data.Fighter.Element);
         }
 
         if (target.CurrentHP <= 0)
         {
             target.CombatManager.IsDead = true;
-            owner.AudioManager.PlaySound("PlayerDeath");
+            GameManager.Instance.CameraAnimator.Animator.SetBool("isDead", true);
+            GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", target.Data.ID);
+            GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
         }
+        else
+            target.CombatManager.IsHurt = true;
 
     }
     public void RegenHealth(Player target, float regenValue)
@@ -106,7 +114,7 @@ public class CombatManager : MonoBehaviour
         target.CurrentHP += regenValue;
         CorrectHPAmount();
 
-        target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, regenValue.ToString());
+        target.UiHandler.SpawnFloatingText(target.UiHandler.RegenHealthFT, Mathf.RoundToInt(regenValue).ToString());
     }
     public void UpdateMatchElement(Match match)
     {

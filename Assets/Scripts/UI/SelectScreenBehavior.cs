@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -20,16 +21,16 @@ public class SelectScreenBehavior : MonoBehaviour
     public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
 
+    private void Awake()
+    {
+        instance = this;
+    }
     public void SetRoundCount(int  matchCount)
     {
         StaticData.InitialMatchCount = matchCount;
         StaticData.CurrentMatchCount = 1;
 
-        SceneManager.LoadScene("GameScreen");
-    }
-    private void Awake()
-    {
-        instance = this;
+        TransitionBehavior.Instance.PlayClose("GameScreen");
     }
     public PlayerSelectScreen GetOtherPlayer(PlayerSelectScreen player)
     {

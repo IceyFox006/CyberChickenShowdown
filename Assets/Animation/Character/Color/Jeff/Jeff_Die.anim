@@ -38,7 +38,7 @@ AnimationClip:
       value: {fileID: -3918775203636052454, guid: 8eff1f107a69545458dd44d6bf50ea7d, type: 3}
     - time: 0.6666667
       value: {fileID: -1855000906769120065, guid: 8eff1f107a69545458dd44d6bf50ea7d, type: 3}
-    - time: 0.875
+    - time: 1.2916666
       value: {fileID: -1855000906769120065, guid: 8eff1f107a69545458dd44d6bf50ea7d, type: 3}
     attribute: m_Sprite
     path: 
@@ -77,7 +77,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.9166667
+    m_StopTime: 1.3333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -97,8 +97,29 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.875
-    functionName: EnactDie
+  - time: 0
+    functionName: DisableAllInput
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: PlaySFX
+    data: PlayerDeath
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: NormalTime
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.2916666
+    functionName: PlayTransitionClose
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

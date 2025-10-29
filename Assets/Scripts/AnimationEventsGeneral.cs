@@ -5,11 +5,14 @@ public class AnimationEventsGeneral : MonoBehaviour
 {
     private Animator animator;
 
+    private string sceneChange = "NextRound";
+
+    public string SceneChange { get => sceneChange; set => sceneChange = value; }
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
-
     public void TriggerAnimation()
     {
         animator.SetTrigger("triggerAnimation");
@@ -18,6 +21,10 @@ public class AnimationEventsGeneral : MonoBehaviour
     {
         animator.ResetTrigger("triggerAnimation");
     }
+    public void PlaySFX(string name)
+    {
+        AudioManager.Instance.PlaySound(name);
+    }
     public void DestroyObject()
     {
         Destroy(gameObject);
@@ -25,5 +32,16 @@ public class AnimationEventsGeneral : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+    public void LoadSceneChange()
+    {
+        Time.timeScale = 1;
+        switch (sceneChange)
+        {
+            case "NextRound":
+                GameManager.Instance.NextRound(); break;
+            default:
+                SceneManager.LoadScene(sceneChange); break;
+        }
     }
 }

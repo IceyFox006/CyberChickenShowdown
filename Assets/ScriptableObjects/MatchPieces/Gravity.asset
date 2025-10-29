@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Gravity
   _boardFunction: 1
+  _unmoveable: 0
   _element: {fileID: 11400000, guid: 58a18fdd5176bfd4298e57fdd6b84826, type: 2}
-  _sprite: {fileID: 21300000, guid: e7287be2246a6dd49adbe241a57c0c31, type: 3}
+  _sprite: {fileID: -9172309343771983079, guid: 7cf85ee8aa75b5447b2687c9d202da3c, type: 3}
   _breakParticlePrefab: {fileID: 1586143202843332348, guid: ea0057a80157e7a45a0d2e247883e3de, type: 3}

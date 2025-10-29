@@ -1,6 +1,3 @@
-using NUnit.Framework;
-using System.Collections;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,11 +7,25 @@ public class PlayerUIHandler : MonoBehaviour
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
     [SerializeField] private Image _superVisualImage;
+    [SerializeField] private Animator _durationVFXAnimator;
     [SerializeField] private Image _portraitImage;
     [SerializeField] private Image _legUpImage;
     [SerializeField] private Transform _roundHolder;
     [SerializeField] private GameObject _roundHeartPrefab;
     [SerializeField] private Sprite _brokenHeart;
+
+    [Header("Control Guide")]
+    private bool isShowingControls = false;
+    [SerializeField] private Animator _controlsAnimator;
+    [SerializeField] private Image _controlsImage;
+
+    [Header("Tabs")]
+    [SerializeField] private TMP_Text _damageDealtText;
+    private float damageDealt = 0;
+    [SerializeField] private TMP_Text _highestComboText;
+    [SerializeField] private int highestCombo = 0;
+    [SerializeField] private TMP_Text _matchCountText;
+    private int matchCount = 0;
 
     [Header("Floating Text")]
     [SerializeField] private Transform _overlayCanvas;
@@ -26,8 +37,6 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private FloatingText _STABModification;
     [SerializeField] private FloatingText _superFT;
 
-    
-
     [Header("HP Bar")]
     [SerializeField] private Image _HPBarFillImage;
     [SerializeField] private Gradient _HPBarGradient;
@@ -35,26 +44,49 @@ public class PlayerUIHandler : MonoBehaviour
     private float activeHPFillSpeed;
 
     [Header("Super Bar")]
-    [SerializeField] private UnityEngine.UI.Image _superBarFillImage;
+    [SerializeField] private Image _superBarFillImage;
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
+    [SerializeField] private Animator _superBarAnimator;
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
     public FloatingText SuperFT { get => _superFT; set => _superFT = value; }
     public Transform OverlayCanvas { get => _overlayCanvas; set => _overlayCanvas = value; }
     public Image LegUpImage { get => _legUpImage; set => _legUpImage = value; }
+    public float DamageDealt { get => damageDealt; set => damageDealt = value; }
+    public int MatchCount { get => matchCount; set => matchCount = value; }
+    public int HighestCombo { get => highestCombo; set => highestCombo = value; }
 
     private void Start()
     {
         owner = GetComponent<Player>();
 
         LinkFighterInfo();
+
+        if (StaticData.IsKeyboardControls)
+            _controlsImage.sprite = owner.Data.KeyboardControlsSprite;
+        else
+            _controlsImage.sprite = owner.Data.ArcadeControlsSprite;
     }
     private void FixedUpdate()
     {
         LinkHPToHPBar();
         LinkSuperToBar();
+        LinkTabs();
+    }
+    public void ShowControlGuide()
+    {
+        if (!isShowingControls)
+        {
+            _controlsAnimator.Play("SHOW");
+            isShowingControls = true;
+        }
+        else
+        {
+            _controlsAnimator.Play("HIDE");
+            isShowingControls = false;
+        }
     }
     private void LinkFighterInfo()
     {
@@ -63,9 +95,19 @@ public class PlayerUIHandler : MonoBehaviour
         _legUpImage.sprite = owner.Data.Fighter.LegUpIcon;
         GenerateRoundHearts();
     }
+    private void LinkTabs()
+    {
+        _damageDealtText.text = Mathf.RoundToInt(damageDealt).ToString();
+        _highestComboText.text = highestCombo.ToString() + " Combo";
+        _matchCountText.text = matchCount.ToString() + " Matches";
+    }
     public void SpawnFloatingText(FloatingText floatingText, string externalText = "", bool isSTAB = false)
     {
-        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, _floatingTextSpawnLocation.position, Quaternion.identity, _overlayCanvas);
+        float spawnRangeX = Random.Range(_floatingTextSpawnLocation.position.x - 40, _floatingTextSpawnLocation.position.x + 40);
+        float spawnRangeY = Random.Range(_floatingTextSpawnLocation.position.y - 5, _floatingTextSpawnLocation.position.y + 15);
+        Vector2 spawnLocation = new Vector2(spawnRangeX, spawnRangeY);
+
+        GameObject floatingTextGO = Instantiate(_floatingTextPrefab, spawnLocation, Quaternion.identity, _overlayCanvas);
         TMP_Text text = floatingTextGO.GetComponentInChildren<TMP_Text>();
         if (floatingText.IsInternal)
         {
@@ -102,6 +144,11 @@ public class PlayerUIHandler : MonoBehaviour
         activeSuperFillSpeed = _superBarFillSpeed * Time.deltaTime;
         _superBarFillImage.fillAmount = Mathf.Lerp(_superBarFillImage.fillAmount, superPercented, activeSuperFillSpeed);
         _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
+
+        if (owner.CombatManager.IsSuperFull())
+            _superBarAnimator.SetBool("IsFlashing", true);
+        else
+            _superBarAnimator.SetBool("IsFlashing", false);
     }
     public void ActivateSuperVisual()
     {
@@ -109,16 +156,18 @@ public class PlayerUIHandler : MonoBehaviour
             return;
         _superVisualImage.enabled = true;
         _superVisualImage.sprite = owner.Data.Fighter.SuperVisual;
+        _durationVFXAnimator.SetBool("isPlaying", true);
+        _durationVFXAnimator.SetInteger("elementID", (int)owner.Data.Fighter.Element.Element);
     }
     public void DeactivateSuperVisual()
     {
         _superVisualImage.enabled = false;
+        _durationVFXAnimator.SetBool("isPlaying", false);
     }
 
     public void GenerateRoundHearts()
     {
         int brokenHearts = (StaticData.CurrentMatchCount - owner.Data.Wins) - 1;
-        Debug.Log(brokenHearts);
         for (int index = 0; index < StaticData.InitialMatchCount;  index++)
         {
             GameObject roundHeart = Instantiate(_roundHeartPrefab, _roundHolder);

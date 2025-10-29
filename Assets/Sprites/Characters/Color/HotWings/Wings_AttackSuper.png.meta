@@ -1,0 +1,931 @@
+fileFormatVersion: 2
+guid: 672497508f51dea439b3f9bc20f9a18e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8616252465077781509
+    second: Wings_AttackSuper_0
+  - first:
+      213: 2019814683602956652
+    second: Wings_AttackSuper_1
+  - first:
+      213: -7033164004779034453
+    second: Wings_AttackSuper_2
+  - first:
+      213: -6262360573849178460
+    second: Wings_AttackSuper_3
+  - first:
+      213: -8253784898613413479
+    second: Wings_AttackSuper_4
+  - first:
+      213: -2061544195559609176
+    second: Wings_AttackSuper_5
+  - first:
+      213: -1309971194338979588
+    second: Wings_AttackSuper_6
+  - first:
+      213: 2374219950499684258
+    second: Wings_AttackSuper_7
+  - first:
+      213: -7324724779072055682
+    second: Wings_AttackSuper_8
+  - first:
+      213: -5858171343765505772
+    second: Wings_AttackSuper_9
+  - first:
+      213: 1631060816150076653
+    second: Wings_AttackSuper_10
+  - first:
+      213: -1040367740511254899
+    second: Wings_AttackSuper_11
+  - first:
+      213: 7275850437878178754
+    second: Wings_AttackSuper_12
+  - first:
+      213: 5997787473119154218
+    second: Wings_AttackSuper_13
+  - first:
+      213: 1919269383734134974
+    second: Wings_AttackSuper_14
+  - first:
+      213: -7574885253330423800
+    second: Wings_AttackSuper_15
+  - first:
+      213: 3934238195895317374
+    second: Wings_AttackSuper_16
+  - first:
+      213: -7714957318212158531
+    second: Wings_AttackSuper_17
+  - first:
+      213: 8398544523035795329
+    second: Wings_AttackSuper_18
+  - first:
+      213: -5268225255747939033
+    second: Wings_AttackSuper_19
+  - first:
+      213: 6459974633399318331
+    second: Wings_AttackSuper_20
+  - first:
+      213: 8793921105831460093
+    second: Wings_AttackSuper_21
+  - first:
+      213: 3090961361630470385
+    second: Wings_AttackSuper_22
+  - first:
+      213: 8347655975327199205
+    second: Wings_AttackSuper_23
+  - first:
+      213: -3009862935153708957
+    second: Wings_AttackSuper_24
+  - first:
+      213: -1939209928386913032
+    second: Wings_AttackSuper_25
+  - first:
+      213: -7223878173222038969
+    second: Wings_AttackSuper_26
+  - first:
+      213: -517212262100633707
+    second: Wings_AttackSuper_27
+  - first:
+      213: 6278039758536567003
+    second: Wings_AttackSuper_28
+  - first:
+      213: -7101903083215672750
+    second: Wings_AttackSuper_29
+  - first:
+      213: 605617616610228194
+    second: Wings_AttackSuper_30
+  - first:
+      213: 5558291809082301551
+    second: Wings_AttackSuper_31
+  - first:
+      213: -1864276740593294607
+    second: Wings_AttackSuper_32
+  - first:
+      213: 5287498999308957482
+    second: Wings_AttackSuper_33
+  - first:
+      213: 8755828235771354200
+    second: Wings_AttackSuper_34
+  - first:
+      213: -8487425489468699957
+    second: Wings_AttackSuper_35
+  - first:
+      213: -533422333706445210
+    second: Wings_AttackSuper_36
+  - first:
+      213: -4006095877801944348
+    second: Wings_AttackSuper_37
+  - first:
+      213: 8752389311926731146
+    second: Wings_AttackSuper_38
+  - first:
+      213: 5674528084956557277
+    second: Wings_AttackSuper_39
+  - first:
+      213: -4735474610655611558
+    second: Wings_AttackSuper_40
+  - first:
+      213: -2234305787324334319
+    second: Wings_AttackSuper_41
+  - first:
+      213: 5579215153661404834
+    second: Wings_AttackSuper_42
+  - first:
+      213: -1937022611661363627
+    second: Wings_AttackSuper_43
+  - first:
+      213: -3912188195129563742
+    second: Wings_AttackSuper_44
+  - first:
+      213: -2361551542873421224
+    second: Wings_AttackSuper_45
+  - first:
+      213: -6269095770666797095
+    second: Wings_AttackSuper_46
+  - first:
+      213: -6137298298211577987
+    second: Wings_AttackSuper_47
+  - first:
+      213: 6359310376569693592
+    second: Wings_AttackSuper_48
+  - first:
+      213: 8056723702968206838
+    second: Wings_AttackSuper_49
+  - first:
+      213: -3784192590542815789
+    second: Wings_AttackSuper_50
+  - first:
+      213: -6061668724428815924
+    second: Wings_AttackSuper_51
+  - first:
+      213: 6681067431894976209
+    second: Wings_AttackSuper_52
+  - first:
+      213: 3926996049028078813
+    second: Wings_AttackSuper_53
+  - first:
+      213: -7035753869129967474
+    second: Wings_AttackSuper_54
+  - first:
+      213: -4299009475436138290
+    second: Wings_AttackSuper_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wings_AttackSuper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5048b0457f3139770800000000000000
+      internalID: 8616252465077781509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61b548d0c2d70c10800000000000000
+      internalID: 2019814683602956652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f418d99e256e90800000000000000
+      internalID: -7033164004779034453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeee4ccc30a719a0800000000000000
+      internalID: -6262360573849178460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f9a97d5aa47d80800000000000000
+      internalID: -8253784898613413479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aca6e60a7ce363e0800000000000000
+      internalID: -2061544195559609176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf05e67a32c02dde0800000000000000
+      internalID: -1309971194338979588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afdd20477ce2f020800000000000000
+      internalID: 2374219950499684258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7698e91f99595a90800000000000000
+      internalID: -7324724779072055682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419fb75633893bea0800000000000000
+      internalID: -5858171343765505772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1fa9ab21b2a610800000000000000
+      internalID: 1631060816150076653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d860d075d0fdf81f0800000000000000
+      internalID: -1040367740511254899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c369949c6309f460800000000000000
+      internalID: 7275850437878178754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a201e8dddeb6c3350800000000000000
+      internalID: 5997787473119154218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb881c5f55d92aa10800000000000000
+      internalID: 1919269383734134974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80035ecdef990e690800000000000000
+      internalID: -7574885253330423800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e733d107bc8399630800000000000000
+      internalID: 3934238195895317374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbf9a6d137fee490800000000000000
+      internalID: -7714957318212158531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd9dd0fbf9d8470800000000000000
+      internalID: 8398544523035795329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725176aca0183e6b0800000000000000
+      internalID: -5268225255747939033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37fcc1e3b076a950800000000000000
+      internalID: 6459974633399318331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcf4ef47a84a0a70800000000000000
+      internalID: 8793921105831460093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f021765bfc45ea20800000000000000
+      internalID: 3090961361630470385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_23
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef6b8cb1e4d8d370800000000000000
+      internalID: 8347655975327199205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_24
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3607c8f7b91da36d0800000000000000
+      internalID: -3009862935153708957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc569138da8615e0800000000000000
+      internalID: -1939209928386913032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74217604311afbb90800000000000000
+      internalID: -7223878173222038969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wings_AttackSuper_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f30c103e72d8f0800000000000000
+      internalID: -517212262100633707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d77d1c90e71b6d04092dee5316f501b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Wings_AttackSuper_0: 8616252465077781509
+      Wings_AttackSuper_1: 2019814683602956652
+      Wings_AttackSuper_10: 1631060816150076653
+      Wings_AttackSuper_11: -1040367740511254899
+      Wings_AttackSuper_12: 7275850437878178754
+      Wings_AttackSuper_13: 5997787473119154218
+      Wings_AttackSuper_14: 1919269383734134974
+      Wings_AttackSuper_15: -7574885253330423800
+      Wings_AttackSuper_16: 3934238195895317374
+      Wings_AttackSuper_17: -7714957318212158531
+      Wings_AttackSuper_18: 8398544523035795329
+      Wings_AttackSuper_19: -5268225255747939033
+      Wings_AttackSuper_2: -7033164004779034453
+      Wings_AttackSuper_20: 6459974633399318331
+      Wings_AttackSuper_21: 8793921105831460093
+      Wings_AttackSuper_22: 3090961361630470385
+      Wings_AttackSuper_23: 8347655975327199205
+      Wings_AttackSuper_24: -3009862935153708957
+      Wings_AttackSuper_25: -1939209928386913032
+      Wings_AttackSuper_26: -7223878173222038969
+      Wings_AttackSuper_27: -517212262100633707
+      Wings_AttackSuper_3: -6262360573849178460
+      Wings_AttackSuper_4: -8253784898613413479
+      Wings_AttackSuper_5: -2061544195559609176
+      Wings_AttackSuper_6: -1309971194338979588
+      Wings_AttackSuper_7: 2374219950499684258
+      Wings_AttackSuper_8: -7324724779072055682
+      Wings_AttackSuper_9: -5858171343765505772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

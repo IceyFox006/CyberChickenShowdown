@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 44e721b8d89cbd845b9ede89a518c3e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8590507794839688169
+    second: SuperPlasmaVFX_V1_0
+  - first:
+      213: 8984972893326311993
+    second: SuperPlasmaVFX_V1_1
+  - first:
+      213: -2964235930701733526
+    second: SuperPlasmaVFX_V1_2
+  - first:
+      213: -4102371691068941279
+    second: SuperPlasmaVFX_V1_3
+  - first:
+      213: -9029974252455195582
+    second: SuperPlasmaVFX_V1_4
+  - first:
+      213: 6283016543382812266
+    second: SuperPlasmaVFX_V1_5
+  - first:
+      213: 3008449888271249922
+    second: SuperPlasmaVFX_V1_6
+  - first:
+      213: -5842595432478026766
+    second: SuperPlasmaVFX_V1_7
+  - first:
+      213: -304813619633032472
+    second: SuperPlasmaVFX_V1_8
+  - first:
+      213: 4028499173714477841
+    second: SuperPlasmaVFX_V1_9
+  - first:
+      213: 1349389214861110779
+    second: SuperPlasmaVFX_V1_10
+  - first:
+      213: -3646815596597311720
+    second: SuperPlasmaVFX_V1_11
+  - first:
+      213: -6549613001329903877
+    second: SuperPlasmaVFX_V1_12
+  - first:
+      213: -1762442602031633384
+    second: SuperPlasmaVFX_V1_13
+  - first:
+      213: -4333564669300072032
+    second: SuperPlasmaVFX_V1_14
+  - first:
+      213: -5206027659787296721
+    second: SuperPlasmaVFX_V1_15
+  - first:
+      213: 8174018086169190114
+    second: SuperPlasmaVFX_V1_16
+  - first:
+      213: -3902786266786775283
+    second: SuperPlasmaVFX_V1_17
+  - first:
+      213: -8553063876951389842
+    second: SuperPlasmaVFX_V1_18
+  - first:
+      213: 1393932623967805169
+    second: SuperPlasmaVFX_V1_19
+  - first:
+      213: 5826628558272526783
+    second: SuperPlasmaVFX_V1_20
+  - first:
+      213: 2046955984481550884
+    second: SuperPlasmaVFX_V1_21
+  - first:
+      213: -516320830165521286
+    second: SuperPlasmaVFX_V1_22
+  - first:
+      213: 1843389518134553407
+    second: SuperPlasmaVFX_V1_23
+  - first:
+      213: -7216010257811702518
+    second: SuperPlasmaVFX_V1_24
+  - first:
+      213: 8639133679235550514
+    second: SuperPlasmaVFX_V1_25
+  - first:
+      213: -8033910277150473237
+    second: SuperPlasmaVFX_V1_26
+  - first:
+      213: -4572748380671426221
+    second: SuperPlasmaVFX_V1_27
+  - first:
+      213: -1720869647259925544
+    second: SuperPlasmaVFX_V1_28
+  - first:
+      213: 7415012945360228152
+    second: SuperPlasmaVFX_V1_29
+  - first:
+      213: -2961263816207350116
+    second: SuperPlasmaVFX_V1_30
+  - first:
+      213: -1039987222672089622
+    second: SuperPlasmaVFX_V1_31
+  - first:
+      213: 4947706886744262855
+    second: SuperPlasmaVFX_V1_32
+  - first:
+      213: 7270964995010668012
+    second: SuperPlasmaVFX_V1_33
+  - first:
+      213: -4763671337669600611
+    second: SuperPlasmaVFX_V1_34
+  - first:
+      213: -830946151132780811
+    second: SuperPlasmaVFX_V1_35
+  - first:
+      213: -3556999258501128341
+    second: SuperPlasmaVFX_V1_36
+  - first:
+      213: -3393744342407423273
+    second: SuperPlasmaVFX_V1_37
+  - first:
+      213: -6450079202283695876
+    second: SuperPlasmaVFX_V1_38
+  - first:
+      213: 1067640746098076078
+    second: SuperPlasmaVFX_V1_39
+  - first:
+      213: -4579084909221537091
+    second: SuperPlasmaVFX_V1_40
+  - first:
+      213: -3979090710670872463
+    second: SuperPlasmaVFX_V1_41
+  - first:
+      213: 3214445899518527196
+    second: SuperPlasmaVFX_V1_42
+  - first:
+      213: 5639751555622733562
+    second: SuperPlasmaVFX_V1_43
+  - first:
+      213: 5673477326366616210
+    second: SuperPlasmaVFX_V1_44
+  - first:
+      213: -4202318624725522313
+    second: SuperPlasmaVFX_V1_45
+  - first:
+      213: 5814721411150803383
+    second: SuperPlasmaVFX_V1_46
+  - first:
+      213: -5480003172206123994
+    second: SuperPlasmaVFX_V1_47
+  - first:
+      213: -8486636865915969553
+    second: SuperPlasmaVFX_V1_48
+  - first:
+      213: 1137852850323561935
+    second: SuperPlasmaVFX_V1_49
+  - first:
+      213: -2362684147840208481
+    second: SuperPlasmaVFX_V1_50
+  - first:
+      213: -4763168911531954278
+    second: SuperPlasmaVFX_V1_51
+  - first:
+      213: 4373212421278936193
+    second: SuperPlasmaVFX_V1_52
+  - first:
+      213: 4592234732224461881
+    second: SuperPlasmaVFX_V1_53
+  - first:
+      213: -1856020329440388598
+    second: SuperPlasmaVFX_V1_54
+  - first:
+      213: 8082527341418594238
+    second: SuperPlasmaVFX_V1_55
+  - first:
+      213: 8779489499286848464
+    second: SuperPlasmaVFX_V1_56
+  - first:
+      213: -5586661538426917250
+    second: SuperPlasmaVFX_V1_57
+  - first:
+      213: -5564332131410738233
+    second: SuperPlasmaVFX_V1_58
+  - first:
+      213: 5261433486696674859
+    second: SuperPlasmaVFX_V1_59
+  - first:
+      213: -8405450968725777463
+    second: SuperPlasmaVFX_V1_60
+  - first:
+      213: 9131367290279403729
+    second: SuperPlasmaVFX_V1_61
+  - first:
+      213: -1467937049864161643
+    second: SuperPlasmaVFX_V1_62
+  - first:
+      213: -7745194203153026385
+    second: SuperPlasmaVFX_V1_63
+  - first:
+      213: -32246754573542831
+    second: SuperPlasmaVFX_V1_64
+  - first:
+      213: 209024790224385842
+    second: SuperPlasmaVFX_V1_65
+  - first:
+      213: -1226490007808908941
+    second: SuperPlasmaVFX_V1_66
+  - first:
+      213: 2321307290074608893
+    second: SuperPlasmaVFX_V1_67
+  - first:
+      213: 1614257339842528183
+    second: SuperPlasmaVFX_V1_68
+  - first:
+      213: 733520351979040795
+    second: SuperPlasmaVFX_V1_69
+  - first:
+      213: -4013862871387237853
+    second: SuperPlasmaVFX_V1_70
+  - first:
+      213: 7618871139523707090
+    second: SuperPlasmaVFX_V1_71
+  - first:
+      213: -3888303597205775331
+    second: SuperPlasmaVFX_V1_72
+  - first:
+      213: 247456145117751392
+    second: SuperPlasmaVFX_V1_73
+  - first:
+      213: -3340157279178749519
+    second: SuperPlasmaVFX_V1_74
+  - first:
+      213: -8373781196184801393
+    second: SuperPlasmaVFX_V1_75
+  - first:
+      213: 6585689516914660378
+    second: SuperPlasmaVFX_V1_76
+  - first:
+      213: -5179616542469510271
+    second: SuperPlasmaVFX_V1_77
+  - first:
+      213: 3577452235927908786
+    second: SuperPlasmaVFX_V1_78
+  - first:
+      213: -1297027832370838051
+    second: SuperPlasmaVFX_V1_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3d4af235d973770800000000000000
+      internalID: 8590507794839688169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9328a37fd3901bc70800000000000000
+      internalID: 8984972893326311993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61e210502becd6d0800000000000000
+      internalID: -2964235930701733526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c9739aea27117c0800000000000000
+      internalID: -4102371691068941279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c0c7f92461fa280800000000000000
+      internalID: -9029974252455195582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a663c32e142c13750800000000000000
+      internalID: 6283016543382812266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b8f2eb3920c920800000000000000
+      internalID: 3008449888271249922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d3d8d86eeaeea0800000000000000
+      internalID: -5842595432478026766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2721fb0a515cbf0800000000000000
+      internalID: -304813619633032472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c43397aa18e730800000000000000
+      internalID: 4028499173714477841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2a8f675ef9b210800000000000000
+      internalID: 1349389214861110779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817867b5988e36dc0800000000000000
+      internalID: -3646815596597311720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf673773da91b15a0800000000000000
+      internalID: -6549613001329903877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ca3e09acb8a87e0800000000000000
+      internalID: -1762442602031633384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperPlasmaVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1af2bb4e51cd3c0800000000000000
+      internalID: -4333564669300072032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 05d5e295742495440865b8bbe09925e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":3840.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SuperPlasmaVFX_V1_0: 8590507794839688169
+      SuperPlasmaVFX_V1_1: 8984972893326311993
+      SuperPlasmaVFX_V1_10: 1349389214861110779
+      SuperPlasmaVFX_V1_11: -3646815596597311720
+      SuperPlasmaVFX_V1_12: -6549613001329903877
+      SuperPlasmaVFX_V1_13: -1762442602031633384
+      SuperPlasmaVFX_V1_14: -4333564669300072032
+      SuperPlasmaVFX_V1_2: -2964235930701733526
+      SuperPlasmaVFX_V1_3: -4102371691068941279
+      SuperPlasmaVFX_V1_4: -9029974252455195582
+      SuperPlasmaVFX_V1_5: 6283016543382812266
+      SuperPlasmaVFX_V1_6: 3008449888271249922
+      SuperPlasmaVFX_V1_7: -5842595432478026766
+      SuperPlasmaVFX_V1_8: -304813619633032472
+      SuperPlasmaVFX_V1_9: 4028499173714477841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

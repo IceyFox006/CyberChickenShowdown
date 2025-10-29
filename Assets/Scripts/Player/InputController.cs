@@ -1,19 +1,15 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
 {
     private Player owner;
     [SerializeField] private PlayerInput _playerInput;
 
-
     private InputAction back;
     private InputAction block;
     private InputAction reshuffle;
     private InputAction super;
-    private InputAction reset;
-    private InputAction quit;
 
     public Player Owner { get => owner; set => owner = value; }
 
@@ -24,19 +20,15 @@ public class InputController : MonoBehaviour
         block = _playerInput.currentActionMap.FindAction("Block");
         reshuffle = _playerInput.currentActionMap.FindAction("Reshuffle");
         super = _playerInput.currentActionMap.FindAction("Super");
-        reset = _playerInput.currentActionMap.FindAction("Reset");
-        quit = _playerInput.currentActionMap.FindAction("Quit");
+
 
         back.performed += Back_performed;
         block.started += Block_started;
         block.canceled += Block_canceled;
         reshuffle.performed += Reshuffle_performed;
         super.performed += Super_performed;
-        reset.performed += Reset_performed;
-        quit.performed += Quit_performed;
+
     }
-
-
     private void OnDestroy()
     {
         back.performed -= Back_performed;
@@ -44,8 +36,14 @@ public class InputController : MonoBehaviour
         block.canceled -= Block_canceled;
         reshuffle.performed -= Reshuffle_performed;
         super.performed -= Super_performed;
-        reset.performed -= Reset_performed;
-        quit.performed -= Quit_performed;
+    }
+    public void EnableInput()
+    {
+        _playerInput.currentActionMap.Enable();
+    }
+    public void DisableInput()
+    {
+        _playerInput.currentActionMap.Disable();
     }
     private void Back_performed(InputAction.CallbackContext obj)
     {
@@ -55,32 +53,22 @@ public class InputController : MonoBehaviour
     }
     private void Block_started(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.StartBlocking();
+        //owner.CombatManager.StartBlocking();
     }
     private void Block_canceled(InputAction.CallbackContext obj)
     {
-        owner.CombatManager.StopBlocking();
+        //owner.CombatManager.StopBlocking();
     }
     private void Reshuffle_performed(InputAction.CallbackContext obj)
     {
-        owner.Game.ReshuffleBoard();
+        owner.UiHandler.ShowControlGuide();
+        //owner.Game.ReshuffleBoard();
     }
     private void Super_performed(InputAction.CallbackContext obj)
     {
         if (!owner.CombatManager.IsSuperFull())
             return;
-        owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
-        owner.CombatManager.IsSuper = true;
-    }
-    private void Reset_performed(InputAction.CallbackContext obj)
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-    private void Quit_performed(InputAction.CallbackContext obj)
-    {
-        Application.Quit();
-        #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-        #endif
+        GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
+        GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", owner.Data.ID);
     }
 }

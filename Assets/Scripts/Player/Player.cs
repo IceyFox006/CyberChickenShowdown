@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerUIHandler _uiHandler;
     [SerializeField] private CombatManager _combatManager;
     [SerializeField] private AudioManager _audioManager;
+    [SerializeField] private MultiplayerEventSystem _eventSystem;
 
     [Header("Combat")]
     private float currentHP;
@@ -22,6 +24,8 @@ public class Player : MonoBehaviour
     public PlayerGOController GameObjectController { get => _gameObjectController; set => _gameObjectController = value; }
     public PlayerSO Data { get => _data; set => _data = value; }
     public AudioManager AudioManager { get => _audioManager; set => _audioManager = value; }
+    public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
+    public InputController InputController { get => _inputController; set => _inputController = value; }
 
     private void Awake()
     {

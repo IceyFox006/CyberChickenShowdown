@@ -21,18 +21,17 @@ public class GameTimer : MonoBehaviour
         while (currentTime > 0)
         {
             yield return new WaitForSeconds(GameManager.Instance.Tick);
-            currentTime--;
-            LinkTimeToTimer();
+            if (GameManager.Instance.IsTimerGoing)
+            {
+                currentTime--;
+                LinkTimeToTimer();
+            }
         }
-
-        GameManager.Instance.EndRound(GameManager.Instance.DetermineWinner());
-
+        Player winner = GameManager.Instance.DetermineWinner();
+        winner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(winner), 999999);
     }
     private void LinkTimeToTimer()
     {
-        int minutes = currentTime / 60;
-        int seconds = currentTime % 60;
-
-        _timerText.text = minutes + " : " + seconds;
+        _timerText.text = currentTime.ToString();
     }
 }

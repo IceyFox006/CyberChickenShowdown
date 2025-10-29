@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: b9833f6f9250bd14cab91f31096c0791
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6168887017719250227
+    second: Guy_AttackSuper_0
+  - first:
+      213: -658537431890226621
+    second: Guy_AttackSuper_1
+  - first:
+      213: 7952303984843437034
+    second: Guy_AttackSuper_2
+  - first:
+      213: -1131582679089178512
+    second: Guy_AttackSuper_3
+  - first:
+      213: 7405921146470746452
+    second: Guy_AttackSuper_4
+  - first:
+      213: -3505940639141558685
+    second: Guy_AttackSuper_5
+  - first:
+      213: -2919651743935500799
+    second: Guy_AttackSuper_6
+  - first:
+      213: -9192956369414422209
+    second: Guy_AttackSuper_7
+  - first:
+      213: -5833772365673392796
+    second: Guy_AttackSuper_8
+  - first:
+      213: -6491321332848092220
+    second: Guy_AttackSuper_9
+  - first:
+      213: -5428432844530171559
+    second: Guy_AttackSuper_10
+  - first:
+      213: 8422553559409470749
+    second: Guy_AttackSuper_11
+  - first:
+      213: -2952091984131491357
+    second: Guy_AttackSuper_12
+  - first:
+      213: -1019410531802391421
+    second: Guy_AttackSuper_13
+  - first:
+      213: -6968389988780088741
+    second: Guy_AttackSuper_14
+  - first:
+      213: 8830854102145341171
+    second: Guy_AttackSuper_15
+  - first:
+      213: 8979087141343421479
+    second: Guy_AttackSuper_16
+  - first:
+      213: 7566627272195962418
+    second: Guy_AttackSuper_17
+  - first:
+      213: 1288052305499470694
+    second: Guy_AttackSuper_18
+  - first:
+      213: 3221990651530273846
+    second: Guy_AttackSuper_19
+  - first:
+      213: 6015391479564291511
+    second: Guy_AttackSuper_20
+  - first:
+      213: 308760314632127733
+    second: Guy_AttackSuper_21
+  - first:
+      213: -5863028540456091785
+    second: Guy_AttackSuper_22
+  - first:
+      213: 2778801375151908772
+    second: Guy_AttackSuper_23
+  - first:
+      213: -6543381821632569682
+    second: Guy_AttackSuper_24
+  - first:
+      213: -9005313723757956452
+    second: Guy_AttackSuper_25
+  - first:
+      213: -1320188467583569746
+    second: Guy_AttackSuper_26
+  - first:
+      213: 7672732488979213369
+    second: Guy_AttackSuper_27
+  - first:
+      213: 5967096506041478761
+    second: Guy_AttackSuper_28
+  - first:
+      213: 5789055603923241083
+    second: Guy_AttackSuper_29
+  - first:
+      213: 1086283282310923360
+    second: Guy_AttackSuper_30
+  - first:
+      213: -2443219147463749548
+    second: Guy_AttackSuper_31
+  - first:
+      213: -8088427623789581860
+    second: Guy_AttackSuper_32
+  - first:
+      213: -1058980757217403180
+    second: Guy_AttackSuper_33
+  - first:
+      213: -4361803518032546535
+    second: Guy_AttackSuper_34
+  - first:
+      213: -2027473137191553665
+    second: Guy_AttackSuper_35
+  - first:
+      213: 1958515794176726386
+    second: Guy_AttackSuper_36
+  - first:
+      213: 8400261871006721610
+    second: Guy_AttackSuper_37
+  - first:
+      213: -8596224266279523829
+    second: Guy_AttackSuper_38
+  - first:
+      213: -7595934600742696556
+    second: Guy_AttackSuper_39
+  - first:
+      213: 2082113929091616820
+    second: Guy_AttackSuper_40
+  - first:
+      213: -1799216783589061011
+    second: Guy_AttackSuper_41
+  - first:
+      213: 2412370757945505921
+    second: Guy_AttackSuper_42
+  - first:
+      213: -9127841454042255784
+    second: Guy_AttackSuper_43
+  - first:
+      213: -3034327472898037398
+    second: Guy_AttackSuper_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guy_AttackSuper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dbca6fe0a4c9550800000000000000
+      internalID: 6168887017719250227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34292ecd1b76cd6f0800000000000000
+      internalID: -658537431890226621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3348257524c5e60800000000000000
+      internalID: 7952303984843437034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07897ea7c8fcb40f0800000000000000
+      internalID: -1131582679089178512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45941f16b0e17c660800000000000000
+      internalID: 7405921146470746452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3668c506095685fc0800000000000000
+      internalID: -3505940639141558685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eefd635305b77d0800000000000000
+      internalID: -2919651743935500799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_7
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31836d63ee0c6080800000000000000
+      internalID: -9192956369414422209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4651c8b21f64a0fa0800000000000000
+      internalID: -5833772365673392796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_9
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb9ca8e3a13ae5a0800000000000000
+      internalID: -6491321332848092220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95147b6c6155aa4b0800000000000000
+      internalID: -5428432844530171559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dad4276dbe2e470800000000000000
+      internalID: 8422553559409470749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e970953bff0807d0800000000000000
+      internalID: -2952091984131491357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c50abb5835ad1f0800000000000000
+      internalID: -1019410531802391421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52ef5ea93e4b4f90800000000000000
+      internalID: -6968389988780088741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f69cad940f7d8a70800000000000000
+      internalID: 8830854102145341171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7246d0b8e202c9c70800000000000000
+      internalID: 8979087141343421479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236f5031a6f020960800000000000000
+      internalID: 7566627272195962418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3b695fb410e110800000000000000
+      internalID: 1288052305499470694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634671e3d6fc6bc20800000000000000
+      internalID: 3221990651530273846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd47540ea6fa7350800000000000000
+      internalID: 6015391479564291511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4c26acedfe84400800000000000000
+      internalID: 308760314632127733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f332a2b9652aea0800000000000000
+      internalID: -5863028540456091785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_AttackSuper_23
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7eb43c029409620800000000000000
+      internalID: 2778801375151908772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 193607edf38752b4b8eae9473bd233c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Guy_AttackSuper_0: 6168887017719250227
+      Guy_AttackSuper_1: -658537431890226621
+      Guy_AttackSuper_10: -5428432844530171559
+      Guy_AttackSuper_11: 8422553559409470749
+      Guy_AttackSuper_12: -2952091984131491357
+      Guy_AttackSuper_13: -1019410531802391421
+      Guy_AttackSuper_14: -6968389988780088741
+      Guy_AttackSuper_15: 8830854102145341171
+      Guy_AttackSuper_16: 8979087141343421479
+      Guy_AttackSuper_17: 7566627272195962418
+      Guy_AttackSuper_18: 1288052305499470694
+      Guy_AttackSuper_19: 3221990651530273846
+      Guy_AttackSuper_2: 7952303984843437034
+      Guy_AttackSuper_20: 6015391479564291511
+      Guy_AttackSuper_21: 308760314632127733
+      Guy_AttackSuper_22: -5863028540456091785
+      Guy_AttackSuper_23: 2778801375151908772
+      Guy_AttackSuper_3: -1131582679089178512
+      Guy_AttackSuper_4: 7405921146470746452
+      Guy_AttackSuper_5: -3505940639141558685
+      Guy_AttackSuper_6: -2919651743935500799
+      Guy_AttackSuper_7: -9192956369414422209
+      Guy_AttackSuper_8: -5833772365673392796
+      Guy_AttackSuper_9: -6491321332848092220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
