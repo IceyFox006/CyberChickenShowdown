@@ -10,14 +10,12 @@ public class DialogueHandler : MonoBehaviour
     [SerializeField] private TMP_Text _speakerNameText;
     [SerializeField] private TMP_Text _dialogueText;
     [SerializeField] private GameObject _continueButton;
-    [SerializeField] private Transform _choiceHolder;
 
     private Queue<DialogueLine> lines;
     private DialogueLine currentLine = new DialogueLine();
     private bool isTyping;
 
     public GameObject ContinueButton { get => _continueButton; set => _continueButton = value; }
-    public Transform ChoiceHolder { get => _choiceHolder; set => _choiceHolder = value; }
 
 
     private void Start()

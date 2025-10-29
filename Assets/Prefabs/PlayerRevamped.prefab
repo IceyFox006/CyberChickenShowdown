@@ -1556,7 +1556,6 @@ GameObject:
   - component: {fileID: 162048099650317952}
   - component: {fileID: 2858505047325332675}
   - component: {fileID: 8184140319385293790}
-  - component: {fileID: 3181590905049402265}
   - component: {fileID: 4947024960318471511}
   m_Layer: 0
   m_Name: -LightingCanvas-
@@ -1632,23 +1631,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!114 &3181590905049402265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4654467578537739721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!225 &4947024960318471511
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1659,7 +1641,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &4988397360123730808
 GameObject:
@@ -1949,7 +1931,6 @@ GameObject:
   - component: {fileID: 1431669175507437104}
   - component: {fileID: 5114771036503104337}
   - component: {fileID: 8321135773863615103}
-  - component: {fileID: 3747553836692855385}
   - component: {fileID: 6172676360562454244}
   m_Layer: 0
   m_Name: -StatusUI-
@@ -2027,23 +2008,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!114 &3747553836692855385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5270857289328460978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!225 &6172676360562454244
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2054,7 +2018,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &5404091411511786852
 GameObject:
@@ -2740,7 +2704,6 @@ GameObject:
   - component: {fileID: 1643542454489120195}
   - component: {fileID: 492338859294509107}
   - component: {fileID: 8049743492660486622}
-  - component: {fileID: 751036129712830799}
   - component: {fileID: 7383750224739970920}
   m_Layer: 0
   m_Name: -ControlsPopUl-
@@ -2815,23 +2778,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!114 &751036129712830799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6921304183751589787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!225 &7383750224739970920
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2842,7 +2788,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &7251479628427549462
 GameObject:
@@ -2957,7 +2903,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &8469828098601631409
 GameObject:
