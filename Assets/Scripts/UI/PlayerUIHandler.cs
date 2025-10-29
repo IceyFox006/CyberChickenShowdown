@@ -7,6 +7,7 @@ public class PlayerUIHandler : MonoBehaviour
     private Player owner;
     [SerializeField] private TMP_Text _fighterNameText;
     [SerializeField] private Image _superVisualImage;
+    [SerializeField] private Animator _durationVFXAnimator;
     [SerializeField] private Image _portraitImage;
     [SerializeField] private Image _legUpImage;
     [SerializeField] private Transform _roundHolder;
@@ -155,10 +156,13 @@ public class PlayerUIHandler : MonoBehaviour
             return;
         _superVisualImage.enabled = true;
         _superVisualImage.sprite = owner.Data.Fighter.SuperVisual;
+        _durationVFXAnimator.SetBool("isPlaying", true);
+        _durationVFXAnimator.SetInteger("elementID", (int)owner.Data.Fighter.Element.Element);
     }
     public void DeactivateSuperVisual()
     {
         _superVisualImage.enabled = false;
+        _durationVFXAnimator.SetBool("isPlaying", false);
     }
 
     public void GenerateRoundHearts()
