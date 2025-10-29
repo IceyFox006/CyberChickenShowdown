@@ -33,6 +33,10 @@ public class PlayerMatch3 : MonoBehaviour
     private System.Random randomSeed;
     private List<ActivePieceController> piecesUpdating = new List<ActivePieceController>();
 
+    //Tutorial
+    public static Action MatchTaskComplete;
+    private bool isMatchTaskComplete;
+
     #region Get/Setters
     public Vector2 HolderStartOffset { get => _holderStartOffset; set => _holderStartOffset = value; }
     public Vector2 PieceSize { get => _pieceSize; set => _pieceSize = value; }
@@ -431,12 +435,19 @@ public class PlayerMatch3 : MonoBehaviour
 
     private void RegisterMatch(Match match)
     {
+        if (IsInTutorial() && !isMatchTaskComplete)
+        {
+            MatchTaskComplete?.Invoke();
+            isMatchTaskComplete = true;
+        }
         if (match.Element.Element <= 0)
             return;
         owner.UiHandler.MatchCount++;
         if (match.ConnectedPoints.Count > owner.UiHandler.HighestCombo)
             owner.UiHandler.HighestCombo = match.ConnectedPoints.Count;
         owner.CombatManager.AttackOpponent(GameManager.Instance.GetOpponent(owner), match);
+
+
     }
 
     //Adds the grid points from addedGridPoints to gridPoints if gridPoints does not already contain the grid point.
@@ -649,6 +660,11 @@ public class PlayerMatch3 : MonoBehaviour
             }
         }
         return true;
+    }
+
+    private static bool IsInTutorial()
+    {
+        return (FindFirstObjectByType<TutorialBehavior>() != null);
     }
 
     //Returns an element not in elementsNotUsed.

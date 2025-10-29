@@ -26,7 +26,9 @@ public class DialogueHandler : MonoBehaviour
     //Starts a dialogue.
     public void StartDialogue(DialogueBranchSO dialogue)
     {
+        GameManager.Instance.DisableAllInput();
         _animator.SetBool("IsOpen", true);
+        GameManager.Instance.UniversalEventSystem.SetSelectedGameObject(_continueButton);
         lines.Clear();
         foreach (DialogueLine line in dialogue.Lines)
             lines.Enqueue(line);
@@ -69,6 +71,7 @@ public class DialogueHandler : MonoBehaviour
 
     public void EndDialogue()
     {
+        GameManager.Instance.EnableAllInput();
         _animator.SetBool("IsOpen", false);
     }
 }
