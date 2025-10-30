@@ -27,8 +27,8 @@ MonoBehaviour:
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 15
-  _gameScreenPortrait: {fileID: -5567826033261725767, guid: 36aef8943cf2d2c47909cbcefba568cd, type: 3}
-  _legUpIcon: {fileID: -4722771773065080852, guid: 67e3107a0d91382408b2a5ac5a284731, type: 3}
+  _gameScreenPortrait: {fileID: 7266986792703536138, guid: ab3b9b51cf1c9234fb3f6cca8b17ff4b, type: 3}
+  _legUpIcon: {fileID: 2329826611130316147, guid: 42c97dc2272750f4c89dfd4fa00355fc, type: 3}
   _animationController: {fileID: 9100000, guid: 63822b49717b0214098c1c9fc0c2d782, type: 2}
   _superVisual: {fileID: 0}
   _superGradient:
