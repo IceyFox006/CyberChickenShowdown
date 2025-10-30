@@ -127,6 +127,10 @@ public class GameManager : MonoBehaviour
     {
         _player1.InputController.DisableInput();
         _player2.InputController.DisableInput();
+        if (_player1.CombatManager.SuperParticles != null)
+            _player1.CombatManager.DespawnSuperParticles();
+        if (_player2.CombatManager.SuperParticles != null)
+            _player2.CombatManager.DespawnSuperParticles();
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.interactable = false;
     }

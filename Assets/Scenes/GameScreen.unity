@@ -3101,6 +3101,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 994574863342857977, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 994574863342857977, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 994574863342857977, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 994574863342857977, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1019043262626318609, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -3160,6 +3176,10 @@ PrefabInstance:
     - target: {fileID: 2061970848075595264, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingLayerID
       value: 1756556853
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081802570330140628, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2123477882378706702, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Controller
@@ -3572,7 +3592,7 @@ PrefabInstance:
     - target: {fileID: 4786385177726083010, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5607448946923830258, guid: 6380b36eddb151a4a808a90f61b6f90a, type: 3}
+      objectReference: {fileID: -2655971755338498354, guid: c60e57717e8c35f469aced2f0d31c8ad, type: 3}
     - target: {fileID: 4872360552296893999, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SizeDelta.x
       value: 32.816
