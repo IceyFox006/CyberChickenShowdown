@@ -62,4 +62,5 @@ MonoBehaviour:
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
   _glowColor: {r: 1, g: 0.89411765, b: 0.37254903, a: 1}
+  _superParticlesPrefab: {fileID: 2790540105221061960, guid: ebc9ea31443543347a1a700380855edb, type: 3}
   _portrait: {fileID: -5101227768197015883, guid: acd17aea1d0e4ed4e9af8a738183b715, type: 3}

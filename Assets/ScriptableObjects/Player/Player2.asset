@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Player 2
   _ID: 2
-  _fighter: {fileID: 11400000, guid: 211185900025da049bbdb2bad15fe015, type: 2}
+  _fighter: {fileID: 11400000, guid: 585397a360d55a64cb55eea963e8bae7, type: 2}
   _uiIndicatorPrefab: {fileID: 225778561723252736, guid: 36140afa44930074da5fcdf61905f0c3, type: 3}
   _keyboardControlsSprite: {fileID: 412775290657964174, guid: 2f13c09acbe4253488898760768e6061, type: 3}
   _arcadeControlsSprite: {fileID: -4664178861031022290, guid: c4401d0696cd72e468296da540337d18, type: 3}

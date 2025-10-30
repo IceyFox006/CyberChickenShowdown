@@ -26,6 +26,7 @@ public class FighterSO : ScriptableObject
     [SerializeField] private Sprite _superVisual;
     [SerializeField] private Gradient _superGradient;
     [SerializeField] private Color _glowColor;
+    [SerializeField] private GameObject _superParticlesPrefab;
 
     [Header("Select Screen")]
     [SerializeField] private Sprite _portrait;
@@ -50,4 +51,5 @@ public class FighterSO : ScriptableObject
     public Gradient SuperGradient { get => _superGradient; set => _superGradient = value; }
     public Sprite GameScreenPortrait { get => _gameScreenPortrait; set => _gameScreenPortrait = value; }
     public Sprite LegUpIcon { get => _legUpIcon; set => _legUpIcon = value; }
+    public GameObject SuperParticlesPrefab { get => _superParticlesPrefab; set => _superParticlesPrefab = value; }
 }
