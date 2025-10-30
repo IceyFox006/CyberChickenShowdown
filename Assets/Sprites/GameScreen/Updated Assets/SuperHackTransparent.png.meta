@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: 02163760cd5e548478224a2cdf2c490b
+guid: 8206f26eb9085ba45971e6809b7518e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -157527974361711312
-    second: TutRuff_Idle_0
-  - first:
-      213: 4034876135814392742
-    second: TutRuff_Idle_1
-  - first:
-      213: 8772271638714444347
-    second: TutRuff_Idle_2
-  - first:
-      213: -5839400760620336695
-    second: TutRuff_Idle_3
-  - first:
-      213: -9149544536722753010
-    second: TutRuff_Idle_4
-  - first:
-      213: -6092671689108306683
-    second: TutRuff_Idle_5
-  - first:
-      213: 7834603447648548465
-    second: TutRuff_Idle_6
-  - first:
-      213: 8038629606098072900
-    second: TutRuff_Idle_7
+      213: 4314829829254015492
+    second: SuperHackTransparent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,10 +98,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TutRuff_Idle_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 1600
-        height: 1200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03dbbf5542950ddf0800000000000000
-      internalID: -157527974361711312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TutRuff_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 1200
-        width: 1600
-        height: 1200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6abeae3c772cef730800000000000000
-      internalID: 4034876135814392742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TutRuff_Idle_2
+      name: SuperHackTransparent_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1600
-        height: 1200
+        width: 124
+        height: 108
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3aeec2f39e5db970800000000000000
-      internalID: 8772271638714444347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TutRuff_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 1600
-        height: 1200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c9341a52f746fea0800000000000000
-      internalID: -5839400760620336695
+      spriteID: 40ae1f66eda51eb30800000000000000
+      internalID: 4314829829254015492
       vertices: []
       indices: 
       edges: []
@@ -225,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bf3c903544937854aaf708d9c12c1c49
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -233,14 +146,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":1600.0,"y":1200.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      TutRuff_Idle_0: -157527974361711312
-      TutRuff_Idle_1: 4034876135814392742
-      TutRuff_Idle_2: 8772271638714444347
-      TutRuff_Idle_3: -5839400760620336695
+      SuperHackTransparent_0: 4314829829254015492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

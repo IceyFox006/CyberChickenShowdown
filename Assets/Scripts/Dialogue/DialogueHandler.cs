@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DialogueHandler : MonoBehaviour
 {
@@ -16,7 +15,7 @@ public class DialogueHandler : MonoBehaviour
     private bool isTyping;
 
     public GameObject ContinueButton { get => _continueButton; set => _continueButton = value; }
-
+    public Animator Animator { get => _animator; set => _animator = value; }
 
     private void Start()
     {
