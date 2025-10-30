@@ -48,6 +48,7 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private float _superBarFillSpeed = 3;
     private float activeSuperFillSpeed;
     [SerializeField] private Animator _superBarAnimator;
+    [SerializeField] private Transform _superParticlesSP;
 
     public FloatingText ReduceDamageFT { get => _reduceDamageFT; set => _reduceDamageFT = value; }
     public FloatingText RegenHealthFT { get => _regenHealthFT; set => _regenHealthFT = value; }
@@ -57,6 +58,7 @@ public class PlayerUIHandler : MonoBehaviour
     public float DamageDealt { get => damageDealt; set => damageDealt = value; }
     public int MatchCount { get => matchCount; set => matchCount = value; }
     public int HighestCombo { get => highestCombo; set => highestCombo = value; }
+    public Transform SuperParticlesSP { get => _superParticlesSP; set => _superParticlesSP = value; }
 
     private void Start()
     {

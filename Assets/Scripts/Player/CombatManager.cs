@@ -18,6 +18,8 @@ public class CombatManager : MonoBehaviour
 
     private bool superIsActive = false;
 
+    private GameObject superParticles;
+
     //Tutorial
     public static Action SuperFillTaskComplete;
     private bool isSuperFillTaskComplete;
@@ -32,6 +34,7 @@ public class CombatManager : MonoBehaviour
     public bool IsHurt { get => isHurt; set => isHurt = value; }
     public bool IsDead { get => isDead; set => isDead = value; }
     public int AttackElementID { get => attackElementID; set => attackElementID = value; }
+    public GameObject SuperParticles { get => superParticles; set => superParticles = value; }
 
     private void Start()
     {
@@ -142,18 +145,22 @@ public class CombatManager : MonoBehaviour
 
         owner.CurrentSuper += (damage * legUp * owner.Data.Fighter.SuperFillSpeed);
         CorrectSuperAmount();
-    }
-    public bool IsSuperFull()
-    {
-        if (owner.CurrentSuper >= owner.Data.Fighter.SuperCapacity)
+        if (IsSuperFull())
         {
             if (PlayerMatch3.IsInTutorial() && !isSuperFillTaskComplete)
             {
                 SuperFillTaskComplete?.Invoke();
                 isSuperFillTaskComplete = true;
             }
-            return true;
+
+            if (superParticles == null)
+                SpawnSuperParticles();
         }
+    }
+    public bool IsSuperFull()
+    {
+        if (owner.CurrentSuper >= owner.Data.Fighter.SuperCapacity)
+            return true;
         return false;
     }
     private void CorrectSuperAmount()
@@ -165,6 +172,17 @@ public class CombatManager : MonoBehaviour
         }
         if (owner.CurrentSuper < 0)
             owner.CurrentSuper = 0;
+    }
+    private void SpawnSuperParticles()
+    {
+        superParticles = Instantiate(owner.Data.Fighter.SuperParticlesPrefab, owner.UiHandler.SuperParticlesSP);
+        foreach (ParticleSystem particles in superParticles.GetComponentsInChildren<ParticleSystem>())
+            particles.Play();
+    }
+    public void DespawnSuperParticles()
+    {
+        Destroy(superParticles);
+        superParticles = null;
     }
     private void UpdateLegUp()
     {
