@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: da113d6198d82df43b12933e17e20eea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5389187633716610752
+    second: TutRuff_Bark_0
+  - first:
+      213: -5436474046544578961
+    second: TutRuff_Bark_1
+  - first:
+      213: 683823709012292202
+    second: TutRuff_Bark_2
+  - first:
+      213: 1924329954688843118
+    second: TutRuff_Bark_3
+  - first:
+      213: 2242567692064694773
+    second: TutRuff_Bark_4
+  - first:
+      213: -2240643150124056338
+    second: TutRuff_Bark_5
+  - first:
+      213: 5904139263285020205
+    second: TutRuff_Bark_6
+  - first:
+      213: 3749053504645013397
+    second: TutRuff_Bark_7
+  - first:
+      213: 299844646040502802
+    second: TutRuff_Bark_8
+  - first:
+      213: 8943600843846912155
+    second: TutRuff_Bark_9
+  - first:
+      213: -703883926594102381
+    second: TutRuff_Bark_10
+  - first:
+      213: 7325690552504641290
+    second: TutRuff_Bark_11
+  - first:
+      213: 8703542618010233884
+    second: TutRuff_Bark_12
+  - first:
+      213: -3259242561620634447
+    second: TutRuff_Bark_13
+  - first:
+      213: 8607804431380143295
+    second: TutRuff_Bark_14
+  - first:
+      213: 2091517185301156603
+    second: TutRuff_Bark_15
+  - first:
+      213: -922950248375969746
+    second: TutRuff_Bark_16
+  - first:
+      213: -5175006386991756736
+    second: TutRuff_Bark_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TutRuff_Bark_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3326
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049b4687662c535b0800000000000000
+      internalID: -5389187633716610752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_1
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3326
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66741988a3cd84b0800000000000000
+      internalID: -5436474046544578961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_2
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 2399
+        width: 1288
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62faa05a0e6d7900800000000000000
+      internalID: 683823709012292202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_3
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 3326
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d3fd3f5e794ba10800000000000000
+      internalID: 1924329954688843118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_4
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 2399
+        width: 1275
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1a84e2f633f1f10800000000000000
+      internalID: 2242567692064694773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2399
+        width: 1309
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee081782de2a7e0e0800000000000000
+      internalID: -2240643150124056338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2126
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d264a84e067bfe150800000000000000
+      internalID: 5904139263285020205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_7
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 2126
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f9c449c40570430800000000000000
+      internalID: 3749053504645013397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_8
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2203
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2120c0fed13492400800000000000000
+      internalID: 299844646040502802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_9
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 2126
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98016e059d0e1c70800000000000000
+      internalID: 8943600843846912155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_10
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 2201
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b50405c4d4b36f0800000000000000
+      internalID: -703883926594102381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_11
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 1199
+        width: 1275
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07697c8eb41aa560800000000000000
+      internalID: 7325690552504641290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1199
+        width: 1309
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c29f1d5e139c870800000000000000
+      internalID: 8703542618010233884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_13
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1199
+        width: 1288
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b494cd8828d4c2d0800000000000000
+      internalID: -3259242561620634447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 926
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc52743680157770800000000000000
+      internalID: 8607804431380143295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 1294
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf210877ccf860d10800000000000000
+      internalID: 2091517185301156603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_16
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 926
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28113c93a50133f0800000000000000
+      internalID: -922950248375969746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Bark_17
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 0
+        width: 1254
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a8af00c1fae28b0800000000000000
+      internalID: -5175006386991756736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TutRuff_Bark_0: -5389187633716610752
+      TutRuff_Bark_1: -5436474046544578961
+      TutRuff_Bark_10: -703883926594102381
+      TutRuff_Bark_11: 7325690552504641290
+      TutRuff_Bark_12: 8703542618010233884
+      TutRuff_Bark_13: -3259242561620634447
+      TutRuff_Bark_14: 8607804431380143295
+      TutRuff_Bark_15: 2091517185301156603
+      TutRuff_Bark_16: -922950248375969746
+      TutRuff_Bark_17: -5175006386991756736
+      TutRuff_Bark_2: 683823709012292202
+      TutRuff_Bark_3: 1924329954688843118
+      TutRuff_Bark_4: 2242567692064694773
+      TutRuff_Bark_5: -2240643150124056338
+      TutRuff_Bark_6: 5904139263285020205
+      TutRuff_Bark_7: 3749053504645013397
+      TutRuff_Bark_8: 299844646040502802
+      TutRuff_Bark_9: 8943600843846912155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

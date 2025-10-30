@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f4826c6f11e76f24e8dace641ee3801b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2878868297978008461
+    second: TutRuff_Pet_0
+  - first:
+      213: 2816864958786776573
+    second: TutRuff_Pet_1
+  - first:
+      213: 3232705709440292410
+    second: TutRuff_Pet_2
+  - first:
+      213: 5136612241854445308
+    second: TutRuff_Pet_3
+  - first:
+      213: -3959894413484281087
+    second: TutRuff_Pet_4
+  - first:
+      213: -7726817066931237694
+    second: TutRuff_Pet_5
+  - first:
+      213: -2605616282398397930
+    second: TutRuff_Pet_6
+  - first:
+      213: -8213416522502138915
+    second: TutRuff_Pet_7
+  - first:
+      213: 4302622107267035938
+    second: TutRuff_Pet_8
+  - first:
+      213: 4845656350122627799
+    second: TutRuff_Pet_9
+  - first:
+      213: 2677259413523087933
+    second: TutRuff_Pet_10
+  - first:
+      213: 22634177400511191
+    second: TutRuff_Pet_11
+  - first:
+      213: 6092103827622977392
+    second: TutRuff_Pet_12
+  - first:
+      213: -4193495185921451100
+    second: TutRuff_Pet_13
+  - first:
+      213: 1562817745824928791
+    second: TutRuff_Pet_14
+  - first:
+      213: 6990185915848752465
+    second: TutRuff_Pet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TutRuff_Pet_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3302
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c23ef29843c08d0800000000000000
+      internalID: -2878868297978008461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2399
+        width: 1166
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd2bb071c3871720800000000000000
+      internalID: 2816864958786776573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_2
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 3302
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d09217b0ecdc20800000000000000
+      internalID: 3232705709440292410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_3
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2399
+        width: 1096
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf638a87e99e84740800000000000000
+      internalID: 5136612241854445308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_4
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 3302
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1033738e201ab09c0800000000000000
+      internalID: -3959894413484281087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_5
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 2399
+        width: 1126
+        height: 1030
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc4329e0d4d4c490800000000000000
+      internalID: -7726817066931237694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2102
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a6baadbcdf6dbd0800000000000000
+      internalID: -2605616282398397930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_7
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1199
+        width: 1176
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd39fe77035140e80800000000000000
+      internalID: -8213416522502138915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_8
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2102
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223f462a20cf5bb30800000000000000
+      internalID: 4302622107267035938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_9
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1199
+        width: 1213
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2dcace6ca3f3340800000000000000
+      internalID: 4845656350122627799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_10
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2102
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d324d9a7049872520800000000000000
+      internalID: 2677259413523087933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_11
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 1199
+        width: 1290
+        height: 874
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da9db71aa9605000800000000000000
+      internalID: 22634177400511191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 902
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fd34467208b8450800000000000000
+      internalID: 6092103827622977392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_13
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 902
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab57d3b856bdc5c0800000000000000
+      internalID: -4193495185921451100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_14
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 0
+        width: 1210
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714529ca57e30b510800000000000000
+      internalID: 1562817745824928791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TutRuff_Pet_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 1262
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d7a1c0e01220160800000000000000
+      internalID: 6990185915848752465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TutRuff_Pet_0: -2878868297978008461
+      TutRuff_Pet_1: 2816864958786776573
+      TutRuff_Pet_10: 2677259413523087933
+      TutRuff_Pet_11: 22634177400511191
+      TutRuff_Pet_12: 6092103827622977392
+      TutRuff_Pet_13: -4193495185921451100
+      TutRuff_Pet_14: 1562817745824928791
+      TutRuff_Pet_15: 6990185915848752465
+      TutRuff_Pet_2: 3232705709440292410
+      TutRuff_Pet_3: 5136612241854445308
+      TutRuff_Pet_4: -3959894413484281087
+      TutRuff_Pet_5: -7726817066931237694
+      TutRuff_Pet_6: -2605616282398397930
+      TutRuff_Pet_7: -8213416522502138915
+      TutRuff_Pet_8: 4302622107267035938
+      TutRuff_Pet_9: 4845656350122627799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
