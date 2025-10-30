@@ -7,8 +7,7 @@ public class InputController : MonoBehaviour
     [SerializeField] private PlayerInput _playerInput;
 
     private InputAction back;
-    private InputAction block;
-    private InputAction reshuffle;
+    private InputAction showControls;
     private InputAction super;
 
     public Player Owner { get => owner; set => owner = value; }
@@ -17,24 +16,19 @@ public class InputController : MonoBehaviour
     {
         _playerInput.currentActionMap.Enable();
         back = _playerInput.currentActionMap.FindAction("Back");
-        block = _playerInput.currentActionMap.FindAction("Block");
-        reshuffle = _playerInput.currentActionMap.FindAction("Reshuffle");
+        showControls = _playerInput.currentActionMap.FindAction("ShowControls");
         super = _playerInput.currentActionMap.FindAction("Super");
 
 
         back.performed += Back_performed;
-        block.started += Block_started;
-        block.canceled += Block_canceled;
-        reshuffle.performed += Reshuffle_performed;
+        showControls.performed += ShowControls_performed;
         super.performed += Super_performed;
 
     }
     private void OnDestroy()
     {
         back.performed -= Back_performed;
-        block.started -= Block_started;
-        block.canceled -= Block_canceled;
-        reshuffle.performed -= Reshuffle_performed;
+        showControls.performed -= ShowControls_performed;
         super.performed -= Super_performed;
     }
     public void EnableInput()
@@ -51,18 +45,9 @@ public class InputController : MonoBehaviour
             owner.Game.DeselectAllPieces();
         owner.Game.PieceMover.DropPiece();
     }
-    private void Block_started(InputAction.CallbackContext obj)
-    {
-        //owner.CombatManager.StartBlocking();
-    }
-    private void Block_canceled(InputAction.CallbackContext obj)
-    {
-        //owner.CombatManager.StopBlocking();
-    }
-    private void Reshuffle_performed(InputAction.CallbackContext obj)
+    private void ShowControls_performed(InputAction.CallbackContext obj)
     {
         owner.UiHandler.ShowControlGuide();
-        //owner.Game.ReshuffleBoard();
     }
     private void Super_performed(InputAction.CallbackContext obj)
     {

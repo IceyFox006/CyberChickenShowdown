@@ -52,16 +52,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Block",
-                    "type": "Button",
-                    "id": "80ceaeb0-52f8-4246-8c88-17784b19d426",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Reshuffle",
+                    "name": "ShowControls",
                     "type": "Button",
                     "id": "cb0cf707-0385-499d-b53c-2526fd2c1c13",
                     "expectedControlType": "",
@@ -181,17 +172,6 @@
                 },
                 {
                     "name": "",
-                    "id": "e2022241-6738-49e7-814a-84a53ec5939a",
-                    "path": "<Keyboard>/a",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Block",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "819c1e70-ddfc-40e4-9341-9c803b7a8e28",
                     "path": "<Keyboard>/w",
                     "interactions": "",
@@ -208,7 +188,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Reshuffle",
+                    "action": "ShowControls",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -264,16 +244,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Block",
-                    "type": "Button",
-                    "id": "95b391d5-8a3b-4b2f-91d0-0ac08faa161c",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Reshuffle",
+                    "name": "ShowControls",
                     "type": "Button",
                     "id": "7409e15a-eec2-4d6d-afb7-683afe74fbb6",
                     "expectedControlType": "",
@@ -404,17 +375,6 @@
                 },
                 {
                     "name": "",
-                    "id": "6dd0dd2a-8b05-46db-bfef-44a77199538a",
-                    "path": "<Keyboard>/rightCtrl",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Block",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2995c073-62db-4d2f-aee2-1923216c3e22",
                     "path": "<Keyboard>/rightShift",
                     "interactions": "",
@@ -431,7 +391,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Reshuffle",
+                    "action": "ShowControls",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
