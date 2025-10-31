@@ -11,6 +11,7 @@ public class SelectScreenBehavior : MonoBehaviour
     [SerializeField] private EventSystem _universalEventSystem;
     [SerializeField] private PlayerSelectScreen _player1;
     [SerializeField] private PlayerSelectScreen _player2;
+    [SerializeField] private FighterSO[] _fighters;
 
     [Header("UI")]
     [SerializeField] private GameObject _chooseMatchNumberUIGO;
@@ -20,6 +21,7 @@ public class SelectScreenBehavior : MonoBehaviour
     public GameObject ChooseMatchNumberUIGO { get => _chooseMatchNumberUIGO; set => _chooseMatchNumberUIGO = value; }
     public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
+    public FighterSO[] Fighters { get => _fighters; set => _fighters = value; }
 
     private void Awake()
     {

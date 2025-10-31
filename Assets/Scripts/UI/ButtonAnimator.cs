@@ -86,7 +86,8 @@ public class ButtonAnimator : MonoBehaviour
                 GameManager.Instance.ResumeGame(); break;
             case Function.GameControls:
                 PauseScreenBehavior.Instance.OpenUniversalControls(); break;
-
+            case Function.Credits:
+                TransitionBehavior.Instance.PlayClose("Credits"); break;
             case Function.None:
                 Debug.LogError("No function assigned to " + gameObject.name + "'s button animator."); break;
             default:
