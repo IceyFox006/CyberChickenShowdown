@@ -231,6 +231,7 @@ MonoBehaviour:
   _universalEventSystem: {fileID: 1085603510}
   _player1: {fileID: 904126127}
   _player2: {fileID: 1756407957}
+  _fighters: []
   _chooseMatchNumberUIGO: {fileID: 656782416}
   _fsCMNUI: {fileID: 1342458401}
 --- !u!4 &215442340

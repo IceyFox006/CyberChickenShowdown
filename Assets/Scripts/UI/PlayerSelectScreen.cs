@@ -37,6 +37,11 @@ public class PlayerSelectScreen : MonoBehaviour
         _lockedInVisual.SetActive(true);
         AudioManager.Instance.PlaySound("LockInFighter");
     }
+    public void Button_SelectRandomFighter()
+    {
+        int random = Random.Range(0, 5);
+        Button_SelectFighter(SelectScreenBehavior.Instance.Fighters[random]);
+    }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {
         if (hasSelected) 
