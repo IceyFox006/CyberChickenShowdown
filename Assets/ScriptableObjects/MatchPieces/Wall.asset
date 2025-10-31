@@ -16,5 +16,5 @@ MonoBehaviour:
   _boardFunction: 0
   _unmoveable: 1
   _element: {fileID: 11400000, guid: 6bc1718c787dc8042aee2084283c0673, type: 2}
-  _sprite: {fileID: 8767393028407934154, guid: 0544e8dcceef20747a6243d4e1581926, type: 3}
+  _sprite: {fileID: 3712206821075852327, guid: 89fa1df25b179b644a8010c32cde2a6e, type: 3}
   _breakParticlePrefab: {fileID: 0}
