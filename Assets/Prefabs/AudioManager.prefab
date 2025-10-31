@@ -79,16 +79,16 @@ MonoBehaviour:
     _clip: {fileID: 8300000, guid: 6751a96bba5ff1142b877d625303bb85, type: 3}
     _volume: 1
   - _name: FireSuper
-    _clip: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 4e5a98587a09b134b862816d05286c2c, type: 3}
     _volume: 1
   - _name: GravitySuper
     _clip: {fileID: 8300000, guid: 4571b22796fda1d429d314dc3e925526, type: 3}
     _volume: 1
   - _name: HackSuper
-    _clip: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 4fe3cd8a21332cf4bb23be491037da8a, type: 3}
     _volume: 1
   - _name: PlasmaSuper
-    _clip: {fileID: 0}
+    _clip: {fileID: 8300000, guid: ff2dbbd1070aefb4b863cb3b4585d2f8, type: 3}
     _volume: 1
   - _name: DirectSuper
     _clip: {fileID: 8300000, guid: 4632da530feb51b47b39435365cb225d, type: 3}
