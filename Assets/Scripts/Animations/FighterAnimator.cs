@@ -6,16 +6,22 @@ public class FighterAnimator : MonoBehaviour
     [SerializeField] private Animator _fighterAnimator;
     [SerializeField] private Animator _VFXAnimator;
 
+    private Player opponent;
+
     public Animator Animator { get => _fighterAnimator; set => _fighterAnimator = value; }
 
     private void Start()
     {
         _fighterAnimator.runtimeAnimatorController = _owner.Data.Fighter.AnimationController;
         _fighterAnimator.SetInteger("PlayerID", _owner.Data.ID);
+
+        opponent = GameManager.Instance.GetOpponent(_owner);
     }
     private void FixedUpdate()
     {
         UpdateFighterAnimation();
+
+        DeathForceFix();
     }
     private void UpdateFighterAnimation()
     {
@@ -24,6 +30,21 @@ public class FighterAnimator : MonoBehaviour
         _fighterAnimator.SetBool("isSuper", _owner.CombatManager.IsSuper);
         _fighterAnimator.SetBool("isHurt", _owner.CombatManager.IsHurt);
         _fighterAnimator.SetBool("isDead", _owner.CombatManager.IsDead);
+    }
+
+    private void DeathForceFix()
+    {
+        if (!opponent.CombatManager.IsDead)
+            return;
+
+        if (_fighterAnimator.GetCurrentAnimatorStateInfo(0).IsName("IDLE") && !opponent.GameObjectController.FighterAnimator.Animator.GetCurrentAnimatorStateInfo(0).IsName("DIE"))
+        {
+            _VFXAnimator.SetInteger("elementID", (int)_owner.Data.Fighter.Element.Element);
+            //Debug.Log(_owner.Data.Fighter.Element.Element);
+            _fighterAnimator.SetBool("isAttacking", true);
+            _fighterAnimator.SetBool("isSTAB", true);
+            //Debug.Log("HAS FORCE FIXED");
+        }
     }
     public void PlaySFX(string name)
     {

@@ -31,6 +31,9 @@ public class FighterSO : ScriptableObject
     [Header("Select Screen")]
     [SerializeField] private Sprite _portrait;
 
+    [Header("End Screen")]
+    [SerializeField] private Sprite _endQuoteSprite;
+
 
     public string Name { get => _name; set => _name = value; }
     public int HP { get => _HP; set => _HP = value; }
@@ -52,4 +55,5 @@ public class FighterSO : ScriptableObject
     public Sprite GameScreenPortrait { get => _gameScreenPortrait; set => _gameScreenPortrait = value; }
     public Sprite LegUpIcon { get => _legUpIcon; set => _legUpIcon = value; }
     public GameObject SuperParticlesPrefab { get => _superParticlesPrefab; set => _superParticlesPrefab = value; }
+    public Sprite EndQuoteSprite { get => _endQuoteSprite; set => _endQuoteSprite = value; }
 }

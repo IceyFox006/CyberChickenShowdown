@@ -72,6 +72,8 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
+        SetStaticPlayers();
+
         reset = _universalInput.currentActionMap.FindAction("Reset");
         quit = _universalInput.currentActionMap.FindAction("Quit");
 
@@ -79,6 +81,11 @@ public class GameManager : MonoBehaviour
         quit.performed += Quit_performed;
 
         canvases = FindObjectsByType<CanvasGroup>(FindObjectsSortMode.None);
+    }
+    private void SetStaticPlayers()
+    {
+        StaticData.Player1 = _player1.Data;
+        StaticData.Player2 = _player2.Data;
     }
     public Player GetOpponent(Player player)
     {
