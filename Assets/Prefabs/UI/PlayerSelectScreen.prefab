@@ -255,7 +255,7 @@ MonoBehaviour:
           m_MethodName: EnterHover_ShowFighterInformation
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 9dff470da2917604c9ac8daa7afe9b79, type: 2}
             m_ObjectArgumentAssemblyTypeName: FighterSO, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -295,7 +295,7 @@ MonoBehaviour:
           m_MethodName: EnterHover_ShowFighterInformation
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: d2c2c17f394796145918d078e871000b, type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 9dff470da2917604c9ac8daa7afe9b79, type: 2}
             m_ObjectArgumentAssemblyTypeName: FighterSO, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
