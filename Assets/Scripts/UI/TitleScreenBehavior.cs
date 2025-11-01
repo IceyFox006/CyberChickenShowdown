@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class TitleScreenBehavior : MonoBehaviour
 {
@@ -15,11 +16,18 @@ public class TitleScreenBehavior : MonoBehaviour
     [SerializeField] private GameObject _arcadeControlsTutorial;
     [SerializeField] private GameObject _exitTutorialButton;
 
+    [SerializeField] private SpriteRenderer _backgroundSprite;
+
     public static TitleScreenBehavior Instance { get => instance; set => instance = value; }
     public PlayerSO Player1 { get => _player1; set => _player1 = value; }
     public PlayerSO Player2 { get => _player2; set => _player2 = value; }
     public FighterSO TestDummy { get => _testDummy; set => _testDummy = value; }
+    public SpriteRenderer BackgroundSprite { get => _backgroundSprite; set => _backgroundSprite = value; }
 
+    private void Awake()
+    {
+        instance = this;
+    }
     public void OpenTutorial()
     {
         CloseTutorial();

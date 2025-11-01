@@ -28,7 +28,9 @@ public class GameTimer : MonoBehaviour
             }
         }
         Player winner = GameManager.Instance.DetermineWinner();
-        winner.CombatManager.DealDamage(GameManager.Instance.GetOpponent(winner), 999999);
+        Player loser = GameManager.Instance.GetOpponent(winner);
+        winner.CombatManager.DealDamage(loser, 999999);
+        loser.GameObjectController.FighterAnimator.TriggerAnimation();
     }
     private void LinkTimeToTimer()
     {
