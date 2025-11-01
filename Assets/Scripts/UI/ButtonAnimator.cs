@@ -51,6 +51,10 @@ public class ButtonAnimator : MonoBehaviour
         else
             _animator.Play("SELECT(R)");
     }
+    public void SetBackgroundImage(Sprite sprite)
+    {
+        TitleScreenBehavior.Instance.BackgroundSprite.sprite = sprite;
+    }
     public void ActivateFunction()
     {
         hasSelected = false;
