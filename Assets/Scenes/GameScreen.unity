@@ -2411,7 +2411,7 @@ MonoBehaviour:
   _universalInput: {fileID: 1306314344}
   _player1: {fileID: 1028971726}
   _player2: {fileID: 939394337}
-  _gameTime: 10000
+  _gameTime: 90
   _wallPiece: {fileID: 11400000, guid: aeb0b2b6a1917ea4fbe7188427444329, type: 2}
   _emptyPiece: {fileID: 11400000, guid: 537f4dc310374c3439d1e7d6fcbf6e70, type: 2}
   _virusPiece: {fileID: 11400000, guid: 77539dfa6231c9b479311944075cf906, type: 2}
