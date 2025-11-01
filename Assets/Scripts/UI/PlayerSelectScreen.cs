@@ -39,7 +39,7 @@ public class PlayerSelectScreen : MonoBehaviour
     }
     public void Button_SelectRandomFighter()
     {
-        int random = Random.Range(0, 5);
+        int random = Random.Range(0, SelectScreenBehavior.Instance.Fighters.Length);
         Button_SelectFighter(SelectScreenBehavior.Instance.Fighters[random]);
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
