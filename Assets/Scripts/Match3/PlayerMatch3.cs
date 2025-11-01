@@ -211,7 +211,7 @@ public class PlayerMatch3 : MonoBehaviour
                     FauxSwap(gameBoard[originPoint.X, originPoint.Y].ActivePieceController, gameBoard[swapPoint.X, swapPoint.Y].ActivePieceController);
                     if (connectedPieces.Count > 2)
                     {
-                        Debug.Log(owner.Data.Name + "\t" + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
+                        //Debug.Log(owner.Data.Name + "\t" + "\nOrigin Point:\t" + originPoint.AsString() + "\t\tSwap Point:\t" + swapPoint.AsString());
                         return true;
                     }
 

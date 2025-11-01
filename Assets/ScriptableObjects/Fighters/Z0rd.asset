@@ -64,3 +64,4 @@ MonoBehaviour:
   _glowColor: {r: 0.4627451, g: 0.95686275, b: 0.40784314, a: 1}
   _superParticlesPrefab: {fileID: 6480174918299840709, guid: a0af408e965bd374ea0778e714050e7a, type: 3}
   _portrait: {fileID: -4652795913882670123, guid: 473b07a41128aba4aa5c1318e5a5a137, type: 3}
+  _endQuoteSprite: {fileID: -8166523153561671670, guid: 29c9f88d865a2a8418b4074514a5ca75, type: 3}
