@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RandomFighter
   m_EditorClassIdentifier: 
   _name: Random
-  _element: {fileID: 11400000, guid: 353b71fbfa76ce24188750d4da89d90d, type: 2}
+  _element: {fileID: 11400000, guid: 74ca932c2d7ca184da70e4a52cf3cbd2, type: 2}
   _superDescription: 'Does something?
 
 '
@@ -63,4 +63,5 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   _glowColor: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
   _superParticlesPrefab: {fileID: 1117948693176329581, guid: ce375ef4040c93c48a93d28f8eb5e504, type: 3}
-  _portrait: {fileID: 2163814417044054617, guid: f82e2a7244c41324b9615a1a530a002b, type: 3}
+  _portrait: {fileID: 21300000, guid: b9f2df73990503e419ed3c1c6683e9fc, type: 3}
+  _endQuoteSprite: {fileID: 0}
