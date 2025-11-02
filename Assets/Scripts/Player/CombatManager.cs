@@ -181,6 +181,8 @@ public class CombatManager : MonoBehaviour
     }
     public void DespawnSuperParticles()
     {
+        if (owner.CombatManager.SuperParticles == null)
+            return;
         Destroy(superParticles);
         superParticles = null;
     }

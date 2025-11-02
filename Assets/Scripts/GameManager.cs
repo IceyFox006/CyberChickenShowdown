@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -134,10 +135,10 @@ public class GameManager : MonoBehaviour
     {
         _player1.InputController.DisableInput();
         _player2.InputController.DisableInput();
-        if (_player1.CombatManager.SuperParticles != null)
-            _player1.CombatManager.DespawnSuperParticles();
-        if (_player2.CombatManager.SuperParticles != null)
-            _player2.CombatManager.DespawnSuperParticles();
+        //if (_player1.CombatManager.SuperParticles != null)
+        //    _player1.CombatManager.DespawnSuperParticles();
+        //if (_player2.CombatManager.SuperParticles != null)
+        //    _player2.CombatManager.DespawnSuperParticles();
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.interactable = false;
     }
@@ -145,11 +146,22 @@ public class GameManager : MonoBehaviour
     {
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.alpha = 1;
+
+        ParticleSystem[] particles = FindObjectsByType<ParticleSystem>(FindObjectsSortMode.None);
+        foreach (ParticleSystem particle in particles)
+            particle.Play();
     }
     public void HideUI()
     {
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.alpha = 0;
+
+        ParticleSystem[] particles = FindObjectsByType<ParticleSystem>(FindObjectsSortMode.None);
+        foreach (ParticleSystem particle in particles)
+        {
+            particle.Clear();
+            particle.Stop();
+        }
     }
     public void PlayCloseTransition(Player winner)
     {

@@ -53,8 +53,7 @@ public class InputController : MonoBehaviour
     {
         if (!owner.CombatManager.IsSuperFull())
             return;
-        if (owner.CombatManager.SuperParticles != null)
-            owner.CombatManager.DespawnSuperParticles();
+        owner.CombatManager.DespawnSuperParticles();
         GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
         GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", owner.Data.ID);
     }

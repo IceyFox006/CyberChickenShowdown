@@ -150,7 +150,10 @@ public class PlayerUIHandler : MonoBehaviour
         if (owner.CombatManager.IsSuperFull())
             _superBarAnimator.SetBool("IsFlashing", true);
         else
+        {
             _superBarAnimator.SetBool("IsFlashing", false);
+            owner.CombatManager.DespawnSuperParticles();
+        }
     }
     public void ActivateSuperVisual()
     {
