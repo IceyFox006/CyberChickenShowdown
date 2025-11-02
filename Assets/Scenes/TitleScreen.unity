@@ -606,7 +606,7 @@ PrefabInstance:
     - target: {fileID: 6262179280804455843, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5018480935810534464, guid: ab648e8c003c74f4e96ab349e55bc630, type: 3}
+      objectReference: {fileID: -1901398592812892374, guid: 5cb0db4cab7e2ed479fdb525d0c8c8d1, type: 3}
     - target: {fileID: 9105019706303306102, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -955,7 +955,7 @@ PrefabInstance:
     - target: {fileID: 6262179280804455843, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8579929508308419033, guid: 2e58b0b2fc9cf9c4e85712bb15141e9f, type: 3}
+      objectReference: {fileID: -8811806715494619191, guid: c56a07aec9ec6fb43a3c3b26f4817980, type: 3}
     - target: {fileID: 9105019706303306102, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1227,7 +1227,7 @@ PrefabInstance:
     - target: {fileID: 6262179280804455843, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6521961093323228682, guid: 8a39789477775ec449e3dd51258794d0, type: 3}
+      objectReference: {fileID: 8575710031886937591, guid: 386379325ef4c4345a27d8b5efbdbd3f, type: 3}
     - target: {fileID: 9105019706303306102, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -2595,6 +2595,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6262179280804455843, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1958676783162264248, guid: c44c1366cc055ae4d986790b07a2053d, type: 3}
     - target: {fileID: 9105019706303306102, guid: 07243f6f6e804814cb947286e1d6f32a, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
       value: 3
