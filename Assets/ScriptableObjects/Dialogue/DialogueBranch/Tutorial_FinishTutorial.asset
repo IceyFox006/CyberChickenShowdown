@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBranchSO
   _lines:
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Tutorial Complete.
+    _text: Ruff Ruff! (Every fighter has a unique super, so be sure to read the descriptions
+      when choosing a character.)
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Ruff Ruff!
+    _text: Ruff Ruff! (Now, destroy the dummy to complete the tutorial!)

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBranchSO
   _lines:
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Use your super.
+    _text: Ruff Ruff! (Your super meter is full.)
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Ruff Ruff!
+    _text: Ruff Ruff! (Unleash it with Shift/[ARCADE BUTTON]!
