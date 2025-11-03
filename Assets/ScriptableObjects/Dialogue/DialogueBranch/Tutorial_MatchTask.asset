@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBranchSO
   _lines:
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Make a match.
+    _text: Ruff Ruff! (To damage your opponent, make a match. A match is three or
+      more of the same pieces in a row, horizontally or vertically.)
   - _speaker: {fileID: 11400000, guid: a1b15ce1d1b460d4993e4b6c7f95e724, type: 2}
-    _text: Ruff Ruff!
+    _text: Ruff Ruff! (To make a match, select a piece with C/[ARCADE BUTTON] and
+      move it by one tile with WASD/the joystick. Try it!)
