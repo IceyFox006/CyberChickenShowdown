@@ -153,8 +153,8 @@ public class CombatManager : MonoBehaviour
                 isSuperFillTaskComplete = true;
             }
 
-            if (superParticles == null)
-                SpawnSuperParticles();
+            //if (superParticles == null)
+            //    SpawnSuperParticles();
         }
     }
     public bool IsSuperFull()
@@ -173,11 +173,19 @@ public class CombatManager : MonoBehaviour
         if (owner.CurrentSuper < 0)
             owner.CurrentSuper = 0;
     }
-    private void SpawnSuperParticles()
+    public void SpawnSuperParticles()
     {
         superParticles = Instantiate(owner.Data.Fighter.SuperParticlesPrefab, owner.UiHandler.SuperParticlesSP);
         foreach (ParticleSystem particles in superParticles.GetComponentsInChildren<ParticleSystem>())
-            particles.Play();
+        {
+            if (GameManager.Instance.ShowingUI)
+                particles.Play();
+            else
+            {
+                particles.Clear();
+                particles.Stop();
+            }
+        }
     }
     public void DespawnSuperParticles()
     {

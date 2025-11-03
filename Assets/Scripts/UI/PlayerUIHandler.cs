@@ -99,7 +99,7 @@ public class PlayerUIHandler : MonoBehaviour
     }
     private void LinkTabs()
     {
-        _damageDealtText.text = Mathf.RoundToInt(damageDealt).ToString();
+        _damageDealtText.text = Mathf.RoundToInt(damageDealt) + " Hits";
         _highestComboText.text = highestCombo.ToString() + " Combo";
         _matchCountText.text = matchCount.ToString() + " Matches";
     }
@@ -148,7 +148,11 @@ public class PlayerUIHandler : MonoBehaviour
         _superBarFillImage.color = owner.Data.Fighter.SuperGradient.Evaluate(superPercented);
 
         if (owner.CombatManager.IsSuperFull())
+        {
             _superBarAnimator.SetBool("IsFlashing", true);
+            if (owner.CombatManager.SuperParticles == null)
+                owner.CombatManager.SpawnSuperParticles();
+        }
         else
         {
             _superBarAnimator.SetBool("IsFlashing", false);
