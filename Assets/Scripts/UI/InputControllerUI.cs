@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
 
 public class InputControllerUI : MonoBehaviour
 {
@@ -20,5 +21,11 @@ public class InputControllerUI : MonoBehaviour
     private void Back_performed(InputAction.CallbackContext obj)
     {
         Debug.Log("Back" + _owner.gameObject.name);
+
+        //Has selected fighter.
+        if (_owner.HasSelected)
+        {
+            _owner.UnselectFighter();
+        }
     }
 }
