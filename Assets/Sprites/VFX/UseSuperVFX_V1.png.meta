@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 8b67b71af7e85774d9947ec7d4ad8d5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5512102719045993644
+    second: UseSuperVFX_V1_0
+  - first:
+      213: 7496629458046106117
+    second: UseSuperVFX_V1_1
+  - first:
+      213: -274759624495893832
+    second: UseSuperVFX_V1_2
+  - first:
+      213: -840875778436178495
+    second: UseSuperVFX_V1_3
+  - first:
+      213: -6157307677543123676
+    second: UseSuperVFX_V1_4
+  - first:
+      213: -3756073743250100956
+    second: UseSuperVFX_V1_5
+  - first:
+      213: 606976677173365508
+    second: UseSuperVFX_V1_6
+  - first:
+      213: 2956986712844845101
+    second: UseSuperVFX_V1_7
+  - first:
+      213: 4010801234150425765
+    second: UseSuperVFX_V1_8
+  - first:
+      213: -6982266377656659953
+    second: UseSuperVFX_V1_9
+  - first:
+      213: 7999950649189953675
+    second: UseSuperVFX_V1_10
+  - first:
+      213: 5029227631632719310
+    second: UseSuperVFX_V1_11
+  - first:
+      213: -1986291948947342876
+    second: UseSuperVFX_V1_12
+  - first:
+      213: 2861035988288773920
+    second: UseSuperVFX_V1_13
+  - first:
+      213: 8913652913019733989
+    second: UseSuperVFX_V1_14
+  - first:
+      213: -1604531472600089856
+    second: UseSuperVFX_V1_15
+  - first:
+      213: -5612008264346947421
+    second: UseSuperVFX_V1_16
+  - first:
+      213: -6852837730635713337
+    second: UseSuperVFX_V1_17
+  - first:
+      213: -7837240353924293931
+    second: UseSuperVFX_V1_18
+  - first:
+      213: -8785649755224623240
+    second: UseSuperVFX_V1_19
+  - first:
+      213: -225041238569766894
+    second: UseSuperVFX_V1_20
+  - first:
+      213: -2061409557983369235
+    second: UseSuperVFX_V1_21
+  - first:
+      213: 4699178619793926202
+    second: UseSuperVFX_V1_22
+  - first:
+      213: 7037677713307019310
+    second: UseSuperVFX_V1_23
+  - first:
+      213: 9131803139267830364
+    second: UseSuperVFX_V1_24
+  - first:
+      213: 1807604363872251638
+    second: UseSuperVFX_V1_25
+  - first:
+      213: 2430503959560194631
+    second: UseSuperVFX_V1_26
+  - first:
+      213: 8059336790825480613
+    second: UseSuperVFX_V1_27
+  - first:
+      213: 1450515863291410333
+    second: UseSuperVFX_V1_28
+  - first:
+      213: -6537794021538691596
+    second: UseSuperVFX_V1_29
+  - first:
+      213: -8307447879345486129
+    second: UseSuperVFX_V1_30
+  - first:
+      213: -6229267701065096072
+    second: UseSuperVFX_V1_31
+  - first:
+      213: 5457874137287617034
+    second: UseSuperVFX_V1_32
+  - first:
+      213: 671653824872489772
+    second: UseSuperVFX_V1_33
+  - first:
+      213: 8706430872086432502
+    second: UseSuperVFX_V1_34
+  - first:
+      213: -7607523706789621465
+    second: UseSuperVFX_V1_35
+  - first:
+      213: 5158300019816046156
+    second: UseSuperVFX_V1_36
+  - first:
+      213: 4771529106257965659
+    second: UseSuperVFX_V1_37
+  - first:
+      213: 8138663558321735897
+    second: UseSuperVFX_V1_38
+  - first:
+      213: -4695166131533803988
+    second: UseSuperVFX_V1_39
+  - first:
+      213: 3183513955815283348
+    second: UseSuperVFX_V1_40
+  - first:
+      213: -2111287308948174760
+    second: UseSuperVFX_V1_41
+  - first:
+      213: -8702475525828009324
+    second: UseSuperVFX_V1_42
+  - first:
+      213: -849412165039068248
+    second: UseSuperVFX_V1_43
+  - first:
+      213: 5796089372916801527
+    second: UseSuperVFX_V1_44
+  - first:
+      213: 2182714675071258523
+    second: UseSuperVFX_V1_45
+  - first:
+      213: 7460033987982362440
+    second: UseSuperVFX_V1_46
+  - first:
+      213: -3920945793134247246
+    second: UseSuperVFX_V1_47
+  - first:
+      213: 2963984474941049314
+    second: UseSuperVFX_V1_48
+  - first:
+      213: -4083155510253921408
+    second: UseSuperVFX_V1_49
+  - first:
+      213: -5922311452560165565
+    second: UseSuperVFX_V1_50
+  - first:
+      213: -5684213465017631143
+    second: UseSuperVFX_V1_51
+  - first:
+      213: -5679666444887904287
+    second: UseSuperVFX_V1_52
+  - first:
+      213: -6633832192437309589
+    second: UseSuperVFX_V1_53
+  - first:
+      213: -4033232858964248162
+    second: UseSuperVFX_V1_54
+  - first:
+      213: 8020807194310008415
+    second: UseSuperVFX_V1_55
+  - first:
+      213: 8327781398592543638
+    second: UseSuperVFX_V1_56
+  - first:
+      213: -6694307391026255746
+    second: UseSuperVFX_V1_57
+  - first:
+      213: -726194690301425990
+    second: UseSuperVFX_V1_58
+  - first:
+      213: -2325302683321579190
+    second: UseSuperVFX_V1_59
+  - first:
+      213: -4228960201304871233
+    second: UseSuperVFX_V1_60
+  - first:
+      213: 5558610793071932730
+    second: UseSuperVFX_V1_61
+  - first:
+      213: -6156324238751054884
+    second: UseSuperVFX_V1_62
+  - first:
+      213: -9146848374673588120
+    second: UseSuperVFX_V1_63
+  - first:
+      213: 1519467570273041135
+    second: UseSuperVFX_V1_64
+  - first:
+      213: -5749771405956517234
+    second: UseSuperVFX_V1_65
+  - first:
+      213: 1406364977868717204
+    second: UseSuperVFX_V1_66
+  - first:
+      213: -1149256052262861708
+    second: UseSuperVFX_V1_67
+  - first:
+      213: -6714330182047188172
+    second: UseSuperVFX_V1_68
+  - first:
+      213: 1332793767978775672
+    second: UseSuperVFX_V1_69
+  - first:
+      213: 4918896733520223671
+    second: UseSuperVFX_V1_70
+  - first:
+      213: 857022771089450148
+    second: UseSuperVFX_V1_71
+  - first:
+      213: -1554729209891567132
+    second: UseSuperVFX_V1_72
+  - first:
+      213: 3423980076784204829
+    second: UseSuperVFX_V1_73
+  - first:
+      213: 6156728336259916059
+    second: UseSuperVFX_V1_74
+  - first:
+      213: 8515022947184076763
+    second: UseSuperVFX_V1_75
+  - first:
+      213: -4306977000914268088
+    second: UseSuperVFX_V1_76
+  - first:
+      213: -2162317663631302449
+    second: UseSuperVFX_V1_77
+  - first:
+      213: -8882417634811812999
+    second: UseSuperVFX_V1_78
+  - first:
+      213: -6961120109457331456
+    second: UseSuperVFX_V1_79
+  - first:
+      213: -2305583950682322895
+    second: UseSuperVFX_V1_80
+  - first:
+      213: 7359116426080079796
+    second: UseSuperVFX_V1_81
+  - first:
+      213: 4423242639325742966
+    second: UseSuperVFX_V1_82
+  - first:
+      213: -7926980219676405693
+    second: UseSuperVFX_V1_83
+  - first:
+      213: 9088748154094987188
+    second: UseSuperVFX_V1_84
+  - first:
+      213: 7818195217352008312
+    second: UseSuperVFX_V1_85
+  - first:
+      213: -8172130969584861076
+    second: UseSuperVFX_V1_86
+  - first:
+      213: 3900998908395988382
+    second: UseSuperVFX_V1_87
+  - first:
+      213: 6614092322760651377
+    second: UseSuperVFX_V1_88
+  - first:
+      213: 610906182366542349
+    second: UseSuperVFX_V1_89
+  - first:
+      213: -8254926995086106010
+    second: UseSuperVFX_V1_90
+  - first:
+      213: 8711507788423684435
+    second: UseSuperVFX_V1_91
+  - first:
+      213: 6866411425617212423
+    second: UseSuperVFX_V1_92
+  - first:
+      213: -6673957433801473534
+    second: UseSuperVFX_V1_93
+  - first:
+      213: -290132395478008046
+    second: UseSuperVFX_V1_94
+  - first:
+      213: -4793735615087530206
+    second: UseSuperVFX_V1_95
+  - first:
+      213: -3397374394421549464
+    second: UseSuperVFX_V1_96
+  - first:
+      213: -160051586219653666
+    second: UseSuperVFX_V1_97
+  - first:
+      213: 2760549001244757236
+    second: UseSuperVFX_V1_98
+  - first:
+      213: 967103328722568257
+    second: UseSuperVFX_V1_99
+  - first:
+      213: 5274422587268073376
+    second: UseSuperVFX_V1_100
+  - first:
+      213: 4692496129742943384
+    second: UseSuperVFX_V1_101
+  - first:
+      213: -7542489544121196346
+    second: UseSuperVFX_V1_102
+  - first:
+      213: 6670850854406385519
+    second: UseSuperVFX_V1_103
+  - first:
+      213: -1144495115045545297
+    second: UseSuperVFX_V1_104
+  - first:
+      213: 7786866149304176157
+    second: UseSuperVFX_V1_105
+  - first:
+      213: 4722189224614529506
+    second: UseSuperVFX_V1_106
+  - first:
+      213: -5282823607868870567
+    second: UseSuperVFX_V1_107
+  - first:
+      213: 2507901899831705839
+    second: UseSuperVFX_V1_108
+  - first:
+      213: 1116314737387522631
+    second: UseSuperVFX_V1_109
+  - first:
+      213: 4095674698642905979
+    second: UseSuperVFX_V1_110
+  - first:
+      213: 3287335598693825725
+    second: UseSuperVFX_V1_111
+  - first:
+      213: 428688904018228570
+    second: UseSuperVFX_V1_112
+  - first:
+      213: 5567218653919074621
+    second: UseSuperVFX_V1_113
+  - first:
+      213: -1102598863069899203
+    second: UseSuperVFX_V1_114
+  - first:
+      213: 3019156485579806612
+    second: UseSuperVFX_V1_115
+  - first:
+      213: 7953465885684175556
+    second: UseSuperVFX_V1_116
+  - first:
+      213: -7778485628308083661
+    second: UseSuperVFX_V1_117
+  - first:
+      213: 7274286829689226107
+    second: UseSuperVFX_V1_118
+  - first:
+      213: -7241302512999732266
+    second: UseSuperVFX_V1_119
+  - first:
+      213: -248567665463622531
+    second: UseSuperVFX_V1_120
+  - first:
+      213: -5992104300678896913
+    second: UseSuperVFX_V1_121
+  - first:
+      213: -944695850030449758
+    second: UseSuperVFX_V1_122
+  - first:
+      213: -3350253227486985333
+    second: UseSuperVFX_V1_123
+  - first:
+      213: -5627884949716533710
+    second: UseSuperVFX_V1_124
+  - first:
+      213: -1799448674377097227
+    second: UseSuperVFX_V1_125
+  - first:
+      213: -202171293083537315
+    second: UseSuperVFX_V1_126
+  - first:
+      213: 6067811734899633866
+    second: UseSuperVFX_V1_127
+  - first:
+      213: -563131279459241037
+    second: UseSuperVFX_V1_128
+  - first:
+      213: -7096596256984066202
+    second: UseSuperVFX_V1_129
+  - first:
+      213: -3852868641642286945
+    second: UseSuperVFX_V1_130
+  - first:
+      213: -7710801646169770652
+    second: UseSuperVFX_V1_131
+  - first:
+      213: -7917467438318499025
+    second: UseSuperVFX_V1_132
+  - first:
+      213: -4044779600817967890
+    second: UseSuperVFX_V1_133
+  - first:
+      213: -7638473338848067386
+    second: UseSuperVFX_V1_134
+  - first:
+      213: 5937764394851048494
+    second: UseSuperVFX_V1_135
+  - first:
+      213: 3779133705902776640
+    second: UseSuperVFX_V1_136
+  - first:
+      213: 1397884047755288535
+    second: UseSuperVFX_V1_137
+  - first:
+      213: -4246030298161474082
+    second: UseSuperVFX_V1_138
+  - first:
+      213: 3506240940161549182
+    second: UseSuperVFX_V1_139
+  - first:
+      213: 6749935502950627063
+    second: UseSuperVFX_V1_140
+  - first:
+      213: 4147071639418494960
+    second: UseSuperVFX_V1_141
+  - first:
+      213: -2166251296145356398
+    second: UseSuperVFX_V1_142
+  - first:
+      213: 4537928013703202498
+    second: UseSuperVFX_V1_143
+  - first:
+      213: 4450282294879155529
+    second: UseSuperVFX_V1_144
+  - first:
+      213: -5081227129553829414
+    second: UseSuperVFX_V1_145
+  - first:
+      213: -4389145244578675090
+    second: UseSuperVFX_V1_146
+  - first:
+      213: -3110970783151703457
+    second: UseSuperVFX_V1_147
+  - first:
+      213: -2062828802535165682
+    second: UseSuperVFX_V1_148
+  - first:
+      213: -703097403262926089
+    second: UseSuperVFX_V1_149
+  - first:
+      213: -5144509344978543644
+    second: UseSuperVFX_V1_150
+  - first:
+      213: 8823292800822063700
+    second: UseSuperVFX_V1_151
+  - first:
+      213: -5966666499601968934
+    second: UseSuperVFX_V1_152
+  - first:
+      213: -2358203153555541251
+    second: UseSuperVFX_V1_153
+  - first:
+      213: 3170364329971102893
+    second: UseSuperVFX_V1_154
+  - first:
+      213: 6509700056126042408
+    second: UseSuperVFX_V1_155
+  - first:
+      213: -1477055499986263898
+    second: UseSuperVFX_V1_156
+  - first:
+      213: 3846593261884247344
+    second: UseSuperVFX_V1_157
+  - first:
+      213: 3152833259532000126
+    second: UseSuperVFX_V1_158
+  - first:
+      213: 843597445153227482
+    second: UseSuperVFX_V1_159
+  - first:
+      213: -622767838522351094
+    second: UseSuperVFX_V1_160
+  - first:
+      213: -1540812297636423147
+    second: UseSuperVFX_V1_161
+  - first:
+      213: 774273381470098977
+    second: UseSuperVFX_V1_162
+  - first:
+      213: -4172126378983697165
+    second: UseSuperVFX_V1_163
+  - first:
+      213: -4741602959674984873
+    second: UseSuperVFX_V1_164
+  - first:
+      213: 6217057495641771611
+    second: UseSuperVFX_V1_165
+  - first:
+      213: -5760488883700943679
+    second: UseSuperVFX_V1_166
+  - first:
+      213: -6453862611735909477
+    second: UseSuperVFX_V1_167
+  - first:
+      213: 9102441917206856670
+    second: UseSuperVFX_V1_168
+  - first:
+      213: 5868604354598245805
+    second: UseSuperVFX_V1_169
+  - first:
+      213: -4039557215186666896
+    second: UseSuperVFX_V1_170
+  - first:
+      213: 336197268364860790
+    second: UseSuperVFX_V1_171
+  - first:
+      213: -2951610135188013238
+    second: UseSuperVFX_V1_172
+  - first:
+      213: -5396283180604411014
+    second: UseSuperVFX_V1_173
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b7cc908c31183b0800000000000000
+      internalID: -5512102719045993644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_1
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a3193f5c0690860800000000000000
+      internalID: 7496629458046106117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_2
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 7560
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27d47c39bdf2cf0800000000000000
+      internalID: -274759624495893832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdd4164feb9454f0800000000000000
+      internalID: -840875778436178495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425b1434a49dc8aa0800000000000000
+      internalID: -6157307677543123676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_5
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 6480
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42de76fb4debfdbc0800000000000000
+      internalID: -3756073743250100956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b8ddd621a6c6800800000000000000
+      internalID: 606976677173365508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20caa0afb3590920800000000000000
+      internalID: 2956986712844845101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_8
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 5400
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a40c3ae87a39a730800000000000000
+      internalID: 4010801234150425765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f001f9029b10a1f90800000000000000
+      internalID: -6982266377656659953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b807f99dab8850f60800000000000000
+      internalID: 7999950649189953675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1c0e82e76bc540800000000000000
+      internalID: 5029227631632719310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e976ca0ff54f64e0800000000000000
+      internalID: -1986291948947342876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f9f8ba21174b720800000000000000
+      internalID: 2861035988288773920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7caab0918a3bb70800000000000000
+      internalID: 8913652913019733989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bbcb8702f8bb9e0800000000000000
+      internalID: -1604531472600089856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_16
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a03b0f97342e12b0800000000000000
+      internalID: -5612008264346947421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_17
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c470125464d5e0a0800000000000000
+      internalID: -6852837730635713337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da5cfceb678c3390800000000000000
+      internalID: -7837240353924293931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_19
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877b6d2981a131680800000000000000
+      internalID: -8785649755224623240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_20
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2103c339f2e70ecf0800000000000000
+      internalID: -225041238569766894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UseSuperVFX_V1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de76ec7cde66463e0800000000000000
+      internalID: -2061409557983369235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8210860b150bee74990f3b8ad85f9f44
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":3840.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      UseSuperVFX_V1_0: -5512102719045993644
+      UseSuperVFX_V1_1: 7496629458046106117
+      UseSuperVFX_V1_10: 7999950649189953675
+      UseSuperVFX_V1_11: 5029227631632719310
+      UseSuperVFX_V1_12: -1986291948947342876
+      UseSuperVFX_V1_13: 2861035988288773920
+      UseSuperVFX_V1_14: 8913652913019733989
+      UseSuperVFX_V1_15: -1604531472600089856
+      UseSuperVFX_V1_16: -5612008264346947421
+      UseSuperVFX_V1_17: -6852837730635713337
+      UseSuperVFX_V1_18: -7837240353924293931
+      UseSuperVFX_V1_19: -8785649755224623240
+      UseSuperVFX_V1_2: -274759624495893832
+      UseSuperVFX_V1_20: -225041238569766894
+      UseSuperVFX_V1_21: -2061409557983369235
+      UseSuperVFX_V1_3: -840875778436178495
+      UseSuperVFX_V1_4: -6157307677543123676
+      UseSuperVFX_V1_5: -3756073743250100956
+      UseSuperVFX_V1_6: 606976677173365508
+      UseSuperVFX_V1_7: 2956986712844845101
+      UseSuperVFX_V1_8: 4010801234150425765
+      UseSuperVFX_V1_9: -6982266377656659953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
