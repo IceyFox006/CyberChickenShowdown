@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class InputControllerUI : MonoBehaviour
 {
+    [SerializeField] private PlayerSelectScreen _owner;
     [SerializeField] private PlayerInput _playerInput;
 
     private InputAction back;
@@ -18,6 +19,6 @@ public class InputControllerUI : MonoBehaviour
     }
     private void Back_performed(InputAction.CallbackContext obj)
     {
-        Debug.Log("Back");
+        Debug.Log("Back" + _owner.gameObject.name);
     }
 }
