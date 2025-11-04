@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 215442340}
   - component: {fileID: 215442339}
   m_Layer: 0
-  m_Name: '!UIScriptHolder'
+  m_Name: '!GameController'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3094,6 +3094,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1e52750ffc398e941a0ba3d271851ae1, type: 2}
     - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: _eventSystem
+      value: 
+      objectReference: {fileID: 1990818470}
+    - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: _lockedInVisual
       value: 
       objectReference: {fileID: 1756407955}
@@ -3581,6 +3585,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 5722744651434408304, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
     - target: {fileID: 5771336321174197704, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4293,6 +4301,10 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1352917147430033179, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: _eventSystem
+      value: 
+      objectReference: {fileID: 2134207630}
     - target: {fileID: 1704822811072856918, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_fontSize
       value: 70
@@ -4501,6 +4513,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -9172309343771983079, guid: 7cf85ee8aa75b5447b2687c9d202da3c, type: 3}
+    - target: {fileID: 3712172129288261436, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3803953973384784800, guid: ff4c9550a0749cc4bad8e754906b41fb, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2

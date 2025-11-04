@@ -27,6 +27,7 @@ public class FighterButtonSelect : MonoBehaviour
         Exit();
         _selectionImage.enabled = true;
         _owner.HasSelected = true;
+        _owner.CurrentSelected = this;
         selected = true;
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
         {
@@ -36,8 +37,9 @@ public class FighterButtonSelect : MonoBehaviour
     }
     public void Exit()
     {
-        if (selected)
-            return;
+        //if (selected)
+        //    return;
+        selected = false;
         _selectionImage.enabled = false;
         _hoverImage.enabled = false;
         DespawnPlayerIndicator();

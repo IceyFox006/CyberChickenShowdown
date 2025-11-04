@@ -1,6 +1,6 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
 public class PlayerSelectScreen : MonoBehaviour
@@ -8,9 +8,11 @@ public class PlayerSelectScreen : MonoBehaviour
 
     [SerializeField] private PlayerSO _player;
     private bool hasSelected = false;
+    private FighterButtonSelect currentSelected;
+
+    [SerializeField] private MultiplayerEventSystem _eventSystem;
 
     [SerializeField] private GameObject _lockedInVisual;
-    [SerializeField] private GameObject _countdownVisual;
 
     [Header("Fighter Info")]
     [SerializeField] private TMP_Text _nameText;
@@ -21,6 +23,8 @@ public class PlayerSelectScreen : MonoBehaviour
 
     public bool HasSelected { get => hasSelected; set => hasSelected = value; }
     public PlayerSO Player { get => _player; set => _player = value; }
+    public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
+    public FighterButtonSelect CurrentSelected { get => currentSelected; set => currentSelected = value; }
 
     private void Awake()
     {
@@ -33,6 +37,7 @@ public class PlayerSelectScreen : MonoBehaviour
     {
         if (hasSelected)
             return;
+        _eventSystem.sendNavigationEvents = false;
         _player.Fighter = fighter;
         _lockedInVisual.SetActive(true);
         AudioManager.Instance.PlaySound("LockInFighter");
@@ -41,6 +46,17 @@ public class PlayerSelectScreen : MonoBehaviour
     {
         int random = Random.Range(0, SelectScreenBehavior.Instance.Fighters.Length);
         Button_SelectFighter(SelectScreenBehavior.Instance.Fighters[random]);
+    }
+
+    [HideInInspector]
+    public void UnselectFighter()
+    {
+        _eventSystem.sendNavigationEvents = true;
+        _player.Fighter = null;
+        _lockedInVisual.SetActive(false);
+        hasSelected = false;
+        currentSelected.Exit();
+        currentSelected = null;
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {
