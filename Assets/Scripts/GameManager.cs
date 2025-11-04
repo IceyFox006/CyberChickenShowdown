@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _legUpMultiplier;
 
     [Header("UI")]
+    private bool showingUI = true;
     [SerializeField] private EventSystem _universalEventSystem;
     [SerializeField] private GameObject _pauseCanvas;
     [SerializeField] private GameObject _pauseFS;
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
     public bool IsTimerGoing { get => isTimerGoing; set => isTimerGoing = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
     public GameObject PauseFS { get => _pauseFS; set => _pauseFS = value; }
+    public bool ShowingUI { get => showingUI; set => showingUI = value; }
     #endregion
 
     private void Awake()
@@ -135,10 +137,6 @@ public class GameManager : MonoBehaviour
     {
         _player1.InputController.DisableInput();
         _player2.InputController.DisableInput();
-        //if (_player1.CombatManager.SuperParticles != null)
-        //    _player1.CombatManager.DespawnSuperParticles();
-        //if (_player2.CombatManager.SuperParticles != null)
-        //    _player2.CombatManager.DespawnSuperParticles();
         foreach (CanvasGroup canvasGroup in canvases)
             canvasGroup.interactable = false;
     }
@@ -150,6 +148,8 @@ public class GameManager : MonoBehaviour
         ParticleSystem[] particles = FindObjectsByType<ParticleSystem>(FindObjectsSortMode.None);
         foreach (ParticleSystem particle in particles)
             particle.Play();
+
+        showingUI = true;
     }
     public void HideUI()
     {
@@ -162,6 +162,8 @@ public class GameManager : MonoBehaviour
             particle.Clear();
             particle.Stop();
         }
+
+        showingUI = false;
     }
     public void PlayCloseTransition(Player winner)
     {
