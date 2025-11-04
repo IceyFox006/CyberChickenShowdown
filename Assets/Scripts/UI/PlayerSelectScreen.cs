@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 
@@ -9,6 +8,7 @@ public class PlayerSelectScreen : MonoBehaviour
 
     [SerializeField] private PlayerSO _player;
     private bool hasSelected = false;
+    private FighterButtonSelect currentSelected;
 
     [SerializeField] private MultiplayerEventSystem _eventSystem;
 
@@ -24,6 +24,7 @@ public class PlayerSelectScreen : MonoBehaviour
     public bool HasSelected { get => hasSelected; set => hasSelected = value; }
     public PlayerSO Player { get => _player; set => _player = value; }
     public MultiplayerEventSystem EventSystem { get => _eventSystem; set => _eventSystem = value; }
+    public FighterButtonSelect CurrentSelected { get => currentSelected; set => currentSelected = value; }
 
     private void Awake()
     {
@@ -54,6 +55,8 @@ public class PlayerSelectScreen : MonoBehaviour
         _player.Fighter = null;
         _lockedInVisual.SetActive(false);
         hasSelected = false;
+        currentSelected.Exit();
+        currentSelected = null;
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)
     {

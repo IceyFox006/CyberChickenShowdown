@@ -1,7 +1,5 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 
 public class SelectScreenBehavior : MonoBehaviour
 {
@@ -22,6 +20,8 @@ public class SelectScreenBehavior : MonoBehaviour
     public GameObject FsCMNUI { get => _fsCMNUI; set => _fsCMNUI = value; }
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
     public FighterSO[] Fighters { get => _fighters; set => _fighters = value; }
+    public PlayerSelectScreen Player1 { get => _player1; set => _player1 = value; }
+    public PlayerSelectScreen Player2 { get => _player2; set => _player2 = value; }
 
     private void Awake()
     {

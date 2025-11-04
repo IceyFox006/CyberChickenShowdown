@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.UI;
 
 public class InputControllerUI : MonoBehaviour
 {
@@ -20,12 +19,27 @@ public class InputControllerUI : MonoBehaviour
     }
     private void Back_performed(InputAction.CallbackContext obj)
     {
-        Debug.Log("Back" + _owner.gameObject.name);
+        //Has not selected fighter. Return to title.
+        if (!_owner.HasSelected)
+        {
+            TransitionBehavior.Instance.PlayClose("TitleScreen");
+            return;
+        }
 
-        //Has selected fighter.
-        if (_owner.HasSelected)
+        //Has selected fighter. Unselect fighter.
+        if (_owner.HasSelected && !SelectScreenBehavior.Instance.HaveBothPlayersSelected())
         {
             _owner.UnselectFighter();
+            return;
+        }
+
+        //Is selecting lives. Unselect both fighters.
+        if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
+        {
+            SelectScreenBehavior.Instance.Player1.UnselectFighter();
+            SelectScreenBehavior.Instance.Player2.UnselectFighter();
+            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(false);
+            return;
         }
     }
 }
