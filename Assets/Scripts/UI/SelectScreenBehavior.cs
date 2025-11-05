@@ -27,6 +27,13 @@ public class SelectScreenBehavior : MonoBehaviour
     {
         instance = this;
     }
+    public void SetLivesCount(int lives)
+    {
+        StaticData.LivesCount = lives;
+        StaticData.Player1.Lives = lives;
+        StaticData.Player2.Lives = lives;
+        TransitionBehavior.Instance.PlayClose("GameScreen");
+    }
     public void SetRoundCount(int  matchCount)
     {
         StaticData.InitialMatchCount = matchCount;

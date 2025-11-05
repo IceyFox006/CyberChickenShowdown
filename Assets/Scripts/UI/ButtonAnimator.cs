@@ -74,11 +74,11 @@ public class ButtonAnimator : MonoBehaviour
                 #endif
                 break;
             case Function.Rounds1: 
-                FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(1); break;
+                FindFirstObjectByType<SelectScreenBehavior>().SetLivesCount(1); break;
             case Function.Rounds3: 
-                FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(3); break;
+                FindFirstObjectByType<SelectScreenBehavior>().SetLivesCount(2); break;
             case Function.Rounds5: 
-                FindFirstObjectByType<SelectScreenBehavior>().SetRoundCount(5); break;
+                FindFirstObjectByType<SelectScreenBehavior>().SetLivesCount(3); break;
             case Function.CharacterSelect:
                 TransitionBehavior.Instance.PlayClose("CharacterSelectScreen"); break;
             case Function.GameScreen:
