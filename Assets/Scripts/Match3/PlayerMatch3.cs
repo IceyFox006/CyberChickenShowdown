@@ -573,7 +573,8 @@ public class PlayerMatch3 : MonoBehaviour
                 if (gameBoard[x, y].MatchPiece.BoardFunction == Enums.MatchPieceFunction.Unmoveable)
                     continue;
                 gameBoard[x, y].ActivePieceController.GetComponent<Button>().enabled = true;
-                gameBoard[x, y].ActivePieceController.SelectedBorder.enabled = false;
+                //gameBoard[x, y].ActivePieceController.SelectedBorder.enabled = false;
+                gameBoard[x, y].ActivePieceController.Sprite.material = null;
             }
         }
         startSwapPiece = null;

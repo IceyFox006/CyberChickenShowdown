@@ -14,6 +14,7 @@ public class MatchPieceSO : ScriptableObject
     [SerializeField] private bool _unmoveable;
     [SerializeField] private ElementSO _element;
     [SerializeField] private Sprite _sprite;
+    [SerializeField] private Material _material;
     [SerializeField] private GameObject _breakParticlePrefab;
 
     public string Name { get => _name; set => _name = value; }
@@ -22,4 +23,5 @@ public class MatchPieceSO : ScriptableObject
     public ElementSO Element { get => _element; set => _element = value; }
     public GameObject BreakParticlePrefab { get => _breakParticlePrefab; set => _breakParticlePrefab = value; }
     public bool Unmoveable { get => _unmoveable; set => _unmoveable = value; }
+    public Material Material { get => _material; set => _material = value; }
 }

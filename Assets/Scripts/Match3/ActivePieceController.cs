@@ -84,12 +84,16 @@ public class ActivePieceController : MonoBehaviour
     public void OnEnterHover()
     {
         owner.Game.PieceMover.MoveToSpot = transform.position;
-        _selectedBorder.enabled = true;
+        //_selectedBorder.enabled = true;
+        _sprite.material = _matchPiece.Material;
     }
     public void OnExitHover()
     {
         if (!owner.Game.IsSelecting)
-            _selectedBorder.enabled = false;
+        {
+            //_selectedBorder.enabled = false;
+            _sprite.material = null;
+        }
     }
     public void PlayBreakParticles()
     {
@@ -123,8 +127,9 @@ public class ActivePieceController : MonoBehaviour
             if (!owner.Game.IsGridPointInBounds(gridPoint) || owner.Game.GameBoard[gridPoint.X, gridPoint.Y].MatchPiece.BoardFunction == Enums.MatchPieceFunction.Unmoveable)
                 continue;
             owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.GetComponent<Button>().enabled = true;
-            owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SelectedBorder.enabled = true;
-            owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SelectedBorder.sprite = owner.Game.PieceMover.PreviouslySelectedBorderSprite;
+            //owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SelectedBorder.enabled = true;
+            //owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.SelectedBorder.sprite = owner.Game.PieceMover.PreviouslySelectedBorderSprite;
+            owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.Sprite.material = owner.Game.GameBoard[gridPoint.X, gridPoint.Y].ActivePieceController.MatchPiece.Material;
         }
     }
 

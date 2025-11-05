@@ -68,7 +68,8 @@ public class MatchPieceMovement : MonoBehaviour
             ownersGame.ResetPiece(movingPiece);
             ownersGame.EventSystem.SetSelectedGameObject(movingPiece.gameObject);
         }
-        movingPiece.SelectedBorder.enabled = true;
+        //movingPiece.SelectedBorder.enabled = true;
+        movingPiece.Sprite.material = movingPiece.MatchPiece.Material;
         movingPiece = null;
         ownersGame.StartSwapPiece = null;
     }
