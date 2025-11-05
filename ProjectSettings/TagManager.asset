@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackgroundLights
+    uniqueID: 177805093
+    locked: 0
   - name: GameBoard
     uniqueID: 3702579167
     locked: 0
