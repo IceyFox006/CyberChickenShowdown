@@ -108,3 +108,9 @@ MonoBehaviour:
   - _name: TransitionClose
     _clip: {fileID: 8300000, guid: f13f49f1edb94f64d9c01e8d7897b275, type: 3}
     _volume: 1
+  - _name: Dog
+    _clip: {fileID: 8300000, guid: 9098e0cd275797c40b8e28949183e3f0, type: 3}
+    _volume: 1
+  - _name: Dog8
+    _clip: {fileID: 8300000, guid: 8ec3e3209f5f5aa48ae2a03b9b46c122, type: 3}
+    _volume: 1
