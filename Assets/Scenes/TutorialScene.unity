@@ -1611,6 +1611,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 197280526}
     m_Modifications:
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 2891753191688473824}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_WrapAround
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 1737296283}
     - target: {fileID: 3216304717681643576, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
       propertyPath: function
       value: 8
@@ -1713,6 +1729,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6973253960638813755, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
   m_PrefabInstance: {fileID: 897048872}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &897048874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+  m_PrefabInstance: {fileID: 897048872}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &915024120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2583,6 +2610,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 197280526}
     m_Modifications:
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 1737296283}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_WrapAround
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 2891753191688473824}
     - target: {fileID: 3216304717681643576, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
       propertyPath: function
       value: 9
@@ -2685,6 +2728,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6973253960638813755, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
   m_PrefabInstance: {fileID: 1297019731}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1297019733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+  m_PrefabInstance: {fileID: 1297019731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1342211465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3134,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 197280526}
     m_Modifications:
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 897048874}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_WrapAround
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 1297019733}
     - target: {fileID: 3216304717681643576, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
       propertyPath: function
       value: 11
@@ -3182,6 +3252,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6973253960638813755, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
   m_PrefabInstance: {fileID: 1737296281}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1737296283 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+  m_PrefabInstance: {fileID: 1737296281}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1742450023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,6 +5428,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 197280526}
     m_Modifications:
     - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnUp
+      value: 
+      objectReference: {fileID: 1297019733}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_WrapAround
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+      propertyPath: m_Navigation.m_SelectOnDown
+      value: 
+      objectReference: {fileID: 897048874}
+    - target: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1463694216}
@@ -5447,6 +5544,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+--- !u!114 &2891753191688473824 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2462312288390612785, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
+  m_PrefabInstance: {fileID: 2891753191688473823}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528702526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!224 &5452998959654800397
 RectTransform:
   m_ObjectHideFlags: 0
