@@ -5,6 +5,8 @@ public static class StaticData
     private static PlayerSO player1;
     private static PlayerSO player2;
 
+    private static int livesCount = 1;
+
     private static int initialMatchCount;
     private static int currentMatchCount;
     public static PlayerSO Player1 { get => player1; set => player1 = value; }
@@ -12,6 +14,7 @@ public static class StaticData
     public static int InitialMatchCount { get => initialMatchCount; set => initialMatchCount = value; }
     public static int CurrentMatchCount { get => currentMatchCount; set => currentMatchCount = value; }
     public static bool IsKeyboardControls { get => isKeyboardControls; set => isKeyboardControls = value; }
+    public static int LivesCount { get => livesCount; set => livesCount = value; }
 
     public static PlayerSO GetWinner()
     {

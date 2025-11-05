@@ -19,7 +19,7 @@ MonoBehaviour:
   _winQuotes:
   - "Mess with Guy Fiery and you\u2019ll just get burned."
   - What made you possibly think you had a chance against The Guy Fiery?
-  _HP: 1000
+  _HP: 100
   _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 3

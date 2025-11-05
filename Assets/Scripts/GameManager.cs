@@ -177,12 +177,14 @@ public class GameManager : MonoBehaviour
     }
     public void EndRound(Player winner)
     {
+        GetOpponent(winner).Data.Lives--;
         winner.Data.Wins++;
         StaticData.CurrentMatchCount++;
     }
     public void NextRound()
     {
-        if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
+        //if (StaticData.CurrentMatchCount > StaticData.InitialMatchCount)
+        if (StaticData.Player1.Lives <= 0 || StaticData.Player2.Lives <= 0)
             SceneManager.LoadScene("WinLoseScene");
         else
         {

@@ -7,6 +7,7 @@ public class PlayerSO : ScriptableObject
     [SerializeField] private int _ID;
     [SerializeField] private FighterSO _fighter;
     private float savedSuper;
+    private int lives;
     private int wins;
 
     [SerializeField] private GameObject _uiIndicatorPrefab;
@@ -20,11 +21,13 @@ public class PlayerSO : ScriptableObject
     public GameObject UiIndicatorPrefab { get => _uiIndicatorPrefab; set => _uiIndicatorPrefab = value; }
     public Sprite KeyboardControlsSprite { get => _keyboardControlsSprite; set => _keyboardControlsSprite = value; }
     public Sprite ArcadeControlsSprite { get => _arcadeControlsSprite; set => _arcadeControlsSprite = value; }
+    public int Lives { get => lives; set => lives = value; }
 
     public void Reset()
     {
         _name = "Player " + _ID;
         savedSuper = 0;
+        lives = StaticData.LivesCount;
         wins = 0;
     }
 }
