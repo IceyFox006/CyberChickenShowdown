@@ -766,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: -157527974361711312, guid: 02163760cd5e548478224a2cdf2c490b, type: 3}
     - target: {fileID: 6258129652572005329, guid: 1e93e69fab2c88345841a273e0e56160, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6258129652572005329, guid: 1e93e69fab2c88345841a273e0e56160, type: 3}
       propertyPath: m_SortingOrder
@@ -783,7 +783,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3359070672244371167, guid: 1e93e69fab2c88345841a273e0e56160, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 481247805}
   m_SourcePrefab: {fileID: 100100000, guid: 1e93e69fab2c88345841a273e0e56160, type: 3}
 --- !u!1 &400982132
 GameObject:
@@ -1020,6 +1023,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420752600}
   m_CullTransparentMesh: 1
+--- !u!1 &481247799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3359070672244371167, guid: 1e93e69fab2c88345841a273e0e56160, type: 3}
+  m_PrefabInstance: {fileID: 398844931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &481247805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481247799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a07037630f8a943bf2f507193b946b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationEventsGeneral
 --- !u!1 &528702526 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2590707412538255360, guid: 1faccc25ebf12d647b98c69c20dea945, type: 3}
@@ -1774,7 +1794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2061970848075595264, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2061970848075595264, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingOrder
@@ -4071,7 +4091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2061970848075595264, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2061970848075595264, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingOrder
@@ -4491,7 +4511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4651905691845752023, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_SortingOrder
