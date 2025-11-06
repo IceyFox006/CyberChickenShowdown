@@ -55,7 +55,8 @@ public class PlayerSelectScreen : MonoBehaviour
         _player.Fighter = null;
         _lockedInVisual.SetActive(false);
         hasSelected = false;
-        currentSelected.Exit();
+        if (currentSelected != null)
+            currentSelected.Exit();
         currentSelected = null;
     }
     public void EnterHover_ShowFighterInformation(FighterSO fighter)

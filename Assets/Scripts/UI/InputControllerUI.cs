@@ -20,7 +20,7 @@ public class InputControllerUI : MonoBehaviour
     private void Back_performed(InputAction.CallbackContext obj)
     {
         //Has not selected fighter. Return to title.
-        if (!_owner.HasSelected)
+        if (!_owner.HasSelected)// && RoundTransitionAnimator.Instance.IsAnimating())
         {
             TransitionBehavior.Instance.PlayClose("TitleScreen");
             return;
