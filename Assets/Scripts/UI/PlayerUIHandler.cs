@@ -20,6 +20,7 @@ public class PlayerUIHandler : MonoBehaviour
     [SerializeField] private Image _controlsImage;
 
     [Header("Tabs")]
+    [SerializeField] private Image _STABIndicator;
     [SerializeField] private TMP_Text _damageDealtText;
     private float damageDealt = 0;
     [SerializeField] private TMP_Text _highestComboText;
@@ -95,6 +96,7 @@ public class PlayerUIHandler : MonoBehaviour
         _fighterNameText.text = owner.Data.Fighter.Name;
         _portraitImage.sprite = owner.Data.Fighter.GameScreenPortrait;
         _legUpImage.sprite = owner.Data.Fighter.LegUpIcon;
+        _STABIndicator.sprite = owner.Data.Fighter.Element.STABSprite;
         GenerateRoundHearts();
     }
     private void LinkTabs()

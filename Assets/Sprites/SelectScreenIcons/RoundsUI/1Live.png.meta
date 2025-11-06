@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b92ff6d742674bd4792e92954465e93e
+guid: ec1f9838432eed54db9eef0702b2d6c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8637252553646648370
-    second: BigBoosted_0
+      213: -7403332979208124505
+    second: 1Live_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BigBoosted_0
+      name: 1Live_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 107
-        height: 108
+        width: 289
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23ca1777f6fadd770800000000000000
-      internalID: 8637252553646648370
+      spriteID: 7a78d5441e3124990800000000000000
+      internalID: -7403332979208124505
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BigBoosted_0: 8637252553646648370
+      1Live_0: -7403332979208124505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

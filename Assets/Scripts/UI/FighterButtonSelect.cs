@@ -31,8 +31,8 @@ public class FighterButtonSelect : MonoBehaviour
         selected = true;
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
         {
-            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(true);
-            SelectScreenBehavior.Instance.UniversalEventSystem.SetSelectedGameObject(SelectScreenBehavior.Instance.FsCMNUI);
+            RoundTransitionAnimator.Instance.CurrentFunction += RoundTransitionAnimator.Instance.OpenRounds;
+            RoundTransitionAnimator.Instance.PlayTransition();
         }
     }
     public void Exit()

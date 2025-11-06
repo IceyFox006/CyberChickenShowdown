@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dfcbdee1530c5d142b16c8c6d4d391f0
+guid: 1cd5f6d57d8fc7049b46ac92a16f3d12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1546827775027852756
-    second: BoostedGravityTransparent_0
+      213: 4638569411711829857
+    second: 3Lives_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostedGravityTransparent_0
+      name: 3Lives_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 124
-        height: 108
+        width: 397
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2ac1c48550988ae0800000000000000
-      internalID: -1546827775027852756
+      spriteID: 1678313cd428f5040800000000000000
+      internalID: 4638569411711829857
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BoostedGravityTransparent_0: -1546827775027852756
+      3Lives_0: 4638569411711829857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

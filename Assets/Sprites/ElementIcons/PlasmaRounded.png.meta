@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7a827fe28b693aa4cb386e347fe6bc1b
+guid: b7baf1876e54bc14ea57fd2b25160689
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8386983817002335789
-    second: BoostedPlasma_0
+      213: 7215502572727787292
+    second: PlasmaRounded_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: VisionOS
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostedPlasma_0
+      name: PlasmaRounded_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 142
-        height: 116
+        x: 9
+        y: 16
+        width: 282
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2ebf5d685d846470800000000000000
-      internalID: 8386983817002335789
+      spriteID: c1f5b5b4c5d922460800000000000000
+      internalID: 7215502572727787292
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BoostedPlasma_0: 8386983817002335789
+      PlasmaRounded_0: 7215502572727787292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -20,7 +20,7 @@ public class InputControllerUI : MonoBehaviour
     private void Back_performed(InputAction.CallbackContext obj)
     {
         //Has not selected fighter. Return to title.
-        if (!_owner.HasSelected)
+        if (!_owner.HasSelected)// && RoundTransitionAnimator.Instance.IsAnimating())
         {
             TransitionBehavior.Instance.PlayClose("TitleScreen");
             return;
@@ -36,9 +36,8 @@ public class InputControllerUI : MonoBehaviour
         //Is selecting lives. Unselect both fighters.
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
         {
-            SelectScreenBehavior.Instance.Player1.UnselectFighter();
-            SelectScreenBehavior.Instance.Player2.UnselectFighter();
-            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(false);
+            RoundTransitionAnimator.Instance.CurrentFunction += RoundTransitionAnimator.Instance.OpenCharacterSelect;
+            RoundTransitionAnimator.Instance.PlayTransition();
             return;
         }
     }
