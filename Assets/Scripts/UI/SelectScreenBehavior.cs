@@ -14,6 +14,7 @@ public class SelectScreenBehavior : MonoBehaviour
     [Header("UI")]
     [SerializeField] private GameObject _chooseMatchNumberUIGO;
     [SerializeField] private GameObject _fsCMNUI;
+    [SerializeField] private Animator _roundsTransitionAnimator;
 
     public static SelectScreenBehavior Instance { get => instance; set => instance = value; }
     public GameObject ChooseMatchNumberUIGO { get => _chooseMatchNumberUIGO; set => _chooseMatchNumberUIGO = value; }
@@ -22,6 +23,7 @@ public class SelectScreenBehavior : MonoBehaviour
     public FighterSO[] Fighters { get => _fighters; set => _fighters = value; }
     public PlayerSelectScreen Player1 { get => _player1; set => _player1 = value; }
     public PlayerSelectScreen Player2 { get => _player2; set => _player2 = value; }
+    public Animator RoundsTransitionAnimator { get => _roundsTransitionAnimator; set => _roundsTransitionAnimator = value; }
 
     private void Awake()
     {
