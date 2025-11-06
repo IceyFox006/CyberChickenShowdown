@@ -2419,6 +2419,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1151357480 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6176666652962807343, guid: 2418e1b165c635041895481cb2226473, type: 3}
+  m_PrefabInstance: {fileID: 3428578527685354732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1157666940
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,6 +4072,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968030865}
   m_CullTransparentMesh: 1
+--- !u!114 &1994090166 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6176666652962807343, guid: 2418e1b165c635041895481cb2226473, type: 3}
+  m_PrefabInstance: {fileID: 2135896195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994169440
 GameObject:
   m_ObjectHideFlags: 0
@@ -5310,6 +5332,18 @@ PrefabInstance:
       propertyPath: m_SubmitAction
       value: 
       objectReference: {fileID: 6363428132775341408, guid: 4fc71f8b1189e874cadf6a3d54f95d3a, type: 3}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: _lights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: '_lights.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1994090166}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: '_lights.Array.data[1]'
+      value: 
+      objectReference: {fileID: 388593207}
     - target: {fileID: 8901013915907543089, guid: 2418e1b165c635041895481cb2226473, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75
@@ -5964,6 +5998,18 @@ PrefabInstance:
       propertyPath: m_SubmitAction
       value: 
       objectReference: {fileID: 6363428132775341408, guid: 33d02038754aa8e4d8e6b027e118a1df, type: 3}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: _lights.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: '_lights.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1151357480}
+    - target: {fileID: 8574492457926436182, guid: 2418e1b165c635041895481cb2226473, type: 3}
+      propertyPath: '_lights.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1909083995}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3101383350173875529, guid: 2418e1b165c635041895481cb2226473, type: 3}
