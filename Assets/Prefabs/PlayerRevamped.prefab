@@ -3061,7 +3061,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &4780344257589071889
 MonoBehaviour:
@@ -3302,7 +3302,7 @@ MonoBehaviour:
   _owner: {fileID: 8029786887908220832}
   _fighterAnimator: {fileID: 6668958942648746575}
   _blockVisualGO: {fileID: 1771357012900518582}
-  _spotLight: {fileID: 6176666652962807343}
+  _lights: []
 --- !u!114 &6668958942648746575
 MonoBehaviour:
   m_ObjectHideFlags: 0

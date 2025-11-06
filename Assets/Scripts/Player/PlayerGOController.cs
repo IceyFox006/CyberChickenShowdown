@@ -8,7 +8,6 @@ public class PlayerGOController : MonoBehaviour
     [SerializeField] private FighterAnimator _fighterAnimator;
     [SerializeField] private GameObject _blockVisualGO;
     [SerializeField] private Light2D[] _lights;
-    //[SerializeField] private Light2D _spotLight;
 
     public GameObject BlockVisualGO { get => _blockVisualGO; set => _blockVisualGO = value; }
     public FighterAnimator FighterAnimator { get => _fighterAnimator; set => _fighterAnimator = value; }
@@ -17,6 +16,5 @@ public class PlayerGOController : MonoBehaviour
     {
         foreach (Light2D light in _lights)
             light.color = _owner.Data.Fighter.GlowColor;
-        //_spotLight.color = _owner.Data.Fighter.GlowColor;
     }
 }
