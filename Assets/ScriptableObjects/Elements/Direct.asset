@@ -16,7 +16,7 @@ MonoBehaviour:
   _element: 5
   _weaknesses: []
   _resistances: []
-  _icon: {fileID: -7055518806184812158, guid: 24c677475c923e842ad4d6ea594e1797, type: 3}
+  _icon: {fileID: 21300000, guid: e5508056e0358e24ea5bead7b16adc85, type: 3}
   _damageFT:
     _isInternal: 0
     _text: 
@@ -24,3 +24,4 @@ MonoBehaviour:
     _size: 24
     _isBold: 0
     _isItalic: 0
+  _STABSprite: {fileID: 21300000, guid: ebd521690392d1346a31e075ad339cf9, type: 3}

@@ -11,6 +11,7 @@ public class ElementSO : ScriptableObject
 
     [SerializeField] private Sprite _icon;
     [SerializeField] private FloatingText _damageFT;
+    [SerializeField] private Sprite _STABSprite;
 
     public Enums.Element Element { get => _element; set => _element = value; }
     public string Name { get => _name; set => _name = value; }
@@ -18,4 +19,5 @@ public class ElementSO : ScriptableObject
     public ElementSO[] Resistances { get => _resistances; set => _resistances = value; }
     public Sprite Icon { get => _icon; set => _icon = value; }
     public FloatingText DamageFT { get => _damageFT; set => _damageFT = value; }
+    public Sprite STABSprite { get => _STABSprite; set => _STABSprite = value; }
 }
