@@ -36,9 +36,8 @@ public class InputControllerUI : MonoBehaviour
         //Is selecting lives. Unselect both fighters.
         if (SelectScreenBehavior.Instance.HaveBothPlayersSelected())
         {
-            SelectScreenBehavior.Instance.Player1.UnselectFighter();
-            SelectScreenBehavior.Instance.Player2.UnselectFighter();
-            SelectScreenBehavior.Instance.ChooseMatchNumberUIGO.SetActive(false);
+            RoundTransitionAnimator.Instance.CurrentFunction += RoundTransitionAnimator.Instance.OpenCharacterSelect;
+            RoundTransitionAnimator.Instance.PlayTransition();
             return;
         }
     }

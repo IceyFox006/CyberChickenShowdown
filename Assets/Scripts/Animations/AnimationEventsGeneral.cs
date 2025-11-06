@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
 using UnityEngine.SceneManagement;
 
 public class AnimationEventsGeneral : MonoBehaviour
@@ -12,6 +14,27 @@ public class AnimationEventsGeneral : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+    }
+
+    public void EnableAllInput()
+    {
+        EventSystem[] events = FindObjectsByType<EventSystem>(FindObjectsSortMode.None);
+        MultiplayerEventSystem[] mEvents = FindObjectsByType<MultiplayerEventSystem>(FindObjectsSortMode.None);
+
+        foreach (EventSystem e in events)
+            e.sendNavigationEvents = true;
+        foreach (MultiplayerEventSystem e in mEvents)
+            e.sendNavigationEvents = true;
+    }
+    public void DisableAllInput()
+    {
+        EventSystem[] events = FindObjectsByType<EventSystem>(FindObjectsSortMode.None);
+        MultiplayerEventSystem[] mEvents = FindObjectsByType<MultiplayerEventSystem>(FindObjectsSortMode.None);
+
+        foreach (EventSystem e in events)
+            e.sendNavigationEvents = false;
+        foreach (MultiplayerEventSystem e in mEvents)
+            e.sendNavigationEvents = false;
     }
     public void TriggerAnimation()
     {

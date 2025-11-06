@@ -309,6 +309,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9c37b6a4d87b2ea41970aaf2e70b1604, type: 2}
   _chooseMatchNumberUIGO: {fileID: 656782416}
   _fsCMNUI: {fileID: 1342458401}
+  _roundsTransitionAnimator: {fileID: 996585817}
 --- !u!4 &215442340
 Transform:
   m_ObjectHideFlags: 0
@@ -872,7 +873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &656782417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,6 +1144,8 @@ GameObject:
   m_Component:
   - component: {fileID: 996585816}
   - component: {fileID: 996585817}
+  - component: {fileID: 996585818}
+  - component: {fileID: 996585819}
   m_Layer: 5
   m_Name: RoundsTransition
   m_TagString: Untagged
@@ -1194,6 +1197,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &996585818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996585815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80a9a3806b9ff814bb52b12956968b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoundTransitionAnimator
+  _animator: {fileID: 996585817}
+--- !u!114 &996585819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996585815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a07037630f8a943bf2f507193b946b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationEventsGeneral
 --- !u!1 &1031227804
 GameObject:
   m_ObjectHideFlags: 0
