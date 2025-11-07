@@ -114,7 +114,8 @@ public class CombatManager : MonoBehaviour
             target.CombatManager.IsDead = true;
             GameManager.Instance.CameraAnimator.Animator.SetBool("isDead", true);
             GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", target.Data.ID);
-            GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
+            CameraAnimator.Instance.SetZoom(true);
+            //GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
         }
         else
             target.CombatManager.IsHurt = true;
@@ -152,9 +153,6 @@ public class CombatManager : MonoBehaviour
                 SuperFillTaskComplete?.Invoke();
                 isSuperFillTaskComplete = true;
             }
-
-            //if (superParticles == null)
-            //    SpawnSuperParticles();
         }
     }
     public bool IsSuperFull()

@@ -35,7 +35,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: triggerAnimation
+    m_ConditionEvent: isZoomed
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: PlayerID
@@ -65,6 +65,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: isDead
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isZoomed
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3952072076103489119}
   m_Solo: 0
@@ -87,7 +90,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ZOOM_OUT_SUPER(P1)
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 4890590593610553959}
@@ -167,7 +170,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ZOOM_OUT_SUPER(P2)
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -845552706419110970}
@@ -243,7 +246,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: triggerAnimation
+    m_ConditionEvent: isZoomed
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: PlayerID
@@ -271,12 +274,6 @@ AnimatorController:
   m_Name: CameraAC
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: triggerAnimation
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   - m_Name: PlayerID
     m_Type: 3
     m_DefaultFloat: 0
@@ -284,6 +281,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: isDead
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: isZoomed
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -319,19 +322,19 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3952072076103489119}
-    m_Position: {x: 520, y: 10, z: 0}
+    m_Position: {x: 520, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3508300040476721641}
-    m_Position: {x: 520, y: 130, z: 0}
+    m_Position: {x: 520, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2058695589814641104}
     m_Position: {x: 520, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1842947513458871929}
-    m_Position: {x: 780, y: 10, z: 0}
+    m_Position: {x: 780, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8737399314145373540}
-    m_Position: {x: 780, y: 90, z: 0}
+    m_Position: {x: 780, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -352,6 +355,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: isDead
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isZoomed
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2058695589814641104}
@@ -375,7 +381,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ZOOM_IN(P2)
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1424506264875426453}
@@ -403,7 +409,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ZOOM_IN(P1)
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -5973546434526999485}

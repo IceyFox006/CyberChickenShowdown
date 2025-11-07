@@ -3,12 +3,18 @@ using UnityEngine;
 
 public class CameraAnimator : MonoBehaviour
 {
+    private static CameraAnimator instance;
     [SerializeField] private Animator _animator;
     [SerializeField] private CinemachineImpulseSource _impulseSource;
 
     public Animator Animator { get => _animator; set => _animator = value; }
     public CinemachineImpulseSource ImpulseSource { get => _impulseSource; set => _impulseSource = value; }
+    public static CameraAnimator Instance { get => instance; set => instance = value; }
 
+    public void Awake()
+    {
+        instance = this;
+    }
     public void SetTrigger()
     {
         _animator.SetTrigger("triggerAnimation");
@@ -60,14 +66,22 @@ public class CameraAnimator : MonoBehaviour
     }
     public void StartFighterSuperAnimation()
     {
-        ShowUI();
         Player owner = GameManager.Instance.GetPlayerFromID(_animator.GetInteger("PlayerID"));
+        //ShowUI();
+        if (!owner.CombatManager.IsSuper)
+            return;
         owner.CombatManager.AttackElementID = (int)owner.Data.Fighter.Element.Element;
-        owner.CombatManager.IsSuper = true;
+        //owner.CombatManager.IsSuper = true;
     }
     public void StartFighterDeathAnimation()
     {
         Player owner = GameManager.Instance.GetPlayerFromID(_animator.GetInteger("PlayerID"));
         owner.CombatManager.IsDead = true;
+    }
+
+    [HideInInspector]
+    public void SetZoom(bool zoom)
+    {
+        _animator.SetBool("isZoomed", zoom);
     }
 }

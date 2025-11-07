@@ -54,7 +54,9 @@ public class InputController : MonoBehaviour
         if (!owner.CombatManager.IsSuperFull())
             return;
         owner.CombatManager.DespawnSuperParticles();
-        GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
+        CameraAnimator.Instance.SetZoom(true);
+        owner.CombatManager.IsSuper = true;
+        //GameManager.Instance.CameraAnimator.Animator.SetTrigger("triggerAnimation");
         GameManager.Instance.CameraAnimator.Animator.SetInteger("PlayerID", owner.Data.ID);
     }
 }
