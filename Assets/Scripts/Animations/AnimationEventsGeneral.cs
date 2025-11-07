@@ -67,4 +67,11 @@ public class AnimationEventsGeneral : MonoBehaviour
                 SceneManager.LoadScene(sceneChange); break;
         }
     }
+    public void PlayIntroSequence()
+    {
+        if (GameManager.Instance == null)
+            return;
+        GameManager.Instance.IntroSequenceAnimator.SetInteger("Round", StaticData.CurrentMatchCount);
+        GameManager.Instance.IntroSequenceAnimator.SetTrigger("Go");
+    }
 }

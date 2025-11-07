@@ -8,7 +8,7 @@ public static class StaticData
     private static int livesCount = 1;
 
     private static int initialMatchCount;
-    private static int currentMatchCount;
+    private static int currentMatchCount = 1;
     public static PlayerSO Player1 { get => player1; set => player1 = value; }
     public static PlayerSO Player2 { get => player2; set => player2 = value; }
     public static int InitialMatchCount { get => initialMatchCount; set => initialMatchCount = value; }

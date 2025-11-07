@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _pauseFS;
     private bool paused;
     private CanvasGroup[] canvases;
+    [SerializeField] private Animator _introSequenceAnimator;
 
     [Header("Camera")]
     [SerializeField] private CameraAnimator _cameraAnimator;
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
     public EventSystem UniversalEventSystem { get => _universalEventSystem; set => _universalEventSystem = value; }
     public GameObject PauseFS { get => _pauseFS; set => _pauseFS = value; }
     public bool ShowingUI { get => showingUI; set => showingUI = value; }
+    public Animator IntroSequenceAnimator { get => _introSequenceAnimator; set => _introSequenceAnimator = value; }
     #endregion
 
     private void Awake()
