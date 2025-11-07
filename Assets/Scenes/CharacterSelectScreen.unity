@@ -1185,7 +1185,7 @@ Animator:
   m_GameObject: {fileID: 996585815}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0e6c3d29aaab0e447ad4245cf1475579, type: 2}
+  m_Controller: {fileID: 9100000, guid: d0f8216293cec6642af96a3fcfc58d47, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 996585815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 310afa7eb3457e8469f884c2f5b6b079, type: 3}
+  m_Script: {fileID: 11500000, guid: 80a9a3806b9ff814bb52b12956968b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoundTransitionAnimator
   _animator: {fileID: 996585817}
