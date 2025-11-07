@@ -50,6 +50,10 @@ public class FighterAnimator : MonoBehaviour
     {
         _owner.AudioManager.PlaySound(name);
     }
+    public void ZoomOut()
+    {
+        CameraAnimator.Instance.SetZoom(false);
+    }
     public void EnactSuper()
     {
         _owner.CombatManager.UseSuper(GameManager.Instance.GetOpponent(_owner));

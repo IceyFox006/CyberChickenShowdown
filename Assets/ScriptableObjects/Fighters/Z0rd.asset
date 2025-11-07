@@ -19,11 +19,11 @@ MonoBehaviour:
   _winQuotes:
   - Hmph! All according to my calculations.
   - Heh! A most predictable outcome.
-  _HP: 1000
+  _HP: 100
   _Attack: 25
   _blockEffectiveness: 0.8
   _superFunction: 4
-  _superCapacity: 50
+  _superCapacity: 1
   _superFillSpeed: 0.1
   _superDrainRate: 1
   _superEffectiveness: 50
