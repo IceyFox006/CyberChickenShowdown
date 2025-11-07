@@ -1144,8 +1144,8 @@ GameObject:
   m_Component:
   - component: {fileID: 996585816}
   - component: {fileID: 996585817}
-  - component: {fileID: 996585818}
   - component: {fileID: 996585819}
+  - component: {fileID: 996585820}
   m_Layer: 5
   m_Name: RoundsTransition
   m_TagString: Untagged
@@ -1185,7 +1185,7 @@ Animator:
   m_GameObject: {fileID: 996585815}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d0f8216293cec6642af96a3fcfc58d47, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99532a1eedb1d1546bf081a4c8f76610, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1197,19 +1197,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &996585818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996585815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80a9a3806b9ff814bb52b12956968b71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RoundTransitionAnimator
-  _animator: {fileID: 996585817}
 --- !u!114 &996585819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1222,6 +1209,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a07037630f8a943bf2f507193b946b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationEventsGeneral
+--- !u!114 &996585820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996585815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec38306c070abd418ccd4d9d1f039b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoundTransitionAnimator
+  _animator: {fileID: 996585817}
 --- !u!1 &1031227804
 GameObject:
   m_ObjectHideFlags: 0
